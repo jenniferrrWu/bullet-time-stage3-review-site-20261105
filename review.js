@@ -17,11 +17,11 @@ function renderPipeline(caseId){
  id('pipelineTabs').innerHTML=data.pipelines.map(function(x){return '<button type="button" data-id="'+esc(x.id)+'" class="'+(x.id===caseId?'active':'')+'">'+esc(x.title)+'</button>'}).join('');
  id('pipelineTabs').querySelectorAll('button').forEach(function(b){b.onclick=function(){renderPipeline(b.dataset.id)}});
  id('pipelineIntro').innerHTML='<b>'+esc(p.description)+'</b><br>'+esc(p.verdict);
- id('pipelineCards').innerHTML=p.candidates.map(function(c){return '<article class="pipeline-card"><div class="card-head"><div class="candidate-name">'+esc(c.label)+'</div><div class="candidate-verdict">'+esc(c.verdict)+'</div></div><video controls playsinline preload="metadata" src="'+esc(c.complete)+'"></video><div class="stage-buttons"><button class="active" type="button" data-url="'+esc(c.complete)+'">完整三阶段</button><button type="button" data-url="'+esc(c.stage1)+'">Stage1</button><button type="button" data-url="'+esc(c.stage2)+'">Stage2</button><button type="button" data-url="'+esc(c.stage3)+'">Stage3 结果</button></div><div class="card-foot"><a href="'+esc(c.source)+'" target="_blank">源动作 ↗</a> · <a href="'+esc(c.record)+'" target="_blank">运行记录 ↗</a></div></article>'}).join('');
+ id('pipelineCards').innerHTML=p.candidates.map(function(c){return '<article class="pipeline-card"><div class="card-head"><div class="candidate-name">'+esc(c.label)+'</div><div class="candidate-verdict">'+esc(c.verdict)+'</div></div><video controls playsinline preload="none" src="'+esc(c.complete)+'"></video><div class="stage-buttons"><button class="active" type="button" data-url="'+esc(c.complete)+'">完整三阶段</button><button type="button" data-url="'+esc(c.stage1)+'">Stage1</button><button type="button" data-url="'+esc(c.stage2)+'">Stage2</button><button type="button" data-url="'+esc(c.stage3)+'">Stage3 结果</button></div><div class="card-foot"><a href="'+esc(c.source)+'" target="_blank">源动作 ↗</a> · <a href="'+esc(c.record)+'" target="_blank">运行记录 ↗</a></div></article>'}).join('');
  id('pipelineCards').querySelectorAll('.pipeline-card').forEach(function(card){
   var v=card.querySelector('video');
   card.querySelectorAll('.stage-buttons button').forEach(function(b){b.onclick=function(){
-   v.pause();v.src=b.dataset.url;v.load();
+   v.pause();v.src=b.dataset.url;
    card.querySelectorAll('.stage-buttons button').forEach(function(x){x.classList.remove('active')});b.classList.add('active');
   }});
  });
@@ -33,7 +33,7 @@ function renderVariant(variantId){
  id('variantButtons').querySelectorAll('button').forEach(function(b){b.onclick=function(){renderVariant(b.dataset.id)}});
  var ev=currentVariant.evidence?'<a target="_blank" href="'+esc(currentVariant.evidence)+'">查看结果记录 ↗</a>':'';
  id('comparisonVerdict').innerHTML='<b>'+esc(currentVariant.label)+'：</b> '+esc(currentVariant.verdict)+ev;
- var v=id('cmpVariant');v.src=currentVariant.url;v.load();
+ var v=id('cmpVariant');v.src=currentVariant.url;
  frame=0;seek(0);
 }
 function renderGroup(groupId){
@@ -43,7 +43,7 @@ function renderGroup(groupId){
  id('compareIntro').innerHTML='<b>'+esc(currentGroup.title)+'</b><br>'+esc(currentGroup.description);
  id('frameNote').textContent=currentGroup.frame_note+' 源动作 '+currentGroup.source.timing.fps+' fps；第一版 '+currentGroup.baseline.timing.fps+' fps。播放按帧率换算同步。';
  id('cmpSource').src=currentGroup.source.url;id('cmpBaseline').src=currentGroup.baseline.url;
- id('cmpSource').load();id('cmpBaseline').load();
+ 
  renderVariant(currentGroup.variants[0].id);
 }
 function play(){
