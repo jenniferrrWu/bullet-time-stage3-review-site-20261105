@@ -1,0 +1,39 @@
+{
+  "method": "Official TheDenk pretrained tile ControlNet plus official FlashMotion SlowAdapter both injected into DD Wan blocks",
+  "official_source": "https://github.com/TheDenk/wan2.2-controlnet",
+  "official_commit": "c8b3b70d27048882140dc419b7491c4d63e283f6",
+  "official_checkpoint_sha256": "b50df6e054fb569ee8be77120525f39c3f6d02214a296be09831b83ece195c7e",
+  "not_official_end_to_end_pipeline": true,
+  "tile_input_is_DD_target_warp_with_LaMa_background": true,
+  "weight": 0.2,
+  "guidance_steps": 40,
+  "stride": 3,
+  "gpu": "1",
+  "control_kind": "lamafill",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case13_b_lamafill/control.mp4",
+  "control_video_sha256": "f536069d0db3c85ef66fd4350a20ea94a4dbeccbc0c4646911fc636bac360ca8",
+  "label": "case13_b",
+  "frames": 37,
+  "height": 704,
+  "width": 1280,
+  "flashmotion_checkpoint_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+  "flashmotion_trajectory_sha256": "d6d88b1023fd83dbe3debe39a3b5f4be2833552eafd85ce0068a239e80cbf1e8",
+  "flash_alpha": 0.1,
+  "baseline_sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+  "effective_input_sha256": {
+    "input_image": "3d98eb2ae22d53b1bd2b9045aab60e98b4d9641e7c990f87fd0236c28b7edfab",
+    "input": "65cc63d63c55396f4783e95d196dfea25cd54675cd2d1bf0357e99f73a2c477e",
+    "depth": "30dc52254f9d0260e0c9ec715abaddf38b36bff4447fc8e48a479c3c0be218fb",
+    "mask": "fb7b9a5652f6a934d27247eafce48675b5d178fa0f16769ec87bb6e5241e4cbf"
+  },
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "native_video": "/root/bullet_time_research_20261102/stage3_research/tile_lama_flash_combo_case13_b_cn0p2_flash0p1/result/depthdirector.mp4",
+  "native_sha256": "222e1dcebef40bc87ac271841a360e9cf808f4da0ae94cb1bd6ff199b8e9ddb8",
+  "call": {
+    "calls": 50,
+    "active_steps": 40,
+    "injected_blocks": 240
+  },
+  "control_input_sha256": "f536069d0db3c85ef66fd4350a20ea94a4dbeccbc0c4646911fc636bac360ca8"
+}

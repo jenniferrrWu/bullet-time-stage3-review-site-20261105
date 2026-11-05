@@ -1,0 +1,37 @@
+{
+  "method": "Official FlashMotion Wan22ControlResNet SlowAdapter pretrained weights injected after each DD Wan2.2 5B block; target-view silhouette control map",
+  "flashmotion_source_commit": "998f46a26c5814ffd1b88b7965294c7476558697",
+  "official_checkpoint_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+  "official_checkpoint_path": "/root/bullet_time_research_20261102/paper_sources/FlashMotion-weights/SlowAdapter/ResNet/model.pt",
+  "trajectory_sha256": "d6d88b1023fd83dbe3debe39a3b5f4be2833552eafd85ce0068a239e80cbf1e8",
+  "trajectory_manifest": "/root/bullet_time_research_20261102/stage3_research/flashmotion_affine_silhouette_case13_b_stable/manifest.json",
+  "map_kind": "stable",
+  "not_official_flashmotion_end_to_end_pipeline": true,
+  "trajectory_is_geometry_pseudolabel": true,
+  "alpha": 0.3,
+  "gpu": "0",
+  "baseline_sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+  "effective_input_sha256": {
+    "input_image": "3d98eb2ae22d53b1bd2b9045aab60e98b4d9641e7c990f87fd0236c28b7edfab",
+    "input": "65cc63d63c55396f4783e95d196dfea25cd54675cd2d1bf0357e99f73a2c477e",
+    "depth": "30dc52254f9d0260e0c9ec715abaddf38b36bff4447fc8e48a479c3c0be218fb",
+    "mask": "fb7b9a5652f6a934d27247eafce48675b5d178fa0f16769ec87bb6e5241e4cbf"
+  },
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "native_video": "/root/bullet_time_research_20261102/stage3_research/flashmotion_resnet_case13_b_stable_alpha_0p3/result/depthdirector.mp4",
+  "native_sha256": "2d5173427449f3ca0e38651817c2b0655fdf5b2fc907818ea01858de4a1ce32c",
+  "call": {
+    "trajectory_latent_shape": [
+      1,
+      48,
+      10,
+      44,
+      80
+    ],
+    "num_adapter_states": 30,
+    "state_mean_abs": 0.020862828940153122,
+    "state_max_abs": 0.76953125,
+    "first_content_latent_unchanged": true
+  }
+}
