@@ -1,0 +1,9 @@
+{
+  "source": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_depth.mp4",
+  "method": "Invert DD official Spectral_r depth visualization LUT, then 255-index for near-is-bright monochrome control; index<=2 invalid black. Approximate MiDaS style, not MiDaS model output.",
+  "frames": 17,
+  "fps": 25.0,
+  "video": "/root/bullet_time_research_20261102/stage3_research/depth_controlnet_midasstyle_case15_c/control.mp4",
+  "source_code": "/public/wufeier/automatic_bullet_time/models/DepthDirector/tools/recam/processor/base.py",
+  "palette": "Spectral_r"
+}
