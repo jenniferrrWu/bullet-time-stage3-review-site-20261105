@@ -1,0 +1,83 @@
+{
+  "rows": {
+    "case12_a": {
+      "frames": 33,
+      "same_stage2_endpoint_and_noise": true,
+      "baseline_root": "vlm_dd_balanced_case12_a",
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+          "sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+          "limb_motion_error": 0.3127223162375979,
+          "core_motion_error": 0.17225999301690367,
+          "right_wrist_source_range": [
+            0.22663568508307547,
+            1.1159976300080094
+          ],
+          "right_wrist_generated_range": [
+            0.21061154147124228,
+            0.13757564420876794
+          ],
+          "person_contrast_trend_over_source": 0.94497405173457,
+          "detected_frames": 33
+        },
+        "controlnet": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/depth_controlnet_case12_a_midasstyle_weight_0p5/result/depthdirector.mp4",
+          "sha256": "98939951c6a96780f4ced09fff6cabcdad843322f87fd859ea73930f0ea26547",
+          "limb_motion_error": 0.27469333526533646,
+          "core_motion_error": 0.17625626833641345,
+          "right_wrist_source_range": [
+            0.22663568508307547,
+            1.1159976300080094
+          ],
+          "right_wrist_generated_range": [
+            0.2208075487166547,
+            0.2886664088954115
+          ],
+          "person_contrast_trend_over_source": 0.9564985860936621,
+          "detected_frames": 33
+        }
+      }
+    },
+    "case13_b": {
+      "frames": 37,
+      "same_stage2_endpoint_and_noise": true,
+      "baseline_root": "vlm_dd_balanced_case13_b",
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+          "sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+          "limb_motion_error": 0.09283949334788093,
+          "core_motion_error": 0.37002260481421306,
+          "right_wrist_source_range": [
+            0.1869845734581702,
+            0.14035093153313172
+          ],
+          "right_wrist_generated_range": [
+            0.2979334887292489,
+            0.14710736534726854
+          ],
+          "person_contrast_trend_over_source": 0.9033836191154787,
+          "detected_frames": 32
+        },
+        "controlnet": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/depth_controlnet_case13_b_midasstyle_weight_0p5/result/depthdirector.mp4",
+          "sha256": "b41360d880f6c627e00272666f4343fbf88c12fdf9e85131f1221ea7e7d84919",
+          "limb_motion_error": 0.24883093157278302,
+          "core_motion_error": 0.4084206437155651,
+          "right_wrist_source_range": [
+            0.19523301618436562,
+            0.5543975256449398
+          ],
+          "right_wrist_generated_range": [
+            0.20929640757132673,
+            0.09709677432234609
+          ],
+          "person_contrast_trend_over_source": 0.9490523336930773,
+          "detected_frames": 33
+        }
+      }
+    }
+  },
+  "caveat": "2D cross-view DWPose and contrast diagnostics; visual whole-film review decides overall quality."
+}

@@ -1,14 +1,15 @@
 """Invert DD's Spectral_r visualization back to relative depth for ControlNet."""
-import csv,json
+import argparse,csv,json
 from pathlib import Path
 import cv2
 import matplotlib
 import numpy as np
 from scipy.spatial import cKDTree
 ROOT=Path(__file__).resolve().parents[1];HERE=Path(__file__).resolve().parent
-record=json.load(open(ROOT/'vlm_dd_v12_balanced_case15_c/stage3/records/route_a/depthdirector/stage3/vlm_selected.json'))
+ap=argparse.ArgumentParser();ap.add_argument('--baseline-root',default='vlm_dd_v12_balanced_case15_c');ap.add_argument('--label',default='case15_c');args=ap.parse_args()
+record=json.load(open(ROOT/args.baseline_root/'stage3/records/route_a/depthdirector/stage3/vlm_selected.json'))
 meta=Path(record['metadata_csv']);row=next(csv.DictReader(meta.open()));source=meta.parent/row['depth']
-out=HERE/'depth_controlnet_midasstyle_case15_c';out.mkdir(exist_ok=True)
+out=HERE/('depth_controlnet_midasstyle_'+args.label);out.mkdir(exist_ok=True)
 video=out/'control.mp4';indices=[]
 # DD's processor/base.py maps integer depth bins through Spectral_r, then
 # its writer swaps RGB/BGR. OpenCV-decoded BGR therefore matches cmap RGB.
@@ -24,11 +25,11 @@ while True:
  inv=(255-index).astype(np.uint8);inv[index<=2]=0
  frames.append(cv2.cvtColor(inv,cv2.COLOR_GRAY2BGR))
  print('frame',len(frames)-1,'palette_error_median',float(np.median(distance)),'valid_fraction',float((index>2).mean()),flush=True)
-cap.release();assert len(frames)==17
-writer=cv2.VideoWriter(str(video),cv2.VideoWriter_fourcc(*'mp4v'),fps,(704,1280))
+cap.release();assert len(frames)==record['native_frames']
+writer=cv2.VideoWriter(str(video),cv2.VideoWriter_fourcc(*'mp4v'),fps,(frames[0].shape[1],frames[0].shape[0]))
 assert writer.isOpened()
 for frame in frames:writer.write(frame)
 writer.release()
-manifest={'source':str(source),'method':'Invert DD official Spectral_r depth visualization LUT, then 255-index for near-is-bright monochrome control; index<=2 invalid black. Approximate MiDaS style, not MiDaS model output.','frames':17,'fps':fps,'video':str(video),'source_code':'/public/wufeier/automatic_bullet_time/models/DepthDirector/tools/recam/processor/base.py','palette':'Spectral_r'}
+manifest={'source':str(source),'method':'Invert DD official Spectral_r depth visualization LUT, then 255-index for near-is-bright monochrome control; index<=2 invalid black. Approximate MiDaS style, not MiDaS model output.','frames':len(frames),'fps':fps,'video':str(video),'source_code':'/public/wufeier/automatic_bullet_time/models/DepthDirector/tools/recam/processor/base.py','palette':'Spectral_r'}
 (out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print(video,video.stat().st_size,flush=True)

@@ -37,7 +37,7 @@ def official_prepare_frames(pil, torch, np):
     ast.fix_missing_locations(module)
     scope = {'torch': torch, 'np': np}
     exec(compile(module, str(path), 'exec'), scope)
-    return scope['prepare_frames'](pil, (1280, 704), do_resize=False, do_crop=False).permute(0, 2, 1, 3, 4).contiguous()
+    return scope['prepare_frames'](pil, (pil[0].height, pil[0].width), do_resize=False, do_crop=False).permute(0, 2, 1, 3, 4).contiguous()
 
 
 def main():
@@ -45,10 +45,12 @@ def main():
     parser.add_argument('--gpu', required=True)
     parser.add_argument('--weight', type=float, default=0.8)
     parser.add_argument('--control-kind', choices=('dd_color', 'midasstyle'), default='dd_color')
+    parser.add_argument('--baseline-root', default='vlm_dd_v12_balanced_case15_c')
+    parser.add_argument('--label', default='case15_c')
     args = parser.parse_args()
     assert 0 < args.weight <= 1
     assert CHECKPOINT.stat().st_size == 691979056 and sha(CHECKPOINT) == WEIGHT_SHA
-    out = HERE / ('depth_controlnet_case15_c_' + ('midasstyle_' if args.control_kind == 'midasstyle' else '') + 'weight_' + str(args.weight).replace('.', 'p'))
+    out = HERE / ('depth_controlnet_' + args.label + '_' + ('midasstyle_' if args.control_kind == 'midasstyle' else '') + 'weight_' + str(args.weight).replace('.', 'p'))
     os.environ.update(CUDA_VISIBLE_DEVICES=args.gpu, ABT_EXPERIMENT_ROOT=str(out), ABT_OBSERVE_NATIVE_NOISE='1', OMP_NUM_THREADS='4', HF_HUB_OFFLINE='1', TRANSFORMERS_OFFLINE='1', IMAGEIO_FFMPEG_EXE='/usr/bin/ffmpeg')
     if os.environ.get('DEPTH_CONTROLNET_BOOT') != '1':
         os.environ.update(DEPTH_CONTROLNET_BOOT='1', LD_PRELOAD='/usr/lib/x86_64-linux-gnu/libstdc++.so.6', LD_LIBRARY_PATH=str(ROOT / 'runtime_libs/usr/lib/x86_64-linux-gnu') + ':' + os.environ.get('LD_LIBRARY_PATH', ''))
@@ -81,7 +83,7 @@ def main():
         sys.modules['modelscope'] = offline
     from diffsynth.pipelines.wan_video_new import WanVideoUnit_ConcatVideoEmbedder
     from wan_controlnet import WanControlnet
-    baseline = ROOT / 'vlm_dd_v12_balanced_case15_c'
+    baseline = ROOT / args.baseline_root
     record = json.loads((baseline / 'stage3/records/route_a/depthdirector/stage3/vlm_selected.json').read_text())
     old_metadata = Path(record['metadata_csv'])
     row = next(csv.DictReader(old_metadata.open()))
@@ -89,8 +91,16 @@ def main():
         row[key] = str((old_metadata.parent / row[key]).resolve())
         assert Path(row[key]).is_file()
     assert row['prompt'] == record['prompt']
-    control_source = Path(row['depth']) if args.control_kind == 'dd_color' else HERE / 'depth_controlnet_midasstyle_case15_c/control.mp4'
+    control_source = Path(row['depth']) if args.control_kind == 'dd_color' else HERE / ('depth_controlnet_midasstyle_' + args.label) / 'control.mp4'
     assert control_source.is_file()
+    frame_count = int(record['native_frames'])
+    capture_probe = cv2.VideoCapture(str(control_source))
+    height = int(capture_probe.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    width = int(capture_probe.get(cv2.CAP_PROP_FRAME_WIDTH))
+    capture_probe.release()
+    latent_frames = (frame_count - 1) // 4 + 1
+    generated_tokens = latent_frames * (height // 32) * (width // 32)
+    assert frame_count % 4 == 1 and height % 32 == 0 and width % 32 == 0
     row['output'] = 'result/output.mp4'
     metadata = out / 'metadata_test_all.csv'
     with metadata.open('w') as stream:
@@ -105,6 +115,7 @@ def main():
                 'not_official_end_to_end_pipeline': True, 'depth_is_DD_estimate': True,
                 'weight': args.weight, 'guidance_steps': 40, 'stride': 3, 'gpu': args.gpu,
                 'control_kind': args.control_kind, 'control_video': str(control_source), 'control_video_sha256': sha(control_source),
+                'label': args.label, 'frames': frame_count, 'height': height, 'width': width,
                 'baseline_sha256': record['native_video_sha256'],
                 'effective_input_sha256': {key: sha(row[key]) for key in ('input_image', 'input', 'depth', 'mask')},
                 'postdecode_frame_replacement': False, 'state': 'inference_running'}
@@ -115,7 +126,7 @@ def main():
     def process(self, pipe, concat_video, tiled, tile_size, tile_stride):
         result = original(self, pipe, concat_video, tiled, tile_size, tile_stride)
         latent = result.get('concat_latent')
-        assert latent is not None and latent.shape == (1, 48, 5, 80, 44), tuple(latent.shape) if latent is not None else None
+        assert latent is not None and latent.shape == (1, 48, latent_frames, height//16, width//16), tuple(latent.shape) if latent is not None else None
         capture = cv2.VideoCapture(str(control_source))
         frames = []
         while True:
@@ -124,9 +135,9 @@ def main():
                 break
             frames.append(Image.fromarray(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)))
         capture.release()
-        assert len(frames) == 17
+        assert len(frames) == frame_count
         control_video = official_prepare_frames(frames, torch, np).to(device=pipe.device, dtype=pipe.torch_dtype)
-        assert control_video.shape == (1, 3, 17, 1280, 704)
+        assert control_video.shape == (1, 3, frame_count, height, width)
         controlnet = WanControlnet.from_pretrained(str(WEIGHTS), torch_dtype=pipe.torch_dtype).to(pipe.device).eval()
         assert len(controlnet.blocks) == 6 and len(pipe.dit.blocks) == 30
         holder.update(control_video=control_video, controlnet=controlnet, states=None)
@@ -143,7 +154,7 @@ def main():
                                         encoder_hidden_states=kw['context'].to(controlnet.dtype),
                                         controlnet_states=control_video,
                                         return_dict=False)[0]
-                assert len(states) == 6 and all(x.shape == (1, 4400, 3072) for x in states)
+                assert len(states) == 6 and all(x.shape == (1, generated_tokens, 3072) for x in states)
                 holder['states'] = states
                 holder['active_steps'] += 1
             else:
@@ -153,9 +164,9 @@ def main():
                 for j, state in enumerate(holder['states']):
                     block_idx = j * 3
                     def hook(_module, _inputs, output, state=state):
-                        assert output.ndim == 3 and output.shape[1:] == (8800, 3072), tuple(output.shape)
+                        assert output.ndim == 3 and output.shape[1:] == (generated_tokens*2, 3072), tuple(output.shape)
                         updated = output.clone()
-                        updated[:, :4400, :] += args.weight * state.to(device=output.device, dtype=output.dtype)
+                        updated[:, :generated_tokens, :] += args.weight * state.to(device=output.device, dtype=output.dtype)
                         holder['injected_blocks'] += 1
                         return updated
                     hooks.append(pipe.dit.blocks[block_idx].register_forward_hook(hook))
