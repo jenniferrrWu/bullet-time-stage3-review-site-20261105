@@ -1,0 +1,36 @@
+{
+  "method": "Official NLF v0.3.2 TorchScript detect_smpl_batched, original DD camera relative yaw; local projection/rasterization/first-frame registration",
+  "official_source": "https://github.com/isarandi/nlf",
+  "official_release": "https://github.com/isarandi/nlf/releases/tag/v0.3.2",
+  "model_sha256_local": "2f9e377817acdd47e35224aeb70299b3f53ab574e0829372a094920515352a65",
+  "source_sha256": "59b4a1c3adb2c5c19f92a15b18e825a4bab4cd33cc3ede2a1aed7b031d8d5081",
+  "anchor_sha256": "3d98eb2ae22d53b1bd2b9045aab60e98b4d9641e7c990f87fd0236c28b7edfab",
+  "camera_sha256": "fae9a9882950f0944b38b44479cd375c8c30d9b1bffa111146d039478b3f22f3",
+  "trajectory_sha256": "ac5ccd72620a52b680c80320115ba29d23d2a462b03420472a58c2c67ce32728",
+  "frames": 37,
+  "missing_detections": [],
+  "K": [
+    614.7142962974289,
+    614.714296194624,
+    319.50000032653026,
+    175.49999993516084
+  ],
+  "nlf_source_projection_rmse_px": 0.0,
+  "target_first_frame_bbox_iou_mask": 0.459630187416332,
+  "anchor_box_half_resolution": [
+    178.0,
+    98.0,
+    343.0,
+    351.0
+  ],
+  "nlf_rotated_raw_box_half_resolution": [
+    166.83846222295114,
+    103.13805885354243,
+    316.90802096512124,
+    437.4539382092076
+  ],
+  "registration_scale": 0.756769317950475,
+  "mask_coverage_mean": 0.03948779656787469,
+  "not_target_view_ground_truth": true,
+  "not_official_nlf_video_pipeline": true
+}

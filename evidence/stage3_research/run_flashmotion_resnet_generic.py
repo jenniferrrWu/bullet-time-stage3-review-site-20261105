@@ -16,7 +16,8 @@ WEIGHTS=ROOT/'paper_sources/FlashMotion-weights/SlowAdapter/ResNet/model.pt'
 TRAJECTORIES={'projected':HERE/'flashmotion_target_silhouette_case15_c/trajectory.mp4',
               'affine':HERE/'flashmotion_affine_silhouette_case15_c/trajectory.mp4',
               'repaired':HERE/'flashmotion_repaired_silhouette_case15_c/trajectory.mp4',
-              'stable':HERE/'flashmotion_affine_silhouette_case13_b_stable/trajectory.mp4'}
+              'stable':HERE/'flashmotion_affine_silhouette_case13_b_stable/trajectory.mp4',
+              'nlf':HERE/'nlf_case13_b_target_silhouette/trajectory.mp4'}
 WEIGHT_SHA='df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58'
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def main():
