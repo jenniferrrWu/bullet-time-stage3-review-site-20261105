@@ -54,7 +54,7 @@ function play(){
  playing=true;id('syncPlay').textContent='播放中…';
  vids().forEach(function(v){v.play().catch(function(){pause()})});
 }
-fetch('/review_data.json').then(function(r){if(!r.ok)throw Error('review data HTTP '+r.status);return r.json()}).then(function(d){
+fetch('./review_data.json').then(function(r){if(!r.ok)throw Error('review data HTTP '+r.status);return r.json()}).then(function(d){
  data=d;
  id('montageChapters').querySelectorAll('button').forEach(function(b){b.onclick=function(){var v=id('montageVideo');v.currentTime=Number(b.dataset.time);v.play()}});
  renderPipeline('case15');
