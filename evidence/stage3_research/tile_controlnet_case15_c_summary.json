@@ -1,0 +1,20 @@
+{
+  "warp": {
+    "limb_motion_error": 0.1739646479195152,
+    "right_wrist_range": [
+      1.2083616319065935,
+      0.9355363817616357
+    ],
+    "person_contrast_trend_over_source": 1.2115845011333182,
+    "detected_frames": 17
+  },
+  "clean": {
+    "limb_motion_error": 0.478755091602953,
+    "right_wrist_range": [
+      1.533683457568456,
+      0.7936753821302952
+    ],
+    "person_contrast_trend_over_source": 1.2660007938862987,
+    "detected_frames": 17
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "limb_motion_error": 0.17557078136494222,
+  "right_wrist_range": [
+    1.2217287739469693,
+    0.8740203457933898
+  ],
+  "person_contrast_trend_over_source": 1.1950359208911965,
+  "detected_frames": 17
+}

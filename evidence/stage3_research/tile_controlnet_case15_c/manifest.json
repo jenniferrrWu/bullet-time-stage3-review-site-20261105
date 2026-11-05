@@ -1,0 +1,10 @@
+{
+  "source": "/root/bullet_time_research_20261102/stage3_research/ttm_targetwarp_case15_c/reference.mp4",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case15_c/control.mp4",
+  "frames": 17,
+  "fps": 15.0,
+  "method": "Official TheDenk tile-control README: resize by 4, cv2 GaussianBlur kernel 5 sigma 2, resize back. Input is local DD target-view warp with missing pixels filled, not ground truth.",
+  "official_source": "https://github.com/TheDenk/wan2.2-controlnet#for-tile-controlnet-do-processing-like-this",
+  "source_sha256": "f9397ffe2bfd91f9a40310e400797fd95bc0d01d5ae96aeb14424e04e1410e04",
+  "control_video_sha256": "94c5072417ad13f12037c1c4d84f120d7a1f5f0b6b941290b3167d88c10e9fcc"
+}

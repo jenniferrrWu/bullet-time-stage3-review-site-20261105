@@ -1,0 +1,11 @@
+{
+  "source": "/root/bullet_time_research_20261102/stage3_research/ttm_targetwarp_case15_c/reference.mp4",
+  "person_mask": "/root/bullet_time_research_20261102/stage3_research/ttm_targetwarp_case15_c/person_mask.mp4",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case15_c_clean/control.mp4",
+  "frames": 17,
+  "fps": 15.0,
+  "source_sha256": "f9397ffe2bfd91f9a40310e400797fd95bc0d01d5ae96aeb14424e04e1410e04",
+  "mask_sha256": "bc92aefdc137e3725c0a1ac9397a7f1a9dc4bdac552b50493ce75e152acb3469",
+  "control_video_sha256": "8503c28df81416755df61590de7aa68809a20684d036d92b72a61e2d7b920fde",
+  "method": "Local visible-person matte removes DD target-warp ghosts outside body; background filled with corner median, then exact TheDenk README tile blur resize/5x5 Gaussian/resize. Estimated input, not ground truth."
+}
