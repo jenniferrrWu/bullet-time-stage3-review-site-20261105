@@ -1,0 +1,15 @@
+{
+  "label": "case12_a",
+  "source_warp": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/warp.mp4",
+  "source_sha256": "939b69d0128483afd6e280c73044f251580ffe3e69124a651f5a12317a818730",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/canny_controlnet_case12_a/control.mp4",
+  "control_sha256": "71124b8e07ec049347e7bb9722da246eaee6721d682d4d1bf9913dc3b4e6165f",
+  "frames": 33,
+  "width": 704,
+  "height": 1280,
+  "mean_valid_fraction": 0.5124139791021006,
+  "official_processor": "controlnet_aux.CannyDetector 0.0.10 default thresholds 100/200 and detect/image resolution 512; unmodified class and helper functions loaded from installed official source",
+  "official_processor_source": "https://github.com/huggingface/controlnet_aux",
+  "local_adaptation": "DD target warp holes filled with nonblack per-frame median before official CannyDetector; output resized to DD generation size",
+  "not_target_view_ground_truth": true
+}

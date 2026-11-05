@@ -1,0 +1,37 @@
+{
+  "method": "TheDenk official pretrained Wan2.2 TI2V 5B canny ControlNet injected into DD Wan blocks",
+  "official_source": "https://github.com/TheDenk/wan2.2-controlnet",
+  "official_commit": "c8b3b70d27048882140dc419b7491c4d63e283f6",
+  "official_checkpoint_sha256": "79c5ee6a0bb7a6f1a3b5e7009aae71dc9ba56f8869496f09736598676ee892a8",
+  "not_official_end_to_end_pipeline": true,
+  "canny_input_is_DD_estimated_target_warp": true,
+  "weight": 0.5,
+  "guidance_steps": 40,
+  "stride": 3,
+  "gpu": "5",
+  "control_kind": "canny_warp",
+  "control_version": "warp",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/canny_controlnet_case15_c/control.mp4",
+  "control_video_sha256": "b138b551eb796e46f609b2fb1d1b3b061aebf07833fbd6ca4285a7f5c1d2bad7",
+  "label": "case15_c",
+  "frames": 17,
+  "height": 1280,
+  "width": 704,
+  "baseline_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "effective_input_sha256": {
+    "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+    "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+    "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+    "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+  },
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "native_video": "/root/bullet_time_research_20261102/stage3_research/canny_controlnet_case15_c_weight_0p5/result/depthdirector.mp4",
+  "native_sha256": "f03e6dc29de2a22aefd178f95ed05e713181a303821f94a8e0906e4d431a0922",
+  "call": {
+    "calls": 50,
+    "active_steps": 40,
+    "injected_blocks": 240
+  },
+  "control_input_sha256": "b138b551eb796e46f609b2fb1d1b3b061aebf07833fbd6ca4285a7f5c1d2bad7"
+}

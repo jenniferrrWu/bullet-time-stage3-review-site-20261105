@@ -1,0 +1,13 @@
+{
+  "source_warp_reference": "/root/bullet_time_research_20261102/stage3_research/ttm_targetwarp_case15_c/reference.mp4",
+  "source_sha256": "f9397ffe2bfd91f9a40310e400797fd95bc0d01d5ae96aeb14424e04e1410e04",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/canny_controlnet_case15_c/control.mp4",
+  "control_sha256": "b138b551eb796e46f609b2fb1d1b3b061aebf07833fbd6ca4285a7f5c1d2bad7",
+  "frames": 17,
+  "width": 704,
+  "height": 1280,
+  "official_processor": "controlnet_aux.CannyDetector 0.0.10 defaults, exact installed official source class and helpers",
+  "official_source": "https://github.com/huggingface/controlnet_aux",
+  "local_adaptation": "input DD target warp holes already filled by TTM reference preprocessing; resize official Canny result to DD dimensions",
+  "not_target_view_ground_truth": true
+}
