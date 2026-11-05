@@ -7,7 +7,6 @@
   "official_module_and_weights_transferred": true,
   "not_official_end_to_end_flashmotion": true,
   "not_multiview_ground_truth": true,
-  "all_four_same_actual_stage2_endpoint_camera_source_noise": false,
   "source_right_wrist_x_range_body_units": 1.1744867781047055,
   "zero_control": {
     "limb_error_body_units": 0.46155522685801625,
