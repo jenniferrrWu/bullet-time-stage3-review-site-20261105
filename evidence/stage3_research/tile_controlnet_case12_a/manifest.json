@@ -1,0 +1,282 @@
+{
+  "label": "case12_a",
+  "baseline": "vlm_dd_balanced_case12_a",
+  "source_warp": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/warp.mp4",
+  "source_sha256": "939b69d0128483afd6e280c73044f251580ffe3e69124a651f5a12317a818730",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case12_a/control.mp4",
+  "control_sha256": "4dfe617f56957dc7b9c8e1e22212fa9e7fc634e92cf733c941a92bffdc04d1b9",
+  "frames": 33,
+  "source_fps": 25.0,
+  "control_fps": 15,
+  "width": 704,
+  "height": 1280,
+  "mean_valid_fraction": 0.5124139791021006,
+  "method": "Local hole-fill of DD estimated target-view warp with per-frame nonblack median; then official TheDenk Tile README resize by 4, 5x5 Gaussian sigma 2, resize back. Not target-view ground truth.",
+  "official_source": "https://github.com/TheDenk/wan2.2-controlnet",
+  "frame_diagnostics": [
+    {
+      "valid_fraction": 0.512814053622159,
+      "fill_bgr": [
+        195,
+        191,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.5121726296164772,
+      "fill_bgr": [
+        195,
+        190,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.5112149325284091,
+      "fill_bgr": [
+        195,
+        190,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5104536576704546,
+      "fill_bgr": [
+        195,
+        190,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5109086470170454,
+      "fill_bgr": [
+        195,
+        190,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5094204989346591,
+      "fill_bgr": [
+        195,
+        189,
+        195
+      ]
+    },
+    {
+      "valid_fraction": 0.5070412375710227,
+      "fill_bgr": [
+        195,
+        189,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5060446999289773,
+      "fill_bgr": [
+        194,
+        188,
+        194
+      ]
+    },
+    {
+      "valid_fraction": 0.5044611150568182,
+      "fill_bgr": [
+        194,
+        188,
+        194
+      ]
+    },
+    {
+      "valid_fraction": 0.5039151278409091,
+      "fill_bgr": [
+        194,
+        187,
+        194
+      ]
+    },
+    {
+      "valid_fraction": 0.5050159801136364,
+      "fill_bgr": [
+        194,
+        188,
+        194
+      ]
+    },
+    {
+      "valid_fraction": 0.5055797230113637,
+      "fill_bgr": [
+        195,
+        190,
+        195
+      ]
+    },
+    {
+      "valid_fraction": 0.5031083540482955,
+      "fill_bgr": [
+        195,
+        191,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5038873845880681,
+      "fill_bgr": [
+        195,
+        191,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5057839133522727,
+      "fill_bgr": [
+        195,
+        192,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5097101384943182,
+      "fill_bgr": [
+        195,
+        191,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5093195134943181,
+      "fill_bgr": [
+        195,
+        192,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5139970259232954,
+      "fill_bgr": [
+        195,
+        192,
+        196
+      ]
+    },
+    {
+      "valid_fraction": 0.5128262606534091,
+      "fill_bgr": [
+        195,
+        192,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.513790616122159,
+      "fill_bgr": [
+        195,
+        192,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.5165593927556819,
+      "fill_bgr": [
+        196,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5243585759943182,
+      "fill_bgr": [
+        196,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5219227183948864,
+      "fill_bgr": [
+        195,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5201182972301136,
+      "fill_bgr": [
+        195,
+        193,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.5216530539772727,
+      "fill_bgr": [
+        195,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.52296142578125,
+      "fill_bgr": [
+        195,
+        192,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5217196377840909,
+      "fill_bgr": [
+        195,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5204878373579546,
+      "fill_bgr": [
+        195,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.516360751065341,
+      "fill_bgr": [
+        195,
+        193,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5135731090198864,
+      "fill_bgr": [
+        194,
+        192,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.51295166015625,
+      "fill_bgr": [
+        194,
+        192,
+        198
+      ]
+    },
+    {
+      "valid_fraction": 0.5121693004261364,
+      "fill_bgr": [
+        193,
+        191,
+        197
+      ]
+    },
+    {
+      "valid_fraction": 0.5133600408380682,
+      "fill_bgr": [
+        193,
+        190,
+        197
+      ]
+    }
+  ]
+}

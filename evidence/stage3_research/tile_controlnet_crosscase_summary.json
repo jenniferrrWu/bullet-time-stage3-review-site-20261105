@@ -1,0 +1,50 @@
+{
+  "case12_a": {
+    "frames": 33,
+    "same_stage2_endpoint_and_noise": true,
+    "comparisons": {
+      "baseline": {
+        "limb_motion_error": 0.3127223162375979,
+        "right_wrist_range": [
+          0.21061154147124228,
+          0.13757564420876794
+        ],
+        "person_contrast_trend_over_source": 0.94497405173457,
+        "detected_frames": 33
+      },
+      "tile": {
+        "limb_motion_error": 0.18516708039035182,
+        "right_wrist_range": [
+          0.17083629959482288,
+          0.845938603423228
+        ],
+        "person_contrast_trend_over_source": 1.0502934878563772,
+        "detected_frames": 33
+      }
+    }
+  },
+  "case13_b": {
+    "frames": 37,
+    "same_stage2_endpoint_and_noise": true,
+    "comparisons": {
+      "baseline": {
+        "limb_motion_error": 0.09283949334788093,
+        "right_wrist_range": [
+          0.2979334887292489,
+          0.14710736534726854
+        ],
+        "person_contrast_trend_over_source": 0.9033836191154787,
+        "detected_frames": 32
+      },
+      "tile": {
+        "limb_motion_error": 0.7322687635101452,
+        "right_wrist_range": [
+          2.3687890327696075,
+          0.5393680908923524
+        ],
+        "person_contrast_trend_over_source": 0.7815541978277064,
+        "detected_frames": 37
+      }
+    }
+  }
+}
