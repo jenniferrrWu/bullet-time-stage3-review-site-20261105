@@ -1,0 +1,136 @@
+{
+  "frames": 37,
+  "source_detected_frames": 37,
+  "native_detected_frames": 37,
+  "source_mean_accepted_joints": 13.486486486486486,
+  "native_mean_accepted_joints": 7.594594594594595,
+  "source_scale_pixels": 82.19739588772316,
+  "native_scale_pixels": 193.36395419358502,
+  "core_mean_motion_delta_mae_body_units": 0.6287234554748246,
+  "limb_mean_motion_delta_mae_body_units": 0.4740196472008769,
+  "core_joint_count": 3,
+  "limb_joint_count": 1,
+  "per_joint": {
+    "nose": {
+      "matched_frames": 13,
+      "motion_delta_mae_body_units": 0.7313037433100568,
+      "source_xy_range_body_units": [
+        0.8599092403273999,
+        1.2288264642022257
+      ],
+      "native_xy_range_body_units": [
+        0.49723816725737857,
+        0.4681324224100525
+      ]
+    },
+    "left_eye": {
+      "matched_frames": 14,
+      "motion_delta_mae_body_units": 0.8201735501491539,
+      "source_xy_range_body_units": [
+        1.4235588408003137,
+        1.3713643345995525
+      ],
+      "native_xy_range_body_units": [
+        0.5519371038306324,
+        0.7042069473562447
+      ]
+    },
+    "right_eye": {
+      "matched_frames": 14,
+      "motion_delta_mae_body_units": 0.7790951546355424,
+      "source_xy_range_body_units": [
+        0.9730018504646578,
+        1.2670511458898026
+      ],
+      "native_xy_range_body_units": [
+        0.47851539762240564,
+        0.4326045488056445
+      ]
+    },
+    "left_ear": {
+      "matched_frames": 12,
+      "motion_delta_mae_body_units": 0.6107940292713933,
+      "source_xy_range_body_units": [
+        1.2002599608404687,
+        1.4528589622642913
+      ],
+      "native_xy_range_body_units": [
+        0.3106445189875673,
+        0.5118406160208879
+      ]
+    },
+    "right_ear": {
+      "matched_frames": 16,
+      "motion_delta_mae_body_units": 0.9076710648025258,
+      "source_xy_range_body_units": [
+        1.0439145754442032,
+        1.3934596030870827
+      ],
+      "native_xy_range_body_units": [
+        0.4164152392299381,
+        0.4897312488024266
+      ]
+    },
+    "right_wrist": {
+      "matched_frames": 17,
+      "motion_delta_mae_body_units": 0.4740196472008769,
+      "source_xy_range_body_units": [
+        0.9552216966012168,
+        1.2330319588627459
+      ],
+      "native_xy_range_body_units": [
+        0.7263405410533916,
+        0.8177811154435073
+      ]
+    },
+    "left_hip": {
+      "matched_frames": 26,
+      "motion_delta_mae_body_units": 0.31163234545952323,
+      "source_xy_range_body_units": [
+        0.860906240265727,
+        0.16345511663277076
+      ],
+      "native_xy_range_body_units": [
+        0.363726218361509,
+        0.06817658683413133
+      ]
+    },
+    "right_hip": {
+      "matched_frames": 24,
+      "motion_delta_mae_body_units": 0.31808232155725824,
+      "source_xy_range_body_units": [
+        0.8609062402657285,
+        0.16345511663277076
+      ],
+      "native_xy_range_body_units": [
+        0.36372621836150837,
+        0.06817658683413133
+      ]
+    },
+    "left_knee": {
+      "matched_frames": 20,
+      "motion_delta_mae_body_units": 0.6519984669709179,
+      "source_xy_range_body_units": [
+        0.6336873747853994,
+        0.7798800080178641
+      ],
+      "native_xy_range_body_units": [
+        1.1692555973438734,
+        0.492765161122774
+      ]
+    },
+    "right_knee": {
+      "matched_frames": 16,
+      "motion_delta_mae_body_units": 0.5028681561434991,
+      "source_xy_range_body_units": [
+        0.3994342960431989,
+        0.891159302898415
+      ],
+      "native_xy_range_body_units": [
+        0.6801372908850124,
+        1.0726182357197436
+      ]
+    }
+  },
+  "caveat": "2D cross-view proxy; viewpoint differences and occlusion can affect apparent joint trajectories."
+}
