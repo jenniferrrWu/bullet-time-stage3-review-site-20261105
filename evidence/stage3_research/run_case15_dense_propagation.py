@@ -17,9 +17,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--alpha', type=float, choices=[0., .35, .7], required=True)
     parser.add_argument('--region', choices=['person', 'all'], required=True)
+    parser.add_argument('--track-space', choices=['source', 'target'], default='source')
     parser.add_argument('--gpu', required=True)
     args = parser.parse_args()
-    output = HERE / ('wanmove_dense_case15_c_' + args.region + '_' + str(args.alpha).replace('.', 'p'))
+    stem = 'wanmove_dense_case15_c_' if args.track_space == 'source' else 'wanmove_targettrack_case15_c_'
+    output = HERE / (stem + args.region + '_' + str(args.alpha).replace('.', 'p'))
     os.environ.update(CUDA_VISIBLE_DEVICES=args.gpu, ABT_EXPERIMENT_ROOT=str(output),
                       ABT_OBSERVE_NATIVE_NOISE='1', OMP_NUM_THREADS='4', HF_HUB_OFFLINE='1',
                       TRANSFORMERS_OFFLINE='1', IMAGEIO_FFMPEG_EXE='/usr/bin/ffmpeg')
@@ -58,13 +60,18 @@ def main():
         if not Path(row[key]).is_file():
             raise FileNotFoundError(row[key])
     assert row['prompt'] == record['prompt']
-    track_file = HERE / 'case15_c_dense_tracks/dense_tracks.npz'
-    track_manifest = json.loads((track_file.parent / 'manifest.json').read_text())
+    source_track_file = HERE / 'case15_c_dense_tracks/dense_tracks.npz'
+    track_manifest = json.loads((source_track_file.parent / 'manifest.json').read_text())
     assert hashlib.sha256(Path(row['input']).read_bytes()).hexdigest() == track_manifest['source_sha256']
+    track_file = (source_track_file if args.track_space == 'source'
+                  else HERE / 'case15_c_target_view_pseudotracks/tracks.npz')
     tracks = np.load(track_file)
+    confidence = tracks['confidence'] if args.track_space == 'source' else np.ones_like(tracks['visibility'])
     boxes = None
     if args.region == 'person':
-        joints = json.loads((ROOT / 'pose_trial/v12_balanced_case15_c_source_all/tracks.json').read_text())
+        pose_name = ('v12_balanced_case15_c_source_all' if args.track_space == 'source'
+                     else 'v12_balanced_case15_c_target_warp_all')
+        joints = json.loads((ROOT / 'pose_trial' / pose_name / 'tracks.json').read_text())
         assert len(joints['frames']) == 17
         boxes = np.array([frame['bbox_xyxy'] for frame in joints['frames']], dtype=np.float32)
         if not np.isfinite(boxes).all():
@@ -81,8 +88,11 @@ def main():
         'wanmove_source_commit': '80c58a7d2ad175fa82a4d57f79f2a1415317dcfa',
         'not_official_wanmove_weights_or_training': True,
         'alpha': args.alpha, 'region': args.region, 'gpu': args.gpu,
+        'track_space': args.track_space,
+        'target_tracks_are_geometry_pseudolabels': args.track_space == 'target',
         'baseline_sha256': record['native_video_sha256'],
-        'source_track_manifest': str(track_file.parent / 'manifest.json'),
+        'track_manifest': str(track_file.parent / 'manifest.json'),
+        'track_file_sha256': hashlib.sha256(track_file.read_bytes()).hexdigest(),
         'effective_input_sha256': {key: hashlib.sha256(Path(row[key]).read_bytes()).hexdigest()
                                    for key in ('input_image', 'input', 'depth', 'mask')},
         'postdecode_frame_replacement': False, 'state': 'inference_running',
@@ -98,7 +108,7 @@ def main():
             return result
         assert latent.shape[2:] == (5, 80, 44), latent.shape
         modified, stats = propagate_with_upstream(latent, tracks['xy'], tracks['visibility'],
-                                                  tracks['confidence'], alpha=args.alpha, boxes=boxes)
+                                                  confidence, alpha=args.alpha, boxes=boxes)
         if args.alpha == 0:
             assert torch.equal(modified, latent)
         else:
