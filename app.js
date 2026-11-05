@@ -47,7 +47,7 @@ function renderAssets(){
   byId('assetList').innerHTML=arr.slice(0,visibleAssets).map(function(a){return '<div class="asset"><a href="'+esc(a.url)+'" target="_blank">'+esc(a.name)+'</a><span>'+esc(a.type.toUpperCase())+'</span><span>'+size(a.bytes)+'</span></div>'}).join('')||'<div class="asset">没有匹配文件。</div>';
   byId('moreAssets').hidden=visibleAssets>=arr.length;
 }
-fetch('./catalog.json').then(function(r){if(!r.ok)throw Error('catalog HTTP '+r.status);return r.json()}).then(function(c){
+fetch('./catalog.json?v=upstream1').then(function(r){if(!r.ok)throw Error('catalog HTTP '+r.status);return r.json()}).then(function(c){
   data=c;
   var groups=[...new Set(data.experiments.map(function(x){return x.group}))];
   byId('groupFilter').innerHTML='<option value="all">全部类别</option>'+groups.map(function(g){return '<option value="'+esc(g)+'">'+esc(g)+'</option>'}).join('');

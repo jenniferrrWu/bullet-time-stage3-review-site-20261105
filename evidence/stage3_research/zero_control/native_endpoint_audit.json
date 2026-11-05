@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+    "shape": [
+      1,
+      48,
+      5,
+      80,
+      44
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": null,
+    "rng_behavior_changed": false
+  },
+  "endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    80,
+    44
+  ],
+  "effective_endpoint_png": "/root/bullet_time_research_20261102/stage3_research/wanmove_dense_case15_c_all_0p0/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

@@ -54,7 +54,7 @@ function play(){
  playing=true;id('syncPlay').textContent='播放中…';
  vids().forEach(function(v){v.play().catch(function(){pause()})});
 }
-fetch('./review_data.json').then(function(r){if(!r.ok)throw Error('review data HTTP '+r.status);return r.json()}).then(function(d){
+fetch('./review_data.json?v=upstream1').then(function(r){if(!r.ok)throw Error('review data HTTP '+r.status);return r.json()}).then(function(d){
  data=d;
  id('montageChapters').querySelectorAll('button').forEach(function(b){b.onclick=function(){var v=id('montageVideo');v.currentTime=Number(b.dataset.time);v.play()}});
  renderPipeline('case15');
@@ -71,6 +71,6 @@ fetch('./review_data.json').then(function(r){if(!r.ok)throw Error('review data H
   id('frameSlider').value=frame;id('frameCounter').textContent=frame+' / '+max;
   if(frame>=max)pause();
  };
- renderGroup('case15-c');
+ renderGroup('case15-upstream');
 }).catch(function(e){id('pipelineIntro').textContent='视频审查数据加载失败：'+e.message});
 })();

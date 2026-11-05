@@ -1,0 +1,163 @@
+{
+  "case": "case15 C",
+  "frames": 17,
+  "same_camera_and_effective_input_sha256": true,
+  "historical_to_zero_decoded_mae_0_255": 0.4366963803768158,
+  "rows": {
+    "zero_control": {
+      "native_video": "/root/bullet_time_research_20261102/stage3_research/wanmove_dense_case15_c_all_0p0/result/depthdirector.mp4",
+      "native_sha256": "3f8c9256abbfaa6374e6fcdad5092a178fe650d2b7590a3e480a57f3859712f3",
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "core_motion_error_body_units": 0.08773203014853388,
+      "limb_motion_error_body_units": 0.46155522685801625,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.09985488393645214,
+        0.11217371862640771
+      ],
+      "person_contrast_tail_head_ratio": 0.7337145530228145,
+      "person_contrast_trend_over_source": 0.6714166299671706,
+      "detected_frames": 17,
+      "accepted_joints_mean": 15.235294117647058,
+      "condition_stats": {
+        "modified_latent_fraction": 0.0,
+        "reliable_tracks": 0
+      }
+    },
+    "wanmove_person_035": {
+      "native_video": "/root/bullet_time_research_20261102/stage3_research/wanmove_dense_case15_c_person_0p35/result/depthdirector.mp4",
+      "native_sha256": "c6f53f9d823c5a7c2ff55fa2b82f3d5c7f864baf6e7254377b9c502c652e5099",
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "core_motion_error_body_units": 0.0958869974519084,
+      "limb_motion_error_body_units": 0.4870110971593696,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.14544157930140078,
+        0.06631122481874638
+      ],
+      "person_contrast_tail_head_ratio": 0.7558757336553256,
+      "person_contrast_trend_over_source": 0.6916961585046284,
+      "detected_frames": 17,
+      "accepted_joints_mean": 15.176470588235293,
+      "condition_stats": {
+        "reliable_tracks": 20554,
+        "selected_tracks": 2048,
+        "modified_latent_fraction": 0.22423353791236877,
+        "mean_abs_feature_change": 0.0357532761991024,
+        "upstream_source": "/root/bullet_time_research_20261102/paper_sources/Wan-Move/wan/modules/trajectory.py"
+      }
+    },
+    "wanmove_person_070": {
+      "native_video": "/root/bullet_time_research_20261102/stage3_research/wanmove_dense_case15_c_person_0p7/result/depthdirector.mp4",
+      "native_sha256": "1f5c27c3ecad857474075b995443635d244cffa66850cf8061c8e970b74ed98d",
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "core_motion_error_body_units": 0.09038300452325473,
+      "limb_motion_error_body_units": 0.47186026520945973,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.17361450991746552,
+        0.04365499898099667
+      ],
+      "person_contrast_tail_head_ratio": 0.8415020276469505,
+      "person_contrast_trend_over_source": 0.7700521315619698,
+      "detected_frames": 17,
+      "accepted_joints_mean": 15.235294117647058,
+      "condition_stats": {
+        "reliable_tracks": 20554,
+        "selected_tracks": 2048,
+        "modified_latent_fraction": 0.2247321754693985,
+        "mean_abs_feature_change": 0.07150093466043472,
+        "upstream_source": "/root/bullet_time_research_20261102/paper_sources/Wan-Move/wan/modules/trajectory.py"
+      }
+    },
+    "wanmove_all_035": {
+      "native_video": "/root/bullet_time_research_20261102/stage3_research/wanmove_dense_case15_c_all_0p35/result/depthdirector.mp4",
+      "native_sha256": "ff61ec22421f2fc3cf12aaf81245e5f3e9cbeed8e0f06b3c351e63effe0cfb28",
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "core_motion_error_body_units": 0.09519549225984285,
+      "limb_motion_error_body_units": 0.45960108582258935,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12832152060149893,
+        0.07367977136749575
+      ],
+      "person_contrast_tail_head_ratio": 0.7366311242169676,
+      "person_contrast_trend_over_source": 0.6740855621754387,
+      "detected_frames": 17,
+      "accepted_joints_mean": 15.117647058823529,
+      "condition_stats": {
+        "reliable_tracks": 83961,
+        "selected_tracks": 2048,
+        "modified_latent_fraction": 0.42993903160095215,
+        "mean_abs_feature_change": 0.06737713515758514,
+        "upstream_source": "/root/bullet_time_research_20261102/paper_sources/Wan-Move/wan/modules/trajectory.py"
+      }
+    },
+    "motion_i2v_forwardwarp_person_035": {
+      "native_video": "/root/bullet_time_research_20261102/stage3_research/motion_i2v_forwardwarp_case15_c_person_0p35/result/depthdirector.mp4",
+      "native_sha256": "1f6a58506e81929d084032d5fdcfca19647271bdd99325fbb5e382db0f1cdd6f",
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "core_motion_error_body_units": 0.09557972133243911,
+      "limb_motion_error_body_units": 0.46617541398456425,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.18150525358479264,
+        0.0674203802829848
+      ],
+      "person_contrast_tail_head_ratio": 0.7867778375422423,
+      "person_contrast_trend_over_source": 0.7199744397042708,
+      "detected_frames": 17,
+      "accepted_joints_mean": 15.117647058823529,
+      "condition_stats": {
+        "frames": [
+          {
+            "latent_frame": 1,
+            "source_frame": 4,
+            "support_fraction": 0.316193163394928,
+            "mean_abs_feature_change": 0.04033331573009491
+          },
+          {
+            "latent_frame": 2,
+            "source_frame": 8,
+            "support_fraction": 0.2960227131843567,
+            "mean_abs_feature_change": 0.043257683515548706
+          },
+          {
+            "latent_frame": 3,
+            "source_frame": 12,
+            "support_fraction": 0.2593750059604645,
+            "mean_abs_feature_change": 0.039709851145744324
+          },
+          {
+            "latent_frame": 4,
+            "source_frame": 16,
+            "support_fraction": 0.21164771914482117,
+            "mean_abs_feature_change": 0.03297827020287514
+          }
+        ],
+        "upstream_source": "/root/bullet_time_research_20261102/paper_sources/Motion-I2V/animation/models/forward_motion_module.py"
+      }
+    }
+  },
+  "interpretation": "Pose is a cross-view 2-D proxy and contrast depends on detector boxes. Examine full videos; no single scalar determines Stage3 quality."
+}
