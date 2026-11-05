@@ -1,0 +1,129 @@
+{
+  "method": "Projected CoW/DD silhouette; rows with less than 65% of affine silhouette occupancy replaced by source GrabCut silhouette aligned to target DWPose box",
+  "not_ground_truth": true,
+  "inputs": [
+    "/root/bullet_time_research_20261102/stage3_research/flashmotion_affine_silhouette_case15_c/trajectory.mp4",
+    "/root/bullet_time_research_20261102/stage3_research/flashmotion_target_silhouette_case15_c/trajectory.mp4"
+  ],
+  "rows": [
+    {
+      "frame": 0,
+      "affine_pixels": 123135,
+      "projected_pixels": 189461,
+      "repaired_pixels": 190020,
+      "replaced_rows": 8
+    },
+    {
+      "frame": 1,
+      "affine_pixels": 115097,
+      "projected_pixels": 194715,
+      "repaired_pixels": 195103,
+      "replaced_rows": 7
+    },
+    {
+      "frame": 2,
+      "affine_pixels": 115360,
+      "projected_pixels": 189678,
+      "repaired_pixels": 189901,
+      "replaced_rows": 5
+    },
+    {
+      "frame": 3,
+      "affine_pixels": 110285,
+      "projected_pixels": 115092,
+      "repaired_pixels": 115537,
+      "replaced_rows": 13
+    },
+    {
+      "frame": 4,
+      "affine_pixels": 101172,
+      "projected_pixels": 145783,
+      "repaired_pixels": 146133,
+      "replaced_rows": 8
+    },
+    {
+      "frame": 5,
+      "affine_pixels": 98950,
+      "projected_pixels": 182394,
+      "repaired_pixels": 182620,
+      "replaced_rows": 3
+    },
+    {
+      "frame": 6,
+      "affine_pixels": 153337,
+      "projected_pixels": 172995,
+      "repaired_pixels": 173409,
+      "replaced_rows": 9
+    },
+    {
+      "frame": 7,
+      "affine_pixels": 154162,
+      "projected_pixels": 94039,
+      "repaired_pixels": 147176,
+      "replaced_rows": 249
+    },
+    {
+      "frame": 8,
+      "affine_pixels": 100942,
+      "projected_pixels": 160219,
+      "repaired_pixels": 166131,
+      "replaced_rows": 62
+    },
+    {
+      "frame": 9,
+      "affine_pixels": 94063,
+      "projected_pixels": 163039,
+      "repaired_pixels": 167668,
+      "replaced_rows": 50
+    },
+    {
+      "frame": 10,
+      "affine_pixels": 100116,
+      "projected_pixels": 147864,
+      "repaired_pixels": 159954,
+      "replaced_rows": 98
+    },
+    {
+      "frame": 11,
+      "affine_pixels": 102616,
+      "projected_pixels": 148641,
+      "repaired_pixels": 164308,
+      "replaced_rows": 143
+    },
+    {
+      "frame": 12,
+      "affine_pixels": 156288,
+      "projected_pixels": 121318,
+      "repaired_pixels": 164199,
+      "replaced_rows": 314
+    },
+    {
+      "frame": 13,
+      "affine_pixels": 107657,
+      "projected_pixels": 125369,
+      "repaired_pixels": 168477,
+      "replaced_rows": 311
+    },
+    {
+      "frame": 14,
+      "affine_pixels": 99411,
+      "projected_pixels": 125395,
+      "repaired_pixels": 166658,
+      "replaced_rows": 312
+    },
+    {
+      "frame": 15,
+      "affine_pixels": 108875,
+      "projected_pixels": 121904,
+      "repaired_pixels": 168436,
+      "replaced_rows": 324
+    },
+    {
+      "frame": 16,
+      "affine_pixels": 110599,
+      "projected_pixels": 51098,
+      "repaired_pixels": 101625,
+      "replaced_rows": 381
+    }
+  ]
+}

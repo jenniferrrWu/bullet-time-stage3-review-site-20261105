@@ -1,0 +1,121 @@
+{
+  "case": "case15 C",
+  "frames": 17,
+  "official_source": "https://github.com/quanhaol/FlashMotion",
+  "official_source_commit": "998f46a26c5814ffd1b88b7965294c7476558697",
+  "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+  "official_module_and_weights_transferred": true,
+  "not_official_end_to_end_flashmotion": true,
+  "not_multiview_ground_truth": true,
+  "all_four_same_actual_stage2_endpoint_camera_source_noise": false,
+  "source_right_wrist_x_range_body_units": 1.1744867781047055,
+  "zero_control": {
+    "limb_error_body_units": 0.46155522685801625,
+    "right_wrist_x_range_body_units": 0.09985488393645214,
+    "contrast_trend_over_source": 0.6714166299671706
+  },
+  "rows": {
+    "affine_1p0": {
+      "run": "stage3_research/flashmotion_resnet_case15_c_affine_alpha_1p0",
+      "native_video_sha256": "536a1888942cc8097d74cb2ce390da982b7cc3609a450c1115180475f2501f66",
+      "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+      "map_kind": "affine",
+      "alpha": 1.0,
+      "trajectory_sha256": "57e1435083ca34c9a61fa0d4d51dd0c1000cc17d903b134c0deec380a0869128",
+      "limb_error_body_units": 0.44617960160698006,
+      "right_wrist_x_range_body_units": 1.3184808575810967,
+      "contrast_trend_over_source": 0.9429071469289817,
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "camera_sha256": "64a90c4b75b5c66c00bdfe3cf517cb5762240b94d7a1b7dc6d87037d6bb191d3",
+      "input_sha256": {
+        "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+        "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+        "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+        "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+      }
+    },
+    "projected_1p0": {
+      "run": "stage3_research/flashmotion_resnet_case15_c_projected_alpha_1p0",
+      "native_video_sha256": "6d740918fd4efedcdf1a5ad7caaa19f0c2b14cd9d16f5be120c259aae56764ee",
+      "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+      "map_kind": "projected",
+      "alpha": 1.0,
+      "trajectory_sha256": "10e6ebf73bca6bc09f5026d3ab28839ec33697d8faeb25b85494c592e76fecdd",
+      "limb_error_body_units": 0.24576662502195168,
+      "right_wrist_x_range_body_units": 1.2305326168734008,
+      "contrast_trend_over_source": 0.7096153374421643,
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "camera_sha256": "64a90c4b75b5c66c00bdfe3cf517cb5762240b94d7a1b7dc6d87037d6bb191d3",
+      "input_sha256": {
+        "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+        "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+        "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+        "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+      }
+    },
+    "repaired_1p0": {
+      "run": "stage3_research/flashmotion_resnet_case15_c_repaired_alpha_1p0",
+      "native_video_sha256": "cac06ccd63b730a31ec53100082ab2112a650af59ae2bd82fa9c70566d87fa6e",
+      "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+      "map_kind": "repaired",
+      "alpha": 1.0,
+      "trajectory_sha256": "78b311d8a0c79841c5d127fdd7a95d84f39617ca9b7322c53d5d5f25d90d1ceb",
+      "limb_error_body_units": 0.2770307562392315,
+      "right_wrist_x_range_body_units": 1.4132674687663567,
+      "contrast_trend_over_source": 0.930315866716611,
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "camera_sha256": "64a90c4b75b5c66c00bdfe3cf517cb5762240b94d7a1b7dc6d87037d6bb191d3",
+      "input_sha256": {
+        "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+        "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+        "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+        "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+      }
+    },
+    "projected_0p5": {
+      "run": "stage3_research/flashmotion_resnet_case15_c_projected_alpha_0p5",
+      "native_video_sha256": "02b74b6c8c44e8ba074626a049e10fc380f2ea6137d09bafa612e4a404d0c3df",
+      "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+      "map_kind": "projected",
+      "alpha": 0.5,
+      "trajectory_sha256": "10e6ebf73bca6bc09f5026d3ab28839ec33697d8faeb25b85494c592e76fecdd",
+      "limb_error_body_units": 0.3649856713915128,
+      "right_wrist_x_range_body_units": 1.1583826842615335,
+      "contrast_trend_over_source": 0.7240435222031615,
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "camera_sha256": "64a90c4b75b5c66c00bdfe3cf517cb5762240b94d7a1b7dc6d87037d6bb191d3",
+      "input_sha256": {
+        "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+        "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+        "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+        "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+      }
+    },
+    "repaired_0p7": {
+      "run": "stage3_research/flashmotion_resnet_case15_c_repaired_alpha_0p7",
+      "native_video_sha256": "efbdab2563436686c1bec8bc897104cbbde648789abd91f4432a495d9376b1f5",
+      "official_weight_sha256": "df28d58ba918ae38da458f48c2110804a9113cf72f60e71d3c75032077798d58",
+      "map_kind": "repaired",
+      "alpha": 0.7,
+      "trajectory_sha256": "78b311d8a0c79841c5d127fdd7a95d84f39617ca9b7322c53d5d5f25d90d1ceb",
+      "limb_error_body_units": 0.2973163950528704,
+      "right_wrist_x_range_body_units": 1.36212270447155,
+      "contrast_trend_over_source": 0.9150214877822411,
+      "same_initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "same_stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "camera_sha256": "64a90c4b75b5c66c00bdfe3cf517cb5762240b94d7a1b7dc6d87037d6bb191d3",
+      "input_sha256": {
+        "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+        "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+        "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+        "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+      }
+    }
+  },
+  "holistic_verdict": "五条官方带权重适配器接入 DD 的 Stage3 整段试验均未通过；修补剪影 alpha=1 在本组动作与人物保留间暂时较好，但后段脸手、姿态和人物褪色仍有缺陷；alpha=0.7 没有改善后段，不能认定最终方案。",
+  "all_five_same_actual_stage2_endpoint_camera_source_noise": true
+}

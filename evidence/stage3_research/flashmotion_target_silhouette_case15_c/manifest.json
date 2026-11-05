@@ -1,0 +1,110 @@
+{
+  "method": "DWPose-seeded GrabCut of source person; CoW source pixel tracks projected into DD target camera; dense points dilated and largest silhouette filled; colored like official FlashMotion example mask",
+  "official_flashmotion_source_commit": "998f46a26c5814ffd1b88b7965294c7476558697",
+  "not_ground_truth": true,
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/input.mp4",
+  "rows": [
+    {
+      "frame": 0,
+      "source_grabcut_pixels": 179580,
+      "projected_person_points": 19689,
+      "target_mask_pixels": 189399
+    },
+    {
+      "frame": 1,
+      "source_grabcut_pixels": 180120,
+      "projected_person_points": 19702,
+      "target_mask_pixels": 194653
+    },
+    {
+      "frame": 2,
+      "source_grabcut_pixels": 171105,
+      "projected_person_points": 19062,
+      "target_mask_pixels": 189631
+    },
+    {
+      "frame": 3,
+      "source_grabcut_pixels": 111722,
+      "projected_person_points": 12939,
+      "target_mask_pixels": 115038
+    },
+    {
+      "frame": 4,
+      "source_grabcut_pixels": 153567,
+      "projected_person_points": 16945,
+      "target_mask_pixels": 145706
+    },
+    {
+      "frame": 5,
+      "source_grabcut_pixels": 168859,
+      "projected_person_points": 18286,
+      "target_mask_pixels": 182335
+    },
+    {
+      "frame": 6,
+      "source_grabcut_pixels": 165128,
+      "projected_person_points": 18113,
+      "target_mask_pixels": 172926
+    },
+    {
+      "frame": 7,
+      "source_grabcut_pixels": 98921,
+      "projected_person_points": 12053,
+      "target_mask_pixels": 93982
+    },
+    {
+      "frame": 8,
+      "source_grabcut_pixels": 152720,
+      "projected_person_points": 16522,
+      "target_mask_pixels": 160154
+    },
+    {
+      "frame": 9,
+      "source_grabcut_pixels": 164459,
+      "projected_person_points": 16986,
+      "target_mask_pixels": 162978
+    },
+    {
+      "frame": 10,
+      "source_grabcut_pixels": 145821,
+      "projected_person_points": 15092,
+      "target_mask_pixels": 147785
+    },
+    {
+      "frame": 11,
+      "source_grabcut_pixels": 161389,
+      "projected_person_points": 15736,
+      "target_mask_pixels": 148563
+    },
+    {
+      "frame": 12,
+      "source_grabcut_pixels": 145473,
+      "projected_person_points": 14312,
+      "target_mask_pixels": 121308
+    },
+    {
+      "frame": 13,
+      "source_grabcut_pixels": 161311,
+      "projected_person_points": 13995,
+      "target_mask_pixels": 125316
+    },
+    {
+      "frame": 14,
+      "source_grabcut_pixels": 161804,
+      "projected_person_points": 13717,
+      "target_mask_pixels": 125349
+    },
+    {
+      "frame": 15,
+      "source_grabcut_pixels": 161067,
+      "projected_person_points": 13613,
+      "target_mask_pixels": 121871
+    },
+    {
+      "frame": 16,
+      "source_grabcut_pixels": 108309,
+      "projected_person_points": 8372,
+      "target_mask_pixels": 51059
+    }
+  ]
+}
