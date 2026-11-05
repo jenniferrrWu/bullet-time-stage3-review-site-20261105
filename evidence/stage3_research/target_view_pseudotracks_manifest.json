@@ -1,0 +1,117 @@
+{
+  "method": "CoW source tracks projected with actual DD Pi3X depth and renderer target camera, 3x3 z-buffer visibility",
+  "not_multiview_ground_truth": true,
+  "not_mvtrack4gen_loss_or_model": true,
+  "source_tracks_sha256": "dcc5f1c975534efbab1d793c82a9d682b8ae8c7e17cdd0049f7088653c526507",
+  "joint_projection_vs_warp_median_error_px": 12.338196227102635,
+  "joint_projection_matched_points": 261,
+  "canvas_wh": [
+    704,
+    1280
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "source_visible_points": 99681,
+      "target_in_frame_points": 76380,
+      "target_after_zbuffer_points": 72629
+    },
+    {
+      "frame": 1,
+      "source_visible_points": 96193,
+      "target_in_frame_points": 74835,
+      "target_after_zbuffer_points": 69425
+    },
+    {
+      "frame": 2,
+      "source_visible_points": 95531,
+      "target_in_frame_points": 74495,
+      "target_after_zbuffer_points": 69276
+    },
+    {
+      "frame": 3,
+      "source_visible_points": 95082,
+      "target_in_frame_points": 74156,
+      "target_after_zbuffer_points": 68076
+    },
+    {
+      "frame": 4,
+      "source_visible_points": 94837,
+      "target_in_frame_points": 73980,
+      "target_after_zbuffer_points": 67981
+    },
+    {
+      "frame": 5,
+      "source_visible_points": 94462,
+      "target_in_frame_points": 73759,
+      "target_after_zbuffer_points": 67953
+    },
+    {
+      "frame": 6,
+      "source_visible_points": 94273,
+      "target_in_frame_points": 73676,
+      "target_after_zbuffer_points": 68083
+    },
+    {
+      "frame": 7,
+      "source_visible_points": 94062,
+      "target_in_frame_points": 73509,
+      "target_after_zbuffer_points": 68434
+    },
+    {
+      "frame": 8,
+      "source_visible_points": 92679,
+      "target_in_frame_points": 72445,
+      "target_after_zbuffer_points": 67289
+    },
+    {
+      "frame": 9,
+      "source_visible_points": 91815,
+      "target_in_frame_points": 71932,
+      "target_after_zbuffer_points": 67033
+    },
+    {
+      "frame": 10,
+      "source_visible_points": 90986,
+      "target_in_frame_points": 71405,
+      "target_after_zbuffer_points": 66645
+    },
+    {
+      "frame": 11,
+      "source_visible_points": 90009,
+      "target_in_frame_points": 70718,
+      "target_after_zbuffer_points": 66476
+    },
+    {
+      "frame": 12,
+      "source_visible_points": 88966,
+      "target_in_frame_points": 69920,
+      "target_after_zbuffer_points": 65795
+    },
+    {
+      "frame": 13,
+      "source_visible_points": 87021,
+      "target_in_frame_points": 68112,
+      "target_after_zbuffer_points": 64791
+    },
+    {
+      "frame": 14,
+      "source_visible_points": 86108,
+      "target_in_frame_points": 67493,
+      "target_after_zbuffer_points": 64281
+    },
+    {
+      "frame": 15,
+      "source_visible_points": 85767,
+      "target_in_frame_points": 67413,
+      "target_after_zbuffer_points": 64177
+    },
+    {
+      "frame": 16,
+      "source_visible_points": 85366,
+      "target_in_frame_points": 67381,
+      "target_after_zbuffer_points": 64391
+    }
+  ],
+  "caveat": "Depth error, disocclusion and synthetic warp prevent treating these as supervised target-view tracks."
+}
