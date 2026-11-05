@@ -1,0 +1,2 @@
+input,video,depth,mask,prompt,input_image
+input.mp4,target.mp4,dw_depth.mp4,dw_mask.mp4,A person performs standing arm and leg exercises on an indoor stage while the target camera stays fixed.,input_image_target_first.png

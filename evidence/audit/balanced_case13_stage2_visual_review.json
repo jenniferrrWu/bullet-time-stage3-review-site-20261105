@@ -1,0 +1,23 @@
+{
+  "case": "balanced_case13",
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case13_stage2_abc.jpg",
+  "A": {
+    "source_highlight": 169,
+    "source_pose_mean_valid_joints": 8.0,
+    "source_camera_rotation_degrees_25f": 34.12,
+    "stage2_endpoint_observation": "Dancer disappears entirely at orbit endpoint; only wall and rooftop remain. Stage2 visual quality fails."
+  },
+  "B": {
+    "source_highlight": 565,
+    "source_pose_mean_valid_joints": 13.49,
+    "source_camera_rotation_degrees_37f": 9.63,
+    "stage2_endpoint_observation": "Dancer remains visible and structurally coherent at 45-degree orbit endpoint, with background parallax."
+  },
+  "C": {
+    "source_highlight": 961,
+    "source_pose_mean_valid_joints": 10.59,
+    "source_camera_rotation_degrees_49f": 60.82,
+    "stage2_endpoint_observation": "Dancer is a very tight crop at source and orbit endpoint; composition is not full body."
+  },
+  "stage3_status": "native runs in progress"
+}

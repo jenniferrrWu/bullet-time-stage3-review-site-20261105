@@ -1,0 +1,68 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "window": [
+    75,
+    107
+  ],
+  "sampled_pairs": [
+    {
+      "from_frame": 75,
+      "to_frame": 83,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 349,
+      "homography_inliers": 251,
+      "inlier_median_displacement_fraction_of_diagonal": 0.002662403741851449,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.006536820437759161
+    },
+    {
+      "from_frame": 83,
+      "to_frame": 91,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 524,
+      "homography_inliers": 408,
+      "inlier_median_displacement_fraction_of_diagonal": 0.021898062899708748,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.029458433389663696
+    },
+    {
+      "from_frame": 91,
+      "to_frame": 99,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 593,
+      "homography_inliers": 419,
+      "inlier_median_displacement_fraction_of_diagonal": 0.03732305020093918,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.03923603892326355
+    },
+    {
+      "from_frame": 99,
+      "to_frame": 107,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 804,
+      "homography_inliers": 605,
+      "inlier_median_displacement_fraction_of_diagonal": 0.04322214052081108,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.045659983158111574
+    }
+  ],
+  "endpoint_pair": {
+    "keypoints": [
+      2500,
+      2500
+    ],
+    "ratio_matches": 126,
+    "homography_inliers": 70,
+    "inlier_median_displacement_fraction_of_diagonal": 0.10417097806930542,
+    "inlier_p90_displacement_fraction_of_diagonal": 0.10926975384354591
+  },
+  "interpretation": "Background feature motion advisory. Large displacement or lost matches can flag source camera/pan/occlusion risk for fixed-view Stage3, but body motion, low texture, depth parallax and repetitive architecture can confound. Never a Stage3 quality pass/fail threshold."
+}

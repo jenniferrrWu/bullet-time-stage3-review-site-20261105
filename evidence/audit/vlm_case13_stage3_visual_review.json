@@ -1,0 +1,19 @@
+{
+  "case": "vlm_selected_case13",
+  "selected_highlight_frame": 396,
+  "native_stage3_frames_decoded": 25,
+  "actual_stage2_endpoint_binding": true,
+  "stage3_static_camera_matches_stage2_numeric_endpoint": true,
+  "native_pin_count": 50,
+  "final_latent_max_abs_delta": 0.0,
+  "source_and_generated_frames_inspected": [
+    0,
+    4,
+    8,
+    12,
+    20,
+    24
+  ],
+  "observation": "Stage3 action broadly follows the source dancer poses at corresponding 25-frame indices from a changed viewpoint. Identity and rooftop background remain recognizable; no severe middle-frame melt in the sampled window. A small transient dark artifact appears at the upper edge around f12. The dancer stays cropped at the bottom due the planner-selected highlight composition.",
+  "conclusion": "Native 25-frame VLM→DD Stage3 execution succeeds technically and appears usable in these samples, but planner optimality is contradicted by A frame crop, and this is a short window rather than all remaining source action. Full continuous playback and seam check remain."
+}

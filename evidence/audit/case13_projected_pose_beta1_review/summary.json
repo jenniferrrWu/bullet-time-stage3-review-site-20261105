@@ -1,0 +1,40 @@
+{
+  "source_window": [
+    845,
+    865
+  ],
+  "native_hashes": {
+    "0p0": "784963289e9486772803af3c149fcfe6f68fec8c29fe413fc1522c7f787a627e",
+    "0p5": "f25e1dfefe35eaf7ad57dff02f8d2c8b7737f5eaac95f6ca60ee8c1abb5e0887",
+    "1p0": "9993471886fd2e1f4fe94fea21227ce01b373070d29f329390c38699456e4cc6"
+  },
+  "five_inputs_identical": true,
+  "official_weights_unchanged": true,
+  "beta0_original_sha_exact": true,
+  "late_arm_error_px": {
+    "beta0": 41.6218127643556,
+    "beta0p5": 37.98806766001311,
+    "beta1": 39.184416112309925
+  },
+  "all_frame_median_error_px": {
+    "beta0": 16.763830298235963,
+    "beta0p5": 15.53995831309727,
+    "beta1": 15.381039725575183
+  },
+  "person_gray_std_trend_relative_source": {
+    "beta0": 1.0436873644796136,
+    "beta0p5": 0.9615424406097869,
+    "beta1": 0.9785667159234062
+  },
+  "beta1_detected_frames": 21,
+  "holistic_visual_review": "All 21 native frames and enlarged f10/f15/f20 crops: beta1 preserves dancer and rooftop throughout, like baseline and beta0.5, and pushes raised hand somewhat forward. Face/hand remain soft and orbit still modest. Stronger beta does not clearly improve whole-video quality over beta0.5 or baseline; late-arm mean error is nonmonotonic (41.62 -> 37.99 -> 39.18 px for beta0/0.5/1), with contrast trend below baseline at both nonzero settings.",
+  "caveat": "Pose detector has known left/right knee confusion in beta0.5; full visual assessment controls. These are only one source window and target angle.",
+  "keypoint_tracking": "beta0.5 official DWPose knee labels collapse at f10/f20 despite visible raised leg, while beta1 detects separated knees; therefore all-joint aggregate across variants is not a reliable ranking metric.",
+  "artifacts": [
+    "audit/case13_projected_pose_beta1_review/stage3_dense.jpg",
+    "audit/case13_projected_pose_beta1_review/person_crops.jpg",
+    "audit/case13_projected_pose_beta1_review/beta_0p0_all21.jpg",
+    "audit/case13_projected_pose_beta1_review/beta_0p5_all21.jpg",
+    "audit/case13_projected_pose_beta1_review/beta_1p0_all21.jpg"
+  ]
+}

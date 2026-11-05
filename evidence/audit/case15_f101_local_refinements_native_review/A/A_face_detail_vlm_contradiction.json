@@ -1,0 +1,106 @@
+{
+  "scope": "Native DD case15 A all-window reduced-size VLM judgement versus independent source/generated late-face crop evidence",
+  "vlm_all_frame_256px_claims": {
+    "clear_details": "pass",
+    "whole_video_quality": "pass",
+    "second_half_evidence": "Frames 13-24: Generated frames maintain consistent motion, person presence, and scene details. Limb and torso transitions align with source action.",
+    "limitations": "No visible detail loss or motion discontinuity observed in any frame. All elements remain clear and consistent throughout."
+  },
+  "face_crops": [
+    {
+      "frame": 0,
+      "source": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+        "bbox_xyxy": [
+          282,
+          326,
+          374,
+          418
+        ],
+        "laplacian_variance_after_200px_resize": 8.435
+      },
+      "generated": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+        "bbox_xyxy": [
+          182,
+          326,
+          275,
+          419
+        ],
+        "laplacian_variance_after_200px_resize": 7.861
+      }
+    },
+    {
+      "frame": 12,
+      "source": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+        "bbox_xyxy": [
+          268,
+          290,
+          384,
+          406
+        ],
+        "laplacian_variance_after_200px_resize": 10.615
+      },
+      "generated": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+        "bbox_xyxy": [
+          153,
+          280,
+          256,
+          383
+        ],
+        "laplacian_variance_after_200px_resize": 5.048
+      }
+    },
+    {
+      "frame": 20,
+      "source": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+        "bbox_xyxy": [
+          255,
+          315,
+          375,
+          435
+        ],
+        "laplacian_variance_after_200px_resize": 13.426
+      },
+      "generated": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+        "bbox_xyxy": [
+          151,
+          228,
+          267,
+          344
+        ],
+        "laplacian_variance_after_200px_resize": 6.529
+      }
+    },
+    {
+      "frame": 24,
+      "source": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+        "bbox_xyxy": [
+          259,
+          319,
+          379,
+          439
+        ],
+        "laplacian_variance_after_200px_resize": 15.639
+      },
+      "generated": {
+        "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+        "bbox_xyxy": [
+          157,
+          231,
+          271,
+          345
+        ],
+        "laplacian_variance_after_200px_resize": 5.378
+      }
+    }
+  ],
+  "crop_contact": "/root/bullet_time_research_20261102/audit/case15_f101_local_refinements_native_review/A/A_face_crops_late.jpg",
+  "finding": "VLM claims no visible detail loss and whole-video pass, contradicted by f12/f20/f24 crop comparison; generated face softens and ghosts while source remains sharper. VLM pass is invalid.",
+  "proxy_limit": "Laplacian variance changes with pose, view, scale, texture and compression; it supports but cannot alone establish perceptual quality."
+}

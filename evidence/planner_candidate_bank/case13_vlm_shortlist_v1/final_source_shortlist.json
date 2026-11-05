@@ -1,0 +1,71 @@
+{
+  "items": [
+    [
+      "candidate_f280_offset_0",
+      280
+    ],
+    [
+      "candidate_f280_offset_8",
+      288
+    ],
+    [
+      "candidate_f280_offset_16",
+      296
+    ],
+    [
+      "candidate_f430_offset_0",
+      430
+    ],
+    [
+      "candidate_f430_offset_8",
+      438
+    ],
+    [
+      "candidate_f430_offset_16",
+      446
+    ],
+    [
+      "candidate_f622_offset_0",
+      622
+    ],
+    [
+      "candidate_f622_offset_8",
+      630
+    ],
+    [
+      "candidate_f622_offset_16",
+      638
+    ],
+    [
+      "candidate_f1075_offset_0",
+      1075
+    ],
+    [
+      "candidate_f1075_offset_8",
+      1083
+    ],
+    [
+      "candidate_f1075_offset_16",
+      1091
+    ]
+  ],
+  "prompt": "Choose EXACTLY THREE distinct candidate highlight frames from [280, 430, 622, 1075]. Each is shown at the frozen frame and +8/+16 source frames. Compare impact, person framing, real subsequent action, camera pan/crop risk and DD Stage3 feasibility. No generated result is shown, so this is not a final quality verdict. Return JSON exactly {\"candidate_frames\": [three increasing frame integers], \"evidence_by_frame\": {\"frame_id\": \"short visible observation\"}, \"risks\": [strings]}. Do not select an angle yet; angle and direction belong to the later VLM plan and real output feedback.",
+  "raw": "{\n  \"candidate_frames\": [280, 430, 622],\n  \"evidence_by_frame\": {\n    \"280\": \"Person in mid-motion with leg extended, dynamic pose; background includes cityscape and building facade. No visible camera movement in this frame.\",\n    \"430\": \"Person in wide stance with arms extended, dynamic pose; background shows cityscape and outdoor furniture. No visible camera movement in this frame.\",\n    \"622\": \"Person in balanced pose with one leg on a mat, dynamic pose; background includes distinctive building and cityscape. No visible camera movement in this frame.\"\n  },\n  \"risks\": [\n    \"All frames show similar camera angles and framing, increasing risk of repetitive motion in generated video.\",\n    \"No visible camera pan/crop in source frames, which may limit dynamic transitions in generated output.\",\n    \"All selected frames are from the same person in similar attire, increasing risk of visual monotony in generated video.\"\n  ]\n}",
+  "parsed": {
+    "candidate_frames": [
+      280,
+      430,
+      622
+    ],
+    "evidence_by_frame": {
+      "280": "Person in mid-motion with leg extended, dynamic pose; background includes cityscape and building facade. No visible camera movement in this frame.",
+      "430": "Person in wide stance with arms extended, dynamic pose; background shows cityscape and outdoor furniture. No visible camera movement in this frame.",
+      "622": "Person in balanced pose with one leg on a mat, dynamic pose; background includes distinctive building and cityscape. No visible camera movement in this frame."
+    },
+    "risks": [
+      "All frames show similar camera angles and framing, increasing risk of repetitive motion in generated video.",
+      "No visible camera pan/crop in source frames, which may limit dynamic transitions in generated output.",
+      "All selected frames are from the same person in similar attire, increasing risk of visual monotony in generated video."
+    ]
+  }
+}

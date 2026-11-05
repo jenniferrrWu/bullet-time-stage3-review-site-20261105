@@ -1,0 +1,129 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "source_sha256": "09b35598b6560171c10b51f5d5c8d4d0326efe4623de440f129186ddbcb615db",
+  "source_metadata": {
+    "width": 2560,
+    "height": 1440,
+    "frames": 1092,
+    "fps": 29.97002997002997,
+    "fps_rational": "30000/1001"
+  },
+  "expected_uniform_coarse_frames": [
+    0,
+    56,
+    113,
+    169,
+    226,
+    282,
+    339,
+    396,
+    452,
+    509,
+    565,
+    622,
+    678,
+    735,
+    792,
+    848,
+    905,
+    961,
+    1018,
+    1075
+  ],
+  "archive_count": 3,
+  "archives": [
+    {
+      "path": "/root/bullet_time_research_20261102/planner_case13_30b/coarse.json",
+      "raw_candidate_frames": [
+        396,
+        622,
+        961
+      ],
+      "mapped_frames": [
+        396,
+        622,
+        961
+      ],
+      "interpretation": "absolute_video_frame",
+      "reasons": [
+        "Frame 396 shows a clear peak pose with extended limbs and balanced weight distribution, ideal for bullet time's geometric feasibility.",
+        "Frame 622 captures a visible body in a dynamic yet stable pose with clear spatial relationships to the environment, enhancing understanding of the action.",
+        "Frame 961 presents an understandable action with a dramatic arm extension and body alignment, offering strong visual impact for bullet time."
+      ]
+    },
+    {
+      "path": "/root/bullet_time_research_20261102/planner_v12_case13_30b/coarse.json",
+      "raw_candidate_frames": [
+        11,
+        15,
+        19
+      ],
+      "mapped_frames": [
+        622,
+        848,
+        1075
+      ],
+      "interpretation": "shown_image_ordinal_mapped_to_video_frame",
+      "reasons": [
+        "coarse_11: Frame 622 shows the dancer in a dynamic pose with arms raised above the head, fully visible body, and clear cityscape background. The motion is fluid and geometrically distinct.",
+        "coarse_15: Frame 848 captures a high kick with one leg extended upward, full body visible, and balanced posture. The geometry of the pose is striking against the rooftop setting.",
+        "coarse_19: Frame 1075 displays the dancer with arms raised behind the head, clear body visibility, and a stable pose. The motion is controlled and visually compelling with the cityscape backdrop."
+      ]
+    },
+    {
+      "path": "/root/bullet_time_research_20261102/planner_balanced_case13/coarse_0.json",
+      "raw_candidate_frames": [
+        169,
+        565,
+        961
+      ],
+      "mapped_frames": [
+        169,
+        565,
+        961
+      ],
+      "interpretation": "absolute_video_frame",
+      "reasons": [
+        "Frame 169 shows a clear, dynamic pose with one arm fully extended upward and the body bent forward, creating strong visual motion and geometric contrast against the city backdrop.",
+        "Frame 565 captures a high-energy moment with the dancer mid-movement, arms raised and body angled, conveying strong motion while maintaining full body visibility and clear spatial relationships.",
+        "Frame 961 displays a powerful, extended arm pose with the body twisted, emphasizing motion and form against the city skyline, with full body visibility and distinct geometry."
+      ]
+    }
+  ],
+  "candidate_bank_frames": [
+    169,
+    396,
+    565,
+    622,
+    848,
+    961,
+    1075
+  ],
+  "candidate_provenance": {
+    "396": [
+      "/root/bullet_time_research_20261102/planner_case13_30b/coarse.json"
+    ],
+    "622": [
+      "/root/bullet_time_research_20261102/planner_case13_30b/coarse.json",
+      "/root/bullet_time_research_20261102/planner_v12_case13_30b/coarse.json"
+    ],
+    "961": [
+      "/root/bullet_time_research_20261102/planner_case13_30b/coarse.json",
+      "/root/bullet_time_research_20261102/planner_balanced_case13/coarse_0.json"
+    ],
+    "848": [
+      "/root/bullet_time_research_20261102/planner_v12_case13_30b/coarse.json"
+    ],
+    "1075": [
+      "/root/bullet_time_research_20261102/planner_v12_case13_30b/coarse.json"
+    ],
+    "169": [
+      "/root/bullet_time_research_20261102/planner_balanced_case13/coarse_0.json"
+    ],
+    "565": [
+      "/root/bullet_time_research_20261102/planner_balanced_case13/coarse_0.json"
+    ]
+  },
+  "plus_minus_8_frame_coverage_fraction": 0.10897435897435898,
+  "caveat": "Union improves observed candidate recall relative to individual proposals but does not prove any candidate is the optimal highlight."
+}

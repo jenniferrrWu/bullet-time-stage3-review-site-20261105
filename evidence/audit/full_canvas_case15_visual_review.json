@@ -1,0 +1,22 @@
+{
+  "case": "case15_woman_studio_dance",
+  "native_stage3_frames_decoded": 81,
+  "resolution": [
+    704,
+    1280
+  ],
+  "stage3_actual_stage2_endpoint_binding": true,
+  "native_pin_count": 50,
+  "final_latent_max_abs_delta": 0.0,
+  "source_and_generated_frames_inspected": [
+    0,
+    8,
+    20,
+    40,
+    60,
+    80
+  ],
+  "observation": "Dancer remains fully visible in sampled Stage3 frames, clothing/identity and background remain consistent. Sampled limb poses and action order closely track the same source indices. No severe melting in sampled frames.",
+  "conclusion": "Strong provisional success for the full-canvas portrait pipeline on this case; quality gate still requires full continuous playback and seam evaluation. No historical native Stage3 video for this case was found, so this is not a direct before/after Stage3 comparison.",
+  "limitations": "Only six sampled frames, no full-video blind review or quantitative pose consistency; Stage2 and Stage3 both changed geometry."
+}

@@ -1,0 +1,63 @@
+{
+  "case13_fullbody_C_f845": {
+    "stage2_native": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "stage3_native": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "exact_endpoint_png_matches_stage2_last_decoded": true,
+    "shape_hwc": [
+      704,
+      1280,
+      3
+    ],
+    "stage2_last_vs_stage3_first_mae_rgb_0to255": 1.908743143081665,
+    "psnr_db": 38.66803799501058,
+    "gray_absdiff_p95": 5.0,
+    "mean_abs_rgb_diff_fraction": 0.007485267227771235,
+    "note": "Temporal input anchor confirmed, but native Stage3 first pixel is generated and need not be exact Stage2 last pixel. Visual seam requires human review."
+  },
+  "case15_balanced_A_f101": {
+    "stage2_native": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "stage3_native": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "exact_endpoint_png_matches_stage2_last_decoded": true,
+    "shape_hwc": [
+      1280,
+      704,
+      3
+    ],
+    "stage2_last_vs_stage3_first_mae_rgb_0to255": 1.1979070901870728,
+    "psnr_db": 44.90584530386768,
+    "gray_absdiff_p95": 2.0,
+    "mean_abs_rgb_diff_fraction": 0.004697674863478716,
+    "note": "Temporal input anchor confirmed, but native Stage3 first pixel is generated and need not be exact Stage2 last pixel. Visual seam requires human review."
+  },
+  "case13_old_A_f396": {
+    "stage2_native": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,30.0,0,0,0/depthdirector.mp4",
+    "stage3_native": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30.0,0,0,0/depthdirector.mp4",
+    "exact_endpoint_png_matches_stage2_last_decoded": true,
+    "shape_hwc": [
+      704,
+      1280,
+      3
+    ],
+    "stage2_last_vs_stage3_first_mae_rgb_0to255": 1.83376944065094,
+    "psnr_db": 39.30753528329411,
+    "gray_absdiff_p95": 5.0,
+    "mean_abs_rgb_diff_fraction": 0.007191252708435058,
+    "note": "Temporal input anchor confirmed, but native Stage3 first pixel is generated and need not be exact Stage2 last pixel. Visual seam requires human review."
+  },
+  "case12_balanced_A_f171": {
+    "stage2_native": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "stage3_native": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "exact_endpoint_png_matches_stage2_last_decoded": true,
+    "shape_hwc": [
+      1280,
+      704,
+      3
+    ],
+    "stage2_last_vs_stage3_first_mae_rgb_0to255": 1.48861825466156,
+    "psnr_db": 42.03020363989859,
+    "gray_absdiff_p95": 4.0,
+    "mean_abs_rgb_diff_fraction": 0.005837718645731608,
+    "note": "Temporal input anchor confirmed, but native Stage3 first pixel is generated and need not be exact Stage2 last pixel. Visual seam requires human review."
+  },
+  "_holistic_interpretation": "Four native case12/13/15 examples: exact Stage2 last decoded pixel equals endpoint PNG; Stage3 f0 visually close with mean RGB abs difference 1.20..1.91/255 and PSNR 38.7..44.9 dB. These are sampled first-frame seam checks, not proof of later Stage3 quality or generality."
+}

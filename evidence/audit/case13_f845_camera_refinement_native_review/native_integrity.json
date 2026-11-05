@@ -1,0 +1,200 @@
+{
+  "BASE": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c",
+    "candidate": {
+      "id": "C",
+      "highlight_frame": 845,
+      "orbit_direction": "left",
+      "orbit_degrees": 20,
+      "orbit_seconds": 3.1,
+      "action_num_frames": 21,
+      "action_seconds": 0.7,
+      "reason": "Peak pose: dancer in a high kick with one leg extended, side view showing balance and form. Left orbit reveals the satellite dish structure behind her. Action starts at frame 845 (mid-kick) and continues for 21 frames (0.7s) to capture the kick's peak and recovery. Background camera pan is minimal; dancer is fully visible with no occlusion.",
+      "score": 0.655
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.6083752388561959,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 21,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/shared_geometry/pose.npy",
+      "first_median_depth": 42.83744812011719,
+      "endpoint_rotation_degrees": 5.969732285565063,
+      "maximum_rotation_degrees": 5.969732285565063,
+      "max_step_rotation_degrees": 0.4658782559414761,
+      "endpoint_translation_depth_units": 0.9545187887256763,
+      "maximum_translation_depth_units": 0.9545187887256763,
+      "endpoint_translation_over_first_median_depth": 0.02228234478508579,
+      "maximum_translation_over_first_median_depth": 0.02228234478508579,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.08408833400605575,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 5,
+          "rotation_degrees": 1.9299941416530457,
+          "translation_over_first_median_depth": 0.0021300462894676556
+        },
+        {
+          "frame": 10,
+          "rotation_degrees": 3.9101404322080637,
+          "translation_over_first_median_depth": 0.006264522399076408
+        },
+        {
+          "frame": 15,
+          "rotation_degrees": 5.106591262527607,
+          "translation_over_first_median_depth": 0.011583439418846597
+        },
+        {
+          "frame": 20,
+          "rotation_degrees": 5.969732285565063,
+          "translation_over_first_median_depth": 0.02228234478508579
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 21,
+      "peak_excess_frame": 20,
+      "peak_pale_bright_excess": -0.02530073686079548,
+      "peak_generated_pale_bright_fraction": 0.3494418057528409
+    },
+    "integrity": "passed"
+  },
+  "D": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_d",
+    "candidate": {
+      "id": "C",
+      "highlight_frame": 845,
+      "orbit_direction": "right",
+      "orbit_degrees": 35,
+      "orbit_seconds": 2.5,
+      "action_num_frames": 21,
+      "action_seconds": 0.7,
+      "reason": "VLM camera refinement Right orbit at 35° should create stronger parallax on the dancer's extended limbs and the rooftop structure, enhancing depth perception without excessive crop. 2.5s duration balances motion smoothness and action visibility.",
+      "score": 0.655
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_d/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_d/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_d/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.4364108263156114,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 21,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_d/shared_geometry/pose.npy",
+      "first_median_depth": 42.83744812011719,
+      "endpoint_rotation_degrees": 5.969732285565063,
+      "maximum_rotation_degrees": 5.969732285565063,
+      "max_step_rotation_degrees": 0.4658782559414761,
+      "endpoint_translation_depth_units": 0.9545187887256763,
+      "maximum_translation_depth_units": 0.9545187887256763,
+      "endpoint_translation_over_first_median_depth": 0.02228234478508579,
+      "maximum_translation_over_first_median_depth": 0.02228234478508579,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.08408833400605575,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 5,
+          "rotation_degrees": 1.9299941416530457,
+          "translation_over_first_median_depth": 0.0021300462894676556
+        },
+        {
+          "frame": 10,
+          "rotation_degrees": 3.9101404322080637,
+          "translation_over_first_median_depth": 0.006264522399076408
+        },
+        {
+          "frame": 15,
+          "rotation_degrees": 5.106591262527607,
+          "translation_over_first_median_depth": 0.011583439418846597
+        },
+        {
+          "frame": 20,
+          "rotation_degrees": 5.969732285565063,
+          "translation_over_first_median_depth": 0.02228234478508579
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 21,
+      "peak_excess_frame": 20,
+      "peak_pale_bright_excess": -0.0751498135653409,
+      "peak_generated_pale_bright_fraction": 0.2995927290482955
+    },
+    "integrity": "passed"
+  },
+  "E": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_e",
+    "candidate": {
+      "id": "C",
+      "highlight_frame": 845,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 3.5,
+      "action_num_frames": 21,
+      "action_seconds": 0.7,
+      "reason": "VLM camera refinement Left orbit at 45° increases parallax on the dancer's raised leg and the building's facade, emphasizing spatial relationships. 3.5s duration allows more frame coverage for Stage3 while keeping motion within safe crop limits.",
+      "score": 0.655
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_e/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_e/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_e/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.3420442919710498,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 21,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case13_f845_refine_e/shared_geometry/pose.npy",
+      "first_median_depth": 42.83744812011719,
+      "endpoint_rotation_degrees": 5.969732285565063,
+      "maximum_rotation_degrees": 5.969732285565063,
+      "max_step_rotation_degrees": 0.4658782559414761,
+      "endpoint_translation_depth_units": 0.9545187887256763,
+      "maximum_translation_depth_units": 0.9545187887256763,
+      "endpoint_translation_over_first_median_depth": 0.02228234478508579,
+      "maximum_translation_over_first_median_depth": 0.02228234478508579,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.08408833400605575,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 5,
+          "rotation_degrees": 1.9299941416530457,
+          "translation_over_first_median_depth": 0.0021300462894676556
+        },
+        {
+          "frame": 10,
+          "rotation_degrees": 3.9101404322080637,
+          "translation_over_first_median_depth": 0.006264522399076408
+        },
+        {
+          "frame": 15,
+          "rotation_degrees": 5.106591262527607,
+          "translation_over_first_median_depth": 0.011583439418846597
+        },
+        {
+          "frame": 20,
+          "rotation_degrees": 5.969732285565063,
+          "translation_over_first_median_depth": 0.02228234478508579
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 21,
+      "peak_excess_frame": 20,
+      "peak_pale_bright_excess": -0.09886585582386365,
+      "peak_generated_pale_bright_fraction": 0.27587668678977273
+    },
+    "integrity": "passed"
+  }
+}

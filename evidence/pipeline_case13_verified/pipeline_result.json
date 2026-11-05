@@ -1,0 +1,38 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "source_metadata": {
+    "width": 2560,
+    "height": 1440,
+    "frames": 1092,
+    "fps": 29.97002997002997,
+    "fps_rational": "30000/1001"
+  },
+  "plan": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/planner_plan.json",
+  "plan_sha256": "838816c17d1df7c3f70b7b5092e4d0f6d82ba22a9082869bca0f89f34be3e355",
+  "executed_candidates": {
+    "A": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_case13_v11",
+      "stage3_valid_mesh_fraction_mean": 0.26089106889204544,
+      "source_camera_endpoint_rotation_degrees": 6.078382448272321,
+      "peak_pale_bright_excess": -0.22702192826704543
+    },
+    "B": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_b",
+      "stage3_valid_mesh_fraction_mean": 0.17059726347279613,
+      "source_camera_endpoint_rotation_degrees": 10.984174106885856,
+      "peak_pale_bright_excess": -0.03562233664772729
+    },
+    "C": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_c",
+      "stage3_valid_mesh_fraction_mean": 0.6585273620279078,
+      "source_camera_endpoint_rotation_degrees": 26.056643682814176,
+      "peak_pale_bright_excess": 0.6697232333096591
+    }
+  },
+  "feedback": "/root/bullet_time_research_20261102/planner_case13_dd_feedback_abc/result.json",
+  "selected_id": "A",
+  "selected_complete_video": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/complete.mp4",
+  "selection_scope": "best of three VLM-proposed, executed native DD candidates",
+  "global_optimality_proven": false,
+  "human_quality_acceptance": "pending"
+}

@@ -1,0 +1,83 @@
+{
+  "A": {
+    "native_integrity": "passed",
+    "motion": {
+      "frames": 25,
+      "source_detected_frames": 25,
+      "generated_detected_frames": 25,
+      "orbit_degrees": 30,
+      "wrist_ranges": {
+        "left_wrist": {
+          "source_body_units": 0.556648370417008,
+          "generated_body_units": 0.6839276728191348,
+          "retained_range_ratio": 1.228652968671725
+        },
+        "right_wrist": {
+          "source_body_units": 0.7847563960526173,
+          "generated_body_units": 0.8702859526957134,
+          "retained_range_ratio": 1.1089886709726944
+        }
+      },
+      "diagnostic_applicable": true,
+      "severe_bilateral_wrist_motion_suppression": false,
+      "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+    },
+    "scene": {
+      "source_absent_structure": false,
+      "confirmed_in_full_video": false
+    },
+    "holistic_review": {
+      "reviewed_full_window": false,
+      "quality_pass": null,
+      "observed_failure": false,
+      "source": "audit/v12_balanced_case15_stage3_holistic_review.json",
+      "note": "A is relatively stronger but late face/hand blur and overall acceptance remain unverified."
+    },
+    "detail": {
+      "confirmed_from_native_frames": true,
+      "observed_late_face_detail_loss": true,
+      "source": "audit/case15_f101_local_refinements_native_review/A/A_face_detail_vlm_contradiction.json",
+      "native_frames": [
+        0,
+        12,
+        20,
+        24
+      ],
+      "description": "Directly compared face crops from exact source/native Stage3 videos; generated f20/f24 face ghosts and blurs while source stays clear. Focused VLM also reports no late-face detail retention."
+    }
+  },
+  "B": {
+    "native_integrity": "passed",
+    "motion": {
+      "diagnostic_applicable": false
+    },
+    "scene": {
+      "source_absent_structure": true,
+      "confirmed_in_full_video": false
+    },
+    "holistic_review": {
+      "reviewed_full_window": false,
+      "quality_pass": false,
+      "observed_failure": true,
+      "source": "audit/v12_balanced_case15_stage3_holistic_review.json",
+      "note": "Observed pale/ghosted person and action timing divergence."
+    }
+  },
+  "C": {
+    "native_integrity": "passed",
+    "motion": {
+      "diagnostic_applicable": false
+    },
+    "scene": {
+      "source_absent_structure": false,
+      "confirmed_in_full_video": false
+    },
+    "holistic_review": {
+      "reviewed_full_window": true,
+      "quality_pass": false,
+      "observed_failure": true,
+      "source": "audit/v12_balanced_case15_stage3_holistic_review.json",
+      "note": "Observed progressive fade and frozen arm action across full 17-frame window."
+    }
+  }
+}

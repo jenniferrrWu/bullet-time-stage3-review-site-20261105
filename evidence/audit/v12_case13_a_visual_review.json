@@ -1,0 +1,15 @@
+{
+  "candidate": "A",
+  "plan": "v1.2 case13 f622 left30 25f",
+  "native_visual_frames": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ],
+  "source_relative_contact_sheet": "/root/bullet_time_research_20261102/audit/v12_case13_a_stage3.jpg",
+  "observation": "Native person remains coherent but almost fixed in initial hands-behind-head stance throughout 25 frames. Source bends progressively down and brings hands/arms down. Background begins to smear at later frames. Action fidelity fails despite intact initial body and geometry coverage.",
+  "quality_pass": false,
+  "awaiting": "full-frame DWPose and native completion integrity"
+}

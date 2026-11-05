@@ -1,0 +1,78 @@
+{
+  "right_elbow": {
+    "common_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "source_xy_range_body_units": [
+      0.7232003132617274,
+      0.8009876311431741
+    ],
+    "baseline": {
+      "motion_delta_mae_body_units": 0.4539283323677642,
+      "generated_xy_range_body_units": [
+        0.25494671496977583,
+        0.10530943884374627
+      ]
+    },
+    "pose_motion": {
+      "motion_delta_mae_body_units": 0.45492962100334483,
+      "generated_xy_range_body_units": [
+        0.18660601554932543,
+        0.15265951992194754
+      ]
+    }
+  },
+  "right_wrist": {
+    "common_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "source_xy_range_body_units": [
+      1.1744867781047055,
+      0.9783915406509107
+    ],
+    "baseline": {
+      "motion_delta_mae_body_units": 0.8676106786136231,
+      "generated_xy_range_body_units": [
+        0.13785472501793306,
+        0.10751291847302318
+      ]
+    },
+    "pose_motion": {
+      "motion_delta_mae_body_units": 0.8410881548825478,
+      "generated_xy_range_body_units": [
+        0.10708016012151633,
+        0.07821669637691103
+      ]
+    }
+  }
+}

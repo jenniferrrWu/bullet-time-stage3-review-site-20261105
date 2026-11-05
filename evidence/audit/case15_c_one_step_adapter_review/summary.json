@@ -1,0 +1,61 @@
+{
+  "experiment": "Single MultiCamWarp synthetic-sample optimizer step applied to official DD camera encoder+DiT LoRA, native inference on real case15 C 17-frame hardcase. Same effective media, Stage2 endpoint, prompt and initial noise as official baseline; checkpoint only changed.",
+  "native_integrity": "passed",
+  "checkpoint_sha256": "20f537929634cdb904821484c1f5fdaa21de4a8ad2d8b1a707dd5747e9d48d1d",
+  "official_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "adapted_sha256": "41cc50d475efeed95a80901634991e064874daa4b610dce3cf46ab6edba83f40",
+  "decoded_rgb_mae_per_frame": [
+    0.1437954989346591,
+    0.3466541637073864,
+    0.3547274502840909,
+    0.3765103426846591,
+    0.30023933179450757,
+    0.3861642548532197,
+    0.3497891512784091,
+    0.38779407848011366,
+    0.32839022549715907,
+    0.44892282196969696,
+    0.4401522549715909,
+    0.4888046727035985,
+    0.44497107303503786,
+    0.43455551609848486,
+    0.3988832415956439,
+    0.43024273496685606,
+    0.37814349550189397
+  ],
+  "decoded_rgb_mae_mean": 0.37874942990335336,
+  "pose": {
+    "official": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ]
+    },
+    "one_step_adapter": {
+      "core_motion_error_body_units": 0.08546668807039884,
+      "limb_motion_error_body_units": 0.6339483480189849,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.18139191801375287,
+        0.21746327847008645
+      ]
+    }
+  },
+  "person_gray_contrast_trend_over_source": {
+    "official": 0.6572024377505468,
+    "one_step_adapter": 0.6561874888929277
+  },
+  "holistic_visual_review": "All 17 native adapter frames inspected against source and official baseline. Output remains very close to official (mean decoded RGB MAE 0.379/255), progressively loses person contrast and detail, and fails to reproduce source right-arm sweep. Slight extra wrist movement is not a whole-action gain; limb motion error worsens 0.484 to 0.634 body units. No scene or camera quality breakthrough.",
+  "quality_pass": false,
+  "caveat": "One synthetic scene and one optimizer step cannot establish training benefit or generalization; inspect all 17 frames and use held-out multi-scene training before judging adapter direction.",
+  "training_conclusion": "Training-to-inference adapter path works and the checkpoint affects output, but one synthetic scene/one step does not improve this real Stage3 hardcase. Multi-scene, fixed-target-view data and held-out validation remain necessary."
+}

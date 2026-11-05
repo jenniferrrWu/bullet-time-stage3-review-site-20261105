@@ -1,0 +1,34 @@
+{
+  "training_seed": 20261105,
+  "data": "SJTU Dancer and Broadcast Gymnast 17-frame fixed target-view windows; target f0 input_image anchor",
+  "official_sha256": "4917061c35476a248c408202b0e5852256a561f25c9a4f497d3ade27e49a74f5",
+  "baseline_sha256": "c99d9db70c19bdd07efb0d249b34b7f855006d80c36565ab07efb9cc90b58972",
+  "pose_motion_sha256": "141b02a3d8d63fd2abb02a66d51300e7fe698aa4d208c7198b365d8fba5c75f6",
+  "checkpoint_keys": 608,
+  "changed_vs_official": {
+    "baseline": 608,
+    "pose_motion": 608
+  },
+  "changed_between_variants": 608,
+  "max_abs_tensor_difference_between_variants": 5.340576171875e-05,
+  "paired_step_losses": [
+    {
+      "step": 1,
+      "baseline_loss": 0.037852201610803604,
+      "pose_loss_base_component_reweighted": 0.037852203046628036,
+      "matched": true,
+      "pose_total_loss": 0.07530508935451508,
+      "timestep_id": 315
+    },
+    {
+      "step": 2,
+      "baseline_loss": 0.10217313468456268,
+      "pose_loss_base_component_reweighted": 0.10212548194363236,
+      "matched": true,
+      "pose_total_loss": 0.15774688124656677,
+      "timestep_id": 595
+    }
+  ],
+  "baseline_log_has_first_n_step_losses": 2,
+  "interpretation": "First step base loss matches under common initialization/data/noise. Later changes reflect distinct loss updates; checkpoint differences do not prove video improvement."
+}

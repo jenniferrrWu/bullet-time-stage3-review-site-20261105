@@ -1,0 +1,14 @@
+{
+  "video": "case13_woman_rooftop_dance",
+  "candidate_frames_inspected": [
+    396,
+    622,
+    961
+  ],
+  "observation": {
+    "A_396": "Selected A shows dancer cut at bottom edge: legs/feet are partially outside original frame. Model text says pose fully visible and risk says left-side crop, both inaccurate.",
+    "B_622": "Dancer appears fully within frame at sampled still and has clearer whole-body geometry.",
+    "C_961": "Dancer is close to camera and cropped at bottom/side; moving background."
+  },
+  "conclusion": "Current candidate scoring is not validated as optimal. Candidate B appears preferable on whole-body visibility, but this alone does not prove best orbit/duration or native DD quality. Need independent visibility/reranking and actual DD outcome."
+}

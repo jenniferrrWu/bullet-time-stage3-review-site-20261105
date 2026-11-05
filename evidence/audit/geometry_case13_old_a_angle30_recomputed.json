@@ -1,0 +1,43 @@
+{
+  "mask": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30.0,0,0,0/dw_mask.mp4",
+  "sha256": "addb53f18b8ee37d33be8599dfc46fe66a8ef2fb4734688e315a1cb4bad13106",
+  "meaning": "Fraction of target pixels with a rendered dynamic mesh face; white=valid per tools/recam/geometry/dynamic_mesh.py, black=uncovered",
+  "frame_count": 25,
+  "valid_fraction": {
+    "mean": 0.26089106889204544,
+    "min": 0.13699840198863636,
+    "p10": 0.14069491299715908,
+    "median": 0.2871548739346591,
+    "p90": 0.33939408735795457,
+    "max": 0.34682506214488634,
+    "fraction_frames_below_0_20": 0.28
+  },
+  "per_frame_valid_fraction": [
+    0.2870938387784091,
+    0.2871548739346591,
+    0.3071044921875,
+    0.30979669744318183,
+    0.3202936345880682,
+    0.31121826171875,
+    0.34223854758522726,
+    0.33506636186079547,
+    0.34682506214488634,
+    0.33384121981534093,
+    0.3405206853693182,
+    0.3377041903409091,
+    0.32439963600852273,
+    0.2991233132102273,
+    0.26469171697443183,
+    0.24867387251420456,
+    0.22294921875,
+    0.20904319069602273,
+    0.19348255504261364,
+    0.18155517578125,
+    0.16215487393465908,
+    0.14456676136363636,
+    0.13811368075284092,
+    0.13766645951704545,
+    0.13699840198863636
+  ],
+  "qualification": "Descriptive DD geometry proxy only; coverage alone is not a validated quality predictor and cannot prove the best plan."
+}

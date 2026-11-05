@@ -1,0 +1,67 @@
+{
+  "experiment": "Same f622 right55 original DD Stage2 endpoint, prompt and first21 decoded input/cond/depth/mask pixel-exact; only Stage3 temporal inference length 61→21 (which also changes temporal latent/noise shape).",
+  "source_camera_rotation_first21_deg": 6.422907458792114,
+  "source_camera_rotation_full61_deg": 40.28917008516279,
+  "native_integrity": {
+    "first21_four_conditions_pixel_exact": true,
+    "original_native_sha256": "84bc1b0da4fd8784b76b76a7cff4eb56f59f88cbe19eb8240bd2fa4b7003c410",
+    "short_native_sha256": "051de8f9203c8f6d3772fd521732a32b0f14dcc1646bf60a975cbe82a68438a3",
+    "short_output_frames": 21,
+    "official_weights_unchanged": true,
+    "postdecode_frame_replacement": false,
+    "endpoint_audit": {
+      "status": "completed",
+      "pin_count": 50,
+      "mode": "official native fused I2V first-time-latent constraint",
+      "endpoint_file_sha256": "22b0b07e9080b63e6a0687d3f615128f0461575c0bdd389f8fe08a3074f874f1",
+      "official_weights_unchanged": true,
+      "official_repo_edited": false,
+      "postdecode_frame_replacement": false,
+      "initial_noise": {
+        "sha256": "938ce567ca591531fe16a8d3e50adb71df88cb36b8344d6221daeef5d54b07fb",
+        "shape": [
+          1,
+          48,
+          6,
+          44,
+          80
+        ],
+        "dtype": "torch.bfloat16",
+        "seed_argument": null,
+        "rng_behavior_changed": false
+      },
+      "endpoint_pixel_sha256": "d1217b0053a0b3ac116edd702db30d2c94344cbef47ef354502be6d14328fbbb",
+      "endpoint_latent_shape": [
+        1,
+        48,
+        1,
+        44,
+        80
+      ],
+      "effective_endpoint_png": "/root/bullet_time_research_20261102/nontrajectory/case13_f622_exact21_of61/effective_endpoint.png",
+      "final_latent_max_abs_delta": 0.0,
+      "final_sigma": 0.0
+    }
+  },
+  "source_detected_first21": 21,
+  "generated_detected_first21": {
+    "full61": 21,
+    "short21": 21
+  },
+  "core_2d_motion_error_first21": {
+    "full61": 0.46870281591588914,
+    "short21": 0.42421407658593885
+  },
+  "limb_2d_motion_error_first21": {
+    "full61": 0.26867268061117894,
+    "short21": 1.4039242279889184
+  },
+  "holistic_visual_review": {
+    "method": "Source, original 61f native first21, and exact21 native at f0/4/8/12/16/20, with all-21 DWPose only auxiliary.",
+    "original_first21": "Dancer remains recognizable but leans backward for much of the interval, unlike the source which bends toward the roof; person/background become hazier, and f20 dancer is compressed near the right side.",
+    "short21": "Person silhouette and rooftop remain more legible through f20, with some dark vertical border artifacts; motion swings from backward lean to bent knees and arms extended sideways, while source bends forward with arms near head and one hand reaching down.",
+    "judgment": "Temporal shortening alters generated dynamics and reduces some haze, but action fidelity and overall Stage3 quality still fail. Neither variant is a valid final shot.",
+    "contact": "audit/case13_f622_exact21_review/stage3_comparable_grid.jpg"
+  },
+  "caveat": "Temporal length changes Wan latent/noise dimensions and attention context, so exact first21 pixels do not mean identical internal noise or model state. Same target angle remains 55 degrees; shortness alone may not cure geometry failure. Source/generated 2D pose errors are cross-view proxies; comparison is within the same 55-degree target angle and must not replace visual or target-view geometry judgment."
+}

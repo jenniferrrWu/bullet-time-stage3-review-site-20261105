@@ -1,0 +1,20 @@
+{
+  "case": "case13_woman_rooftop_dance",
+  "indices": [
+    0,
+    8,
+    20,
+    40,
+    60,
+    80
+  ],
+  "source_pose_match_dw_mask_valid_rates": [
+    1.0,
+    0.9499799940321181,
+    0.9546339246961806,
+    0.9525672064887153,
+    0.9615003797743056,
+    0.9573720296223959
+  ],
+  "control": "target equals each frame source camera pose; diagnostic only, target moves"
+}

@@ -1,0 +1,21 @@
+{
+  "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_detail_case15_A/face_contact.jpg",
+  "face_detail_evidence_sha256": "d91fc737d85a9a8f7132dd358e858b9a9ae32528434b485ec3f6bc7a5608089c",
+  "source_video_sha256": "86aa9f24cc869ed3232f6bb74448a25614426e1adbb481ff213f63223cf985f0",
+  "generated_video_sha256": "c8644c41f0c1b26aef37b5ae035ca4d119912d0348bcb82a3f01ad78944c0110",
+  "sampled_frames": [
+    0,
+    12,
+    20,
+    24
+  ],
+  "prompt": "This image contains 4 chronological rows labelled f0, f12, f20, f24. Each row has a SOURCE face crop on the left and a native GENERATED face crop on the right. The crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Distinguish visible blur or distortion from legitimate head turns, hair occlusion and face leaving the crop due viewpoint. If later facial features are hidden or not comparable, answer uncertain rather than treating invisibility alone as detail loss. Name directly visible features and frame labels, including blur, ghosting or distortions when truly visible. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+  "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f12: generated shows slight blur on right side. f20: generated has significant blur and ghosting on right side, especially around eyes and forehead. f24: generated has severe blur and distortion across entire face, with visible ghosting and loss of facial structure details.\",\n  \"limits\": \"Only facial features within the crop are assessed; head turns/hair occlusion are not considered detail loss unless they cause blur/distortion. f20/f24 show clear blur/distortion beyond normal motion.\"\n}",
+  "parsed": {
+    "late_face_detail_retained": "no",
+    "frame_evidence": "f12: generated shows slight blur on right side. f20: generated has significant blur and ghosting on right side, especially around eyes and forehead. f24: generated has severe blur and distortion across entire face, with visible ghosting and loss of facial structure details.",
+    "limits": "Only facial features within the crop are assessed; head turns/hair occlusion are not considered detail loss unless they cause blur/distortion. f20/f24 show clear blur/distortion beyond normal motion."
+  },
+  "scope": "focused face crop only; no whole-video or global-angle quality claim",
+  "prompt_version": "face_visibility_aware_v2"
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Native DD f845..f865 BASE left20, D right35, E left45, with BASE/D evidence held identical to prior pairwise ballot.",
+  "threeway_preferred_id": "D",
+  "pairwise_forward_and_reverse_preferred_id": "BASE",
+  "candidate_set_effect_audit": "/root/bullet_time_research_20261102/audit/case13_f845_candidate_set_effect.json",
+  "threeway_feedback_error": "Claims BASE has visible body melting and D has no significant visual artifacts; native full21 review shows BASE retains person/rooftop with late arm mismatch, D has mid-body curl and pale building patches. E is mainly distinguished by a large ghosted tower, not severe body melting.",
+  "absolute_scores_not_reliable": true,
+  "final_camera_selection": null,
+  "stage3_holistic_quality_pass": false,
+  "human_quality_acceptance": "not passed in native visual review",
+  "evidence": [
+    "/root/bullet_time_research_20261102/audit/case13_f845_camera_refinement_full_contact.jpg",
+    "/root/bullet_time_research_20261102/audit/case13_f845_camera_refinement_native_review/summary.json"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "Official DD case15 C 17f: source-joint content beta0.1 and pre-VAE mask gate tested individually and together. Same input files, source window, Stage2 endpoint, initial noise, prompt, seed and weights.",
+  "integrity": {
+    "all_effective_media_hashes_same": true,
+    "same_initial_noise": true,
+    "same_stage2_endpoint": true,
+    "combo_content_and_depth_hooks_once": true,
+    "combo_masked_depth_frames": 17,
+    "gate0_control_exact_baseline": true,
+    "content_beta0_control_exact_baseline": true
+  },
+  "source_right_wrist_range_body_units": [
+    1.1744867781047055,
+    0.9783915406509107
+  ],
+  "runs": {
+    "baseline": {
+      "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "content_beta0p1": {
+      "sha256": "97abc987b205107cf26cd9f537f35cee2d75dde01b978291bdefaee64b4d2089",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08313196255767862,
+      "limb_motion_delta_mae": 0.4609529222006419,
+      "right_wrist_range_body_units": [
+        0.23374684520122868,
+        0.24962529946415532
+      ],
+      "gray_std_trend_over_source": 0.6644390876065989
+    },
+    "mask_before_vae": {
+      "sha256": "13d40ae99a5e442b83ff080f883f63a071e97af833052196e84ddb9e01575704",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.07118415923017588,
+      "limb_motion_delta_mae": 0.47962516895588075,
+      "right_wrist_range_body_units": [
+        0.16394212424547228,
+        0.07134689536608019
+      ],
+      "gray_std_trend_over_source": 0.8886597005631705
+    },
+    "combined": {
+      "sha256": "77e18011306c2a9c3771fd7d3be86be18b4ad4dc99e88a7bba99c8e47c4529fb",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.07060559030939616,
+      "limb_motion_delta_mae": 0.4815287820618566,
+      "right_wrist_range_body_units": [
+        0.16308229572328503,
+        0.06226858762195443
+      ],
+      "gray_std_trend_over_source": 0.8948184002018298
+    }
+  },
+  "holistic_visual_review": "Source/baseline/content-only/depth-mask-only/combined native f0/4/8/12/16 and all-frame DWPose: depth mask gate and combination retain a more visible person late than baseline, but source right arm crosses torso while generated arm stays near the opening pose. Combined wrist range [0.163,0.062] body units is essentially mask-only [0.164,0.071], far below source [1.174,0.978]; limb motion error 0.482 vs mask-only 0.480. Combination does not preserve the content-only wrist-range gain [0.234,0.250] and does not pass Stage3 holistic action or appearance.",
+  "caveat": "Cross-view 2D pose and contrast are only proxies; whole actual native source/generated action and visual quality determine success.",
+  "combined_vs_mask_only_decoded_rgb_mae_0to255": 0.3990481779537099,
+  "combined_vs_mask_only_frame_mae_0to255": [
+    0.1384,
+    0.3738,
+    0.3819,
+    0.4162,
+    0.3245,
+    0.4123,
+    0.3812,
+    0.3959,
+    0.3319,
+    0.4206,
+    0.4309,
+    0.4803,
+    0.4285,
+    0.4583,
+    0.4792,
+    0.4897,
+    0.4403
+  ],
+  "quality_pass": false
+}

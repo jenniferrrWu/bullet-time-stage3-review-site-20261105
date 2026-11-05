@@ -1,0 +1,47 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "female dancer on rooftop",
+  "selected_id": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 75,
+      "orbit_direction": "left",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.5,
+      "action_num_frames": 33,
+      "action_seconds": 1.1,
+      "reason": "Peak pose: dancer mid-kick with bent knee, side view showing full body line. Left orbit reveals cityscape behind her. Action starts at frame 75 (kicking motion) and continues for 33 frames (1.1s) to capture the full kick extension and recovery. Background camera pan is minimal; dancer is fully visible with no occlusion.",
+      "score": 0.855
+    },
+    {
+      "id": "B",
+      "highlight_frame": 600,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 6.2,
+      "action_num_frames": 45,
+      "action_seconds": 1.5,
+      "reason": "Peak pose: dancer in a deep side stretch with one arm extended upward, side view emphasizing her form against the city skyline. Right orbit shows the golden building behind her. Action starts at frame 600 (mid-stretch) and continues for 45 frames (1.5s) to capture the full stretch and transition. Background camera pan is slight; dancer is fully visible with no occlusion.",
+      "score": 0.75
+    },
+    {
+      "id": "C",
+      "highlight_frame": 845,
+      "orbit_direction": "left",
+      "orbit_degrees": 20,
+      "orbit_seconds": 3.1,
+      "action_num_frames": 21,
+      "action_seconds": 0.7,
+      "reason": "Peak pose: dancer in a high kick with one leg extended, side view showing balance and form. Left orbit reveals the satellite dish structure behind her. Action starts at frame 845 (mid-kick) and continues for 21 frames (0.7s) to capture the kick's peak and recovery. Background camera pan is minimal; dancer is fully visible with no occlusion.",
+      "score": 0.655
+    }
+  ],
+  "risks": [
+    "Candidate A: Frame 75 shows a slight blur in the dancer's hair due to motion; orbit may amplify this if not stabilized.",
+    "Candidate B: Frame 600 has a slight overexposure in the background; orbit may reduce visibility of the cityscape.",
+    "Candidate C: Frame 845 shows a slight crop on the dancer's upper body; orbit may further crop if not adjusted.",
+    "Candidate C source visibility uncertain: two checks disagree"
+  ]
+}

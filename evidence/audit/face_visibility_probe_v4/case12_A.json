@@ -1,0 +1,36 @@
+{
+  "image": "/root/bullet_time_research_20261102/audit/face_context_case12_A/face_context_contact.jpg",
+  "image_sha256": "5d41f40342835a01a34adb12bca263c6dafa8f147a0ec4c07321c5873ef010a0",
+  "source_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "raw": "{\n  \"rows\": {\n    \"f0\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"In the generated wider f0 tile, the person's face is fully visible with no occlusion from head turn, hair, or framing. Eyes, nose, and mouth are clearly exposed, matching the source wider f0 context where the face is also fully visible.\"\n    },\n    \"f12\": {\n      \"generated_face_comparable\": \"no\",\n      \"visible_features\": \"eyes, nose\",\n      \"occlusion_or_turn\": \"hair and head turn\",\n      \"reason\": \"In the generated wider f12 tile, the person's head is turned to the right and hair covers the mouth area. While eyes and nose are visible, the mouth is occluded by hair and head position. Source wider f12 shows a similar head turn but the generated version has more hair obscuring the mouth.\"\n    },\n    \"f24\": {\n      \"generated_face_comparable\": \"no\",\n      \"visible_features\": \"eyes, nose\",\n      \"occlusion_or_turn\": \"hair and head turn\",\n      \"reason\": \"In the generated wider f24 tile, the person's head is turned to the right and hair covers the mouth. Eyes and nose are visible, but mouth is occluded. Source wider f24 shows a similar head turn, but the generated version has more hair obscuring the mouth.\"\n    },\n    \"f32\": {\n      \"generated_face_comparable\": \"no\",\n      \"visible_features\": \"eyes, nose\",\n      \"occlusion_or_turn\": \"hair and head turn\",\n      \"reason\": \"In the generated wider f32 tile, the person's head is turned to the right and hair covers the mouth. Eyes and nose are visible, but mouth is occluded. Source wider f32 shows a similar head turn, but the generated version has more hair obscuring the mouth.\"\n    }\n  }\n}",
+  "parsed": {
+    "rows": {
+      "f0": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "In the generated wider f0 tile, the person's face is fully visible with no occlusion from head turn, hair, or framing. Eyes, nose, and mouth are clearly exposed, matching the source wider f0 context where the face is also fully visible."
+      },
+      "f12": {
+        "generated_face_comparable": "no",
+        "visible_features": "eyes, nose",
+        "occlusion_or_turn": "hair and head turn",
+        "reason": "In the generated wider f12 tile, the person's head is turned to the right and hair covers the mouth area. While eyes and nose are visible, the mouth is occluded by hair and head position. Source wider f12 shows a similar head turn but the generated version has more hair obscuring the mouth."
+      },
+      "f24": {
+        "generated_face_comparable": "no",
+        "visible_features": "eyes, nose",
+        "occlusion_or_turn": "hair and head turn",
+        "reason": "In the generated wider f24 tile, the person's head is turned to the right and hair covers the mouth. Eyes and nose are visible, but mouth is occluded. Source wider f24 shows a similar head turn, but the generated version has more hair obscuring the mouth."
+      },
+      "f32": {
+        "generated_face_comparable": "no",
+        "visible_features": "eyes, nose",
+        "occlusion_or_turn": "hair and head turn",
+        "reason": "In the generated wider f32 tile, the person's head is turned to the right and hair covers the mouth. Eyes and nose are visible, but mouth is occluded. Source wider f32 shows a similar head turn, but the generated version has more hair obscuring the mouth."
+      }
+    }
+  },
+  "prompt": "The image has chronological rows f0, f12, f24, f32. Each row has four tiles from left to right: source close face, generated close face, source wider head/shoulders, generated wider head/shoulders. Your only task is VISIBILITY, not image quality. For each row inspect the WIDER tiles first and report whether eyes, nose, and mouth of the GENERATED person are visibly exposed or hidden by head turn, hair, framing, or other occlusion. Use source wider tile as context. Do not use softness or lack of fine texture as evidence of occlusion. Do not call a face blurry or clear. If you cannot confidently tell which facial features are exposed, set generated_face_comparable to uncertain. Return JSON with keys rows (an object keyed by exact labels ['f0', 'f12', 'f24', 'f32']), each row has generated_face_comparable one of yes/no/uncertain, visible_features string, occlusion_or_turn string, and reason string. No extra keys."
+}

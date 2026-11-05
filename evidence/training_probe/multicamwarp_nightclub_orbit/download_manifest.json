@@ -1,0 +1,26 @@
+{
+  "dataset": "Fred24/MultiCamWarp",
+  "scene": "video_data/NightClub_NightClubDemo/scene_004_SK_MedievalGirl/orbit",
+  "files": {
+    "camera_params.json": {
+      "bytes": 25650,
+      "sha256": "59e6a67b93702d07ef3350975a893e2a415d8abe7b2b604bd8d6c29fe97eb225"
+    },
+    "input.mp4": {
+      "bytes": 301042,
+      "sha256": "25f8e60acfd3a8bd4350366da0ff291738ba620ed733924731df67c4e53614dd"
+    },
+    "target.mp4": {
+      "bytes": 892032,
+      "sha256": "5b856353f9b474b2118f251432b0f101189858eb8a75368c8cc52e06aa2c0e5e"
+    },
+    "dw_depth.mp4": {
+      "bytes": 280257,
+      "sha256": "79ae9e0eeb4a191c0ae1ac221c3657faca3c29e2490a7c74dadf5b6500ec7809"
+    },
+    "dw_mask.mp4": {
+      "bytes": 491225,
+      "sha256": "b8cf612ff234880898a1c840fc81e916db9b8987443a9bd22e247c9b98bb6095"
+    }
+  }
+}

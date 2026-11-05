@@ -1,0 +1,18 @@
+{
+  "finding": "Changing the cond/dw_warp video in metadata is a no-op for this official DD Stage3 route. The native output MP4 is byte-identical to baseline despite large invalid-area pixel changes.",
+  "baseline_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "modified_cond_sha256": "427baba22bd43b2d1f8bed378e009a01c41f29f756091433571ec7c3e48757f8",
+  "original_cond_sha256": "3fb1e0ebc6260eaeeab43119b1fa76683cbad86c1dec1b6744da808b78081ab0",
+  "output_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "valid_decoded_cond_pixels_exact": true,
+  "invalid_cond_mean_abs_change": 164.98061938982775,
+  "effective_stage3_inputs": {
+    "input_image": "actual Stage2 endpoint",
+    "concat_video": "data[\"input\"] source content",
+    "warp_video": "data[\"depth\"] dynamic depth",
+    "warp_mask": "data[\"mask\"]"
+  },
+  "unused_metadata_field": "cond/dw_warp; excluded from data_file_keys and extra_inputs",
+  "official_dd_execution_error": false,
+  "implication": "Target-view dw_warp may be used as an external geometric/pose diagnostic, but it is not a conditioning input in this route. Test invalid-depth handling on the consumed depth video instead."
+}

@@ -1,0 +1,48 @@
+{
+  "experiment": "DD official step-10000 versus two-scene six-step target-view-anchor adapter on scene-disjoint SJTU Skipping Rope f52-68 fixed camera 3",
+  "training_scenes": [
+    "A Dancer f779-795",
+    "A Broadcast Gymnast f299-315"
+  ],
+  "heldout_scene": "Skipping Rope f52-68",
+  "initial_noise_sha256_identical": "60012b9d76186f71ee97d04301048634a7a7ab76783f0528f9040a1ac9e0d204",
+  "checkpoint_sha256": "67d288d05736c780a80c5de73d6cbac7179464a086011fbd8bd3b06f179f4032",
+  "frames": 17,
+  "resolution": [
+    1280,
+    704
+  ],
+  "rgb_mae_target_all_frames": {
+    "official": 4.8401,
+    "adapted": 4.3493
+  },
+  "rgb_mae_target_person_bbox_all_frames": {
+    "official": 12.6422,
+    "adapted": 12.4369
+  },
+  "pose_limb_motion_error_body_units": {
+    "official": 0.27922511412777506,
+    "adapted": 0.2783627477063833
+  },
+  "pose_right_wrist_y_range_body_units": {
+    "target": 0.8656894552729788,
+    "official": 0.17375382395076955,
+    "adapted": 0.1706926613919446
+  },
+  "pose_left_wrist_y_range_body_units": {
+    "target": 0.6986469960833469,
+    "official": 0.10351667487342298,
+    "adapted": 0.10847683337990444
+  },
+  "visual_review": "All 17 target/source/official/adapted frames reviewed side by side. Target arms repeatedly swing and body jumps with skipping rope; both DD outputs largely hold arms spread near first-frame position and omit most late arm lowering/rope swing. Adapter appearance and scene remain nearly the same as official. Lower full-frame RGB MAE is dominated by largely static studio background and does not represent preserved action.",
+  "observed_failure": true,
+  "quality_pass": false,
+  "stage3_improvement_demonstrated": false,
+  "visual_evidence": "training_probe/sjtu_multiscene/anchor_multiscene_pilot/heldout_paired_all_frames_small.jpg",
+  "metrics_evidence": "training_probe/sjtu_multiscene/anchor_multiscene_pilot/heldout_paired_metrics.json",
+  "track_evidence": [
+    "training_probe/sjtu_multiscene/anchor_multiscene_pilot/pose_target_vs_base.json",
+    "training_probe/sjtu_multiscene/anchor_multiscene_pilot/pose_target_vs_adapted.json"
+  ],
+  "limits": "Single held-out 17-frame scene and two training scenes are insufficient for generalization claims; native real-video hardcase still requires inference review."
+}

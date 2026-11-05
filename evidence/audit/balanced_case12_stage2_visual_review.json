@@ -1,0 +1,10 @@
+{
+  "case": "balanced_case12",
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case12_stage2_abc.jpg",
+  "sampled_native_stage2_frames": [0, 40, 80],
+  "A": "Dancer remains broadly in frame at f0/40/80; one foot approaches edge at f80. Stage2 parallax visible in window and furniture.",
+  "B": "Raised hand is clipped at top at f0; at f40/80 body and arm extend past right/top frame borders. Strong orbit crop risk before Stage3.",
+  "C": "High-pose source and Stage2 are tightly cropped; head/limbs outside frame. Orbit increases crop.",
+  "stage3_quality": "pending_native_stage3",
+  "limitation": "Stage2 sampled visual review is not Stage3 quality acceptance."
+}

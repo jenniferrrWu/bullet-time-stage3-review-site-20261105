@@ -1,0 +1,132 @@
+{
+  "scope": "Exact source/native Stage3 video face crops at selected early/middle/late frames",
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/action.mp4",
+  "source_video_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+  "generated_video_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "source_tracks": "/root/bullet_time_research_20261102/pose_trial/balanced_case12_a_source_all/tracks.json",
+  "generated_tracks": "/root/bullet_time_research_20261102/pose_trial/balanced_case12_a_native_all/tracks.json",
+  "frame_count": 33,
+  "sampled_frames": [
+    0,
+    12,
+    24,
+    32
+  ],
+  "crop_contact": "/root/bullet_time_research_20261102/audit/face_detail_case12_balanced_A_usable/face_contact.jpg",
+  "crop_side": 200,
+  "rows": [
+    {
+      "frame": 0,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          278,
+          404,
+          358,
+          484
+        ],
+        "nose_confidence": 0.8463286757469177,
+        "shoulder_width_pixels": 73.95166963338863,
+        "laplacian_variance_after_resize": 4.8844972775
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          371,
+          405,
+          451,
+          485
+        ],
+        "nose_confidence": 0.8728474974632263,
+        "shoulder_width_pixels": 29.17067974805832,
+        "laplacian_variance_after_resize": 3.8785950243750005
+      }
+    },
+    {
+      "frame": 12,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          275,
+          489,
+          378,
+          592
+        ],
+        "nose_confidence": 0.8046607971191406,
+        "shoulder_width_pixels": 143.15326124429703,
+        "laplacian_variance_after_resize": 5.374317510000001
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          355,
+          523,
+          435,
+          603
+        ],
+        "nose_confidence": 0.8255506753921509,
+        "shoulder_width_pixels": 68.2614541053772,
+        "laplacian_variance_after_resize": 3.729024399375
+      }
+    },
+    {
+      "frame": 24,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          254,
+          474,
+          342,
+          562
+        ],
+        "nose_confidence": 0.8151033520698547,
+        "shoulder_width_pixels": 123.39504718780529,
+        "laplacian_variance_after_resize": 2.7557667343749994
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          341,
+          492,
+          421,
+          572
+        ],
+        "nose_confidence": 0.6456310153007507,
+        "shoulder_width_pixels": 109.63294237852097,
+        "laplacian_variance_after_resize": 2.817423499375
+      }
+    },
+    {
+      "frame": 32,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          230,
+          393,
+          310,
+          473
+        ],
+        "nose_confidence": 0.9017150402069092,
+        "shoulder_width_pixels": 91.98675155639648,
+        "laplacian_variance_after_resize": 2.6840906975
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          294,
+          454,
+          388,
+          548
+        ],
+        "nose_confidence": 0.6572470664978027,
+        "shoulder_width_pixels": 131.13033533096313,
+        "laplacian_variance_after_resize": 3.2179918775
+      }
+    }
+  ],
+  "metric_limit": "Laplacian variance depends on pose, view, texture and compression; inspect image and do not infer quality pass from this metric.",
+  "context_contact": "/root/bullet_time_research_20261102/audit/face_context_case12_A/face_context_contact.jpg",
+  "context_contact_sha256": "5d41f40342835a01a34adb12bca263c6dafa8f147a0ec4c07321c5873ef010a0",
+  "context_description": "Four tiles per chronological row: source face, generated face, source wider head/shoulders, generated wider head/shoulders. Wider tiles support head-turn/occlusion checks only."
+}

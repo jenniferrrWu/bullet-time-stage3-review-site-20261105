@@ -1,0 +1,58 @@
+{
+  "scope": "Original DD case15 C Stage3 versus same inference after replacing only masked-out values in consumed depth/dw_depth with same-frame median encoded depth values from the upper valid area. The median is a depth-video encoding, not an RGB background color.",
+  "integrity": {
+    "unchanged_original_input_image_input_cond_mask_hashes": true,
+    "valid_decoded_depth_pixels_exact": true,
+    "invalid_decoded_mean_abs_change": [
+      85.69413039548823,
+      86.61283300433487,
+      86.20875243202883,
+      85.91218280855587,
+      85.94882157808584,
+      86.16947965056987,
+      86.29659576414619,
+      86.67681484659472,
+      86.78248703856167,
+      86.67930271453187,
+      87.45099305119014,
+      87.49253035348507,
+      87.60971771617847,
+      88.74904560262526,
+      88.1996859688579,
+      87.40486925157799,
+      87.41196314876557
+    ],
+    "same_initial_noise": true,
+    "same_stage2_endpoint_pixels": true,
+    "pin_count_each": 50,
+    "official_weights_unchanged": true
+  },
+  "runs": {
+    "baseline": {
+      "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "depth_filled": {
+      "sha256": "48f5ab533732b85e92d6aa6e81d1c0eb0377c263da3d838c2c80e268a8abd390",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.06253748067757131,
+      "limb_motion_delta_mae": 0.547043657942373,
+      "right_wrist_range_body_units": [
+        0.3337940977633653,
+        0.27550733646288245
+      ],
+      "gray_std_trend_over_source": 0.8272869747567803
+    }
+  },
+  "holistic_visual_review": "Nine source/baseline/depth-filled native frames at f0..f16: depth fill keeps dancer a little more legible around the middle and slightly delays washout, but late person remains pale, background stays bland, and right arm remains near the initial pose while source swings across torso. Overall Stage3 action fidelity and appearance fail; limb motion error also worsens 0.483→0.547 body units. The modified input is color-coded depth, not a real RGB background image.",
+  "caveat": "The mask remains unchanged, so any effect could come from VAE receptive fields and camera encoder use of encoded masked pixels; DWPose and contrast are auxiliary.",
+  "quality_pass": false,
+  "diagnostic": "Cond/dw_warp replacement yielded byte-identical baseline, whereas replacing masked-out pixels in actual depth video changes output SHA. This confirms the effective DD route and shows depth fill is a meaningful but insufficient intervention."
+}

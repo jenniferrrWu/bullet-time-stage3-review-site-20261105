@@ -1,0 +1,200 @@
+{
+  "A": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a",
+    "candidate": {
+      "id": "A",
+      "highlight_frame": 171,
+      "orbit_direction": "left",
+      "orbit_degrees": 35,
+      "orbit_seconds": 4.2,
+      "action_num_frames": 33,
+      "action_seconds": 1.32,
+      "reason": "Peak pose shows dancer mid-movement with arms extended and body angled, capturing dynamic motion blur in hair and limbs. Side view emphasizes body tension and spatial positioning. Pacing is controlled with clear transition from prior frame (169) to this peak moment.",
+      "score": 0.68
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.36252750785554416,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 33,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/shared_geometry/pose.npy",
+      "first_median_depth": 18.704471588134766,
+      "endpoint_rotation_degrees": 2.0381036913195847,
+      "maximum_rotation_degrees": 2.0381036913195847,
+      "max_step_rotation_degrees": 0.15546862315546928,
+      "endpoint_translation_depth_units": 0.30136333568686513,
+      "maximum_translation_depth_units": 0.30136333568686513,
+      "endpoint_translation_over_first_median_depth": 0.016111833700666305,
+      "maximum_translation_over_first_median_depth": 0.016111833700666305,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.023828807771751562,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 8,
+          "rotation_degrees": 0.544218626469499,
+          "translation_over_first_median_depth": 0.003996433806873654
+        },
+        {
+          "frame": 16,
+          "rotation_degrees": 0.9820106973997762,
+          "translation_over_first_median_depth": 0.007293239092333241
+        },
+        {
+          "frame": 24,
+          "rotation_degrees": 1.3897980226352409,
+          "translation_over_first_median_depth": 0.009805324632772243
+        },
+        {
+          "frame": 32,
+          "rotation_degrees": 2.0381036913195847,
+          "translation_over_first_median_depth": 0.016111833700666305
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 33,
+      "peak_excess_frame": 32,
+      "peak_pale_bright_excess": 0.06002197265624998,
+      "peak_generated_pale_bright_fraction": 0.3608010031960227
+    },
+    "integrity": "passed"
+  },
+  "B": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b",
+    "candidate": {
+      "id": "B",
+      "highlight_frame": 285,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 5.8,
+      "action_num_frames": 41,
+      "action_seconds": 1.64,
+      "reason": "Extreme arching pose with one arm raised high and torso bent backward, showcasing dramatic flexibility peak. Side view highlights body curvature and motion blur in hair. Pacing is fluid with clear progression from prior frame (283) to this high-energy moment.",
+      "score": 0.82
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.17566248181125277,
+    "stage3_valid_mesh_fraction_below_0_20": 0.9512195121951219,
+    "source_camera_motion": {
+      "frames": 41,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b/shared_geometry/pose.npy",
+      "first_median_depth": 17.60758399963379,
+      "endpoint_rotation_degrees": 6.568317590985389,
+      "maximum_rotation_degrees": 6.568317590985389,
+      "max_step_rotation_degrees": 0.27651262050527303,
+      "endpoint_translation_depth_units": 1.017756462875861,
+      "maximum_translation_depth_units": 1.0193320971777364,
+      "endpoint_translation_over_first_median_depth": 0.05780216427745163,
+      "maximum_translation_over_first_median_depth": 0.05789165039331557,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.0797571254864627,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 10,
+          "rotation_degrees": 1.5388961378325008,
+          "translation_over_first_median_depth": 0.017155234676600694
+        },
+        {
+          "frame": 20,
+          "rotation_degrees": 3.5582781388921907,
+          "translation_over_first_median_depth": 0.0354219094975028
+        },
+        {
+          "frame": 30,
+          "rotation_degrees": 5.398859285257168,
+          "translation_over_first_median_depth": 0.049340775380302876
+        },
+        {
+          "frame": 40,
+          "rotation_degrees": 6.568317590985389,
+          "translation_over_first_median_depth": 0.05780216427745163
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 41,
+      "peak_excess_frame": 40,
+      "peak_pale_bright_excess": -0.17576238458806817,
+      "peak_generated_pale_bright_fraction": 0.050041060014204546
+    },
+    "integrity": "passed"
+  },
+  "C": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c",
+    "candidate": {
+      "id": "C",
+      "highlight_frame": 457,
+      "orbit_direction": "left",
+      "orbit_degrees": 55,
+      "orbit_seconds": 7.3,
+      "action_num_frames": 57,
+      "action_seconds": 2.28,
+      "reason": "Full-body contortion with hands on floor and head inverted, capturing high-energy movement with visible limb positioning and hair motion blur. Side view emphasizes body tension and spatial dynamics. Pacing is dynamic with clear transition from prior frame (455) to this contortion peak.",
+      "score": 0.74
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,55,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,55,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.3405461507550837,
+    "stage3_valid_mesh_fraction_below_0_20": 0.05263157894736842,
+    "source_camera_motion": {
+      "frames": 57,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c/shared_geometry/pose.npy",
+      "first_median_depth": 6.104522705078125,
+      "endpoint_rotation_degrees": 29.85912654511831,
+      "maximum_rotation_degrees": 29.85912654511831,
+      "max_step_rotation_degrees": 1.2468945601762689,
+      "endpoint_translation_depth_units": 3.0437189365071218,
+      "maximum_translation_depth_units": 3.0437189365071218,
+      "endpoint_translation_over_first_median_depth": 0.49860064145148736,
+      "maximum_translation_over_first_median_depth": 0.49860064145148736,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.0,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 14,
+          "rotation_degrees": 5.084245713301279,
+          "translation_over_first_median_depth": 0.0963114158025408
+        },
+        {
+          "frame": 28,
+          "rotation_degrees": 8.233016091609583,
+          "translation_over_first_median_depth": 0.14437172241156612
+        },
+        {
+          "frame": 42,
+          "rotation_degrees": 15.688037901409555,
+          "translation_over_first_median_depth": 0.26615950835085217
+        },
+        {
+          "frame": 56,
+          "rotation_degrees": 29.85912654511831,
+          "translation_over_first_median_depth": 0.49860064145148736
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 57,
+      "peak_excess_frame": 50,
+      "peak_pale_bright_excess": -0.02608087713068182,
+      "peak_generated_pale_bright_fraction": 0.0
+    },
+    "integrity": "passed"
+  }
+}

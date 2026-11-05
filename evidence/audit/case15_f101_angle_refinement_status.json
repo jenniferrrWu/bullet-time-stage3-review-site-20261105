@@ -1,0 +1,19 @@
+{
+  "source_highlight_frame": 101,
+  "angle_options_right_degrees": [
+    15,
+    30,
+    45
+  ],
+  "native_executions_all_verified": true,
+  "ballot_preferred_ids": [
+    "R30",
+    "R30"
+  ],
+  "selected_angle_by_vlm_degrees": 30,
+  "selection_scope": "within three tested rightward angles at fixed f101",
+  "global_angle_optimality_proven": false,
+  "final_stage3_quality_pass_proven": false,
+  "manual_visual_check": "Relative action retention supports 30 over 15 and 45; late face/hand blur remains.",
+  "evidence": "/root/bullet_time_research_20261102/audit/case15_f101_angle15_30_45_holistic_review.json"
+}

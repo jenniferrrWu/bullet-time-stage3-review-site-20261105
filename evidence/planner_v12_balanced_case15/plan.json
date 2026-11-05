@@ -1,0 +1,46 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "dancer in light green hoodie and gray sweatpants",
+  "selected_id": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 101,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 1.0,
+      "reason": "Frame 101 shows a clear jump with both feet off the ground, arms extended upward, and full body visibility against the plain background. Orbiting right at 30 degrees for 4 seconds captures the peak pose from a side angle, emphasizing the height and balance. The following 25-frame action (1.0s) resumes from the frozen frame, maintaining the dynamic pacing of the jump sequence.",
+      "score": 0.955
+    },
+    {
+      "id": "B",
+      "highlight_frame": 271,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 6.0,
+      "action_num_frames": 33,
+      "action_seconds": 1.32,
+      "reason": "Frame 271 captures a dynamic pose with legs spread wide, arms raised behind the head, and a bent-knee stance that emphasizes motion and balance. Orbiting left at 45 degrees for 6 seconds provides a dramatic side view of the pose, highlighting the body's curvature and the dancer's control. The subsequent 33-frame action (1.32s) continues the movement seamlessly from the frozen frame, preserving the flow of the dance.",
+      "score": 0.61
+    },
+    {
+      "id": "C",
+      "highlight_frame": 577,
+      "orbit_direction": "right",
+      "orbit_degrees": 20,
+      "orbit_seconds": 2.5,
+      "action_num_frames": 17,
+      "action_seconds": 0.68,
+      "reason": "Frame 577 displays a strong side-to-side movement with one leg extended forward and the other bent, arms positioned for balance, showcasing a distinct dance motion. Orbiting right at 20 degrees for 2.5 seconds offers a close-up side angle that emphasizes the dancer's form and the precision of the movement. The following 17-frame action (0.68s) resumes the sequence from the frozen frame, maintaining the energetic pacing of the dance.",
+      "score": 0.7
+    }
+  ],
+  "risks": [
+    "Orbiting at 45 degrees for 6 seconds in candidate B may cause slight body crop issues due to the dancer's wide stance in frame 271, potentially cutting off limbs during the orbit.",
+    "Candidate C's 20-degree orbit for 2.5 seconds may not fully capture the full body motion of frame 577, as the dancer's extended leg could be partially occluded by the camera angle.",
+    "All candidates require precise timing to ensure the action_num_frames do not exceed the total frame count (662), with candidate B's 33 frames needing careful alignment to avoid exceeding the source's end."
+  ]
+}

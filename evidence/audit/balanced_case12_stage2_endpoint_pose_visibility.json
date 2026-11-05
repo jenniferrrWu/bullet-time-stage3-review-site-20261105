@@ -1,0 +1,51 @@
+{
+  "a": {
+    "status": "no_border_crop_evidence",
+    "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+    "accepted_joints": 17,
+    "required_core_joints_accepted": true,
+    "bbox_margin_fraction": {
+      "left": 0.08038796078075063,
+      "right": 0.35481834411621094,
+      "top": 0.26280827522277833,
+      "bottom": 0.07014503479003906
+    },
+    "near_edges": [],
+    "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+  },
+  "b": {
+    "status": "edge_or_pose_risk",
+    "reason": "Detector box close to border or low keypoint coverage",
+    "accepted_joints": 14,
+    "required_core_joints_accepted": false,
+    "bbox_margin_fraction": {
+      "left": 0.31518010659651324,
+      "right": -0.0006423430009321733,
+      "top": 0.0035651683807373046,
+      "bottom": 0.012816238403320312
+    },
+    "near_edges": [
+      "right",
+      "top",
+      "bottom"
+    ],
+    "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+  },
+  "c": {
+    "status": "edge_or_pose_risk",
+    "reason": "Detector box close to border or low keypoint coverage",
+    "accepted_joints": 5,
+    "required_core_joints_accepted": false,
+    "bbox_margin_fraction": {
+      "left": 0.00040249391035600144,
+      "right": 0.24275190179998224,
+      "top": 0.008548212051391602,
+      "bottom": 0.15898532867431642
+    },
+    "near_edges": [
+      "left",
+      "top"
+    ],
+    "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+  }
+}

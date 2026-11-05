@@ -1,0 +1,35 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "bank": "/root/bullet_time_research_20261102/planner_candidate_bank/case13_pose_augmented_bank.json",
+  "group_winners": [
+    75,
+    600,
+    605,
+    622,
+    845,
+    848
+  ],
+  "candidate_frames": [
+    75,
+    600,
+    845
+  ],
+  "model_evidence": {
+    "candidate_frames": [
+      75,
+      600,
+      845
+    ],
+    "evidence_by_frame": {
+      "75": "Person in mid-movement, arms raised, clear city skyline background. No visible camera movement.",
+      "600": "Person in dynamic pose with extended arm, distinctive golden building in background. Background elements shifted compared to earlier frames.",
+      "845": "Person in high kick pose, dark building with satellite dish in background. Background elements changed significantly from earlier frames."
+    },
+    "risks": [
+      "Frame 75 shows a static camera with no movement, but later frames (600, 845) have background changes that may indicate camera pan/crop risk.",
+      "Frame 600 has a distinctive golden building that may not be present in all subsequent frames, risking inconsistent background for Stage3.",
+      "Frame 845 shows a different building structure (dark building with satellite dish) which may not align with other frames' background continuity."
+    ]
+  },
+  "interpretation": "VLM shortlist from source images only, not user GT or validated best frame. Angle/direction not selected here; real DD Stage3 remains to be tested."
+}

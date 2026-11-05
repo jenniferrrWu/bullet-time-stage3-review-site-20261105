@@ -1,0 +1,56 @@
+{
+  "case": "case13_rooftop",
+  "planner_version": "dd-bullet-plan/1.1 / planner_v12.py",
+  "candidate_source_plan": "planner_v12_case13_30b_resume/plan.json",
+  "native_integrity": {
+    "A": "passed",
+    "B": "passed",
+    "C": "passed"
+  },
+  "candidates": {
+    "A": {
+      "highlight_frame": 622,
+      "stage3_frames": 25,
+      "source_camera_rotation_degrees": 8.35,
+      "valid_mesh_mean": 0.305,
+      "source_pose_detected": 25,
+      "native_pose_detected": 25,
+      "pose_core_mae_body_units": 0.377,
+      "pose_limb_mae_body_units": 1.181,
+      "observation": "Generated body remains coherent but almost motionless in initial hands-behind-head stance while source progressively bends and lowers arms; background starts smearing.",
+      "quality_pass": false,
+      "contact_sheet": "/root/bullet_time_research_20261102/audit/v12_case13_a_stage3.jpg"
+    },
+    "B": {
+      "highlight_frame": 848,
+      "stage3_frames": 33,
+      "source_camera_rotation_degrees": 10.35,
+      "valid_mesh_mean": 0.344,
+      "source_pose_detected": 33,
+      "native_pose_detected": 33,
+      "pose_core_mae_body_units": 0.16,
+      "pose_limb_mae_body_units": 0.687,
+      "observation": "Generated kicking leg and torso generally follow source and person remains detectable all frames. Building and rooftop scene distort substantially by f24/f32; there is mild body smear late. Cannot call overall quality pass.",
+      "quality_pass": false,
+      "contact_sheet": "/root/bullet_time_research_20261102/audit/v12_case13_b_stage3.jpg"
+    },
+    "C": {
+      "highlight_frame": 1075,
+      "stage3_frames": 17,
+      "source_camera_rotation_degrees": 3.77,
+      "valid_mesh_mean": 0.206,
+      "source_pose_detected": 17,
+      "native_pose_detected": 11,
+      "observation": "Cropped source peak. Generated person fragments by f8 and disappears by f12/f16 into pale scenery.",
+      "quality_pass": false,
+      "contact_sheet": "/root/bullet_time_research_20261102/audit/v12_case13_c_stage3.jpg"
+    }
+  },
+  "prior_v11_A_comparison": {
+    "highlight_frame": 397,
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/old_v11_case13_a_stage3.jpg",
+    "observation": "Prior A visibly follows source bend-and-rise with largely stable person and less severe late background breakup; sampled relative ranking against new B remains subjective because source actions and view plans differ."
+  },
+  "metric_limit": "2D DWPose error across different source moments and target viewpoints is an advisory within-candidate motion diagnostic, not a cross-candidate scalar quality score.",
+  "status": "native visual sampling complete; VLM native feedback pending; human full continuous acceptance pending"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "a woman performing a dynamic dance sequence on a rooftop with city skyline background",
+  "selected_id": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 396,
+      "orbit_direction": "right",
+      "orbit_degrees": 30.0,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 0.834,
+      "reason": "Highlight frame 396 shows a clear peak pose with extended limbs and balanced weight distribution, ideal for bullet time's geometric feasibility. Orbiting right at 30 degrees creates a dynamic side view that emphasizes the body's alignment and spatial relationships. Action duration of 25 frames (0.834s) matches the natural flow of the movement, with the 4-second orbit providing a smooth transition into the action. The pose is fully visible without occlusion, and the action sequence from 396-420 maintains consistent motion.",
+      "score": 0.95
+    },
+    {
+      "id": "B",
+      "highlight_frame": 622,
+      "orbit_direction": "left",
+      "orbit_degrees": 45.0,
+      "orbit_seconds": 5.5,
+      "action_num_frames": 33,
+      "action_seconds": 1.101,
+      "reason": "Highlight frame 622 captures a visible body in a dynamic yet stable pose with clear spatial relationships to the environment. Orbiting left at 45 degrees reveals the cityscape background while maintaining focus on the dancer's form. The 5.5-second orbit creates a dramatic reveal of the architectural backdrop. Action duration of 33 frames (1.101s) aligns with the natural movement flow, with the dancer's pose transitioning smoothly from 622-654. The pose is fully visible with minimal occlusion.",
+      "score": 0.92
+    },
+    {
+      "id": "C",
+      "highlight_frame": 961,
+      "orbit_direction": "right",
+      "orbit_degrees": 25.0,
+      "orbit_seconds": 3.5,
+      "action_num_frames": 17,
+      "action_seconds": 0.567,
+      "reason": "Highlight frame 961 presents an understandable action with a dramatic arm extension and body alignment, offering strong visual impact for bullet time. Orbiting right at 25 degrees creates a clean side view that emphasizes the dancer's form against the city skyline. The 3.5-second orbit provides a smooth transition into the action. Action duration of 17 frames (0.567s) matches the natural movement flow, with the dancer's pose transitioning smoothly from 961-977. The pose is fully visible without occlusion.",
+      "score": 0.9
+    }
+  ],
+  "risks": [
+    "Frame 396 shows partial body crop on the left side, but the pose remains clear enough for bullet time composition",
+    "Frame 622 has a slight motion blur on the dancer's hair, but the body position is still distinguishable",
+    "Frame 961 shows a slight background blur due to camera movement, but the dancer's pose is clearly visible"
+  ]
+}

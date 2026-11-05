@@ -1,0 +1,200 @@
+{
+  "A": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a",
+    "candidate": {
+      "id": "A",
+      "highlight_frame": 101,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 1.0,
+      "reason": "Frame 101 shows a clear jump with both feet off the ground, arms extended upward, and full body visibility against the plain background. Orbiting right at 30 degrees for 4 seconds captures the peak pose from a side angle, emphasizing the height and balance. The following 25-frame action (1.0s) resumes from the frozen frame, maintaining the dynamic pacing of the jump sequence.",
+      "score": 0.955
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.5742070756392046,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 25,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/shared_geometry/pose.npy",
+      "first_median_depth": 19.452659606933594,
+      "endpoint_rotation_degrees": 0.2625372900107764,
+      "maximum_rotation_degrees": 0.2625372900107764,
+      "max_step_rotation_degrees": 0.15507812501105403,
+      "endpoint_translation_depth_units": 0.0826390457392191,
+      "maximum_translation_depth_units": 0.0826390457392191,
+      "endpoint_translation_over_first_median_depth": 0.004248213221690452,
+      "maximum_translation_over_first_median_depth": 0.004248213221690452,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.073647189786236,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 6,
+          "rotation_degrees": 0.10606377357924042,
+          "translation_over_first_median_depth": 0.0015998561730340198
+        },
+        {
+          "frame": 12,
+          "rotation_degrees": 0.13333444642812808,
+          "translation_over_first_median_depth": 0.0015482135339052762
+        },
+        {
+          "frame": 18,
+          "rotation_degrees": 0.1034825473056991,
+          "translation_over_first_median_depth": 0.0010125155163309986
+        },
+        {
+          "frame": 24,
+          "rotation_degrees": 0.2625372900107764,
+          "translation_over_first_median_depth": 0.004248213221690452
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 25,
+      "peak_excess_frame": 0,
+      "peak_pale_bright_excess": 0.0,
+      "peak_generated_pale_bright_fraction": 0.0
+    },
+    "integrity": "passed"
+  },
+  "B": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b",
+    "candidate": {
+      "id": "B",
+      "highlight_frame": 271,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 6.0,
+      "action_num_frames": 33,
+      "action_seconds": 1.32,
+      "reason": "Frame 271 captures a dynamic pose with legs spread wide, arms raised behind the head, and a bent-knee stance that emphasizes motion and balance. Orbiting left at 45 degrees for 6 seconds provides a dramatic side view of the pose, highlighting the body's curvature and the dancer's control. The subsequent 33-frame action (1.32s) continues the movement seamlessly from the frozen frame, preserving the flow of the dance.",
+      "score": 0.61
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.5752652254971591,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 33,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b/shared_geometry/pose.npy",
+      "first_median_depth": 15.30307388305664,
+      "endpoint_rotation_degrees": 1.7610872075095898,
+      "maximum_rotation_degrees": 2.1907224976279545,
+      "max_step_rotation_degrees": 0.34901715164555774,
+      "endpoint_translation_depth_units": 0.3893404910217274,
+      "maximum_translation_depth_units": 0.44285193575246606,
+      "endpoint_translation_over_first_median_depth": 0.025441979434785322,
+      "maximum_translation_over_first_median_depth": 0.02893875695410357,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.0,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 8,
+          "rotation_degrees": 0.29577671837989705,
+          "translation_over_first_median_depth": 0.011467389671754305
+        },
+        {
+          "frame": 16,
+          "rotation_degrees": 1.3428231777223534,
+          "translation_over_first_median_depth": 0.019597575687494356
+        },
+        {
+          "frame": 24,
+          "rotation_degrees": 2.0724236608163693,
+          "translation_over_first_median_depth": 0.025761845244519598
+        },
+        {
+          "frame": 32,
+          "rotation_degrees": 1.7610872075095898,
+          "translation_over_first_median_depth": 0.025441979434785322
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 33,
+      "peak_excess_frame": 29,
+      "peak_pale_bright_excess": 5.548650568181818e-06,
+      "peak_generated_pale_bright_fraction": 5.548650568181818e-06
+    },
+    "integrity": "passed"
+  },
+  "C": {
+    "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c",
+    "candidate": {
+      "id": "C",
+      "highlight_frame": 577,
+      "orbit_direction": "right",
+      "orbit_degrees": 20,
+      "orbit_seconds": 2.5,
+      "action_num_frames": 17,
+      "action_seconds": 0.68,
+      "reason": "Frame 577 displays a strong side-to-side movement with one leg extended forward and the other bent, arms positioned for balance, showcasing a distinct dance motion. Orbiting right at 20 degrees for 2.5 seconds offers a close-up side angle that emphasizes the dancer's form and the precision of the movement. The following 17-frame action (0.68s) resumes the sequence from the frozen frame, maintaining the energetic pacing of the dance.",
+      "score": 0.7
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.6075955804019051,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 17,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/shared_geometry/pose.npy",
+      "first_median_depth": 18.97628402709961,
+      "endpoint_rotation_degrees": 1.2005253401831997,
+      "maximum_rotation_degrees": 1.2005253401831997,
+      "max_step_rotation_degrees": 0.17027872753370646,
+      "endpoint_translation_depth_units": 0.14120063699041557,
+      "maximum_translation_depth_units": 0.14120063699041557,
+      "endpoint_translation_over_first_median_depth": 0.007440900272612387,
+      "maximum_translation_over_first_median_depth": 0.007440900272612387,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.03133467283570086,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 4,
+          "rotation_degrees": 0.26257956091544543,
+          "translation_over_first_median_depth": 0.004022130848344844
+        },
+        {
+          "frame": 8,
+          "rotation_degrees": 0.5736036265047492,
+          "translation_over_first_median_depth": 0.0033465304887649616
+        },
+        {
+          "frame": 12,
+          "rotation_degrees": 1.02123550297058,
+          "translation_over_first_median_depth": 0.002629439763060892
+        },
+        {
+          "frame": 16,
+          "rotation_degrees": 1.2005253401831997,
+          "translation_over_first_median_depth": 0.007440900272612387
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 17,
+      "peak_excess_frame": 0,
+      "peak_pale_bright_excess": 0.0,
+      "peak_generated_pale_bright_fraction": 0.0
+    },
+    "integrity": "passed"
+  }
+}

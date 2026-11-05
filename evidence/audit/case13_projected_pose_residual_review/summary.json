@@ -1,0 +1,20 @@
+{
+  "native_integrity": "beta0 equals original native SHA; beta0.5 has same five DD inputs, same official weights and distinct native output",
+  "beta0_sha": "784963289e9486772803af3c149fcfe6f68fec8c29fe413fc1522c7f787a627e",
+  "beta0p5_sha": "f25e1dfefe35eaf7ad57dff02f8d2c8b7737f5eaac95f6ca60ee8c1abb5e0887",
+  "projected_source_vs_baseline_late_arm_error_px": 41.6218127643556,
+  "projected_source_vs_beta0p5_late_arm_error_px": 37.98806766001311,
+  "projected_source_vs_baseline_all_frame_median_error_px": 16.763830298235963,
+  "projected_source_vs_beta0p5_all_frame_median_error_px": 15.53995831309727,
+  "detected_frames": [
+    21,
+    21
+  ],
+  "contrast_trend_gray_std": [
+    1.0436873644796136,
+    0.9615424406097869
+  ],
+  "holistic_visual_review": "Native ten-time source/baseline/beta0.5 dense contact and enlarged f10/f15/f20 crops show the person and rooftop remain coherent in both; beta0.5 moves the raised hand farther forward by f20 and reduces late projected arm error modestly, while face/hand detail remains soft and the stage3 shot has only modest orbit effect. No visible holistic quality pass. Gray contrast trend declines 1.044 to 0.962, so improved arm placement is not a free overall win.",
+  "caveat": "Source-to-target Pi3X reprojection and generated DWPose are 2D proxies. Case13 beta0.5 modestly changes arm placement but does not solve face/hand softness or prove Stage3 quality. Avoid interpreting total-pose MAE as holistic quality, especially with beta knee misdetection.",
+  "keypoint_detection_caveat": "Official DWPose beta0.5 confuses left/right knees at f10 and f20 (both knees assigned near standing leg although generated image still shows raised leg). Consequently leg and all-joint aggregate errors are unreliable for beta0.5; use visible frames and stable arm joints for the limited conclusion."
+}

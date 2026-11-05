@@ -1,0 +1,64 @@
+{
+  "case": "balanced_case12",
+  "native_integrity": {
+    "A": "passed",
+    "B": "passed",
+    "C": "passed"
+  },
+  "A": {
+    "plan": "f171, left35 degrees, 33 source action frames",
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case12_a_stage3.jpg",
+    "reviewed_frames": [
+      0,
+      8,
+      16,
+      24,
+      32
+    ],
+    "observation": "Person and room remain recognizable over all inspected frames. Head/torso and leg move, unlike near-frozen old right30/25 result. Some blur, edge pressure on left foot, and source-to-new-view motion differences remain. Full-frame action metric and continuous review pending.",
+    "quality_status": "provisional_not_accepted"
+  },
+  "B": {
+    "plan": "f285, right45 degrees, 41 source action frames",
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case12_b_stage3.jpg",
+    "reviewed_frames": [
+      0,
+      10,
+      20,
+      30,
+      40
+    ],
+    "observation": "Some body motion follows source, but right-side crop grows severe by f20. Head/body distort by f30/f40, much of dancer outside frame. Native target mesh covers only 17.57% on average.",
+    "quality_status": "fail"
+  },
+  "C": {
+    "plan": "f457, left55 degrees, 57 source action frames",
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case12_c_stage3.jpg",
+    "reviewed_frames": [
+      0,
+      14,
+      28,
+      42,
+      56
+    ],
+    "observation": "Starting pose already strongly cropped. After f14 person and room turn into soft translucent shapes; f28 onward body is effectively lost in brown smear. Scene/body geometry destroyed.",
+    "quality_status": "fail"
+  },
+  "diagnostic": "Source camera endpoint rotation A/B/C 2.04/6.57/29.86 degrees; mean valid target mesh A/B/C 36.25/17.57/34.05%. C again shows mesh coverage alone cannot certify quality.",
+  "model_feedback": "pending",
+  "dwpose_native": {
+    "A": {
+      "detected": "33/33",
+      "mean_accepted_joints": 16.18
+    },
+    "B": {
+      "detected": "41/41",
+      "mean_accepted_joints": 6.83
+    },
+    "C": {
+      "detected": "45/57",
+      "mean_accepted_joints": 1.44
+    }
+  },
+  "diagnostic_limit": "DWPose detector may still fire on melted shapes; accepted body-joint count and visual review are needed. C source is severely cropped, so direct source-vs-native 2D error is unreliable."
+}

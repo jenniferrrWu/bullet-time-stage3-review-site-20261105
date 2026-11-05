@@ -1,0 +1,338 @@
+{
+  "samples": {
+    "dancer": {
+      "mask_path": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/motion_779_795_native/dw_mask.mp4",
+      "mask_sha256": "a0238018ad1c01614a6a5f615b2944072ee79f2c024a01dc12031a85a99e1e93",
+      "target_track": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/pose_cam3_779_795/tracks.json",
+      "target_video": "training_probe/sjtu_dancer/rgb_3.mp4",
+      "joint_support": {
+        "nose": {
+          "accepted_frames": 17,
+          "center_valid_frames": 16,
+          "center_valid_fraction": 0.9411764705882353,
+          "local_valid_mean": 0.8805210665581111
+        },
+        "left_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9236718909016894
+        },
+        "right_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.8119275391817626
+        },
+        "left_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9806635456950947
+        },
+        "right_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 14,
+          "center_valid_fraction": 0.8235294117647058,
+          "local_valid_mean": 0.7763077549358844
+        },
+        "left_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.7095461021778954
+        },
+        "right_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.7616527579890088
+        },
+        "left_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.6328109098310604
+        },
+        "right_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 11,
+          "center_valid_fraction": 0.6470588235294118,
+          "local_valid_mean": 0.7345817219621412
+        },
+        "left_wrist": {
+          "accepted_frames": 17,
+          "center_valid_frames": 8,
+          "center_valid_fraction": 0.47058823529411764,
+          "local_valid_mean": 0.4541013637288826
+        },
+        "right_wrist": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9973539588845919
+        },
+        "left_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 13,
+          "center_valid_fraction": 0.7647058823529411,
+          "local_valid_mean": 0.7268471402401792
+        },
+        "right_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.8874414817830246
+        },
+        "left_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 15,
+          "center_valid_fraction": 0.8823529411764706,
+          "local_valid_mean": 0.7687767148381844
+        },
+        "right_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 15,
+          "center_valid_fraction": 0.8823529411764706,
+          "local_valid_mean": 0.9523712599226544
+        },
+        "left_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 6,
+          "center_valid_fraction": 0.35294117647058826,
+          "local_valid_mean": 0.31223285161815595
+        },
+        "right_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 11,
+          "center_valid_fraction": 0.6470588235294118,
+          "local_valid_mean": 0.6606961123549766
+        }
+      },
+      "whole_frame_mask_valid_mean": 0.6704145603553922
+    },
+    "gymnast": {
+      "mask_path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/a_broadcast_gymnast/fixed_view_299_315_native/dw_mask.mp4",
+      "mask_sha256": "4a7ae880d4392167977d9884bce102ba4df747d82e31b89a19a87ef4311e6b49",
+      "target_track": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/a_broadcast_gymnast/target_pose_299_315/tracks.json",
+      "target_video": "training_probe/sjtu_multiscene/a_broadcast_gymnast/rgb_3.mp4",
+      "joint_support": {
+        "nose": {
+          "accepted_frames": 17,
+          "center_valid_frames": 15,
+          "center_valid_fraction": 0.8823529411764706,
+          "local_valid_mean": 0.8475473234276409
+        },
+        "left_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 9,
+          "center_valid_fraction": 0.5294117647058824,
+          "local_valid_mean": 0.59698758396092
+        },
+        "right_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9894158355383676
+        },
+        "left_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 2,
+          "center_valid_fraction": 0.11764705882352941,
+          "local_valid_mean": 0.1744351719926725
+        },
+        "right_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9835131284347649
+        },
+        "left_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 15,
+          "center_valid_fraction": 0.8823529411764706,
+          "local_valid_mean": 0.7465906777936088
+        },
+        "right_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.953388968043965
+        },
+        "left_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 6,
+          "center_valid_fraction": 0.35294117647058826,
+          "local_valid_mean": 0.30327702015062075
+        },
+        "right_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 16,
+          "center_valid_fraction": 0.9411764705882353,
+          "local_valid_mean": 0.8978221046203949
+        },
+        "left_wrist": {
+          "accepted_frames": 17,
+          "center_valid_frames": 6,
+          "center_valid_fraction": 0.35294117647058826,
+          "local_valid_mean": 0.4449419906370853
+        },
+        "right_wrist": {
+          "accepted_frames": 14,
+          "center_valid_frames": 14,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9493326742461691
+        },
+        "left_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 14,
+          "center_valid_fraction": 0.8235294117647058,
+          "local_valid_mean": 0.6364746590677793
+        },
+        "right_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9890087522898433
+        },
+        "left_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 9,
+          "center_valid_fraction": 0.5294117647058824,
+          "local_valid_mean": 0.4506411561164258
+        },
+        "right_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9082027274577652
+        },
+        "left_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 7,
+          "center_valid_fraction": 0.4117647058823529,
+          "local_valid_mean": 0.5509871768776715
+        },
+        "right_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.8096885813148789
+        }
+      },
+      "whole_frame_mask_valid_mean": 0.6237896369485294
+    },
+    "rope_heldout": {
+      "mask_path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/fixed_view_52_68_native/dw_mask.mp4",
+      "mask_sha256": "74ac3442e74ad28e1ba962db22f6a8132f5dbae604da7dfae3d6fdacad1141dd",
+      "target_track": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/target_pose_52_68/tracks.json",
+      "target_video": "training_probe/sjtu_multiscene/skipping_rope/rgb_3.mp4",
+      "joint_support": {
+        "nose": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.6668023610828415
+        },
+        "left_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 5,
+          "center_valid_fraction": 0.29411764705882354,
+          "local_valid_mean": 0.2644005699165479
+        },
+        "right_eye": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.8438835741909221
+        },
+        "left_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 1,
+          "center_valid_fraction": 0.058823529411764705,
+          "local_valid_mean": 0.15326684306940772
+        },
+        "right_ear": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9940972928963973
+        },
+        "left_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 16,
+          "center_valid_fraction": 0.9411764705882353,
+          "local_valid_mean": 0.7345817219621413
+        },
+        "right_shoulder": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.8609810706289436
+        },
+        "left_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 2,
+          "center_valid_fraction": 0.11764705882352941,
+          "local_valid_mean": 0.34337472013026665
+        },
+        "right_elbow": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.7964583757378383
+        },
+        "left_wrist": {
+          "accepted_frames": 17,
+          "center_valid_frames": 3,
+          "center_valid_fraction": 0.17647058823529413,
+          "local_valid_mean": 0.19275391817626705
+        },
+        "right_wrist": {
+          "accepted_frames": 17,
+          "center_valid_frames": 17,
+          "center_valid_fraction": 1.0,
+          "local_valid_mean": 0.9963362507632809
+        },
+        "left_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 11,
+          "center_valid_fraction": 0.6470588235294118,
+          "local_valid_mean": 0.4994911459393446
+        },
+        "right_hip": {
+          "accepted_frames": 17,
+          "center_valid_frames": 15,
+          "center_valid_fraction": 0.8823529411764706,
+          "local_valid_mean": 0.8133523305515977
+        },
+        "left_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 8,
+          "center_valid_fraction": 0.47058823529411764,
+          "local_valid_mean": 0.4944026053327905
+        },
+        "right_knee": {
+          "accepted_frames": 17,
+          "center_valid_frames": 16,
+          "center_valid_fraction": 0.9411764705882353,
+          "local_valid_mean": 0.9525748015469164
+        },
+        "left_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 4,
+          "center_valid_fraction": 0.23529411764705882,
+          "local_valid_mean": 0.3761449216364746
+        },
+        "right_ankle": {
+          "accepted_frames": 17,
+          "center_valid_frames": 12,
+          "center_valid_fraction": 0.7058823529411765,
+          "local_valid_mean": 0.7659271320985142
+        }
+      },
+      "whole_frame_mask_valid_mean": 0.6670403773488562
+    }
+  },
+  "definition": "DD native dw_mask decoded grayscale>127; target DWPose original coordinates scaled 2/3 into encoded 1280x720; center and 17x17 neighborhood. Descriptive geometry support, not a standalone quality score."
+}

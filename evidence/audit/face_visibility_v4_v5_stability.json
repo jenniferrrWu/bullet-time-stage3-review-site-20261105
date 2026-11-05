@@ -1,0 +1,88 @@
+{
+  "rows_total": 12,
+  "judgement_flips": 5,
+  "flipped": [
+    "case12_A:f0",
+    "case15_A:f12",
+    "case15_A:f24",
+    "case15_C:f8",
+    "case15_C:f16"
+  ],
+  "cases": {
+    "case12_A": {
+      "frames": [
+        "f0",
+        "f12",
+        "f24",
+        "f32"
+      ],
+      "v4": {
+        "f0": "yes",
+        "f12": "no",
+        "f24": "no",
+        "f32": "no"
+      },
+      "v5": {
+        "f0": "no",
+        "f12": "no",
+        "f24": "no",
+        "f32": "no"
+      },
+      "changed_frames": [
+        "f0"
+      ],
+      "same_image_sha256": "5d41f40342835a01a34adb12bca263c6dafa8f147a0ec4c07321c5873ef010a0"
+    },
+    "case15_A": {
+      "frames": [
+        "f0",
+        "f12",
+        "f20",
+        "f24"
+      ],
+      "v4": {
+        "f0": "yes",
+        "f12": "yes",
+        "f20": "no",
+        "f24": "no"
+      },
+      "v5": {
+        "f0": "yes",
+        "f12": "no",
+        "f20": "no",
+        "f24": "yes"
+      },
+      "changed_frames": [
+        "f12",
+        "f24"
+      ],
+      "same_image_sha256": "9f4a68cef9ab5a3a2faa0d02fb9ee399223b473d5681e0763778521c4afe71a1"
+    },
+    "case15_C": {
+      "frames": [
+        "f0",
+        "f8",
+        "f13",
+        "f16"
+      ],
+      "v4": {
+        "f0": "yes",
+        "f8": "yes",
+        "f13": "yes",
+        "f16": "yes"
+      },
+      "v5": {
+        "f0": "yes",
+        "f8": "no",
+        "f13": "yes",
+        "f16": "no"
+      },
+      "changed_frames": [
+        "f8",
+        "f16"
+      ],
+      "same_image_sha256": "a7463b14de1899f5931a98066921615057a9dc47762d68e039dc772e6c371f49"
+    }
+  },
+  "interpretation": "Same native pixels and model; tighter visibility criterion changes half of yes/no judgements. Neither prompt is calibrated. Do not use these responses as automatic quality gate or to absolve visible blur."
+}

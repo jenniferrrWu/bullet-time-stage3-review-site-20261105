@@ -1,0 +1,72 @@
+{
+  "scene": "a_broadcast_gymnast",
+  "source_camera": 0,
+  "target_camera": 3,
+  "target_fixed": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "renderer": "DD Dynamic3DMesh.render",
+  "rows": [
+    {
+      "frame": 299,
+      "variant": "raw",
+      "mask_fraction": 0.19364,
+      "warp_target_mae_covered": 13.457,
+      "unwarped_target_mae_same_covered": 19.456,
+      "depth_min": 55.338,
+      "depth_max": 168.409
+    },
+    {
+      "frame": 299,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.61235,
+      "warp_target_mae_covered": 13.565,
+      "unwarped_target_mae_same_covered": 19.871,
+      "depth_min": 61.802,
+      "depth_max": 168.213
+    },
+    {
+      "frame": 307,
+      "variant": "raw",
+      "mask_fraction": 0.19174,
+      "warp_target_mae_covered": 12.751,
+      "unwarped_target_mae_same_covered": 17.272,
+      "depth_min": 52.509,
+      "depth_max": 168.597
+    },
+    {
+      "frame": 307,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.63507,
+      "warp_target_mae_covered": 14.046,
+      "unwarped_target_mae_same_covered": 19.842,
+      "depth_min": 63.327,
+      "depth_max": 168.588
+    },
+    {
+      "frame": 315,
+      "variant": "raw",
+      "mask_fraction": 0.17712,
+      "warp_target_mae_covered": 12.54,
+      "unwarped_target_mae_same_covered": 15.55,
+      "depth_min": 53.293,
+      "depth_max": 168.606
+    },
+    {
+      "frame": 315,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.62211,
+      "warp_target_mae_covered": 13.749,
+      "unwarped_target_mae_same_covered": 18.372,
+      "depth_min": 63.264,
+      "depth_max": 168.585
+    }
+  ],
+  "limits": [
+    "three sampled frames only",
+    "no subject mask yet",
+    "no training quality claim"
+  ]
+}

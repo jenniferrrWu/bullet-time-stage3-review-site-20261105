@@ -1,0 +1,18 @@
+{
+  "camera_count": 12,
+  "pairs": {
+    "0-1": {
+      "rotation_degrees": 4.801538599586724,
+      "position_units": 6.541896739401323
+    },
+    "0-3": {
+      "rotation_degrees": 13.572740746569687,
+      "position_units": 20.32765152618811
+    },
+    "0-6": {
+      "rotation_degrees": 30.74436408006224,
+      "position_units": 44.48818140393272
+    }
+  },
+  "world_to_camera_formula": "Xc=R*(Xw-position), official repository README"
+}

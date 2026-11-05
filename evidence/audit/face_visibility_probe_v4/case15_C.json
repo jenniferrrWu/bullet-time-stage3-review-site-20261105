@@ -1,0 +1,36 @@
+{
+  "image": "/root/bullet_time_research_20261102/audit/face_context_case15_C/face_context_contact.jpg",
+  "image_sha256": "a7463b14de1899f5931a98066921615057a9dc47762d68e039dc772e6c371f49",
+  "source_sha256": "bd8328f75321c8464e981656473cd7d43e9ac3e117a9ac0685d411c89c2f05ae",
+  "generated_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "raw": "{\n  \"rows\": {\n    \"f0\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible, no occlusion\"\n    },\n    \"f8\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible, no occlusion\"\n    },\n    \"f13\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible, no occlusion\"\n    },\n    \"f16\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible, no occlusion\"\n    }\n  }\n}",
+  "parsed": {
+    "rows": {
+      "f0": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible, no occlusion"
+      },
+      "f8": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible, no occlusion"
+      },
+      "f13": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible, no occlusion"
+      },
+      "f16": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible, no occlusion"
+      }
+    }
+  },
+  "prompt": "The image has chronological rows f0, f8, f13, f16. Each row has four tiles from left to right: source close face, generated close face, source wider head/shoulders, generated wider head/shoulders. Your only task is VISIBILITY, not image quality. For each row inspect the WIDER tiles first and report whether eyes, nose, and mouth of the GENERATED person are visibly exposed or hidden by head turn, hair, framing, or other occlusion. Use source wider tile as context. Do not use softness or lack of fine texture as evidence of occlusion. Do not call a face blurry or clear. If you cannot confidently tell which facial features are exposed, set generated_face_comparable to uncertain. Return JSON with keys rows (an object keyed by exact labels ['f0', 'f8', 'f13', 'f16']), each row has generated_face_comparable one of yes/no/uncertain, visible_features string, occlusion_or_turn string, and reason string (at most 12 words). Keep each value brief. No extra keys."
+}

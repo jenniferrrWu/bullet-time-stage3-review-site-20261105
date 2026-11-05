@@ -1,0 +1,68 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "window": [
+    622,
+    682
+  ],
+  "sampled_pairs": [
+    {
+      "from_frame": 622,
+      "to_frame": 637,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 349,
+      "homography_inliers": 198,
+      "inlier_median_displacement_fraction_of_diagonal": 0.06015290692448616,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.06265698671340943
+    },
+    {
+      "from_frame": 637,
+      "to_frame": 652,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 204,
+      "homography_inliers": 116,
+      "inlier_median_displacement_fraction_of_diagonal": 0.08980462700128555,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.09798285737633705
+    },
+    {
+      "from_frame": 652,
+      "to_frame": 667,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 74,
+      "homography_inliers": 46,
+      "inlier_median_displacement_fraction_of_diagonal": 0.07319565117359161,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.07728483527898788
+    },
+    {
+      "from_frame": 667,
+      "to_frame": 682,
+      "keypoints": [
+        2500,
+        2500
+      ],
+      "ratio_matches": 19,
+      "homography_inliers": 6,
+      "inlier_median_displacement_fraction_of_diagonal": null,
+      "inlier_p90_displacement_fraction_of_diagonal": null
+    }
+  ],
+  "endpoint_pair": {
+    "keypoints": [
+      2500,
+      2500
+    ],
+    "ratio_matches": 17,
+    "homography_inliers": 8,
+    "inlier_median_displacement_fraction_of_diagonal": null,
+    "inlier_p90_displacement_fraction_of_diagonal": null
+  },
+  "interpretation": "Background feature motion advisory. Large displacement or lost matches can flag source camera/pan/occlusion risk for fixed-view Stage3, but body motion, low texture, depth parallax and repetitive architecture can confound. Never a Stage3 quality pass/fail threshold."
+}

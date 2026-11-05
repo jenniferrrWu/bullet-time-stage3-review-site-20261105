@@ -1,0 +1,105 @@
+{
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/action.mp4",
+  "source_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+  "generated_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "frames": [
+    {
+      "frame": 0,
+      "label": "source",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.9323,
+      "face_confidence_mean": 0.9358,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.8458,
+      "body_joint_confidence_median": 0.7632
+    },
+    {
+      "frame": 0,
+      "label": "generated",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.9776,
+      "face_confidence_mean": 0.9817,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.8727,
+      "body_joint_confidence_median": 0.7562
+    },
+    {
+      "frame": 12,
+      "label": "source",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.9235,
+      "face_confidence_mean": 0.9358,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.8052,
+      "body_joint_confidence_median": 0.7673
+    },
+    {
+      "frame": 12,
+      "label": "generated",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.9011,
+      "face_confidence_mean": 0.9009,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.8256,
+      "body_joint_confidence_median": 0.6979
+    },
+    {
+      "frame": 24,
+      "label": "source",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.8258,
+      "face_confidence_mean": 0.8361,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.8133,
+      "body_joint_confidence_median": 0.7701
+    },
+    {
+      "frame": 24,
+      "label": "generated",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.5644,
+      "face_confidence_mean": 0.5636,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 0.9265,
+      "nose_confidence": 0.6464,
+      "body_joint_confidence_median": 0.6639
+    },
+    {
+      "frame": 32,
+      "label": "source",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.9421,
+      "face_confidence_mean": 0.9541,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.9004,
+      "body_joint_confidence_median": 0.8166
+    },
+    {
+      "frame": 32,
+      "label": "generated",
+      "detected": true,
+      "face_point_count": 68,
+      "face_confidence_median": 0.6491,
+      "face_confidence_mean": 0.6502,
+      "face_fraction_conf_gt_0p3": 1.0,
+      "face_fraction_conf_gt_0p5": 1.0,
+      "nose_confidence": 0.6605,
+      "body_joint_confidence_median": 0.6941
+    }
+  ],
+  "note": "COCO WholeBody face indices23..90; low confidence is advisory visibility evidence, not a proven occlusion classifier"
+}

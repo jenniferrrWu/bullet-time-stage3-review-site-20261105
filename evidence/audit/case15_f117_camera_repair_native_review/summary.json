@@ -1,0 +1,86 @@
+{
+  "scope": "Same f117 source-action window and 2.4s Stage2, VLM E left30 vs new F left15 and G right10; all actual native DD inputs and outputs checked. No user best labels.",
+  "runs": {
+    "E": {
+      "highlight_frame": 117,
+      "orbit_direction": "left",
+      "orbit_degrees": 30,
+      "stage2_seconds": 2.4,
+      "stage3_frames": 21,
+      "native_integrity": "passed",
+      "core_motion_error_body_units": 0.0895514040832007,
+      "limb_motion_error_body_units": 0.1442416186007511,
+      "right_wrist_source_range_body_units": [
+        0.6928556979078644,
+        0.4490581597631177
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.5832491242392799,
+        0.5675402564756823
+      ],
+      "person_gray_contrast_trend_over_source": 1.2027437664552332,
+      "valid_mesh_fraction_mean": 0.5749230058678302,
+      "source_camera_motion_deg": 0.2156185747154745,
+      "peak_pale_bright_excess": 0.0
+    },
+    "F": {
+      "highlight_frame": 117,
+      "orbit_direction": "left",
+      "orbit_degrees": 15,
+      "stage2_seconds": 2.4,
+      "stage3_frames": 21,
+      "native_integrity": "passed",
+      "core_motion_error_body_units": 0.10410080957815329,
+      "limb_motion_error_body_units": 0.206270703893739,
+      "right_wrist_source_range_body_units": [
+        0.6928556979078644,
+        0.4490581597631177
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.1254303269331152,
+        0.08623364664708189
+      ],
+      "person_gray_contrast_trend_over_source": 0.9837163860030252,
+      "valid_mesh_fraction_mean": 0.7679234624425054,
+      "source_camera_motion_deg": 0.2156185747154745,
+      "peak_pale_bright_excess": 0.0
+    },
+    "G": {
+      "highlight_frame": 117,
+      "orbit_direction": "right",
+      "orbit_degrees": 10,
+      "stage2_seconds": 2.4,
+      "stage3_frames": 21,
+      "native_integrity": "passed",
+      "core_motion_error_body_units": 0.07891601034970706,
+      "limb_motion_error_body_units": 0.1962320832644848,
+      "right_wrist_source_range_body_units": [
+        0.6928556979078644,
+        0.4490581597631177
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.13000660967492306,
+        0.09623064132805159
+      ],
+      "person_gray_contrast_trend_over_source": 1.1201157549656173,
+      "valid_mesh_fraction_mean": 0.859531577634605,
+      "source_camera_motion_deg": 0.2156185747154745,
+      "peak_pale_bright_excess": 0.0
+    }
+  },
+  "holistic_visual_review": {
+    "E": "Some arm opening continues, but Stage2 already invents a tall right-side curtain absent from source; Stage3 retains it, and the late source one-leg lift/forward movement is under-reproduced.",
+    "F": "Left15 still invents a narrower right-side curtain; all 21 native Stage3 frames keep the hands around the head with little arm opening or late leg movement. VLM provisional preference F is not supported by whole-video review.",
+    "G": "Right10 keeps a comparatively plain studio background and intact person, but arms stay around the head throughout 21 Stage3 frames, missing the source arm opening and late leg lift. Viewpoint shift is also small."
+  },
+  "quality_pass": false,
+  "final_selected_id": null,
+  "global_optimality_proven": false,
+  "metric_caveat": "Cross-view 2D pose, contrast and mesh fractions are diagnostic, not whole-video quality.",
+  "quality_pass_by_candidate": {
+    "E": false,
+    "F": false,
+    "G": false
+  },
+  "decision": "No final camera choice: E trades more visible arm motion for invented background; F/G reduce or avoid that artifact but freeze the action. All fail holistic Stage3."
+}

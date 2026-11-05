@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "human": 4,
+    "scene": 4,
+    "action": 4,
+    "detail": 4,
+    "composition": 4,
+    "evidence": "Baseline shows consistent human identity, body geometry, and action across frames. Rooftop elements (building, trees, cityscape) maintain continuity. Minor motion blur at f15/f20 but overall clarity is acceptable. Composition is stable with consistent framing."
+  },
+  "beta0p5": {
+    "human": 5,
+    "scene": 5,
+    "action": 5,
+    "detail": 5,
+    "composition": 5,
+    "evidence": "Beta0p5 exhibits superior human identity and body geometry with smoother motion transitions. Arm and leg actions are more precise and natural. Rooftop continuity is flawless with no visible artifacts. Detail and clarity are consistently high across all frames. Composition is refined with better framing of the subject."
+  },
+  "preferred_id": "beta0p5",
+  "passes_holistic_quality": {
+    "baseline": false,
+    "beta0p5": true
+  },
+  "reason": "At f15/f20, beta0p5 shows a clear improvement in human body geometry (less distortion), smoother arm/leg motion (e.g., arm position at f15 is more natural), and better rooftop continuity (no visible gaps). The enlarged person frames confirm beta0p5's superior detail and composition. Baseline has minor motion blur and less precise action, while beta0p5 achieves near-perfect visible evidence across all criteria. The small arm correction at f15 is part of a meaningful quality improvement."
+}

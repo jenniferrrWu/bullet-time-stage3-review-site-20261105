@@ -1,0 +1,9 @@
+{
+  "frames": 17,
+  "anchor_target_first_exact": true,
+  "source_target_first_mae": 16.9676,
+  "image_size": [
+    1280,
+    704
+  ]
+}

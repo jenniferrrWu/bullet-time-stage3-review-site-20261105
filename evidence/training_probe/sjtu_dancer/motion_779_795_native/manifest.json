@@ -1,0 +1,231 @@
+{
+  "source": "SJTU Free Viewpoint RGB-D A Dancer official RGB/depth/camera data",
+  "research_use_only": true,
+  "source_camera": 0,
+  "fixed_target_camera": 3,
+  "absolute_frames": [
+    779,
+    795
+  ],
+  "source_rgb_sha256": "a1bcc2bff12c2236c0d6e5f88ca563822aa0dfe4574e04259be890ce35d81882",
+  "target_rgb_sha256": "33dc54e27ac16a8168066192f0de58b14e6ec3dbbf669b0d56e76fc8e781d0b9",
+  "calibration_sha256": "c93805047863a41c4f801e2a6ce5c7a3f7c6e2da5157a355249bdcf48857ea46",
+  "sparse_depth_window_sha256": "4fdeea4e902fc3e12690f043a34ca6695573fe290ba3bd36133c8768e55d57c4",
+  "depth_window_plan": {
+    "first_frame": 779,
+    "last_frame": 795,
+    "start_packet": 746,
+    "end_packet": 816,
+    "start_byte": 81280678,
+    "end_byte": 89318833,
+    "key_pts": 30.0,
+    "bytes": 8038156
+  },
+  "depth_preprocess": "encoded grayscale -> area 320x180 -> median5 -> bilinear 1280x720 -> official fB disparity formula",
+  "renderer": "DD Dynamic3DMesh.render/nvdiffrast with source/target w2c and K from official calibration",
+  "fps": 25,
+  "num_frames": 17,
+  "resolution": [
+    1280,
+    720
+  ],
+  "first_frame_depth_range": [
+    66.90911865234375,
+    168.3390350341797
+  ],
+  "frame_stats": [
+    {
+      "absolute_frame": 779,
+      "relative_frame": 0,
+      "mask_fraction": 0.66202,
+      "warp_target_mae_covered": 12.74,
+      "unwarped_target_mae_same_covered": 18.297,
+      "depth_range": [
+        66.909,
+        168.339
+      ]
+    },
+    {
+      "absolute_frame": 780,
+      "relative_frame": 1,
+      "mask_fraction": 0.66371,
+      "warp_target_mae_covered": 13.066,
+      "unwarped_target_mae_same_covered": 18.494,
+      "depth_range": [
+        67.886,
+        168.461
+      ]
+    },
+    {
+      "absolute_frame": 781,
+      "relative_frame": 2,
+      "mask_fraction": 0.67258,
+      "warp_target_mae_covered": 12.974,
+      "unwarped_target_mae_same_covered": 18.263,
+      "depth_range": [
+        66.78,
+        168.428
+      ]
+    },
+    {
+      "absolute_frame": 782,
+      "relative_frame": 3,
+      "mask_fraction": 0.67839,
+      "warp_target_mae_covered": 13.146,
+      "unwarped_target_mae_same_covered": 18.336,
+      "depth_range": [
+        66.455,
+        168.421
+      ]
+    },
+    {
+      "absolute_frame": 783,
+      "relative_frame": 4,
+      "mask_fraction": 0.67468,
+      "warp_target_mae_covered": 13.072,
+      "unwarped_target_mae_same_covered": 18.352,
+      "depth_range": [
+        66.551,
+        168.535
+      ]
+    },
+    {
+      "absolute_frame": 784,
+      "relative_frame": 5,
+      "mask_fraction": 0.67445,
+      "warp_target_mae_covered": 13.048,
+      "unwarped_target_mae_same_covered": 18.49,
+      "depth_range": [
+        66.574,
+        168.457
+      ]
+    },
+    {
+      "absolute_frame": 785,
+      "relative_frame": 6,
+      "mask_fraction": 0.66985,
+      "warp_target_mae_covered": 13.182,
+      "unwarped_target_mae_same_covered": 18.426,
+      "depth_range": [
+        67.218,
+        168.382
+      ]
+    },
+    {
+      "absolute_frame": 786,
+      "relative_frame": 7,
+      "mask_fraction": 0.66874,
+      "warp_target_mae_covered": 13.141,
+      "unwarped_target_mae_same_covered": 18.54,
+      "depth_range": [
+        66.206,
+        168.455
+      ]
+    },
+    {
+      "absolute_frame": 787,
+      "relative_frame": 8,
+      "mask_fraction": 0.67008,
+      "warp_target_mae_covered": 13.235,
+      "unwarped_target_mae_same_covered": 18.742,
+      "depth_range": [
+        67.023,
+        168.357
+      ]
+    },
+    {
+      "absolute_frame": 788,
+      "relative_frame": 9,
+      "mask_fraction": 0.65859,
+      "warp_target_mae_covered": 13.019,
+      "unwarped_target_mae_same_covered": 18.706,
+      "depth_range": [
+        66.468,
+        168.335
+      ]
+    },
+    {
+      "absolute_frame": 789,
+      "relative_frame": 10,
+      "mask_fraction": 0.66408,
+      "warp_target_mae_covered": 13.092,
+      "unwarped_target_mae_same_covered": 18.697,
+      "depth_range": [
+        67.218,
+        168.547
+      ]
+    },
+    {
+      "absolute_frame": 790,
+      "relative_frame": 11,
+      "mask_fraction": 0.66972,
+      "warp_target_mae_covered": 13.131,
+      "unwarped_target_mae_same_covered": 18.795,
+      "depth_range": [
+        68.216,
+        168.346
+      ]
+    },
+    {
+      "absolute_frame": 791,
+      "relative_frame": 12,
+      "mask_fraction": 0.6674,
+      "warp_target_mae_covered": 13.077,
+      "unwarped_target_mae_same_covered": 18.758,
+      "depth_range": [
+        67.03,
+        168.204
+      ]
+    },
+    {
+      "absolute_frame": 792,
+      "relative_frame": 13,
+      "mask_fraction": 0.66974,
+      "warp_target_mae_covered": 13.115,
+      "unwarped_target_mae_same_covered": 18.73,
+      "depth_range": [
+        66.79,
+        168.335
+      ]
+    },
+    {
+      "absolute_frame": 793,
+      "relative_frame": 14,
+      "mask_fraction": 0.68073,
+      "warp_target_mae_covered": 13.211,
+      "unwarped_target_mae_same_covered": 18.64,
+      "depth_range": [
+        66.857,
+        168.335
+      ]
+    },
+    {
+      "absolute_frame": 794,
+      "relative_frame": 15,
+      "mask_fraction": 0.67694,
+      "warp_target_mae_covered": 13.02,
+      "unwarped_target_mae_same_covered": 18.906,
+      "depth_range": [
+        67.245,
+        168.3
+      ]
+    },
+    {
+      "absolute_frame": 795,
+      "relative_frame": 16,
+      "mask_fraction": 0.67535,
+      "warp_target_mae_covered": 12.831,
+      "unwarped_target_mae_same_covered": 18.913,
+      "depth_range": [
+        67.506,
+        168.386
+      ]
+    }
+  ],
+  "limitations": [
+    "single scene/window",
+    "depth filtering trades coverage for alignment error",
+    "target novel-view person has disocclusion holes",
+    "no quality/generalization claim"
+  ]
+}

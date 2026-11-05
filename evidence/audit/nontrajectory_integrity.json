@@ -1,0 +1,18 @@
+[
+  {
+    "variant": "cfg5",
+    "same_input_hashes": true,
+    "same_initial_noise": true,
+    "native_anchor_verified": true,
+    "fresh_full_decode": true,
+    "sha": "982c631c8047460f85704c7e5b31e22d54c8f02e3ea404951087595ba525902f"
+  },
+  {
+    "variant": "lora05",
+    "same_input_hashes": true,
+    "same_initial_noise": true,
+    "native_anchor_verified": true,
+    "fresh_full_decode": true,
+    "sha": "8a66fff7bc4bee2c8c220db34350ed31bafbc6646e4969c0067de072f0024260"
+  }
+]

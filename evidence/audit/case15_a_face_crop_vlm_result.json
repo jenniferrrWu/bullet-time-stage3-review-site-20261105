@@ -1,0 +1,10 @@
+{
+  "source_image": "/root/bullet_time_research_20261102/audit/case15_f101_local_refinements_native_review/A/A_face_crops_late.jpg",
+  "prompt": "The image contains four chronological rows f0, f12, f20, f24. Each row has a SOURCE face crop on the left and a native GENERATED face crop on the right; both are resized to 200x200 with matching nose/shoulder geometry. Judge only whether generated face details remain clear relative to source and its own f0 across the late frames. Describe directly visible features in f12, f20 and f24, including blur or ghosting if present; do not assess full-body action, background or angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+  "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f12: Generated face shows slight blur and reduced definition in eyes/cheeks vs source. f20: Generated face has significant blur, ghosting on forehead/cheek, and loss of fine details (e.g., skin texture, eye shape). f24: Generated face is heavily blurred, with distorted features (e.g., nose/eye placement), and visible artifacts/ghosting across the entire face.\",\n  \"limits\": \"Only face details (eyes, nose, cheeks, skin texture) assessed; no full-body/background/angle evaluation.\"\n}",
+  "parsed": {
+    "late_face_detail_retained": "no",
+    "frame_evidence": "f12: Generated face shows slight blur and reduced definition in eyes/cheeks vs source. f20: Generated face has significant blur, ghosting on forehead/cheek, and loss of fine details (e.g., skin texture, eye shape). f24: Generated face is heavily blurred, with distorted features (e.g., nose/eye placement), and visible artifacts/ghosting across the entire face.",
+    "limits": "Only face details (eyes, nose, cheeks, skin texture) assessed; no full-body/background/angle evaluation."
+  }
+}

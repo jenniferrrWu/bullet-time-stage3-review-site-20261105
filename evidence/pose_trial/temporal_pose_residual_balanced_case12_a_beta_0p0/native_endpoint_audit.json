@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "1156f216fa6ae8dded7be193f6c5b8bbc365192d8ba444c5029f82fcc9eae9f5",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "be9e695bb7ff165fce0c638ed04575045d9118591273d0d12120ab27018c2e4d",
+    "shape": [
+      1,
+      48,
+      9,
+      80,
+      44
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": null,
+    "rng_behavior_changed": false
+  },
+  "endpoint_pixel_sha256": "d0bf91461a5f143df8efb9a09644a3b76cffc3865a1b1d4af568459f357b43dc",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    80,
+    44
+  ],
+  "effective_endpoint_png": "/root/bullet_time_research_20261102/pose_trial/temporal_pose_residual_balanced_case12_a_beta_0p0/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

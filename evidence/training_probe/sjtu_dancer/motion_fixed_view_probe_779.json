@@ -1,0 +1,81 @@
+{
+  "frames": [
+    {
+      "frame": 779,
+      "variant": "raw",
+      "mask_fraction": 0.18735,
+      "motion_roi_mask_fraction": 0.17043,
+      "warp_target_mae_covered": 11.183,
+      "unwarped_target_mae_same_covered": 17.029,
+      "warp_target_mae_roi_covered": 14.391,
+      "unwarped_target_mae_roi_same_covered": 26.855,
+      "depth_min": 61.106,
+      "depth_max": 168.573
+    },
+    {
+      "frame": 779,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.66202,
+      "motion_roi_mask_fraction": 0.75425,
+      "warp_target_mae_covered": 12.74,
+      "unwarped_target_mae_same_covered": 18.297,
+      "warp_target_mae_roi_covered": 13.241,
+      "unwarped_target_mae_roi_same_covered": 22.227,
+      "depth_min": 66.909,
+      "depth_max": 168.339
+    },
+    {
+      "frame": 787,
+      "variant": "raw",
+      "mask_fraction": 0.18925,
+      "motion_roi_mask_fraction": 0.16564,
+      "warp_target_mae_covered": 11.007,
+      "unwarped_target_mae_same_covered": 16.766,
+      "warp_target_mae_roi_covered": 13.458,
+      "unwarped_target_mae_roi_same_covered": 26.309,
+      "depth_min": 62.168,
+      "depth_max": 168.524
+    },
+    {
+      "frame": 787,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.67008,
+      "motion_roi_mask_fraction": 0.77212,
+      "warp_target_mae_covered": 13.235,
+      "unwarped_target_mae_same_covered": 18.742,
+      "warp_target_mae_roi_covered": 14.003,
+      "unwarped_target_mae_roi_same_covered": 22.961,
+      "depth_min": 67.023,
+      "depth_max": 168.357
+    },
+    {
+      "frame": 795,
+      "variant": "raw",
+      "mask_fraction": 0.17201,
+      "motion_roi_mask_fraction": 0.15921,
+      "warp_target_mae_covered": 10.345,
+      "unwarped_target_mae_same_covered": 17.693,
+      "warp_target_mae_roi_covered": 12.043,
+      "unwarped_target_mae_roi_same_covered": 27.863,
+      "depth_min": 60.345,
+      "depth_max": 168.575
+    },
+    {
+      "frame": 795,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.67535,
+      "motion_roi_mask_fraction": 0.77578,
+      "warp_target_mae_covered": 12.831,
+      "unwarped_target_mae_same_covered": 18.913,
+      "warp_target_mae_roi_covered": 13.408,
+      "unwarped_target_mae_roi_same_covered": 23.476,
+      "depth_min": 67.506,
+      "depth_max": 168.386
+    }
+  ],
+  "resolution": [
+    1280,
+    720
+  ],
+  "renderer": "native DD Dynamic3DMesh"
+}

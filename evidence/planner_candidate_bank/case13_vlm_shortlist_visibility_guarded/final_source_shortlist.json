@@ -1,0 +1,71 @@
+{
+  "items": [
+    [
+      "candidate_f280_offset_0",
+      280
+    ],
+    [
+      "candidate_f280_offset_8",
+      288
+    ],
+    [
+      "candidate_f280_offset_16",
+      296
+    ],
+    [
+      "candidate_f430_offset_0",
+      430
+    ],
+    [
+      "candidate_f430_offset_8",
+      438
+    ],
+    [
+      "candidate_f430_offset_16",
+      446
+    ],
+    [
+      "candidate_f622_offset_0",
+      622
+    ],
+    [
+      "candidate_f622_offset_8",
+      630
+    ],
+    [
+      "candidate_f622_offset_16",
+      638
+    ],
+    [
+      "candidate_f848_offset_0",
+      848
+    ],
+    [
+      "candidate_f848_offset_8",
+      856
+    ],
+    [
+      "candidate_f848_offset_16",
+      864
+    ]
+  ],
+  "prompt": "Choose EXACTLY THREE distinct candidate highlight frames from [280, 430, 622, 848]. Each is shown at the frozen frame and +8/+16 source frames. Compare impact, person framing, real subsequent action, camera pan/crop risk and DD Stage3 feasibility. No generated result is shown, so this is not a final quality verdict. Return JSON exactly {\"candidate_frames\": [three increasing frame integers], \"evidence_by_frame\": {\"frame_id\": \"short visible observation\"}, \"risks\": [strings]}. Do not select an angle yet; angle and direction belong to the later VLM plan and real output feedback.",
+  "raw": "{\n  \"candidate_frames\": [280, 430, 622],\n  \"evidence_by_frame\": {\n    \"280\": \"Person in mid-motion with leg extended, clear background buildings, no visible camera movement in offset frames.\",\n    \"430\": \"Person in wide stance with arms extended, background cityscape visible, offset frames show continuous motion without abrupt cuts.\",\n    \"622\": \"Person standing on mat with arms raised, distinctive building in background, offset frames maintain consistent framing and motion flow.\"\n  },\n  \"risks\": [\n    \"280: Potential for motion blur in offset frames due to fast leg movement\",\n    \"430: Overexposure risk in bright background affecting person visibility\",\n    \"622: Background building may cause visual distraction in final output\"\n  ]\n}",
+  "parsed": {
+    "candidate_frames": [
+      280,
+      430,
+      622
+    ],
+    "evidence_by_frame": {
+      "280": "Person in mid-motion with leg extended, clear background buildings, no visible camera movement in offset frames.",
+      "430": "Person in wide stance with arms extended, background cityscape visible, offset frames show continuous motion without abrupt cuts.",
+      "622": "Person standing on mat with arms raised, distinctive building in background, offset frames maintain consistent framing and motion flow."
+    },
+    "risks": [
+      "280: Potential for motion blur in offset frames due to fast leg movement",
+      "430: Overexposure risk in bright background affecting person visibility",
+      "622: Background building may cause visual distraction in final output"
+    ]
+  }
+}

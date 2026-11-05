@@ -1,0 +1,308 @@
+{
+  "frames": [
+    {
+      "frame": 779,
+      "bbox_xyxy_1280x720": [
+        622,
+        207,
+        950,
+        551
+      ],
+      "full_mask_fraction": 0.662,
+      "person_bbox_mask_fraction": 0.6301,
+      "joint_centers_covered": 11,
+      "joint_centers_total": 17,
+      "joint_nearby_mean_fraction": 0.6619,
+      "joints": [
+        {
+          "joint": 0,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.738
+        },
+        {
+          "joint": 1,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.947
+        },
+        {
+          "joint": 2,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.329
+        },
+        {
+          "joint": 3,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.96
+        },
+        {
+          "joint": 4,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.08
+        },
+        {
+          "joint": 5,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.022
+        },
+        {
+          "joint": 6,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.782
+        },
+        {
+          "joint": 7,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.884
+        },
+        {
+          "joint": 8,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.244
+        },
+        {
+          "joint": 9,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.391
+        },
+        {
+          "joint": 10,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.969
+        },
+        {
+          "joint": 11,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.964
+        },
+        {
+          "joint": 12,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.956
+        },
+        {
+          "joint": 13,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.791
+        },
+        {
+          "joint": 14,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 15,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.196
+        },
+        {
+          "joint": 16,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "frame": 787,
+      "bbox_xyxy_1280x720": [
+        631,
+        242,
+        926,
+        553
+      ],
+      "full_mask_fraction": 0.6701,
+      "person_bbox_mask_fraction": 0.6428,
+      "joint_centers_covered": 14,
+      "joint_centers_total": 17,
+      "joint_nearby_mean_fraction": 0.7929,
+      "joints": [
+        {
+          "joint": 0,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 1,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.929
+        },
+        {
+          "joint": 2,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 3,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 4,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 5,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.667
+        },
+        {
+          "joint": 6,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.516
+        },
+        {
+          "joint": 7,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.596
+        },
+        {
+          "joint": 8,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.982
+        },
+        {
+          "joint": 9,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.0
+        },
+        {
+          "joint": 10,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 11,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.333
+        },
+        {
+          "joint": 12,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.831
+        },
+        {
+          "joint": 13,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.991
+        },
+        {
+          "joint": 14,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 15,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.693
+        },
+        {
+          "joint": 16,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.942
+        }
+      ]
+    },
+    {
+      "frame": 795,
+      "bbox_xyxy_1280x720": [
+        609,
+        217,
+        793,
+        553
+      ],
+      "full_mask_fraction": 0.6754,
+      "person_bbox_mask_fraction": 0.7441,
+      "joint_centers_covered": 16,
+      "joint_centers_total": 17,
+      "joint_nearby_mean_fraction": 0.8691,
+      "joints": [
+        {
+          "joint": 0,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 1,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.978
+        },
+        {
+          "joint": 2,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 3,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.991
+        },
+        {
+          "joint": 4,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.996
+        },
+        {
+          "joint": 5,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.6
+        },
+        {
+          "joint": 6,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 7,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 8,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 9,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.396
+        },
+        {
+          "joint": 10,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.978
+        },
+        {
+          "joint": 11,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 12,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.987
+        },
+        {
+          "joint": 13,
+          "covered_center": true,
+          "covered_nearby_fraction": 1.0
+        },
+        {
+          "joint": 14,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.942
+        },
+        {
+          "joint": 15,
+          "covered_center": false,
+          "covered_nearby_fraction": 0.013
+        },
+        {
+          "joint": 16,
+          "covered_center": true,
+          "covered_nearby_fraction": 0.893
+        }
+      ]
+    }
+  ],
+  "source": "target camera 3 official DWPose body vs native DD geometry mask"
+}

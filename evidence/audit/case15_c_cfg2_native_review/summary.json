@@ -1,0 +1,64 @@
+{
+  "scope": "Same case15 C f577 right20 17-frame native DD Stage3: CFG1 baseline vs runtime CFG2; inputs, prompt, actual Stage2 endpoint, official weights, initial noise and first-latent pin identical. CFG branch changes number of model calls, so inference is not otherwise identical.",
+  "integrity": {
+    "same_initial_noise": true,
+    "same_actual_endpoint_pixels": true,
+    "pin_count_each": 50,
+    "same_five_input_hashes": true,
+    "cfg2_runtime_call": {
+      "cfg_scale_actual": 2.0,
+      "num_frames": 17,
+      "negative_prompt": "",
+      "has_source_content": true,
+      "has_warp_video": true,
+      "has_warp_mask": true,
+      "input_image_present": true,
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "same_official_pipeline": true,
+      "postdecode_replacement": false
+    },
+    "official_weights_unchanged": true
+  },
+  "runs": {
+    "cfg1": {
+      "native_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_motion_delta_mae": 0.8409746042306225,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "cfg2": {
+      "native_sha256": "dc5515ca504a0f635330640dc3123b7cdb573609d36a08b3ef7f8b3b8fdebd7c",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.07023209609436562,
+      "limb_motion_delta_mae": 0.470530131103638,
+      "right_wrist_motion_delta_mae": 0.8328449019735864,
+      "right_wrist_range_body_units": [
+        0.2714281395174202,
+        0.19923793955854024
+      ],
+      "gray_std_trend_over_source": 0.9209134459794704
+    }
+  },
+  "holistic_visual_review": "CFG2 keeps dancer and beige scene more legible and reduces late pale washout compared with CFG1; there is no CFG5-like black-frame collapse. However the native 17-frame video still keeps the right arm and torso near their initial pose while the source right arm crosses the body and the lower-body stance changes. Stage3 action fidelity and holistic quality remain failed.",
+  "metric_caveat": "2D cross-view DWPose and contrast are only auxiliary; compare full 17-frame actual videos for action, person, scene, detail and target camera.",
+  "luminance_evidence": {
+    "cfg1_mean_gray_f0_f8_f16": [
+      167.24,
+      174.55,
+      188.055
+    ],
+    "cfg2_mean_gray_f0_f8_f16": [
+      167.239,
+      170.533,
+      175.009
+    ],
+    "frame_file": "audit/case15_c_cfg2_native_review/frame_luminance.json"
+  },
+  "limitation": "The apparent contrast and 2D wrist-range gains do not restore the source choreography; CFG2 is a local appearance improvement only. Source/generated 2D DWPose remains cross-view."
+}

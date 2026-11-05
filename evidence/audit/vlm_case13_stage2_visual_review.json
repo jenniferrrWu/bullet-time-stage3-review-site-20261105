@@ -1,0 +1,20 @@
+{
+  "case": "vlm_selected_case13",
+  "selected_frame": 396,
+  "camera_direction": "right",
+  "camera_degrees": 30,
+  "native_frames_decoded": 81,
+  "sampled_frames": [
+    0,
+    10,
+    20,
+    40,
+    60,
+    80
+  ],
+  "observation": "Camera view visibly changes across sequence; the dancer remains approximately frozen. Background parallax and shifted composition are present. Dancer was already cut by bottom boundary at source highlight and remains cropped.",
+  "inference": "Stage2 native generation succeeds as an orbit/freeze demonstration, but its crop makes the selected plan weak for a claimed best highlight. Visual endpoint pose has not been calibrated against a true 3D ground truth camera.",
+  "pin_count": 50,
+  "final_latent_max_abs_delta": 0.0,
+  "quality_gate": "provisional_pass_for_running_stage3_not_final_acceptance"
+}

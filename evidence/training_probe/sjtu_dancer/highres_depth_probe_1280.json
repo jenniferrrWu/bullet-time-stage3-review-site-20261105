@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "variant": "raw",
+      "width": 1280,
+      "frame": 8,
+      "depth_renderer_min": 60.9862174987793,
+      "depth_renderer_max": 168.59820556640625,
+      "mask_fraction": 0.28216471354166667,
+      "person_roi_mask_fraction": 0.19659814323607427,
+      "warp_target_mae_covered": 12.171772003173828,
+      "unwarped_target_mae_same_covered": 17.10408592224121
+    },
+    {
+      "variant": "quarterres_median5_up",
+      "width": 1280,
+      "frame": 8,
+      "depth_renderer_min": 68.01592254638672,
+      "depth_renderer_max": 168.52146911621094,
+      "mask_fraction": 0.6706716579861111,
+      "person_roi_mask_fraction": 0.5552188328912467,
+      "warp_target_mae_covered": 13.051671028137207,
+      "unwarped_target_mae_same_covered": 18.04526710510254
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+  "window": [
+    0,
+    24
+  ],
+  "sampled_pairs": [
+    {
+      "from_frame": 0,
+      "to_frame": 6,
+      "keypoints": [
+        1310,
+        1303
+      ],
+      "ratio_matches": 130,
+      "homography_inliers": 91,
+      "inlier_median_displacement_fraction_of_diagonal": 0.0015772136393934488,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.005275527015328407
+    },
+    {
+      "from_frame": 6,
+      "to_frame": 12,
+      "keypoints": [
+        1303,
+        1632
+      ],
+      "ratio_matches": 143,
+      "homography_inliers": 95,
+      "inlier_median_displacement_fraction_of_diagonal": 0.0015772136393934488,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.01609459072351456
+    },
+    {
+      "from_frame": 12,
+      "to_frame": 18,
+      "keypoints": [
+        1632,
+        1699
+      ],
+      "ratio_matches": 94,
+      "homography_inliers": 52,
+      "inlier_median_displacement_fraction_of_diagonal": 0.0010040029883384705,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.0026799414772540327
+    },
+    {
+      "from_frame": 18,
+      "to_frame": 24,
+      "keypoints": [
+        1699,
+        1614
+      ],
+      "ratio_matches": 163,
+      "homography_inliers": 72,
+      "inlier_median_displacement_fraction_of_diagonal": 0.004232046194374561,
+      "inlier_p90_displacement_fraction_of_diagonal": 0.017740762792527676
+    }
+  ],
+  "endpoint_pair": {
+    "keypoints": [
+      1310,
+      1614
+    ],
+    "ratio_matches": 20,
+    "homography_inliers": 6,
+    "inlier_median_displacement_fraction_of_diagonal": null,
+    "inlier_p90_displacement_fraction_of_diagonal": null
+  },
+  "interpretation": "Background feature motion advisory. Large displacement or lost matches can flag source camera/pan/occlusion risk for fixed-view Stage3, but body motion, low texture, depth parallax and repetitive architecture can confound. Never a Stage3 quality pass/fail threshold."
+}

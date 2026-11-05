@@ -1,0 +1,15 @@
+{
+  "case": "case12_woman_home_dance",
+  "baseline_and_variant_frames_inspected": [
+    0,
+    8,
+    20,
+    40,
+    60,
+    80
+  ],
+  "variant_stage3_decode_frame_count": 81,
+  "observation": "Full-canvas portrait pipeline visibly restores upright portrait framing and much more scene/person content than historical baseline, which was cropped/stretched. Person identity and background are more recognizable in samples. Motion quality remains inconsistent: f8/f20 strongly blurred, f60 body/face collapses, f80 hair/face deforms.",
+  "conclusion": "Input geometry defect is real and this remediation visibly improves framing, but case12 Stage3 is not yet quality-pass. Stage2 was also rerun, so the comparison is an end-to-end canvas/geometry change, not isolated Stage3 effect.",
+  "limitations": "Six sampled frames, not full continuous playback; no quantitative human fidelity assessment."
+}

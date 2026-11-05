@@ -1,0 +1,73 @@
+{
+  "frame": 8,
+  "resolution": [
+    320,
+    180
+  ],
+  "rows": [
+    {
+      "variant": "raw",
+      "target": "identity",
+      "mask_fraction": 0.62123,
+      "person_roi_mask_fraction": 0.55279,
+      "warp_mae_covered": 4.946,
+      "unwarped_mae_same_covered": 0.0
+    },
+    {
+      "variant": "raw",
+      "target": "novel",
+      "mask_fraction": 0.39089,
+      "person_roi_mask_fraction": 0.23332,
+      "warp_mae_covered": 11.759,
+      "unwarped_mae_same_covered": 17.695
+    },
+    {
+      "variant": "median3",
+      "target": "identity",
+      "mask_fraction": 0.74875,
+      "person_roi_mask_fraction": 0.67406,
+      "warp_mae_covered": 4.841,
+      "unwarped_mae_same_covered": 0.0
+    },
+    {
+      "variant": "median3",
+      "target": "novel",
+      "mask_fraction": 0.52703,
+      "person_roi_mask_fraction": 0.36934,
+      "warp_mae_covered": 12.152,
+      "unwarped_mae_same_covered": 17.64
+    },
+    {
+      "variant": "median5",
+      "target": "identity",
+      "mask_fraction": 0.83585,
+      "person_roi_mask_fraction": 0.77899,
+      "warp_mae_covered": 4.7,
+      "unwarped_mae_same_covered": 0.0
+    },
+    {
+      "variant": "median5",
+      "target": "novel",
+      "mask_fraction": 0.62931,
+      "person_roi_mask_fraction": 0.50355,
+      "warp_mae_covered": 12.296,
+      "unwarped_mae_same_covered": 17.373
+    },
+    {
+      "variant": "bilateral",
+      "target": "identity",
+      "mask_fraction": 0.7116,
+      "person_roi_mask_fraction": 0.61931,
+      "warp_mae_covered": 4.623,
+      "unwarped_mae_same_covered": 0.0
+    },
+    {
+      "variant": "bilateral",
+      "target": "novel",
+      "mask_fraction": 0.47858,
+      "person_roi_mask_fraction": 0.30111,
+      "warp_mae_covered": 11.4,
+      "unwarped_mae_same_covered": 17.909
+    }
+  ]
+}

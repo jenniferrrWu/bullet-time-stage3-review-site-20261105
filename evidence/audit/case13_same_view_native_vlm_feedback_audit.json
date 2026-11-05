@@ -1,0 +1,20 @@
+{
+  "scope": "Local 30B same-view native DD evaluation of case13 f845 left20 Stage3 baseline versus source-projected semantic temporal residual beta0.5.",
+  "input_integrity": "Both videos are original DD native outputs from identical five conditions and official weights; beta0 SHA equals original baseline. Target-warp images depict same target camera and contain renderer black holes, explicitly excluded from generated scene quality.",
+  "model_result": "Model preferred beta0.5 and scored it 5/5 for human, scene, action, detail, composition; it declared beta0.5 holistic quality pass.",
+  "independent_findings": [
+    "Ten-point native dense visual contact and enlarged f10/f15/f20 person crops show beta0.5 changes raised hand slightly farther forward but face and hand detail remain soft; it is a modest local difference, not a near-perfect film.",
+    "Late arm projected-source versus generated DWPose mean error improves only 41.62 to 37.99 px; action still departs from target reference and DWPose confuses knees in beta0.5. Therefore model claim of precise arm and leg action is unsupported.",
+    "Person gray contrast trend relative to source falls from 1.044 to 0.962. This is a proxy, not standalone quality proof, but it contradicts the claim of uniformly improved detail and clarity.",
+    "Both variants use the exact same target camera, source action and Stage2 endpoint; there is no evidence that beta0.5 materially improves shot composition or rooftop reconstruction. Model attribution of better framing/scene continuity to the beta change is unsupported.",
+    "Only f0,f10,f15,f20 and two enlarged times were shown to the VLM. It still claimed high detail across all frames; this exceeds its visual sample."
+  ],
+  "conclusion": "The same-view pose reference did not calibrate VLM absolute quality judgement. Relative preference for beta0.5 may reflect a small hand change but is insufficient for Stage3 holistic acceptance. Human dense visual review and target-view geometric diagnostics remain required; no global best proven.",
+  "files": [
+    "audit/case13_same_view_native_vlm_review/result.json",
+    "audit/case13_same_view_native_vlm_review/input_manifest.json",
+    "audit/case13_projected_pose_residual_review/summary.json",
+    "audit/case13_projected_pose_residual_review/stage3_dense.jpg",
+    "audit/case13_projected_pose_residual_review/person_crops_small.jpg"
+  ]
+}

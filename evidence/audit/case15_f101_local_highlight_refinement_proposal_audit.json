@@ -1,0 +1,43 @@
+{
+  "scope": "VLM local proposals from shown source f85/93/101/109/117 and continuations plus actual A f101 native DD frames; not global source-frame search.",
+  "source_grid": "/root/bullet_time_research_20261102/audit/case15_f101_local_highlight_source_grid.jpg",
+  "proposal_ids": [
+    "D",
+    "E"
+  ],
+  "plan_schema_validation": "passed for both D/E using DD source metadata",
+  "false_visual_claims": [
+    {
+      "candidate": "D",
+      "claim": "f109 clear two-feet-airborne jump",
+      "observation": "Source f109 shows one leg lifted and the other shoe at the floor; do not infer a jump or two-foot airborne pause."
+    },
+    {
+      "candidate": "E",
+      "claim": "source motion after f117 is minimal",
+      "observation": "Source f117 to f137 shows hands move from head to out/open and body/leg change; not minimal."
+    }
+  ],
+  "unsupported_forecasts": [
+    "D low risk of blur",
+    "D source motion consistent with orbit direction",
+    "E shorter action window aligns with shorter Stage2 orbit"
+  ],
+  "native_stage2_stage3_executed": false,
+  "quality_pass": null,
+  "global_optimality_proven": false,
+  "human_best_frame_annotation": false,
+  "measured_source_camera_motion_after_preprocess": {
+    "D": {
+      "frames": 25,
+      "endpoint_rotation_degrees": 0.36374827983542973,
+      "endpoint_translation_over_first_median_depth": 0.004593163722634751
+    },
+    "E": {
+      "frames": 21,
+      "endpoint_rotation_degrees": 0.2156185747154745,
+      "endpoint_translation_over_first_median_depth": 0.006097449745664978
+    }
+  },
+  "camera_motion_limit": "Low estimated source camera motion is an input-risk diagnostic only, not a generated-quality verdict."
+}

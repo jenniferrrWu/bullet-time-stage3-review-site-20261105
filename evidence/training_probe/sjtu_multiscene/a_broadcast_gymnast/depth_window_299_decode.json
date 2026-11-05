@@ -1,0 +1,17 @@
+{
+  "plan": {
+    "scene": "a_broadcast_gymnast",
+    "first_frame": 299,
+    "last_frame": 315,
+    "start_packet": 246,
+    "end_packet": 336,
+    "start_byte": 25332825,
+    "end_byte": 35128254,
+    "key_pts": 10.0,
+    "bytes": 9795430
+  },
+  "decoded_frame_count": 17,
+  "unique_decoded_frames": 17,
+  "extraction": "ffmpeg accurate input seek to target timestamp then PNG sequence",
+  "frame_dir": "training_probe/sjtu_multiscene/a_broadcast_gymnast/depth_window_299_frames"
+}

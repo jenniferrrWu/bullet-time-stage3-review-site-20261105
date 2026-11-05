@@ -1,0 +1,37 @@
+{
+  "renderer": "DD original Dynamic3DMesh.render with nvdiffrast",
+  "source": "orbit target.mp4",
+  "target": "fixed center input.mp4",
+  "resolution": [
+    320,
+    180
+  ],
+  "depth_native_resolution": [
+    320,
+    180
+  ],
+  "depth_upsampled": false,
+  "frames": {
+    "0": {
+      "dw_mask_fraction": 1.0,
+      "warp_target_rgb_mae_covered_0to255": 3.889,
+      "source_target_rgb_mae_same_pixel_0to255": 3.889,
+      "depth_min_m": 0.1,
+      "depth_max_m": 100.0
+    },
+    "8": {
+      "dw_mask_fraction": 0.81347,
+      "warp_target_rgb_mae_covered_0to255": 11.041,
+      "source_target_rgb_mae_same_pixel_0to255": 37.441,
+      "depth_min_m": 0.1,
+      "depth_max_m": 100.0
+    },
+    "16": {
+      "dw_mask_fraction": 0.68988,
+      "warp_target_rgb_mae_covered_0to255": 13.954,
+      "source_target_rgb_mae_same_pixel_0to255": 43.311,
+      "depth_min_m": 0.1,
+      "depth_max_m": 100.0
+    }
+  }
+}

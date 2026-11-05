@@ -1,0 +1,49 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "dancer in beige leotard",
+  "selected_id": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 338,
+      "orbit_direction": "left",
+      "orbit_degrees": 35,
+      "orbit_seconds": 4.2,
+      "action_num_frames": 29,
+      "action_seconds": 1.16,
+      "reason": "Frame 338 shows a clear peak with the dancer's head tilted back, arms extended, and full body visible against the window background. The side angle emphasizes the arched back and dynamic pose. The following action (frame 340) shows a smooth continuation of the movement, making the transition clear.",
+      "score": 0.92
+    },
+    {
+      "id": "B",
+      "highlight_frame": 481,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 5.8,
+      "action_num_frames": 37,
+      "action_seconds": 1.48,
+      "reason": "Frame 481 captures a high-energy moment with the dancer mid-movement, legs lifted and arms extended, showcasing strong motion and body visibility. The side angle highlights the dynamic geometry of the pose. The following action (frame 483) shows a clear continuation of the movement, ensuring the transition is smooth.",
+      "score": 0.64
+    },
+    {
+      "id": "C",
+      "highlight_frame": 539,
+      "orbit_direction": "left",
+      "orbit_degrees": 55,
+      "orbit_seconds": 7.1,
+      "action_num_frames": 21,
+      "action_seconds": 1.8,
+      "reason": "Frame 539 presents a distinct peak with the dancer bending forward, arms reaching, and full body visible against the tiled wall. The side angle emphasizes the compelling motion and body geometry. The following action (frame 541) shows a clear continuation of the movement, making the transition seamless. Action window: option_2 chosen from valid source-frame options.",
+      "score": 0.72
+    }
+  ],
+  "risks": [
+    "Frame 338 has partial occlusion of the face due to the head tilt, but the body pose remains clear and dynamic.",
+    "Frame 481 shows a slight blur due to motion, but the overall pose and direction of movement are still discernible.",
+    "Frame 539 has a slight crop on the upper body due to the bend, but the key motion and angle are well-captured.",
+    "Candidate A source crop: ['top']",
+    "Candidate B source crop: ['left', 'right', 'top']",
+    "Candidate C source crop: ['right', 'top']"
+  ]
+}

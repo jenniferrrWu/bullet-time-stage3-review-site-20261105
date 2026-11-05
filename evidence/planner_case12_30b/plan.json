@@ -1,0 +1,44 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "a woman in a beige leotard performing a dynamic dance sequence in a bright room with wooden floors and a piano",
+  "selected_id": "A",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 171,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 1.0,
+      "reason": "Highlight frame 171 shows the dancer in a balanced, extended pose with arms outstretched and legs spread, capturing peak tension and symmetry. Orbiting right by 30 degrees reveals the side profile of the pose, emphasizing the geometric line of the body. Action duration of 25 frames (1.0s at 25fps) allows smooth transition from the highlight into the next movement phase without overextending the sequence.",
+      "score": 0.95
+    },
+    {
+      "id": "B",
+      "highlight_frame": 285,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 5.5,
+      "action_num_frames": 33,
+      "action_seconds": 1.32,
+      "reason": "Frame 285 presents a dramatic arch with one arm extended upward, creating a strong visual line. Orbiting left by 45 degrees exposes the dancer's back and the curvature of the pose, enhancing the narrative of motion. The 33-frame action (1.32s) provides enough time to show the transition into the following movement while maintaining the flow of the dance.",
+      "score": 0.92
+    },
+    {
+      "id": "C",
+      "highlight_frame": 457,
+      "orbit_direction": "right",
+      "orbit_degrees": 20,
+      "orbit_seconds": 3.0,
+      "action_num_frames": 17,
+      "action_seconds": 0.68,
+      "reason": "Frame 457 captures the dancer transitioning into a low, grounded position with hands on the floor, showing fluid motion. Orbiting right by 20 degrees reveals the side view of the movement, highlighting the physicality of the pose. The 17-frame action (0.68s) is concise, focusing on the immediate transition without unnecessary extension.",
+      "score": 0.9
+    }
+  ],
+  "risks": [
+    "Frame 285 shows partial occlusion of the dancer's face due to hair movement, which may reduce clarity of the pose's emotional expression."
+  ]
+}

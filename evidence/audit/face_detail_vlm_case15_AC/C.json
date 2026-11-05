@@ -1,0 +1,19 @@
+{
+  "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_detail_case15_C/face_contact.jpg",
+  "source_video_sha256": "bd8328f75321c8464e981656473cd7d43e9ac3e117a9ac0685d411c89c2f05ae",
+  "generated_video_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "sampled_frames": [
+    0,
+    8,
+    13,
+    16
+  ],
+  "prompt": "This image contains 4 chronological rows labelled f0, f8, f13, f16. Each row has a SOURCE face crop on the left and a native GENERATED face crop on the right. The crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Name directly visible features and frame labels, including blur, ghosting or distortions if present. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+  "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f0: source clear, generated slightly soft. f8: source clear, generated blurred. f13: source clear, generated very blurred/ghosted. f16: source clear, generated extremely blurred/ghosted.\",\n  \"limits\": \"Generated faces become progressively blurrier and lose detail from f8 onward; by f13/f16, features are indistinct and distorted.\"\n}",
+  "parsed": {
+    "late_face_detail_retained": "no",
+    "frame_evidence": "f0: source clear, generated slightly soft. f8: source clear, generated blurred. f13: source clear, generated very blurred/ghosted. f16: source clear, generated extremely blurred/ghosted.",
+    "limits": "Generated faces become progressively blurrier and lose detail from f8 onward; by f13/f16, features are indistinct and distorted."
+  },
+  "scope": "focused face crop only; no whole-video or global-angle quality claim"
+}

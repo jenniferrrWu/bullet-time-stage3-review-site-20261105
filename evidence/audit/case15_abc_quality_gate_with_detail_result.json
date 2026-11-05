@@ -1,0 +1,48 @@
+{
+  "model_preferred_id": "A",
+  "model_preference_eligible": false,
+  "candidate_review": {
+    "A": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "late_face_detail_loss"
+      ],
+      "vlm_claim_conflicts": [
+        "VLM_human_integrity_score_conflicts_with_late_face_detail_loss"
+      ],
+      "missing_evidence": [
+        "accepted_whole_video_review",
+        "confirmed_scene_review"
+      ]
+    },
+    "B": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "observed_stage3_video_quality_failure"
+      ],
+      "vlm_claim_conflicts": [],
+      "missing_evidence": [
+        "applicable_motion_diagnostic",
+        "confirmed_detail_review",
+        "confirmed_scene_review"
+      ]
+    },
+    "C": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "observed_stage3_video_quality_failure"
+      ],
+      "vlm_claim_conflicts": [],
+      "missing_evidence": [
+        "applicable_motion_diagnostic",
+        "confirmed_detail_review",
+        "confirmed_scene_review"
+      ]
+    }
+  },
+  "eligible_candidate_ids": [],
+  "provisional_quality_screen_id": null,
+  "final_selected_id": null,
+  "final_decision_ready": false,
+  "scope": "Observed-failure veto plus evidence completeness; no automatic whole-video quality pass or global optimum."
+}

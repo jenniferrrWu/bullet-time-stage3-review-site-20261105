@@ -1,0 +1,10 @@
+{
+  "case": "case13_woman_rooftop_dance",
+  "native_output": "/root/bullet_time_research_20261102/nontrajectory/zero_view_case13/result/depthdirector.mp4",
+  "sampled_frames": [0, 8, 20, 40, 60, 80],
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/case13_zero_view_compare.jpg",
+  "technical_checks": {"decoded_frames": 81, "width": 1280, "height": 704, "first_latent_pin_count": 50, "final_latent_max_abs_delta": 0.0, "official_weights_unchanged": true, "postdecode_frame_replacement": false},
+  "visual_observations": {"f0": "Source anchor visible and sharp", "f8": "Person and background already heavily smeared", "f20": "Nearly all scene and person have dissolved", "f40": "Still dissolved", "f60": "Still dissolved", "f80": "Person unrecognizable, partial dark body remains"},
+  "quality_pass": false,
+  "interpretation": "Zero added target angle at the first-frame camera does not cure case13. The source camera pans strongly, so a fixed first-frame target is still a progressively novel view. A per-frame source-pose-matched geometry-only control retains ~95% valid support at f8..80; do not conclude DD fails at the actual moving source view. The visual failures correlate with near-total support loss under the fixed-camera reprojection, but this comparison cannot isolate the generator from missing geometry or the long action window."
+}

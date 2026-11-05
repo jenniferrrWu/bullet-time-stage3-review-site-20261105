@@ -1,0 +1,54 @@
+{
+  "rejected_for_vlm_shortlist": {
+    "169": {
+      "nearby_pose_frame": 170,
+      "accepted_body_joints": 5,
+      "bbox_xyxy": [
+        476.3050537109375,
+        1.8805160522460938,
+        954.8406372070312,
+        534.489990234375
+      ]
+    },
+    "961": {
+      "nearby_pose_frame": 960,
+      "accepted_body_joints": 7,
+      "bbox_xyxy": [
+        175.9541473388672,
+        15.302925109863281,
+        481.1325988769531,
+        533.9286499023438
+      ]
+    },
+    "1075": {
+      "nearby_pose_frame": 1075,
+      "accepted_body_joints": 13,
+      "bbox_xyxy": [
+        63.15380859375,
+        0.5375518798828125,
+        550.4908447265625,
+        532.600830078125
+      ]
+    }
+  },
+  "eligible_frames": [
+    80,
+    280,
+    396,
+    400,
+    405,
+    430,
+    435,
+    440,
+    565,
+    595,
+    600,
+    605,
+    622,
+    640,
+    645,
+    650,
+    848
+  ],
+  "caveat": "DWPose is a conservative proposal filter, not a quality label; archived rejected frames remain in the evidence bank."
+}

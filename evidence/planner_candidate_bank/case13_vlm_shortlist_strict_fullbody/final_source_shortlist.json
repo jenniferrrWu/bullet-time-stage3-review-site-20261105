@@ -1,0 +1,95 @@
+{
+  "items": [
+    [
+      "candidate_f75_offset_0",
+      75
+    ],
+    [
+      "candidate_f75_offset_8",
+      83
+    ],
+    [
+      "candidate_f75_offset_16",
+      91
+    ],
+    [
+      "candidate_f600_offset_0",
+      600
+    ],
+    [
+      "candidate_f600_offset_8",
+      608
+    ],
+    [
+      "candidate_f600_offset_16",
+      616
+    ],
+    [
+      "candidate_f605_offset_0",
+      605
+    ],
+    [
+      "candidate_f605_offset_8",
+      613
+    ],
+    [
+      "candidate_f605_offset_16",
+      621
+    ],
+    [
+      "candidate_f622_offset_0",
+      622
+    ],
+    [
+      "candidate_f622_offset_8",
+      630
+    ],
+    [
+      "candidate_f622_offset_16",
+      638
+    ],
+    [
+      "candidate_f845_offset_0",
+      845
+    ],
+    [
+      "candidate_f845_offset_8",
+      853
+    ],
+    [
+      "candidate_f845_offset_16",
+      861
+    ],
+    [
+      "candidate_f848_offset_0",
+      848
+    ],
+    [
+      "candidate_f848_offset_8",
+      856
+    ],
+    [
+      "candidate_f848_offset_16",
+      864
+    ]
+  ],
+  "prompt": "Choose EXACTLY THREE distinct candidate highlight frames from [75, 600, 605, 622, 845, 848]. Each is shown at the frozen frame and +8/+16 source frames. Compare impact, person framing, real subsequent action, camera pan/crop risk and DD Stage3 feasibility. No generated result is shown, so this is not a final quality verdict. Return JSON exactly {\"candidate_frames\": [three increasing frame integers], \"evidence_by_frame\": {\"frame_id\": \"short visible observation\"}, \"risks\": [strings]}. Do not select an angle yet; angle and direction belong to the later VLM plan and real output feedback.",
+  "raw": "{\n  \"candidate_frames\": [75, 600, 845],\n  \"evidence_by_frame\": {\n    \"75\": \"Person in mid-movement, arms raised, clear city skyline background. No visible camera movement.\",\n    \"600\": \"Person in dynamic pose with extended arm, distinctive golden building in background. Background elements shifted compared to earlier frames.\",\n    \"845\": \"Person in high kick pose, dark building with satellite dish in background. Background elements changed significantly from earlier frames.\"\n  },\n  \"risks\": [\n    \"Frame 75 shows a static camera with no movement, but later frames (600, 845) have background changes that may indicate camera pan/crop risk.\",\n    \"Frame 600 has a distinctive golden building that may not be present in all subsequent frames, risking inconsistent background for Stage3.\",\n    \"Frame 845 shows a different building structure (dark building with satellite dish) which may not align with other frames' background continuity.\"\n  ]\n}",
+  "parsed": {
+    "candidate_frames": [
+      75,
+      600,
+      845
+    ],
+    "evidence_by_frame": {
+      "75": "Person in mid-movement, arms raised, clear city skyline background. No visible camera movement.",
+      "600": "Person in dynamic pose with extended arm, distinctive golden building in background. Background elements shifted compared to earlier frames.",
+      "845": "Person in high kick pose, dark building with satellite dish in background. Background elements changed significantly from earlier frames."
+    },
+    "risks": [
+      "Frame 75 shows a static camera with no movement, but later frames (600, 845) have background changes that may indicate camera pan/crop risk.",
+      "Frame 600 has a distinctive golden building that may not be present in all subsequent frames, risking inconsistent background for Stage3.",
+      "Frame 845 shows a different building structure (dark building with satellite dish) which may not align with other frames' background continuity."
+    ]
+  }
+}

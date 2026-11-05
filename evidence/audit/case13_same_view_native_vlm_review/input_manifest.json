@@ -1,0 +1,143 @@
+{
+  "sources": [
+    {
+      "label": "target_warp target-view relative f0",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 0,
+      "crop": null
+    },
+    {
+      "label": "baseline target-view relative f0",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 0,
+      "crop": null
+    },
+    {
+      "label": "beta0p5 target-view relative f0",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 0,
+      "crop": null
+    },
+    {
+      "label": "target_warp target-view relative f10",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 10,
+      "crop": null
+    },
+    {
+      "label": "baseline target-view relative f10",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 10,
+      "crop": null
+    },
+    {
+      "label": "beta0p5 target-view relative f10",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 10,
+      "crop": null
+    },
+    {
+      "label": "target_warp target-view relative f15",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 15,
+      "crop": null
+    },
+    {
+      "label": "baseline target-view relative f15",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 15,
+      "crop": null
+    },
+    {
+      "label": "beta0p5 target-view relative f15",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 15,
+      "crop": null
+    },
+    {
+      "label": "target_warp target-view relative f20",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 20,
+      "crop": null
+    },
+    {
+      "label": "baseline target-view relative f20",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 20,
+      "crop": null
+    },
+    {
+      "label": "beta0p5 target-view relative f20",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 20,
+      "crop": null
+    },
+    {
+      "label": "target_warp enlarged person same camera f15",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 15,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    },
+    {
+      "label": "baseline enlarged person same camera f15",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 15,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    },
+    {
+      "label": "beta0p5 enlarged person same camera f15",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 15,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    },
+    {
+      "label": "target_warp enlarged person same camera f20",
+      "video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+      "frame": 20,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    },
+    {
+      "label": "baseline enlarged person same camera f20",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+      "frame": 20,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    },
+    {
+      "label": "beta0p5 enlarged person same camera f20",
+      "video": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+      "frame": 20,
+      "crop": [
+        560,
+        230,
+        930,
+        660
+      ]
+    }
+  ],
+  "prompt": "You see ACTUAL DepthDirector native Stage3 videos for the same source action f845..f865 and same left-20-degree target camera. The variants differ only in an inference-time source-pose projected temporal control residual: baseline beta=0, trial beta=0.5. The target_warp images are renderer previews of the source action projected into that exact target viewpoint; their large BLACK HOLES are missing geometry and must not be scored as Stage3 output defects. Use visible person pixels there as a motion/pose reference. All shown f indices are relative Stage3 frames and correspond exactly across rows. Judge the WHOLE visible result across shown times: human identity/body geometry, arm and leg action, rooftop continuity, detail/clarity, and composition. Distinguish a small arm correction from a meaningful whole-video quality improvement. Do not claim to have inspected unshown frames, exact pose equality, or a global optimum. A score of 5 requires near-perfect visible evidence. Return only JSON with keys \"baseline\",\"beta0p5\",\"preferred_id\",\"passes_holistic_quality\",\"reason\". Each candidate object has integer 0..5 keys \"human\",\"scene\",\"action\",\"detail\",\"composition\" and string \"evidence\". preferred_id is one candidate label or \"tie\". passes_holistic_quality is an object with baseline and beta0p5 booleans. Describe concrete differences at f15/f20; if a change is too small or ambiguous, say so."
+}

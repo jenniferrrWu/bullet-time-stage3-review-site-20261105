@@ -1,0 +1,64 @@
+{
+  "experiment": "semantic DWPose joint trajectory gated temporal residual on existing DD camera_encoder output",
+  "beta": 0.0,
+  "confidence_threshold": 0.3,
+  "source_tracks": "/root/bullet_time_research_20261102/pose_trial/v12_balanced_case15_c_target_warp_all/tracks.json",
+  "short_gap_interpolations": [
+    [
+      11,
+      7
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "latent_heat_fraction_above_0p1": [
+    0.16707985617897728,
+    0.19513161399147727,
+    0.175927734375,
+    0.18451149680397727,
+    0.16844815340909092
+  ],
+  "input_hashes": {
+    "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+    "cond": "3fb1e0ebc6260eaeeab43119b1fa76683cbad86c1dec1b6744da808b78081ab0",
+    "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+    "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08",
+    "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15"
+  },
+  "native_baseline_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "camera_encoder_calls": [
+    {
+      "shape": [
+        1,
+        3072,
+        5,
+        40,
+        22
+      ],
+      "beta": 0.0,
+      "mask_min": 0.0,
+      "mask_max": 0.92578125,
+      "mean_abs_motion_residual": 0.018798828125,
+      "gated_residual_fraction": 0.178636372089386
+    }
+  ],
+  "native": "/root/bullet_time_research_20261102/pose_trial/temporal_pose_residual_v12_case15_c_beta_0p0/result/depthdirector.mp4",
+  "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada"
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Native DD cross-plan comparison for case13 old f396 right30 25f versus new f845 left20 21f; executed finalists only, not a globally searched optimum or user-labeled best frame.",
+  "integrity": "The cross-plan judge received strictly validated original native DD videos, source windows, Stage2 endpoints and DWPose motion evidence. Both are actual DD outputs.",
+  "model_preferred": "NEW845",
+  "model_scores": {
+    "OLD396": {
+      "stage2": 4,
+      "human": 3,
+      "scene": 3,
+      "action": 3,
+      "composition": 4
+    },
+    "NEW845": {
+      "stage2": 5,
+      "human": 5,
+      "scene": 5,
+      "action": 5,
+      "composition": 5
+    }
+  },
+  "visual_corrections": [
+    "NEW845 source and generated are different camera views. Direct 2D left/right leg direction is not evidence of action error. After source DWPose joints are reprojected using actual DD depth/cameras, the final generated leg joints are about 10.6 px mean from projected source, while arm joints are about 56.9 px mean away at f20; arm error grows through late frames. Thus 5/5 exact pose/hands/arms claim is still unsupported, but leg continuation is substantially better than a direct cross-view screenshot suggests.",
+    "NEW845 preserves a visible person and coherent rooftop across all 21 Stage3 frames and shows a leg extension that broadly matches the reprojected target-view pose. Face and hands are soft; arm motion departs increasingly from projected source, especially late. The chosen 20-degree camera angle yields modest orbit.",
+    "OLD396 source lean/arm extension is reasonably echoed across the 25-frame generated sequence, but upper-left building grows black/floating artifacts later and lower body/feet press or cross frame edges. Thus old scene/action also cannot be declared passed.",
+    "Model text says OLD396 background only shifts slightly, underweighting conspicuous floating building artifacts; its severity language for pose melting is not a reliable objective measurement."
+  ],
+  "conclusion": "NEW845 is preferred on person/rooftop continuity in this two-finalist set. Its leg motion is broadly supported by target-view geometry, but late arm pose and detail are not exact; model all-5 absolute score is unsupported. Neither full Stage3 quality nor global best is proven.",
+  "evidence": [
+    "case13_old396_vs_new845_native_vlm_review/result.json",
+    "case13_old396_vs_new845_native_vlm_review/selection_status.json",
+    "audit/case13_old_f396_stage3_dense.jpg",
+    "audit/case13_fullbody_c_person_crops.jpg",
+    "audit/case13_fullbody_abc_native_review/C/stage3_dense.jpg",
+    "audit/case13_source_pose_reprojection_validation.json",
+    "audit/case13_source_pose_reprojection_overlay.jpg",
+    "audit/case13_fullbody_c_target_view_pose_error.json"
+  ]
+}

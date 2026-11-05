@@ -1,0 +1,31 @@
+{
+  "dd_concat_input_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/input.mp4",
+  "source_action_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4",
+  "frames": 17,
+  "size_hw": [
+    1280,
+    704
+  ],
+  "per_frame_rgb_mae_0to255": [
+    2.0998002485795455,
+    2.0837047230113637,
+    2.081250369910038,
+    2.085062292850379,
+    2.103034002130682,
+    2.092589592211174,
+    2.087905791311553,
+    2.093456661339962,
+    2.1054742986505683,
+    2.088177675189394,
+    2.0902443625710228,
+    2.1007457386363635,
+    2.118704131155303,
+    2.097155391808712,
+    2.094856031013258,
+    2.0991406989820076,
+    2.1167761600378787
+  ],
+  "mean_mae": 2.0963575393758354,
+  "max_mae": 2.118704131155303,
+  "interpretation": "The DD concat-video content stream uses the same source-action frames and pixel coordinates as the DWPose source tracks, with only video codec difference; source-view joint heatmap is spatially aligned."
+}

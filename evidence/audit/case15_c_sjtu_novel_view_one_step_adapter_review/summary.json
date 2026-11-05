@@ -1,0 +1,62 @@
+{
+  "experiment": "Single SJTU fixed novel-view dancer-sample optimizer step applied to official DD camera encoder+DiT LoRA, native inference on real case15 C 17-frame hardcase. Same effective media, Stage2 endpoint, prompt and initial noise as official baseline; checkpoint only changed.",
+  "native_integrity": "passed",
+  "checkpoint_sha256": "c0c5c1608d9168855e32c39a149371e254716fa8d58ea2911acb824f5af4d3a0",
+  "official_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "adapted_sha256": "ca97c5e7db16e639077adc02b2923add86a32eae5974373641be128363c0ba4a",
+  "decoded_rgb_mae_per_frame": [
+    0.14669744318181818,
+    0.34490337949810607,
+    0.3544685132575758,
+    0.3772967714251894,
+    0.3084905450994318,
+    0.3890994910037879,
+    0.35209369081439396,
+    0.39026803681344696,
+    0.3371774384469697,
+    0.4563876065340909,
+    0.4546593868371212,
+    0.5017962831439394,
+    0.46468209931344695,
+    0.4822983250473485,
+    0.4540053858901515,
+    0.4866751006155303,
+    0.4523248845880682
+  ],
+  "decoded_rgb_mae_mean": 0.3972543753829657,
+  "pose": {
+    "official": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ]
+    },
+    "sjtu_novel_view_one_step_adapter": {
+      "core_motion_error_body_units": 0.08816825273384254,
+      "limb_motion_error_body_units": 0.47910368343497,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12246250318977814,
+        0.10258296505863745
+      ]
+    }
+  },
+  "person_gray_contrast_trend_over_source": {
+    "official": 0.6572024377505468,
+    "sjtu_novel_view_one_step_adapter": 0.6611935953095691
+  },
+  "holistic_visual_review": "Dense source/official/adapter f0,2,...,16 comparison: adapter retains the same nearly frozen right arm and progressively fading person/background as official output; no visible recovery of the source arm sweep or late frame clarity. No material whole-window improvement.",
+  "quality_pass": false,
+  "caveat": "One fixed-view RGB-D dance scene with filtered depth and novel-view holes and one optimizer step cannot establish training benefit or generalization; inspect all 17 frames and use held-out multi-scene training before judging adapter direction.",
+  "observed_failure": true,
+  "visual_evidence": "/root/bullet_time_research_20261102/audit/case15_c_sjtu_novel_view_one_step_adapter_review/stage3_dense.jpg"
+}

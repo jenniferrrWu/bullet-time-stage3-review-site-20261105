@@ -1,0 +1,449 @@
+{
+  "scope": "Same f117..137 source action, right off-person studio ROI x=75%-95%, y=20%-75%; only a case-specific background artifact diagnostic, not a general scene metric or quality score.",
+  "runs": {
+    "source": {
+      "frames": [
+        {
+          "gray_mean": 179.11601055194805,
+          "gray_std": 2.3080875227936377,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.11621347402598,
+          "gray_std": 2.312122404387449,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.11999797077922,
+          "gray_std": 2.3181109185100186,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.1168729707792,
+          "gray_std": 2.3226517699421763,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.12905844155844,
+          "gray_std": 2.3318412315275916,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.1249492694805,
+          "gray_std": 2.3351020101033604,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.12460430194804,
+          "gray_std": 2.34194515912001,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.12106331168832,
+          "gray_std": 2.355287021529189,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.12283887987013,
+          "gray_std": 2.373978312542771,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.11599025974027,
+          "gray_std": 2.3802232365367084,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.11176948051948,
+          "gray_std": 2.3909765676101404,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.11155641233765,
+          "gray_std": 2.3957366193582055,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.09434862012986,
+          "gray_std": 2.408752076989052,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.10438311688313,
+          "gray_std": 2.4159493259233,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.09941152597403,
+          "gray_std": 2.416058218676856,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.09835633116884,
+          "gray_std": 2.4204815769979615,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 179.0812398538961,
+          "gray_std": 2.4286584410229297,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 178.7578530844156,
+          "gray_std": 3.9107651459934423,
+          "strong_vertical_edge_fraction": 1.0146103896103896e-05
+        },
+        {
+          "gray_mean": 178.4457893668831,
+          "gray_std": 4.73511889818876,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 178.33537946428572,
+          "gray_std": 4.912956870265733,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 178.26650771103897,
+          "gray_std": 4.879165555024076,
+          "strong_vertical_edge_fraction": 1.0146103896103896e-05
+        }
+      ],
+      "mean_gray_std": 2.794950899192541,
+      "mean_strong_vertical_edge_fraction": 9.66295609152752e-07
+    },
+    "E": {
+      "frames": [
+        {
+          "gray_mean": 141.10477881493506,
+          "gray_std": 26.33500286124702,
+          "strong_vertical_edge_fraction": 0.024502840909090908
+        },
+        {
+          "gray_mean": 141.14402394480518,
+          "gray_std": 26.255951818317126,
+          "strong_vertical_edge_fraction": 0.023650568181818182
+        },
+        {
+          "gray_mean": 141.05139001623377,
+          "gray_std": 26.251241217865662,
+          "strong_vertical_edge_fraction": 0.023122970779220778
+        },
+        {
+          "gray_mean": 140.9002029220779,
+          "gray_std": 26.265777261555158,
+          "strong_vertical_edge_fraction": 0.022778003246753248
+        },
+        {
+          "gray_mean": 140.79230925324674,
+          "gray_std": 26.2417698466316,
+          "strong_vertical_edge_fraction": 0.022575081168831168
+        },
+        {
+          "gray_mean": 140.92333603896103,
+          "gray_std": 26.179082219424032,
+          "strong_vertical_edge_fraction": 0.02210836038961039
+        },
+        {
+          "gray_mean": 140.95452516233766,
+          "gray_std": 26.187114335135846,
+          "strong_vertical_edge_fraction": 0.022280844155844155
+        },
+        {
+          "gray_mean": 141.02146915584416,
+          "gray_std": 26.190803415624096,
+          "strong_vertical_edge_fraction": 0.022382305194805194
+        },
+        {
+          "gray_mean": 141.01190137987012,
+          "gray_std": 26.19565978778826,
+          "strong_vertical_edge_fraction": 0.02226055194805195
+        },
+        {
+          "gray_mean": 141.1328125,
+          "gray_std": 26.14522291847455,
+          "strong_vertical_edge_fraction": 0.022524350649350648
+        },
+        {
+          "gray_mean": 141.125,
+          "gray_std": 26.16410769844529,
+          "strong_vertical_edge_fraction": 0.022798295454545453
+        },
+        {
+          "gray_mean": 141.12496956168832,
+          "gray_std": 26.15935566286589,
+          "strong_vertical_edge_fraction": 0.022798295454545453
+        },
+        {
+          "gray_mean": 141.08875811688313,
+          "gray_std": 26.13039494565989,
+          "strong_vertical_edge_fraction": 0.022311282467532466
+        },
+        {
+          "gray_mean": 141.20583400974027,
+          "gray_std": 26.034575077904723,
+          "strong_vertical_edge_fraction": 0.021946022727272727
+        },
+        {
+          "gray_mean": 141.04738230519482,
+          "gray_std": 25.892767271240228,
+          "strong_vertical_edge_fraction": 0.021418425324675326
+        },
+        {
+          "gray_mean": 141.4239549512987,
+          "gray_std": 25.664310606439727,
+          "strong_vertical_edge_fraction": 0.019835633116883116
+        },
+        {
+          "gray_mean": 141.9460531655844,
+          "gray_std": 25.75783951176286,
+          "strong_vertical_edge_fraction": 0.02142857142857143
+        },
+        {
+          "gray_mean": 142.04405438311687,
+          "gray_std": 25.720186828832123,
+          "strong_vertical_edge_fraction": 0.02122564935064935
+        },
+        {
+          "gray_mean": 142.12169237012986,
+          "gray_std": 25.838265304661324,
+          "strong_vertical_edge_fraction": 0.022372159090909092
+        },
+        {
+          "gray_mean": 142.24243100649352,
+          "gray_std": 25.89739082215431,
+          "strong_vertical_edge_fraction": 0.022179383116883118
+        },
+        {
+          "gray_mean": 142.32978896103896,
+          "gray_std": 25.951162404606617,
+          "strong_vertical_edge_fraction": 0.02094155844155844
+        }
+      ],
+      "mean_gray_std": 26.069427705554112,
+      "mean_strong_vertical_edge_fraction": 0.02225910250463822
+    },
+    "F": {
+      "frames": [
+        {
+          "gray_mean": 123.95070008116883,
+          "gray_std": 38.83149989437987,
+          "strong_vertical_edge_fraction": 0.0663859577922078
+        },
+        {
+          "gray_mean": 123.95811688311689,
+          "gray_std": 38.79107650924473,
+          "strong_vertical_edge_fraction": 0.06680194805194806
+        },
+        {
+          "gray_mean": 123.82208806818181,
+          "gray_std": 38.83032956149429,
+          "strong_vertical_edge_fraction": 0.0669135551948052
+        },
+        {
+          "gray_mean": 123.76333198051948,
+          "gray_std": 38.87190547588936,
+          "strong_vertical_edge_fraction": 0.06688311688311688
+        },
+        {
+          "gray_mean": 123.6833299512987,
+          "gray_std": 38.896639878821446,
+          "strong_vertical_edge_fraction": 0.06676136363636363
+        },
+        {
+          "gray_mean": 123.75616883116884,
+          "gray_std": 38.793761193810596,
+          "strong_vertical_edge_fraction": 0.0658786525974026
+        },
+        {
+          "gray_mean": 123.7562398538961,
+          "gray_std": 38.77991836517971,
+          "strong_vertical_edge_fraction": 0.06601055194805194
+        },
+        {
+          "gray_mean": 123.78005275974026,
+          "gray_std": 38.76863162048009,
+          "strong_vertical_edge_fraction": 0.06585836038961039
+        },
+        {
+          "gray_mean": 123.74580965909091,
+          "gray_std": 38.76458993889885,
+          "strong_vertical_edge_fraction": 0.06573660714285715
+        },
+        {
+          "gray_mean": 124.02333603896103,
+          "gray_std": 38.686909564645404,
+          "strong_vertical_edge_fraction": 0.06546266233766233
+        },
+        {
+          "gray_mean": 124.05203936688312,
+          "gray_std": 38.685669276975695,
+          "strong_vertical_edge_fraction": 0.0656148538961039
+        },
+        {
+          "gray_mean": 124.07581168831169,
+          "gray_std": 38.67921760249504,
+          "strong_vertical_edge_fraction": 0.06542207792207792
+        },
+        {
+          "gray_mean": 124.03081371753247,
+          "gray_std": 38.68611242328634,
+          "strong_vertical_edge_fraction": 0.06539163961038962
+        },
+        {
+          "gray_mean": 124.22215909090909,
+          "gray_std": 38.62782210361072,
+          "strong_vertical_edge_fraction": 0.06494521103896105
+        },
+        {
+          "gray_mean": 124.21272321428572,
+          "gray_std": 38.6225104855217,
+          "strong_vertical_edge_fraction": 0.06482345779220779
+        },
+        {
+          "gray_mean": 124.23146306818182,
+          "gray_std": 38.623401365572654,
+          "strong_vertical_edge_fraction": 0.06485389610389611
+        },
+        {
+          "gray_mean": 124.17359983766234,
+          "gray_std": 38.62582897793557,
+          "strong_vertical_edge_fraction": 0.06531047077922078
+        },
+        {
+          "gray_mean": 124.49912743506493,
+          "gray_std": 38.48004652504723,
+          "strong_vertical_edge_fraction": 0.06449878246753246
+        },
+        {
+          "gray_mean": 124.52907873376624,
+          "gray_std": 38.459633008493746,
+          "strong_vertical_edge_fraction": 0.06439732142857142
+        },
+        {
+          "gray_mean": 124.5971489448052,
+          "gray_std": 38.43687609023436,
+          "strong_vertical_edge_fraction": 0.06446834415584415
+        },
+        {
+          "gray_mean": 124.5578125,
+          "gray_std": 38.42717282664195,
+          "strong_vertical_edge_fraction": 0.06484375
+        }
+      ],
+      "mean_gray_std": 38.68426441374568,
+      "mean_strong_vertical_edge_fraction": 0.06558393243661101
+    },
+    "G": {
+      "frames": [
+        {
+          "gray_mean": 167.91892248376624,
+          "gray_std": 2.673479946441286,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.65281047077923,
+          "gray_std": 2.610520753197985,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.62010957792208,
+          "gray_std": 2.5906341651424016,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.5830560064935,
+          "gray_std": 2.5772325610645472,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.49966517857143,
+          "gray_std": 2.5519441057874763,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.59719967532467,
+          "gray_std": 2.5732507832014053,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.59115259740258,
+          "gray_std": 2.5771281968400017,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.62980925324675,
+          "gray_std": 2.596562921599142,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.61919642857143,
+          "gray_std": 2.5950394431329586,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.57722199675325,
+          "gray_std": 2.6180378130367346,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.56831371753248,
+          "gray_std": 2.6257884633341493,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.54315137987012,
+          "gray_std": 2.656892067513339,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.4707792207792,
+          "gray_std": 2.6567457408973136,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.56943993506493,
+          "gray_std": 2.691151538266042,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.60796469155844,
+          "gray_std": 2.6811275774225387,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.66025771103895,
+          "gray_std": 2.699346679943146,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.61176948051948,
+          "gray_std": 2.6984294287466004,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.6713575487013,
+          "gray_std": 2.6991234266556363,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.66905438311687,
+          "gray_std": 2.6833254649061686,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.73275162337663,
+          "gray_std": 2.6828290686671927,
+          "strong_vertical_edge_fraction": 0.0
+        },
+        {
+          "gray_mean": 167.6656047077922,
+          "gray_std": 2.6781133265506085,
+          "strong_vertical_edge_fraction": 0.0
+        }
+      ],
+      "mean_gray_std": 2.6388906415403177,
+      "mean_strong_vertical_edge_fraction": 0.0
+    }
+  }
+}

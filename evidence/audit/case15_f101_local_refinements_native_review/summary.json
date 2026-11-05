@@ -1,0 +1,94 @@
+{
+  "scope": "Local VLM source-frame/camera refinement D/E versus original A on third dance; all three native DD Stage2→3 outputs and exact effective-input provenance checked. No user best-frame labels.",
+  "runs": {
+    "A": {
+      "highlight_frame": 101,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "stage2_seconds": 4.0,
+      "stage3_frames": 25,
+      "native_integrity": "passed",
+      "source_detected_frames": 25,
+      "native_detected_frames": 25,
+      "core_2d_motion_error": 0.12523312481630341,
+      "limb_2d_motion_error": 0.11372490689169562,
+      "right_wrist_range_source_body_units": [
+        0.37394347378797776,
+        0.4108129222646395
+      ],
+      "right_wrist_range_generated_body_units": [
+        0.3826347161564451,
+        0.48765051613544275
+      ],
+      "person_gray_contrast_trend_over_source": 0.7569196103132384,
+      "source_camera_motion_deg": 0.2625372900107764,
+      "valid_mesh_fraction_mean": 0.5742070756392046,
+      "black_peak_excess": -0.04261141690340909,
+      "pale_peak_excess": 0.0
+    },
+    "D": {
+      "highlight_frame": 109,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "stage2_seconds": 3.2,
+      "stage3_frames": 25,
+      "native_integrity": "passed",
+      "source_detected_frames": 25,
+      "native_detected_frames": 25,
+      "core_2d_motion_error": 0.09314342115054698,
+      "limb_2d_motion_error": 0.09270132694216998,
+      "right_wrist_range_source_body_units": [
+        0.46496066672181136,
+        0.21599044636853093
+      ],
+      "right_wrist_range_generated_body_units": [
+        0.14361013443627269,
+        0.3481534441857266
+      ],
+      "person_gray_contrast_trend_over_source": 0.7712304593198814,
+      "source_camera_motion_deg": 0.36374827983542973,
+      "valid_mesh_fraction_mean": 0.5307569691051135,
+      "black_peak_excess": -0.042596990411931816,
+      "pale_peak_excess": 0.0
+    },
+    "E": {
+      "highlight_frame": 117,
+      "orbit_direction": "left",
+      "orbit_degrees": 30,
+      "stage2_seconds": 2.4,
+      "stage3_frames": 21,
+      "native_integrity": "passed",
+      "source_detected_frames": 21,
+      "native_detected_frames": 21,
+      "core_2d_motion_error": 0.09030997024064637,
+      "limb_2d_motion_error": 0.14162395168938471,
+      "right_wrist_range_source_body_units": [
+        0.7029830649785471,
+        0.45845097824108483
+      ],
+      "right_wrist_range_generated_body_units": [
+        0.5832490964192357,
+        0.5675393513969135
+      ],
+      "person_gray_contrast_trend_over_source": 1.2005397386376842,
+      "source_camera_motion_deg": 0.2156185747154745,
+      "valid_mesh_fraction_mean": 0.5749230058678302,
+      "black_peak_excess": -0.038304554332386366,
+      "pale_peak_excess": 0.0
+    }
+  },
+  "holistic_visual_review": {
+    "A": "Native Stage2 keeps plain studio and body stable. Stage3 tracks arms toward head in early/middle frames, but generated torso does not bend as source does, and late face/hands soften; full quality fails.",
+    "D": "Native Stage2 preserves a plausible new view and plain background. Stage3 retains coarse pose but under-represents horizontal right-wrist motion (source range 0.465 vs generated 0.144 body units), and human/background contrast weakens with blurred late face/arms. Lower 2D pose error does not imply good whole video.",
+    "E": "Native Stage2/Stage3 invent a tall curtain-like structure on the right absent from the plain source studio, so scene integrity fails. Stage3 does show late arm opening, but the source late one-leg lift/body travel is not faithfully carried over; fixed-camera scene change cannot be excused as source motion. Overall quality fails despite stronger person contrast."
+  },
+  "quality_pass": false,
+  "global_optimality_proven": false,
+  "metric_caveat": "Cross-view 2D pose, valid mesh and contrast are advisory only; inspect full generated motion, human/scene integrity and camera effect.",
+  "quality_pass_by_candidate": {
+    "A": false,
+    "D": false,
+    "E": false
+  },
+  "relative_preference": "undecided: A has more stable scene but soft late action; E has more visible arm motion but severe generated background; D has weaker late human detail. Await actual-frame VLM feedback, then cross-check its visible claims; none passes."
+}

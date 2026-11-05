@@ -1,0 +1,103 @@
+{
+  "method": "Matched source/baseline/beta0p5 DWPose accepted frames for each joint; pelvis-relative coordinates normalized by own median shoulder-hip length; anchor f0 only if all three accepted",
+  "frames": 33,
+  "per_joint": {
+    "nose": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.18963173791534338,
+      "beta0p5_mae_body_units": 0.16702252929845895
+    },
+    "left_eye": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.19400373197467682,
+      "beta0p5_mae_body_units": 0.1727962622905122
+    },
+    "right_eye": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.22842418728265235,
+      "beta0p5_mae_body_units": 0.2000534352888836
+    },
+    "left_ear": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.14840162257104295,
+      "beta0p5_mae_body_units": 0.12571939803329907
+    },
+    "right_ear": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.22626779587128423,
+      "beta0p5_mae_body_units": 0.1902688131034346
+    },
+    "left_shoulder": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.280813036746028,
+      "beta0p5_mae_body_units": 0.2700606584355635
+    },
+    "right_shoulder": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.2147559630798509,
+      "beta0p5_mae_body_units": 0.18692164054080193
+    },
+    "right_elbow": {
+      "common_frames": 32,
+      "baseline_mae_body_units": 0.2716813978813971,
+      "beta0p5_mae_body_units": 0.20091108150134357
+    },
+    "right_wrist": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.34183163093554325,
+      "beta0p5_mae_body_units": 0.2597521451795041
+    },
+    "left_hip": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.12342901650874309,
+      "beta0p5_mae_body_units": 0.10830718787399633
+    },
+    "right_hip": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.12342901650874309,
+      "beta0p5_mae_body_units": 0.10830718787399633
+    },
+    "left_knee": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.14477453109864466,
+      "beta0p5_mae_body_units": 0.16289874505816093
+    },
+    "right_knee": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.13346186450202885,
+      "beta0p5_mae_body_units": 0.11571261001701871
+    },
+    "left_ankle": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.10936526102769302,
+      "beta0p5_mae_body_units": 0.1075150693707808
+    },
+    "right_ankle": {
+      "common_frames": 33,
+      "baseline_mae_body_units": 0.1330175567487369,
+      "beta0p5_mae_body_units": 0.11599717853443262
+    }
+  },
+  "core": {
+    "joints": [
+      "nose",
+      "left_shoulder",
+      "right_shoulder",
+      "left_knee",
+      "right_knee",
+      "left_ankle",
+      "right_ankle"
+    ],
+    "baseline_mean_mae_body_units": 0.17225999301690367,
+    "beta0p5_mean_mae_body_units": 0.1608754901793168
+  },
+  "visible_limbs": {
+    "joints": [
+      "right_elbow",
+      "right_wrist"
+    ],
+    "baseline_mean_mae_body_units": 0.3067565144084702,
+    "beta0p5_mean_mae_body_units": 0.23033161334042385
+  },
+  "limitation": "Only right elbow/wrist have valid source f0; left arm excluded from f0-anchored metric. Cross-view 2D remains a proxy."
+}

@@ -1,0 +1,67 @@
+{
+  "scope": "Same case15 C f577 right20 17-frame native DD Stage3: CFG1 baseline vs runtime CFG5; inputs, prompt, actual Stage2 endpoint, official weights, initial noise and first-latent pin identical. CFG branch changes number of model calls, so inference is not otherwise identical.",
+  "integrity": {
+    "same_initial_noise": true,
+    "same_actual_endpoint_pixels": true,
+    "pin_count_each": 50,
+    "same_five_input_hashes": true,
+    "cfg5_runtime_call": {
+      "cfg_scale_actual": 5.0,
+      "num_frames": 17,
+      "negative_prompt": "",
+      "has_source_content": true,
+      "has_warp_video": true,
+      "has_warp_mask": true,
+      "input_image_present": true,
+      "prompt": "At the fixed new camera viewpoint shown by the supplied first frame, continue the exact order of person and object actions from the supplied source video after the highlight frame. Maintain the same person's identity, clothing, pose continuity, background geometry and lighting. The camera must stay stationary at this new viewpoint. Do not keep the action frozen, invent different motion, change the person, move the camera, or rebuild the scene.",
+      "same_official_pipeline": true,
+      "postdecode_replacement": false
+    },
+    "official_weights_unchanged": true
+  },
+  "runs": {
+    "cfg1": {
+      "native_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_motion_delta_mae": 0.8409746042306225,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "cfg5": {
+      "native_sha256": "3608e8161ffebd77a46b64b95c6cba8b362a514cfddaef5fe3fcba4e7ba1e9bc",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.07258599460664734,
+      "limb_motion_delta_mae": 0.46955316222024734,
+      "right_wrist_motion_delta_mae": 0.8363129129684469,
+      "right_wrist_range_body_units": [
+        0.22742961029195596,
+        0.085807871027361
+      ],
+      "gray_std_trend_over_source": 1.3157731880115393
+    }
+  },
+  "holistic_visual_review": "Failed. Nine evenly spaced native frames and all-frame luminance show CFG5 person/background abruptly darken after f4; f8–f12 are almost black (mean grayscale 5.2–5.8/255, >99.9% pixels below 32), then recover by f14–f16. Source remains around 169/255 and CFG1 baseline brightens gradually 167→188/255. Generated arm action remains largely frozen instead of crossing the body. No holistic quality improvement.",
+  "metric_caveat": "2D cross-view DWPose and contrast are only auxiliary; compare full 17-frame actual videos for action, person, scene, detail and target camera.",
+  "luminance_failure": {
+    "cfg5_black_frames": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "cfg5_f8_mean_gray": 5.827,
+    "cfg5_f10_mean_gray": 5.225,
+    "cfg5_f12_mean_gray": 5.725,
+    "source_f8_mean_gray": 169.022,
+    "baseline_f8_mean_gray": 174.55,
+    "frame_luminance": "audit/case15_c_cfg5_native_review/frame_luminance.json"
+  },
+  "metric_warning": "The person gray-contrast trend increases from 0.657 to 1.316 despite catastrophic black frames; this proxy is invalid as an independent quality pass criterion."
+}

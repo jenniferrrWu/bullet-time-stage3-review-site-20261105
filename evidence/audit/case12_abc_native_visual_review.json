@@ -1,0 +1,61 @@
+{
+  "case": "case12_woman_home_dance",
+  "plan": "planner_case12_30b/plan.json",
+  "candidates": {
+    "A": {
+      "native_integrity": "passed",
+      "source_camera_end_rotation_degrees": 1.3873,
+      "stage3_valid_mesh_fraction_mean": 0.4943,
+      "manual_frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "observation": "Person and room remain structurally intact, but generated bending and hand-to-face action under-follows source. Source head relative pelvis range 0.636 body units versus native 0.125.",
+      "quality_pass": false
+    },
+    "B": {
+      "native_integrity": "passed",
+      "source_camera_end_rotation_degrees": 5.7078,
+      "stage3_valid_mesh_fraction_mean": 0.2333,
+      "manual_frames": [
+        0,
+        8,
+        16,
+        24,
+        32
+      ],
+      "contact_sheet": "/root/bullet_time_research_20261102/audit/case12_candidate_b_stage3.jpg",
+      "observation": "Stage3 f0 already crops the person at left image edge after 45-degree orbit; f16 body/room smear; f24 and f32 severe ghosting and pale scene washout. The source remains coherent.",
+      "quality_pass": false,
+      "dwpose_source_detected_frames": 33,
+      "dwpose_native_detected_frames": 20,
+      "dwpose_source_mean_accepted_joints": 13.7273,
+      "dwpose_native_mean_accepted_joints": 6.6364
+    },
+    "C": {
+      "native_integrity": "passed",
+      "source_camera_end_rotation_degrees": 5.9342,
+      "stage3_valid_mesh_fraction_mean": 0.6055,
+      "manual_frames": [
+        0,
+        4,
+        8,
+        12,
+        16
+      ],
+      "contact_sheet": "/root/bullet_time_research_20261102/audit/case12_candidate_c_stage3.jpg",
+      "observation": "No whiteout; room and bent torso remain visible. Original peak pose is severely cropped and upside-down, and generated arm/body action is nearly frozen relative to moving source. DWPose source tracking is too weak for reliable pose-error scoring.",
+      "quality_pass": false,
+      "dwpose_source_detected_frames": 17,
+      "dwpose_native_detected_frames": 17,
+      "dwpose_source_mean_accepted_joints": 8.4118,
+      "dwpose_native_mean_accepted_joints": 5.8824
+    }
+  },
+  "interpretation": "Within these three native DD runs, A appears preferable by manual sampling, but none meets full Stage3 action-and-composition quality. Geometry coverage alone does not predict quality. VLM feedback is pending. Candidate changes in highlight, direction, angle and window prevent single-factor causal attribution."
+}

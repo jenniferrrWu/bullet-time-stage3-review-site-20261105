@@ -1,0 +1,34 @@
+{
+  "source": "/root/bullet_time_research_20261102/vlm_dd_case12_selected_a/action.mp4",
+  "frames": 25,
+  "size": [
+    704,
+    1280
+  ],
+  "detected_frames": 25,
+  "mean_accepted_body_joints": 16.6,
+  "min_accepted_body_joints": 15,
+  "per_joint_coverage": {
+    "nose": 1.0,
+    "left_eye": 1.0,
+    "right_eye": 1.0,
+    "left_ear": 1.0,
+    "right_ear": 1.0,
+    "left_shoulder": 1.0,
+    "right_shoulder": 1.0,
+    "left_elbow": 0.8,
+    "right_elbow": 1.0,
+    "left_wrist": 0.8,
+    "right_wrist": 1.0,
+    "left_hip": 1.0,
+    "right_hip": 1.0,
+    "left_knee": 1.0,
+    "right_knee": 1.0,
+    "left_ankle": 1.0,
+    "right_ankle": 1.0
+  },
+  "consecutive_accepted_step_norm_image_diag_median": 0.002853859511217455,
+  "consecutive_accepted_step_norm_image_diag_p95": 0.01161428059075395,
+  "frames_below_12_joints": [],
+  "mean_confidence_accepted": 0.7299345766923514
+}

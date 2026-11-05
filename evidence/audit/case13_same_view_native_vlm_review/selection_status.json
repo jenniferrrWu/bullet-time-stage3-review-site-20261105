@@ -1,0 +1,7 @@
+{
+  "preferred_id": "beta0p5",
+  "scope": "two same-source native DD Stage3 variants only",
+  "global_optimality_proven": false,
+  "model_feedback_is_not_human_ground_truth": true,
+  "human_acceptance": "pending"
+}

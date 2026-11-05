@@ -1,0 +1,3415 @@
+{
+  "original_source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "pose_proxy_video": "/root/bullet_time_research_20261102/planner_candidate_bank/case13_source_960.mp4",
+  "pose_track_file": "/root/bullet_time_research_20261102/planner_candidate_bank/case13_pose_stride5/tracks.json",
+  "coarse_union_file": "/root/bullet_time_research_20261102/planner_candidate_bank/case13_archived_coarse_union.json",
+  "coarse_union_frames": [
+    169,
+    396,
+    565,
+    622,
+    848,
+    961,
+    1075
+  ],
+  "feature_selected": {
+    "motion_before": [
+      {
+        "frame": 435,
+        "value": 1.683516061333353
+      },
+      {
+        "frame": 645,
+        "value": 1.3982007355573995
+      },
+      {
+        "frame": 405,
+        "value": 1.197324930243269
+      },
+      {
+        "frame": 605,
+        "value": 0.9101613028835528
+      }
+    ],
+    "motion_after": [
+      {
+        "frame": 430,
+        "value": 1.683516061333353
+      },
+      {
+        "frame": 640,
+        "value": 1.3982007355573995
+      },
+      {
+        "frame": 400,
+        "value": 1.197324930243269
+      },
+      {
+        "frame": 600,
+        "value": 0.9101613028835528
+      }
+    ],
+    "pose_novelty": [
+      {
+        "frame": 650,
+        "value": 2.3814864772171616
+      },
+      {
+        "frame": 595,
+        "value": 1.5571990654848564
+      },
+      {
+        "frame": 440,
+        "value": 1.4286273633122764
+      },
+      {
+        "frame": 280,
+        "value": 1.360054229025488
+      }
+    ],
+    "pose_curvature": [
+      {
+        "frame": 435,
+        "value": 3.4226199982873395
+      },
+      {
+        "frame": 405,
+        "value": 2.374408644959791
+      },
+      {
+        "frame": 80,
+        "value": 1.4596121176752737
+      },
+      {
+        "frame": 645,
+        "value": 1.3362593826713824
+      }
+    ]
+  },
+  "candidate_bank_frames": [
+    80,
+    169,
+    280,
+    396,
+    400,
+    405,
+    430,
+    435,
+    440,
+    565,
+    595,
+    600,
+    605,
+    622,
+    640,
+    645,
+    650,
+    848,
+    961,
+    1075
+  ],
+  "candidate_count": 20,
+  "feature_rows": [
+    {
+      "frame": 0,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.03984307837629299,
+      "pose_novelty": 0.5497526772099665,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        413.931884765625,
+        205.43707275390625,
+        480.5669860839844,
+        461.1471862792969
+      ]
+    },
+    {
+      "frame": 5,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.03984307837629299,
+      "motion_after": 0.03142877268333101,
+      "pose_novelty": 0.5814798786845097,
+      "pose_curvature": 0.04120465685512889,
+      "bbox_xyxy": [
+        414.2131652832031,
+        206.62208557128906,
+        479.95379638671875,
+        460.9266357421875
+      ]
+    },
+    {
+      "frame": 10,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.03142877268333101,
+      "motion_after": 0.06968949800801458,
+      "pose_novelty": 0.6033579343045994,
+      "pose_curvature": 0.062395851638047575,
+      "bbox_xyxy": [
+        408.6041564941406,
+        205.1385498046875,
+        476.865234375,
+        462.7298889160156
+      ]
+    },
+    {
+      "frame": 15,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.06968949800801458,
+      "motion_after": 0.06785461927285984,
+      "pose_novelty": 0.6512288995106685,
+      "pose_curvature": 0.07345239986732996,
+      "bbox_xyxy": [
+        404.0310974121094,
+        205.5281524658203,
+        475.7176208496094,
+        463.011962890625
+      ]
+    },
+    {
+      "frame": 20,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.06785461927285984,
+      "motion_after": 0.05121360227266541,
+      "pose_novelty": 0.6767041196256974,
+      "pose_curvature": 0.05646618555347632,
+      "bbox_xyxy": [
+        399.8511047363281,
+        206.3444366455078,
+        481.7375183105469,
+        464.4459228515625
+      ]
+    },
+    {
+      "frame": 25,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.05121360227266541,
+      "motion_after": 0.11454788605277884,
+      "pose_novelty": 0.6442411823413468,
+      "pose_curvature": 0.08253158780091066,
+      "bbox_xyxy": [
+        402.3840026855469,
+        206.5615234375,
+        486.0604553222656,
+        465.3902893066406
+      ]
+    },
+    {
+      "frame": 30,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.11454788605277884,
+      "motion_after": 0.12337778482102371,
+      "pose_novelty": 0.6755702919860593,
+      "pose_curvature": 0.14094809757803142,
+      "bbox_xyxy": [
+        401.6236267089844,
+        209.18382263183594,
+        484.06805419921875,
+        466.25518798828125
+      ]
+    },
+    {
+      "frame": 35,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.12337778482102371,
+      "motion_after": 0.22125219724622444,
+      "pose_novelty": 0.7392081139246607,
+      "pose_curvature": 0.2202300798098377,
+      "bbox_xyxy": [
+        387.702880859375,
+        209.04702758789062,
+        489.58294677734375,
+        464.0553894042969
+      ]
+    },
+    {
+      "frame": 40,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.22125219724622444,
+      "motion_after": 0.2666393907382935,
+      "pose_novelty": 0.7263663176606046,
+      "pose_curvature": 0.19986794164887872,
+      "bbox_xyxy": [
+        375.6207275390625,
+        210.93630981445312,
+        490.7601013183594,
+        464.986572265625
+      ]
+    },
+    {
+      "frame": 45,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2666393907382935,
+      "motion_after": 0.316537493116742,
+      "pose_novelty": 0.8844318874674533,
+      "pose_curvature": 0.3927401620538534,
+      "bbox_xyxy": [
+        378.91363525390625,
+        218.37803649902344,
+        492.74298095703125,
+        463.947265625
+      ]
+    },
+    {
+      "frame": 50,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.316537493116742,
+      "motion_after": 0.5782485171543671,
+      "pose_novelty": 0.8812638302625445,
+      "pose_curvature": 0.3219581641196433,
+      "bbox_xyxy": [
+        371.64520263671875,
+        221.43392944335938,
+        498.88494873046875,
+        469.35162353515625
+      ]
+    },
+    {
+      "frame": 55,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5782485171543671,
+      "motion_after": 0.13813877610582698,
+      "pose_novelty": 0.6585999910973825,
+      "pose_curvature": 0.536247251999894,
+      "bbox_xyxy": [
+        383.5962219238281,
+        197.57826232910156,
+        513.2246704101562,
+        479.08172607421875
+      ]
+    },
+    {
+      "frame": 60,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.13813877610582698,
+      "motion_after": 0.20136235634145572,
+      "pose_novelty": 0.7023398724588947,
+      "pose_curvature": 0.26519610777387453,
+      "bbox_xyxy": [
+        387.0845031738281,
+        197.1639404296875,
+        509.01031494140625,
+        487.4400329589844
+      ]
+    },
+    {
+      "frame": 65,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.20136235634145572,
+      "motion_after": 0.4153436124908686,
+      "pose_novelty": 0.6294525504425564,
+      "pose_curvature": 0.27004823083360574,
+      "bbox_xyxy": [
+        381.94049072265625,
+        200.26332092285156,
+        495.1137390136719,
+        495.32318115234375
+      ]
+    },
+    {
+      "frame": 70,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.4153436124908686,
+      "motion_after": 0.39902078683920245,
+      "pose_novelty": 0.7159813395907353,
+      "pose_curvature": 0.25937818899982856,
+      "bbox_xyxy": [
+        386.19171142578125,
+        203.7216796875,
+        502.422119140625,
+        504.2894287109375
+      ]
+    },
+    {
+      "frame": 75,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.39902078683920245,
+      "motion_after": 0.8953907266129566,
+      "pose_novelty": 0.7011237209456178,
+      "pose_curvature": 0.5090583030021848,
+      "bbox_xyxy": [
+        349.8222961425781,
+        224.36856079101562,
+        515.6331787109375,
+        519.0933837890625
+      ]
+    },
+    {
+      "frame": 80,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.8953907266129566,
+      "motion_after": 0.7661395743958193,
+      "pose_novelty": 0.8141457453748339,
+      "pose_curvature": 1.4596121176752737,
+      "bbox_xyxy": [
+        347.8641357421875,
+        245.5271759033203,
+        531.7789916992188,
+        528.572021484375
+      ]
+    },
+    {
+      "frame": 85,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7661395743958193,
+      "motion_after": 0.16347790249671018,
+      "pose_novelty": 0.9446504130454272,
+      "pose_curvature": 0.7348787693727581,
+      "bbox_xyxy": [
+        342.5346374511719,
+        221.3352813720703,
+        555.013427734375,
+        538.60205078125
+      ]
+    },
+    {
+      "frame": 90,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.16347790249671018,
+      "motion_after": 0.18440251154294926,
+      "pose_novelty": 1.0671990351861502,
+      "pose_curvature": 0.27416694837592837,
+      "bbox_xyxy": [
+        353.45977783203125,
+        206.64230346679688,
+        572.2428588867188,
+        543.174560546875
+      ]
+    },
+    {
+      "frame": 95,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.18440251154294926,
+      "motion_after": 0.42396597443236306,
+      "pose_novelty": 1.0030253891629883,
+      "pose_curvature": 0.37584614135444333,
+      "bbox_xyxy": [
+        374.23260498046875,
+        194.6901397705078,
+        579.9765014648438,
+        537.867919921875
+      ]
+    },
+    {
+      "frame": 100,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.42396597443236306,
+      "motion_after": 0.6428941605237437,
+      "pose_novelty": 0.8195358736480971,
+      "pose_curvature": 0.3646650029150119,
+      "bbox_xyxy": [
+        392.21624755859375,
+        214.13607788085938,
+        580.8333740234375,
+        540.76220703125
+      ]
+    },
+    {
+      "frame": 105,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.6428941605237437,
+      "motion_after": 0.8952518459579856,
+      "pose_novelty": 0.701464375784671,
+      "pose_curvature": 0.5891464063430457,
+      "bbox_xyxy": [
+        420.28546142578125,
+        179.3594970703125,
+        557.9931030273438,
+        541.2506103515625
+      ]
+    },
+    {
+      "frame": 110,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.8952518459579856,
+      "motion_after": 0.5562430722901495,
+      "pose_novelty": 0.7491604199514285,
+      "pose_curvature": 1.0319467880727977,
+      "bbox_xyxy": [
+        413.7565612792969,
+        176.4690399169922,
+        543.1688232421875,
+        543.0379028320312
+      ]
+    },
+    {
+      "frame": 115,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5562430722901495,
+      "motion_after": 0.3838328809437166,
+      "pose_novelty": 0.8366543876177855,
+      "pose_curvature": 0.44344120204311044,
+      "bbox_xyxy": [
+        399.9088439941406,
+        167.74037170410156,
+        587.875,
+        536.8379516601562
+      ]
+    },
+    {
+      "frame": 120,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3838328809437166,
+      "motion_after": 0.2892092375881179,
+      "pose_novelty": 0.8765291112736207,
+      "pose_curvature": 0.4071404294047098,
+      "bbox_xyxy": [
+        386.1225891113281,
+        168.66650390625,
+        535.109619140625,
+        537.4075927734375
+      ]
+    },
+    {
+      "frame": 125,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2892092375881179,
+      "motion_after": 0.3807944381262033,
+      "pose_novelty": 0.7549980898624586,
+      "pose_curvature": 0.2761080524001346,
+      "bbox_xyxy": [
+        360.9440002441406,
+        189.71836853027344,
+        546.5706176757812,
+        536.243408203125
+      ]
+    },
+    {
+      "frame": 130,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3807944381262033,
+      "motion_after": 0.182950472607268,
+      "pose_novelty": 0.7083921826983162,
+      "pose_curvature": 0.28206674926258,
+      "bbox_xyxy": [
+        329.1154479980469,
+        212.39016723632812,
+        588.090576171875,
+        534.369873046875
+      ]
+    },
+    {
+      "frame": 135,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.182950472607268,
+      "motion_after": 0.11331768060498906,
+      "pose_novelty": 0.7034507666671503,
+      "pose_curvature": 0.26437877401695653,
+      "bbox_xyxy": [
+        343.8028259277344,
+        217.16445922851562,
+        635.5631713867188,
+        530.9520874023438
+      ]
+    },
+    {
+      "frame": 140,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.11331768060498906,
+      "motion_after": 0.23484418883627833,
+      "pose_novelty": 0.5847969092607139,
+      "pose_curvature": 0.14130311393753633,
+      "bbox_xyxy": [
+        375.2640686035156,
+        161.3829345703125,
+        626.8090209960938,
+        534.7298583984375
+      ]
+    },
+    {
+      "frame": 145,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.23484418883627833,
+      "motion_after": 0.31738064485831685,
+      "pose_novelty": 0.27025074177020675,
+      "pose_curvature": 0.2139269655808863,
+      "bbox_xyxy": [
+        409.32861328125,
+        90.74617767333984,
+        605.5413818359375,
+        533.4702758789062
+      ]
+    },
+    {
+      "frame": 150,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.31738064485831685,
+      "motion_after": 0.3699199775085672,
+      "pose_novelty": 0.3533826311055792,
+      "pose_curvature": 0.4147022547901893,
+      "bbox_xyxy": [
+        436.3633117675781,
+        58.94444274902344,
+        644.858154296875,
+        534.5498657226562
+      ]
+    },
+    {
+      "frame": 155,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3699199775085672,
+      "motion_after": null,
+      "pose_novelty": 0.37447037324150545,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        369.3717346191406,
+        76.02584838867188,
+        691.1939697265625,
+        534.0558471679688
+      ]
+    },
+    {
+      "frame": 160,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        450.2091064453125,
+        150.68533325195312,
+        716.546630859375,
+        534.0667114257812
+      ]
+    },
+    {
+      "frame": 165,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        519.9067993164062,
+        110.07103729248047,
+        904.1100463867188,
+        532.95654296875
+      ]
+    },
+    {
+      "frame": 170,
+      "accepted_body_joints": 5,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        476.3050537109375,
+        1.8805160522460938,
+        954.8406372070312,
+        534.489990234375
+      ]
+    },
+    {
+      "frame": 175,
+      "accepted_body_joints": 7,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": 2.9121779764839166,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        548.0296020507812,
+        294.4637145996094,
+        959.3095703125,
+        535.7439575195312
+      ]
+    },
+    {
+      "frame": 180,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        538.9740600585938,
+        216.26060485839844,
+        959.8238525390625,
+        533.2278442382812
+      ]
+    },
+    {
+      "frame": 185,
+      "accepted_body_joints": 5,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        517.1895751953125,
+        0.5669631958007812,
+        959.1141357421875,
+        535.3700561523438
+      ]
+    },
+    {
+      "frame": 190,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.7526421544000739,
+      "pose_novelty": 1.0050257924360668,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        491.0772399902344,
+        0.056396484375,
+        959.20458984375,
+        533.6813354492188
+      ]
+    },
+    {
+      "frame": 195,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7526421544000739,
+      "motion_after": 0.8175070899239424,
+      "pose_novelty": 0.8981602565833051,
+      "pose_curvature": 0.7999121097534244,
+      "bbox_xyxy": [
+        331.9595031738281,
+        0.1801300048828125,
+        958.4713134765625,
+        534.2826538085938
+      ]
+    },
+    {
+      "frame": 200,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.8175070899239424,
+      "motion_after": 0.6945766020157399,
+      "pose_novelty": 0.6510620337681972,
+      "pose_curvature": 0.44525167674982585,
+      "bbox_xyxy": [
+        308.1751708984375,
+        0.8630905151367188,
+        800.7019653320312,
+        532.5564575195312
+      ]
+    },
+    {
+      "frame": 205,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6945766020157399,
+      "motion_after": 0.42384025838852385,
+      "pose_novelty": 0.8286302869942096,
+      "pose_curvature": 0.5506868826905289,
+      "bbox_xyxy": [
+        266.9801330566406,
+        1.4300537109375,
+        775.469970703125,
+        533.4288940429688
+      ]
+    },
+    {
+      "frame": 210,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.42384025838852385,
+      "motion_after": 0.477627219484643,
+      "pose_novelty": 0.9294820605220303,
+      "pose_curvature": 0.5750842073200786,
+      "bbox_xyxy": [
+        226.80923461914062,
+        2.3038558959960938,
+        783.1395263671875,
+        534.9366455078125
+      ]
+    },
+    {
+      "frame": 215,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.477627219484643,
+      "motion_after": 0.2612265857055065,
+      "pose_novelty": 0.6763901131644146,
+      "pose_curvature": 0.4508391351621293,
+      "bbox_xyxy": [
+        274.5837097167969,
+        92.77356719970703,
+        794.599365234375,
+        533.3324584960938
+      ]
+    },
+    {
+      "frame": 220,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2612265857055065,
+      "motion_after": 0.17989757880266308,
+      "pose_novelty": 0.7086743747887545,
+      "pose_curvature": 0.21721984853711046,
+      "bbox_xyxy": [
+        257.9277038574219,
+        109.95929718017578,
+        837.4520874023438,
+        534.2950439453125
+      ]
+    },
+    {
+      "frame": 225,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.17989757880266308,
+      "motion_after": 0.19096848203046385,
+      "pose_novelty": 0.7751980921932481,
+      "pose_curvature": 0.2251057593198963,
+      "bbox_xyxy": [
+        232.30606079101562,
+        109.91697692871094,
+        803.7975463867188,
+        534.3079223632812
+      ]
+    },
+    {
+      "frame": 230,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.19096848203046385,
+      "motion_after": 0.6453556419653947,
+      "pose_novelty": 0.7053505350432488,
+      "pose_curvature": 0.5631175300930114,
+      "bbox_xyxy": [
+        166.7882080078125,
+        50.839759826660156,
+        957.6478271484375,
+        531.42041015625
+      ]
+    },
+    {
+      "frame": 235,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6453556419653947,
+      "motion_after": 0.5406916094672198,
+      "pose_novelty": 0.934401321126457,
+      "pose_curvature": 0.652838257966416,
+      "bbox_xyxy": [
+        139.78550720214844,
+        2.9345626831054688,
+        958.3577270507812,
+        533.2333984375
+      ]
+    },
+    {
+      "frame": 240,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5406916094672198,
+      "motion_after": 0.7832485869249057,
+      "pose_novelty": 1.3187208523143559,
+      "pose_curvature": 1.1685622676149194,
+      "bbox_xyxy": [
+        5.473388671875,
+        11.248443603515625,
+        830.6012573242188,
+        536.9177856445312
+      ]
+    },
+    {
+      "frame": 245,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7832485869249057,
+      "motion_after": 0.3360779840383435,
+      "pose_novelty": 0.8152973097063512,
+      "pose_curvature": 0.6702845584946707,
+      "bbox_xyxy": [
+        195.15084838867188,
+        39.37408447265625,
+        825.49072265625,
+        535.0012817382812
+      ]
+    },
+    {
+      "frame": 250,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3360779840383435,
+      "motion_after": 0.7524894172110805,
+      "pose_novelty": 0.9199275489161366,
+      "pose_curvature": 1.0449004803887423,
+      "bbox_xyxy": [
+        146.01480102539062,
+        64.50959014892578,
+        763.83642578125,
+        533.5104370117188
+      ]
+    },
+    {
+      "frame": 255,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7524894172110805,
+      "motion_after": 0.9488172561484484,
+      "pose_novelty": 0.4114013545232402,
+      "pose_curvature": 0.5368358577415951,
+      "bbox_xyxy": [
+        350.4407653808594,
+        114.16577911376953,
+        748.4876098632812,
+        533.6753540039062
+      ]
+    },
+    {
+      "frame": 260,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.9488172561484484,
+      "motion_after": 0.6488082621443197,
+      "pose_novelty": 0.9198823896096495,
+      "pose_curvature": 1.5277254377964486,
+      "bbox_xyxy": [
+        347.43707275390625,
+        137.947265625,
+        929.8529663085938,
+        533.74951171875
+      ]
+    },
+    {
+      "frame": 265,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6488082621443197,
+      "motion_after": 0.6355493766247747,
+      "pose_novelty": 0.7950206698577647,
+      "pose_curvature": 0.5223018551428488,
+      "bbox_xyxy": [
+        398.0895080566406,
+        109.67305755615234,
+        852.2628173828125,
+        534.1661376953125
+      ]
+    },
+    {
+      "frame": 270,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6355493766247747,
+      "motion_after": 0.1861338398468912,
+      "pose_novelty": 0.9410217736254649,
+      "pose_curvature": 0.49846027606240434,
+      "bbox_xyxy": [
+        408.9280700683594,
+        67.20650482177734,
+        959.6398315429688,
+        534.0855102539062
+      ]
+    },
+    {
+      "frame": 275,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.1861338398468912,
+      "motion_after": 0.6705103018279083,
+      "pose_novelty": 1.4192005479112986,
+      "pose_curvature": 0.49988505690065355,
+      "bbox_xyxy": [
+        422.7195739746094,
+        43.621055603027344,
+        958.7362060546875,
+        532.7779541015625
+      ]
+    },
+    {
+      "frame": 280,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.6705103018279083,
+      "motion_after": 0.5865275864821241,
+      "pose_novelty": 1.360054229025488,
+      "pose_curvature": 0.7967783806516058,
+      "bbox_xyxy": [
+        457.94744873046875,
+        44.262062072753906,
+        879.5260620117188,
+        534.820556640625
+      ]
+    },
+    {
+      "frame": 285,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5865275864821241,
+      "motion_after": 0.37171048520324934,
+      "pose_novelty": 0.9389776167267048,
+      "pose_curvature": 0.5038264408543995,
+      "bbox_xyxy": [
+        395.75665283203125,
+        21.18665313720703,
+        723.4550170898438,
+        533.7301025390625
+      ]
+    },
+    {
+      "frame": 290,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.37171048520324934,
+      "motion_after": 0.16494015183963237,
+      "pose_novelty": 0.7975160563069349,
+      "pose_curvature": 0.5591985120389934,
+      "bbox_xyxy": [
+        363.82177734375,
+        2.1561126708984375,
+        699.076904296875,
+        533.0696411132812
+      ]
+    },
+    {
+      "frame": 295,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.16494015183963237,
+      "motion_after": 0.6148493798897452,
+      "pose_novelty": 0.7590840201187973,
+      "pose_curvature": 0.6056368565284302,
+      "bbox_xyxy": [
+        395.74420166015625,
+        0.04447174072265625,
+        688.10546875,
+        533.8206176757812
+      ]
+    },
+    {
+      "frame": 300,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6148493798897452,
+      "motion_after": 0.5227062924185029,
+      "pose_novelty": 0.7873924579163565,
+      "pose_curvature": 0.6206314642551766,
+      "bbox_xyxy": [
+        418.33685302734375,
+        1.711944580078125,
+        897.765625,
+        534.8319702148438
+      ]
+    },
+    {
+      "frame": 305,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5227062924185029,
+      "motion_after": 0.39212840441507335,
+      "pose_novelty": 0.8078682161055201,
+      "pose_curvature": 0.5007617051554449,
+      "bbox_xyxy": [
+        377.0707702636719,
+        17.248329162597656,
+        772.4844360351562,
+        534.3362426757812
+      ]
+    },
+    {
+      "frame": 310,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.39212840441507335,
+      "motion_after": 0.46997881426798355,
+      "pose_novelty": 0.8412404057271342,
+      "pose_curvature": 0.4685463262633931,
+      "bbox_xyxy": [
+        385.3578186035156,
+        90.31590270996094,
+        796.57275390625,
+        533.994873046875
+      ]
+    },
+    {
+      "frame": 315,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.46997881426798355,
+      "motion_after": 0.19988851280227288,
+      "pose_novelty": 0.6413953509065634,
+      "pose_curvature": 0.7307190063666369,
+      "bbox_xyxy": [
+        404.30255126953125,
+        108.44769287109375,
+        825.7091674804688,
+        533.490234375
+      ]
+    },
+    {
+      "frame": 320,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.19988851280227288,
+      "motion_after": null,
+      "pose_novelty": 0.678285327842493,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        410.04052734375,
+        157.59632873535156,
+        896.4569702148438,
+        534.691650390625
+      ]
+    },
+    {
+      "frame": 325,
+      "accepted_body_joints": 10,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        529.6249389648438,
+        258.53558349609375,
+        919.81494140625,
+        533.8876342773438
+      ]
+    },
+    {
+      "frame": 330,
+      "accepted_body_joints": 7,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        589.155029296875,
+        156.28741455078125,
+        914.4819946289062,
+        534.9246215820312
+      ]
+    },
+    {
+      "frame": 335,
+      "accepted_body_joints": 1,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        660.1116333007812,
+        347.224365234375,
+        947.365966796875,
+        537.64306640625
+      ]
+    },
+    {
+      "frame": 340,
+      "accepted_body_joints": 4,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        594.7789306640625,
+        338.4767761230469,
+        872.6204833984375,
+        537.2060546875
+      ]
+    },
+    {
+      "frame": 345,
+      "accepted_body_joints": 3,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        522.195556640625,
+        342.5045471191406,
+        785.1312255859375,
+        537.1822509765625
+      ]
+    },
+    {
+      "frame": 350,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": 1.5745313823857605,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        466.3949279785156,
+        326.4215087890625,
+        776.4066162109375,
+        537.1058349609375
+      ]
+    },
+    {
+      "frame": 355,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 2.1941289410138234,
+      "pose_novelty": 1.916084161813818,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        446.99468994140625,
+        294.9696350097656,
+        748.9180908203125,
+        536.8030395507812
+      ]
+    },
+    {
+      "frame": 360,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 2.1941289410138234,
+      "motion_after": null,
+      "pose_novelty": 1.3268564850756457,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        290.1149597167969,
+        153.7506103515625,
+        780.1565551757812,
+        535.11279296875
+      ]
+    },
+    {
+      "frame": 365,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        379.37115478515625,
+        155.7952880859375,
+        787.0552978515625,
+        534.3414306640625
+      ]
+    },
+    {
+      "frame": 370,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.6264914010023198,
+      "pose_novelty": 0.6157991155333629,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        434.2037658691406,
+        49.955589294433594,
+        698.8612060546875,
+        537.82421875
+      ]
+    },
+    {
+      "frame": 375,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.6264914010023198,
+      "motion_after": 0.552781959134713,
+      "pose_novelty": 0.6489399276759547,
+      "pose_curvature": 0.5250066285884731,
+      "bbox_xyxy": [
+        447.5724182128906,
+        82.32588958740234,
+        702.725830078125,
+        537.234375
+      ]
+    },
+    {
+      "frame": 380,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.552781959134713,
+      "motion_after": 0.27759203085274414,
+      "pose_novelty": 0.5731965540894599,
+      "pose_curvature": 0.7512490560094565,
+      "bbox_xyxy": [
+        432.7215270996094,
+        31.948516845703125,
+        698.1385498046875,
+        538.0339965820312
+      ]
+    },
+    {
+      "frame": 385,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.27759203085274414,
+      "motion_after": 0.7627631563078842,
+      "pose_novelty": 0.6031340951860436,
+      "pose_curvature": 0.6161972301981506,
+      "bbox_xyxy": [
+        301.4139404296875,
+        150.1054229736328,
+        689.301513671875,
+        536.4696655273438
+      ]
+    },
+    {
+      "frame": 390,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7627631563078842,
+      "motion_after": 0.5529325561473352,
+      "pose_novelty": 0.8646864156615899,
+      "pose_curvature": 0.5132385808775538,
+      "bbox_xyxy": [
+        331.7807922363281,
+        139.61917114257812,
+        756.1668090820312,
+        537.046142578125
+      ]
+    },
+    {
+      "frame": 395,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5529325561473352,
+      "motion_after": 0.15228564048480914,
+      "pose_novelty": 0.9879576018894873,
+      "pose_curvature": 0.13561743749077507,
+      "bbox_xyxy": [
+        413.4371643066406,
+        113.91522216796875,
+        728.3544921875,
+        537.69091796875
+      ]
+    },
+    {
+      "frame": 400,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.15228564048480914,
+      "motion_after": 1.197324930243269,
+      "pose_novelty": 0.9133421080611175,
+      "pose_curvature": 1.1574016956148034,
+      "bbox_xyxy": [
+        390.5160217285156,
+        206.34544372558594,
+        733.6434936523438,
+        537.0435180664062
+      ]
+    },
+    {
+      "frame": 405,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 1.197324930243269,
+      "motion_after": 1.4708574544447437,
+      "pose_novelty": 1.2724446739094852,
+      "pose_curvature": 2.374408644959791,
+      "bbox_xyxy": [
+        345.9811706542969,
+        271.8870849609375,
+        687.5079345703125,
+        540.8463134765625
+      ]
+    },
+    {
+      "frame": 410,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 1.4708574544447437,
+      "motion_after": 0.25562439724872554,
+      "pose_novelty": 1.0075969287046551,
+      "pose_curvature": 1.4309251605473343,
+      "bbox_xyxy": [
+        370.6383361816406,
+        228.21878051757812,
+        673.7512817382812,
+        538.6102905273438
+      ]
+    },
+    {
+      "frame": 415,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.25562439724872554,
+      "motion_after": 0.35352118028890517,
+      "pose_novelty": 0.8066198965264535,
+      "pose_curvature": 0.17544879417467835,
+      "bbox_xyxy": [
+        368.1633605957031,
+        147.10862731933594,
+        667.4441528320312,
+        538.873046875
+      ]
+    },
+    {
+      "frame": 420,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.35352118028890517,
+      "motion_after": 0.5551943944670528,
+      "pose_novelty": 0.638417975050069,
+      "pose_curvature": 0.28128511614701657,
+      "bbox_xyxy": [
+        375.7960510253906,
+        60.082672119140625,
+        651.7489013671875,
+        537.3922119140625
+      ]
+    },
+    {
+      "frame": 425,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5551943944670528,
+      "motion_after": 0.716529209513026,
+      "pose_novelty": 0.674221559678611,
+      "pose_curvature": 0.4294700935719431,
+      "bbox_xyxy": [
+        304.4746398925781,
+        71.3781509399414,
+        664.9564819335938,
+        538.6721801757812
+      ]
+    },
+    {
+      "frame": 430,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.716529209513026,
+      "motion_after": 1.683516061333353,
+      "pose_novelty": 0.9153437242423468,
+      "pose_curvature": 2.1685634888195953,
+      "bbox_xyxy": [
+        331.3197937011719,
+        69.74684143066406,
+        738.792724609375,
+        538.7059326171875
+      ]
+    },
+    {
+      "frame": 435,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 1.683516061333353,
+      "motion_after": 1.651699772707448,
+      "pose_novelty": 1.2266416845697878,
+      "pose_curvature": 3.4226199982873395,
+      "bbox_xyxy": [
+        283.12750244140625,
+        65.37718963623047,
+        646.609619140625,
+        537.8765258789062
+      ]
+    },
+    {
+      "frame": 440,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 1.651699772707448,
+      "motion_after": 0.5394782772311791,
+      "pose_novelty": 1.4286273633122764,
+      "pose_curvature": 2.4857291088050384,
+      "bbox_xyxy": [
+        225.9879150390625,
+        202.6186065673828,
+        598.142822265625,
+        536.4093017578125
+      ]
+    },
+    {
+      "frame": 445,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.5394782772311791,
+      "motion_after": 0.2533393018757326,
+      "pose_novelty": 1.7136732799433547,
+      "pose_curvature": 0.15597467227835463,
+      "bbox_xyxy": [
+        145.6827850341797,
+        301.22479248046875,
+        592.4093627929688,
+        536.53515625
+      ]
+    },
+    {
+      "frame": 450,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2533393018757326,
+      "motion_after": 0.08449886003506613,
+      "pose_novelty": 1.6120322775760676,
+      "pose_curvature": 0.26244708978708164,
+      "bbox_xyxy": [
+        43.85408020019531,
+        327.732421875,
+        566.5743408203125,
+        536.3441162109375
+      ]
+    },
+    {
+      "frame": 455,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.08449886003506613,
+      "motion_after": null,
+      "pose_novelty": 1.6046051754093704,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.4189910888671875,
+        347.7790222167969,
+        496.299072265625,
+        536.5352172851562
+      ]
+    },
+    {
+      "frame": 460,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        1.9140472412109375,
+        346.9390869140625,
+        477.72283935546875,
+        536.0864868164062
+      ]
+    },
+    {
+      "frame": 465,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.4212799072265625,
+        281.7958679199219,
+        434.8916931152344,
+        537.0222778320312
+      ]
+    },
+    {
+      "frame": 470,
+      "accepted_body_joints": 2,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.7457771301269531,
+        225.9817352294922,
+        257.126708984375,
+        535.3967895507812
+      ]
+    },
+    {
+      "frame": 475,
+      "accepted_body_joints": 3,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.3505668640136719,
+        342.88287353515625,
+        237.2574462890625,
+        535.5160522460938
+      ]
+    },
+    {
+      "frame": 480,
+      "accepted_body_joints": 3,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.49193572998046875,
+        140.21768188476562,
+        354.9051818847656,
+        535.0191650390625
+      ]
+    },
+    {
+      "frame": 485,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 1.0778239296699281,
+      "pose_novelty": 1.120504944484152,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.3319587707519531,
+        12.801887512207031,
+        314.3334045410156,
+        534.5009765625
+      ]
+    },
+    {
+      "frame": 490,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": 1.0778239296699281,
+      "motion_after": 0.2410303048113507,
+      "pose_novelty": 0.6201686031608709,
+      "pose_curvature": 1.100528019275083,
+      "bbox_xyxy": [
+        0.8108711242675781,
+        1.5531005859375,
+        285.8339538574219,
+        532.9371337890625
+      ]
+    },
+    {
+      "frame": 495,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2410303048113507,
+      "motion_after": 0.26823363011631646,
+      "pose_novelty": 0.5234127610206382,
+      "pose_curvature": 0.31419507736596186,
+      "bbox_xyxy": [
+        -0.44139862060546875,
+        2.7332382202148438,
+        285.71282958984375,
+        532.9526977539062
+      ]
+    },
+    {
+      "frame": 500,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.26823363011631646,
+      "motion_after": 0.4751518601830616,
+      "pose_novelty": 0.33819508374311275,
+      "pose_curvature": 0.28253328631459673,
+      "bbox_xyxy": [
+        3.520946502685547,
+        22.104286193847656,
+        282.2727355957031,
+        533.8673095703125
+      ]
+    },
+    {
+      "frame": 505,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.4751518601830616,
+      "motion_after": 0.3726431876107866,
+      "pose_novelty": 0.3047680442537479,
+      "pose_curvature": 0.5463477143299285,
+      "bbox_xyxy": [
+        0.19576263427734375,
+        17.67382049560547,
+        337.8890075683594,
+        532.443603515625
+      ]
+    },
+    {
+      "frame": 510,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3726431876107866,
+      "motion_after": 0.2684846152172286,
+      "pose_novelty": 0.43034526147886093,
+      "pose_curvature": 0.26137623011091105,
+      "bbox_xyxy": [
+        0.8623809814453125,
+        1.0175628662109375,
+        388.7093200683594,
+        532.790771484375
+      ]
+    },
+    {
+      "frame": 515,
+      "accepted_body_joints": 10,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2684846152172286,
+      "motion_after": 0.29629755396671587,
+      "pose_novelty": 0.5196630740589204,
+      "pose_curvature": 0.4794444178514884,
+      "bbox_xyxy": [
+        0.004119873046875,
+        1.4681396484375,
+        329.32916259765625,
+        532.6930541992188
+      ]
+    },
+    {
+      "frame": 520,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.29629755396671587,
+      "motion_after": 0.2583200475817029,
+      "pose_novelty": 0.30477002380596907,
+      "pose_curvature": 0.2322051961595884,
+      "bbox_xyxy": [
+        0.23545074462890625,
+        0.6139297485351562,
+        241.39691162109375,
+        532.2837524414062
+      ]
+    },
+    {
+      "frame": 525,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2583200475817029,
+      "motion_after": 0.06638116517217407,
+      "pose_novelty": 0.30253075779210703,
+      "pose_curvature": 0.276273174972426,
+      "bbox_xyxy": [
+        0.5489616394042969,
+        1.1040115356445312,
+        203.74484252929688,
+        534.6441650390625
+      ]
+    },
+    {
+      "frame": 530,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.06638116517217407,
+      "motion_after": 0.2759838017844825,
+      "pose_novelty": 0.4055209523648833,
+      "pose_curvature": 0.2752677346650585,
+      "bbox_xyxy": [
+        0.45082855224609375,
+        0.6007003784179688,
+        212.16769409179688,
+        534.2433471679688
+      ]
+    },
+    {
+      "frame": 535,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2759838017844825,
+      "motion_after": 0.20743812977657183,
+      "pose_novelty": 0.5648435724486967,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.4228935241699219,
+        0.7219161987304688,
+        233.4693603515625,
+        533.4810791015625
+      ]
+    },
+    {
+      "frame": 540,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.20743812977657183,
+      "motion_after": 0.19914078220966921,
+      "pose_novelty": 0.4706216885643266,
+      "pose_curvature": 0.3325910769250882,
+      "bbox_xyxy": [
+        0.465087890625,
+        0.7637557983398438,
+        281.4048156738281,
+        534.3585205078125
+      ]
+    },
+    {
+      "frame": 545,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.19914078220966921,
+      "motion_after": 0.19073794222966942,
+      "pose_novelty": 0.35880157202460194,
+      "pose_curvature": 0.21603198326585193,
+      "bbox_xyxy": [
+        -0.16462326049804688,
+        0.9619903564453125,
+        282.3484802246094,
+        534.220947265625
+      ]
+    },
+    {
+      "frame": 550,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.19073794222966942,
+      "motion_after": 0.6218864968401836,
+      "pose_novelty": 0.41216720749861946,
+      "pose_curvature": 0.3804474818740906,
+      "bbox_xyxy": [
+        0.7439117431640625,
+        62.297950744628906,
+        299.5770263671875,
+        533.654541015625
+      ]
+    },
+    {
+      "frame": 555,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.6218864968401836,
+      "motion_after": 0.15244478234135145,
+      "pose_novelty": 0.47599143614602313,
+      "pose_curvature": 0.36194765035090004,
+      "bbox_xyxy": [
+        78.73095703125,
+        113.56102752685547,
+        358.5160217285156,
+        535.1571044921875
+      ]
+    },
+    {
+      "frame": 560,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.15244478234135145,
+      "motion_after": 0.3299525288421653,
+      "pose_novelty": 0.5115550107715947,
+      "pose_curvature": 0.19915489164891279,
+      "bbox_xyxy": [
+        247.31246948242188,
+        126.35554504394531,
+        434.90802001953125,
+        534.22705078125
+      ]
+    },
+    {
+      "frame": 565,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3299525288421653,
+      "motion_after": 0.27273061698701595,
+      "pose_novelty": 0.6447928382587392,
+      "pose_curvature": 0.22379705043760295,
+      "bbox_xyxy": [
+        300.0026550292969,
+        163.75453186035156,
+        485.5554504394531,
+        540.9965209960938
+      ]
+    },
+    {
+      "frame": 570,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.27273061698701595,
+      "motion_after": 0.24557132951165517,
+      "pose_novelty": 0.9144642571520895,
+      "pose_curvature": 0.27377544266532866,
+      "bbox_xyxy": [
+        352.2728576660156,
+        165.52627563476562,
+        527.4060668945312,
+        542.7518920898438
+      ]
+    },
+    {
+      "frame": 575,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.24557132951165517,
+      "motion_after": 3.0352671044203428,
+      "pose_novelty": 0.9082250411503958,
+      "pose_curvature": 2.702775483447196,
+      "bbox_xyxy": [
+        368.3456726074219,
+        236.14527893066406,
+        561.7674560546875,
+        539.545166015625
+      ]
+    },
+    {
+      "frame": 580,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 3.0352671044203428,
+      "motion_after": null,
+      "pose_novelty": 2.107946879788663,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        382.6153259277344,
+        302.80572509765625,
+        579.590576171875,
+        538.7987060546875
+      ]
+    },
+    {
+      "frame": 585,
+      "accepted_body_joints": 5,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        381.6039733886719,
+        326.05108642578125,
+        576.8494262695312,
+        538.1685180664062
+      ]
+    },
+    {
+      "frame": 590,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.7189666565545165,
+      "pose_novelty": 1.3902094309657802,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        381.64739990234375,
+        293.4401550292969,
+        570.3297119140625,
+        538.4237060546875
+      ]
+    },
+    {
+      "frame": 595,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7189666565545165,
+      "motion_after": 0.5210437959955978,
+      "pose_novelty": 1.5571990654848564,
+      "pose_curvature": 0.8833004221337366,
+      "bbox_xyxy": [
+        386.2605285644531,
+        202.13938903808594,
+        557.7367553710938,
+        531.6094360351562
+      ]
+    },
+    {
+      "frame": 600,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.5210437959955978,
+      "motion_after": 0.9101613028835528,
+      "pose_novelty": 1.364247273652408,
+      "pose_curvature": 0.4788336175584076,
+      "bbox_xyxy": [
+        389.2738952636719,
+        228.51992797851562,
+        588.1223754882812,
+        522.11181640625
+      ]
+    },
+    {
+      "frame": 605,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.9101613028835528,
+      "motion_after": 0.22758413803835445,
+      "pose_novelty": 0.5317475907910336,
+      "pose_curvature": 0.5623367602474747,
+      "bbox_xyxy": [
+        395.6930236816406,
+        230.58792114257812,
+        663.2884521484375,
+        517.9451293945312
+      ]
+    },
+    {
+      "frame": 610,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.22758413803835445,
+      "motion_after": 0.26722680765322726,
+      "pose_novelty": 0.5839642381477211,
+      "pose_curvature": 0.20987904857087736,
+      "bbox_xyxy": [
+        395.47613525390625,
+        173.30169677734375,
+        645.9305419921875,
+        507.3358154296875
+      ]
+    },
+    {
+      "frame": 615,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.26722680765322726,
+      "motion_after": 0.3672288995869884,
+      "pose_novelty": 0.3721352515920615,
+      "pose_curvature": 0.21281750322755633,
+      "bbox_xyxy": [
+        388.6824035644531,
+        96.30159759521484,
+        544.5135498046875,
+        501.6766662597656
+      ]
+    },
+    {
+      "frame": 620,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3672288995869884,
+      "motion_after": 0.35778280526728257,
+      "pose_novelty": 0.3709751038850039,
+      "pose_curvature": 0.2177230381607849,
+      "bbox_xyxy": [
+        377.54095458984375,
+        105.06346893310547,
+        531.3980712890625,
+        502.0776672363281
+      ]
+    },
+    {
+      "frame": 625,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.35778280526728257,
+      "motion_after": 0.29055954859710403,
+      "pose_novelty": 0.5691267123323109,
+      "pose_curvature": 0.1773925019401405,
+      "bbox_xyxy": [
+        359.9678955078125,
+        154.6585235595703,
+        536.8258056640625,
+        505.4004211425781
+      ]
+    },
+    {
+      "frame": 630,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.29055954859710403,
+      "motion_after": 0.2724431929259931,
+      "pose_novelty": 0.8505662775788738,
+      "pose_curvature": 0.2852524057899071,
+      "bbox_xyxy": [
+        308.76953125,
+        185.00074768066406,
+        545.2571411132812,
+        517.8094482421875
+      ]
+    },
+    {
+      "frame": 635,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2724431929259931,
+      "motion_after": 0.7110676225246768,
+      "pose_novelty": 1.0187164850063057,
+      "pose_curvature": 0.5231699269402185,
+      "bbox_xyxy": [
+        354.52911376953125,
+        220.45669555664062,
+        548.1307983398438,
+        530.8493041992188
+      ]
+    },
+    {
+      "frame": 640,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7110676225246768,
+      "motion_after": 1.3982007355573995,
+      "pose_novelty": 1.1159567891858344,
+      "pose_curvature": 0.7558435032139513,
+      "bbox_xyxy": [
+        347.9561767578125,
+        233.72499084472656,
+        558.2420654296875,
+        537.593994140625
+      ]
+    },
+    {
+      "frame": 645,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 1.3982007355573995,
+      "motion_after": 0.9074938201441486,
+      "pose_novelty": 2.3587664804523465,
+      "pose_curvature": 1.3362593826713824,
+      "bbox_xyxy": [
+        348.91815185546875,
+        206.1914520263672,
+        600.5316162109375,
+        542.5742797851562
+      ]
+    },
+    {
+      "frame": 650,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.9074938201441486,
+      "motion_after": 0.7694136841901842,
+      "pose_novelty": 2.3814864772171616,
+      "pose_curvature": 0.6705219366526477,
+      "bbox_xyxy": [
+        352.2592468261719,
+        200.4629669189453,
+        625.1315307617188,
+        537.6592407226562
+      ]
+    },
+    {
+      "frame": 655,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7694136841901842,
+      "motion_after": 0.8388236662327153,
+      "pose_novelty": 1.9881721878621492,
+      "pose_curvature": 0.8207986363959348,
+      "bbox_xyxy": [
+        339.2876892089844,
+        247.21417236328125,
+        592.9686889648438,
+        538.8719482421875
+      ]
+    },
+    {
+      "frame": 660,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.8388236662327153,
+      "motion_after": 1.1228386731375717,
+      "pose_novelty": 1.1479723217462692,
+      "pose_curvature": 1.7250244990451504,
+      "bbox_xyxy": [
+        288.5959167480469,
+        251.6314239501953,
+        547.357421875,
+        537.99267578125
+      ]
+    },
+    {
+      "frame": 665,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 1.1228386731375717,
+      "motion_after": 0.7638872642131187,
+      "pose_novelty": 1.4186320175053906,
+      "pose_curvature": 1.5658826337164218,
+      "bbox_xyxy": [
+        229.99900817871094,
+        226.41453552246094,
+        486.7799377441406,
+        537.2330932617188
+      ]
+    },
+    {
+      "frame": 670,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7638872642131187,
+      "motion_after": 0.7188377956254381,
+      "pose_novelty": 0.9889824229452537,
+      "pose_curvature": 0.6047947869907704,
+      "bbox_xyxy": [
+        209.249267578125,
+        176.85781860351562,
+        456.55224609375,
+        533.4482421875
+      ]
+    },
+    {
+      "frame": 675,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7188377956254381,
+      "motion_after": 0.5606480906904016,
+      "pose_novelty": 0.5863287202648659,
+      "pose_curvature": 0.4732281933620267,
+      "bbox_xyxy": [
+        203.55230712890625,
+        112.07640838623047,
+        495.07781982421875,
+        535.8677368164062
+      ]
+    },
+    {
+      "frame": 680,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.5606480906904016,
+      "motion_after": 0.4521996842449501,
+      "pose_novelty": 0.3264943723546474,
+      "pose_curvature": 0.5730847030281483,
+      "bbox_xyxy": [
+        161.84188842773438,
+        13.283592224121094,
+        602.2939453125,
+        532.2610473632812
+      ]
+    },
+    {
+      "frame": 685,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.4521996842449501,
+      "motion_after": 0.5555551640413661,
+      "pose_novelty": 0.5673432036618851,
+      "pose_curvature": 0.624002179383606,
+      "bbox_xyxy": [
+        48.20496368408203,
+        0.7560653686523438,
+        658.1585693359375,
+        533.5579833984375
+      ]
+    },
+    {
+      "frame": 690,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.5555551640413661,
+      "motion_after": 0.4561914782307155,
+      "pose_novelty": 0.9199299501997625,
+      "pose_curvature": 0.38410136149690466,
+      "bbox_xyxy": [
+        0.16394805908203125,
+        0.42505645751953125,
+        667.1305541992188,
+        532.0485229492188
+      ]
+    },
+    {
+      "frame": 695,
+      "accepted_body_joints": 10,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.4561914782307155,
+      "motion_after": 0.5645866863434686,
+      "pose_novelty": 0.9016773145578544,
+      "pose_curvature": 0.4364875379248026,
+      "bbox_xyxy": [
+        -1.4883041381835938,
+        0.6812896728515625,
+        672.9027099609375,
+        534.0667724609375
+      ]
+    },
+    {
+      "frame": 700,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.5645866863434686,
+      "motion_after": 0.8327049067015828,
+      "pose_novelty": 0.8775583476695878,
+      "pose_curvature": 0.6453023331281231,
+      "bbox_xyxy": [
+        106.10417175292969,
+        0.403106689453125,
+        722.8558959960938,
+        534.3493041992188
+      ]
+    },
+    {
+      "frame": 705,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.8327049067015828,
+      "motion_after": 0.6667583618169659,
+      "pose_novelty": 0.8309000147245877,
+      "pose_curvature": 0.854656214661226,
+      "bbox_xyxy": [
+        1.9064483642578125,
+        4.7311248779296875,
+        659.68994140625,
+        533.0067749023438
+      ]
+    },
+    {
+      "frame": 710,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.6667583618169659,
+      "motion_after": 0.4817036807384387,
+      "pose_novelty": 0.6502373317968283,
+      "pose_curvature": 0.49064162980514375,
+      "bbox_xyxy": [
+        1.1180191040039062,
+        22.28459930419922,
+        627.7621459960938,
+        533.60107421875
+      ]
+    },
+    {
+      "frame": 715,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.4817036807384387,
+      "motion_after": 0.33534945287479634,
+      "pose_novelty": 0.40228238265498056,
+      "pose_curvature": 0.3831810445864724,
+      "bbox_xyxy": [
+        -0.37909698486328125,
+        4.697547912597656,
+        514.2764282226562,
+        533.3274536132812
+      ]
+    },
+    {
+      "frame": 720,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.33534945287479634,
+      "motion_after": 0.1823079275096656,
+      "pose_novelty": 0.5686036591094901,
+      "pose_curvature": 0.2758306566185462,
+      "bbox_xyxy": [
+        22.723342895507812,
+        3.2260894775390625,
+        487.7111511230469,
+        535.7089233398438
+      ]
+    },
+    {
+      "frame": 725,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.1823079275096656,
+      "motion_after": 0.26411099869634574,
+      "pose_novelty": 0.6287692870855557,
+      "pose_curvature": 0.20014657569371516,
+      "bbox_xyxy": [
+        1.389495849609375,
+        0.3614959716796875,
+        449.27044677734375,
+        535.4534912109375
+      ]
+    },
+    {
+      "frame": 730,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.26411099869634574,
+      "motion_after": 0.17749797570751605,
+      "pose_novelty": 0.7543696302962761,
+      "pose_curvature": 0.2695551490040446,
+      "bbox_xyxy": [
+        0.12878036499023438,
+        0.8160781860351562,
+        356.0517883300781,
+        533.3701171875
+      ]
+    },
+    {
+      "frame": 735,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.17749797570751605,
+      "motion_after": 0.1685948375334238,
+      "pose_novelty": 0.6809377369261601,
+      "pose_curvature": 0.27830864078819206,
+      "bbox_xyxy": [
+        0.4171142578125,
+        0.786712646484375,
+        263.10882568359375,
+        536.1461791992188
+      ]
+    },
+    {
+      "frame": 740,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.1685948375334238,
+      "motion_after": 0.28301103590003046,
+      "pose_novelty": 1.112323595811168,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        0.45721435546875,
+        21.565658569335938,
+        259.88690185546875,
+        536.248046875
+      ]
+    },
+    {
+      "frame": 745,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.28301103590003046,
+      "motion_after": 0.7297608890050842,
+      "pose_novelty": 1.218243267849585,
+      "pose_curvature": 1.0032785836771654,
+      "bbox_xyxy": [
+        0.23724746704101562,
+        45.808433532714844,
+        315.7098083496094,
+        535.1273803710938
+      ]
+    },
+    {
+      "frame": 750,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7297608890050842,
+      "motion_after": 0.7189427501707384,
+      "pose_novelty": 0.6574170618328259,
+      "pose_curvature": 0.8212892862292117,
+      "bbox_xyxy": [
+        72.487060546875,
+        49.53021240234375,
+        402.7445068359375,
+        534.7564697265625
+      ]
+    },
+    {
+      "frame": 755,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.7189427501707384,
+      "motion_after": 0.3040977051707793,
+      "pose_novelty": 0.3490074873784053,
+      "pose_curvature": 0.6890731797668208,
+      "bbox_xyxy": [
+        227.85589599609375,
+        61.315704345703125,
+        498.6659851074219,
+        532.48828125
+      ]
+    },
+    {
+      "frame": 760,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3040977051707793,
+      "motion_after": 0.2504596339195466,
+      "pose_novelty": 0.4666574357658593,
+      "pose_curvature": 0.2936155032714513,
+      "bbox_xyxy": [
+        347.04931640625,
+        105.54801177978516,
+        640.7816162109375,
+        534.7886962890625
+      ]
+    },
+    {
+      "frame": 765,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2504596339195466,
+      "motion_after": 0.11435467530392875,
+      "pose_novelty": 0.347495285439371,
+      "pose_curvature": 0.11836214517479078,
+      "bbox_xyxy": [
+        412.95867919921875,
+        132.02041625976562,
+        660.1845703125,
+        534.2108764648438
+      ]
+    },
+    {
+      "frame": 770,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.11435467530392875,
+      "motion_after": 0.1278740634733904,
+      "pose_novelty": 0.45641718472476,
+      "pose_curvature": 0.1957963257405735,
+      "bbox_xyxy": [
+        462.66046142578125,
+        150.4886932373047,
+        716.2310180664062,
+        532.6699829101562
+      ]
+    },
+    {
+      "frame": 775,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.1278740634733904,
+      "motion_after": 0.1614404337358952,
+      "pose_novelty": 0.4614799871966398,
+      "pose_curvature": 0.13109125049286152,
+      "bbox_xyxy": [
+        530.294921875,
+        161.26803588867188,
+        748.6970825195312,
+        537.6243896484375
+      ]
+    },
+    {
+      "frame": 780,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.1614404337358952,
+      "motion_after": 0.29101021478742345,
+      "pose_novelty": 0.4067867831186283,
+      "pose_curvature": 0.27017211479976616,
+      "bbox_xyxy": [
+        558.2132568359375,
+        179.5472869873047,
+        757.595703125,
+        540.8187255859375
+      ]
+    },
+    {
+      "frame": 785,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.29101021478742345,
+      "motion_after": 0.17966021450273237,
+      "pose_novelty": 0.2786231006256354,
+      "pose_curvature": 0.25452087314138355,
+      "bbox_xyxy": [
+        593.6361694335938,
+        180.77691650390625,
+        745.1636352539062,
+        536.487060546875
+      ]
+    },
+    {
+      "frame": 790,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.17966021450273237,
+      "motion_after": 0.29861165315713906,
+      "pose_novelty": 0.22525244649246212,
+      "pose_curvature": 0.3075501787430237,
+      "bbox_xyxy": [
+        585.3948364257812,
+        167.62750244140625,
+        734.9097900390625,
+        544.1455078125
+      ]
+    },
+    {
+      "frame": 795,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.29861165315713906,
+      "motion_after": 0.18008204002040054,
+      "pose_novelty": 0.39016910607883065,
+      "pose_curvature": 0.22148157020256493,
+      "bbox_xyxy": [
+        527.9038696289062,
+        169.6466827392578,
+        722.6376342773438,
+        545.0319213867188
+      ]
+    },
+    {
+      "frame": 800,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.18008204002040054,
+      "motion_after": 0.13611179438096058,
+      "pose_novelty": 0.3632728664665337,
+      "pose_curvature": 0.18876074638988874,
+      "bbox_xyxy": [
+        554.0570678710938,
+        167.9586639404297,
+        698.6964111328125,
+        536.8992919921875
+      ]
+    },
+    {
+      "frame": 805,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.13611179438096058,
+      "motion_after": 0.10455615061293574,
+      "pose_novelty": 0.4194724142566339,
+      "pose_curvature": 0.1686224124672878,
+      "bbox_xyxy": [
+        537.8903198242188,
+        173.34609985351562,
+        669.2344360351562,
+        536.568603515625
+      ]
+    },
+    {
+      "frame": 810,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.10455615061293574,
+      "motion_after": 0.17893343003514098,
+      "pose_novelty": 0.421646654250286,
+      "pose_curvature": 0.07340006679836095,
+      "bbox_xyxy": [
+        502.7383117675781,
+        182.33319091796875,
+        651.4491577148438,
+        528.8077392578125
+      ]
+    },
+    {
+      "frame": 815,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.17893343003514098,
+      "motion_after": 0.09983450997990821,
+      "pose_novelty": 0.43270702838583264,
+      "pose_curvature": 0.11265102135441714,
+      "bbox_xyxy": [
+        504.0087890625,
+        192.55404663085938,
+        643.3179931640625,
+        521.3860473632812
+      ]
+    },
+    {
+      "frame": 820,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.09983450997990821,
+      "motion_after": 0.1144099765152678,
+      "pose_novelty": 0.4893617273651264,
+      "pose_curvature": 0.2030979730700014,
+      "bbox_xyxy": [
+        506.8852233886719,
+        199.8594970703125,
+        657.7255859375,
+        517.451171875
+      ]
+    },
+    {
+      "frame": 825,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.1144099765152678,
+      "motion_after": 0.18813017037322535,
+      "pose_novelty": 0.4201303660123569,
+      "pose_curvature": 0.12764323638398073,
+      "bbox_xyxy": [
+        506.0452880859375,
+        199.76348876953125,
+        655.4769287109375,
+        510.518310546875
+      ]
+    },
+    {
+      "frame": 830,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.18813017037322535,
+      "motion_after": 0.37065650097228015,
+      "pose_novelty": 0.2552454379867315,
+      "pose_curvature": 0.2395648121381668,
+      "bbox_xyxy": [
+        490.8507385253906,
+        202.78189086914062,
+        659.490966796875,
+        507.3037109375
+      ]
+    },
+    {
+      "frame": 835,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.37065650097228015,
+      "motion_after": 0.3292646538724928,
+      "pose_novelty": 0.42414610197961167,
+      "pose_curvature": 0.3374305066856409,
+      "bbox_xyxy": [
+        472.72540283203125,
+        212.1251678466797,
+        671.1004028320312,
+        505.8268737792969
+      ]
+    },
+    {
+      "frame": 840,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3292646538724928,
+      "motion_after": 0.3077542725586951,
+      "pose_novelty": 0.730650833194889,
+      "pose_curvature": 0.289418398016355,
+      "bbox_xyxy": [
+        476.7669372558594,
+        189.01510620117188,
+        650.4127197265625,
+        502.1523742675781
+      ]
+    },
+    {
+      "frame": 845,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3077542725586951,
+      "motion_after": 0.27497558928258603,
+      "pose_novelty": 0.9085108726511641,
+      "pose_curvature": 0.20918046820129305,
+      "bbox_xyxy": [
+        474.393798828125,
+        200.2537078857422,
+        610.7940673828125,
+        502.9622497558594
+      ]
+    },
+    {
+      "frame": 850,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.27497558928258603,
+      "motion_after": 0.19326476863041325,
+      "pose_novelty": 0.6677949171906163,
+      "pose_curvature": 0.23845650928645387,
+      "bbox_xyxy": [
+        464.9347229003906,
+        205.95570373535156,
+        612.018310546875,
+        503.8568115234375
+      ]
+    },
+    {
+      "frame": 855,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.19326476863041325,
+      "motion_after": 0.2867227809035465,
+      "pose_novelty": 0.4995747481480756,
+      "pose_curvature": 0.20029854254438717,
+      "bbox_xyxy": [
+        456.5247802734375,
+        204.08538818359375,
+        618.514892578125,
+        504.4984130859375
+      ]
+    },
+    {
+      "frame": 860,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2867227809035465,
+      "motion_after": 0.22005649486554324,
+      "pose_novelty": 0.39407947626580614,
+      "pose_curvature": 0.17777451023184992,
+      "bbox_xyxy": [
+        418.6630554199219,
+        203.0533447265625,
+        621.9957885742188,
+        505.6789855957031
+      ]
+    },
+    {
+      "frame": 865,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.22005649486554324,
+      "motion_after": 0.22187982916672958,
+      "pose_novelty": 0.45792570291693235,
+      "pose_curvature": 0.1682403328473836,
+      "bbox_xyxy": [
+        383.885009765625,
+        202.22850036621094,
+        620.7528686523438,
+        505.9592590332031
+      ]
+    },
+    {
+      "frame": 870,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.22187982916672958,
+      "motion_after": 0.17639395415900336,
+      "pose_novelty": 0.6691233727297912,
+      "pose_curvature": 0.2590883334525712,
+      "bbox_xyxy": [
+        383.31414794921875,
+        207.80105590820312,
+        633.1187133789062,
+        510.2941589355469
+      ]
+    },
+    {
+      "frame": 875,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.17639395415900336,
+      "motion_after": 0.1883543578499493,
+      "pose_novelty": 0.6407834385194674,
+      "pose_curvature": 0.16613362618137906,
+      "bbox_xyxy": [
+        427.68048095703125,
+        206.39657592773438,
+        651.0404663085938,
+        515.4754028320312
+      ]
+    },
+    {
+      "frame": 880,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.1883543578499493,
+      "motion_after": 0.30448138818277615,
+      "pose_novelty": 0.5337114993941737,
+      "pose_curvature": 0.22605702377885625,
+      "bbox_xyxy": [
+        432.15191650390625,
+        189.68592834472656,
+        621.56298828125,
+        521.3564453125
+      ]
+    },
+    {
+      "frame": 885,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.30448138818277615,
+      "motion_after": 0.4209743111880545,
+      "pose_novelty": 0.6084831179040884,
+      "pose_curvature": 0.23702995836858712,
+      "bbox_xyxy": [
+        444.073974609375,
+        167.38632202148438,
+        621.2348022460938,
+        529.9298706054688
+      ]
+    },
+    {
+      "frame": 890,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.4209743111880545,
+      "motion_after": 0.18078067977784457,
+      "pose_novelty": 0.7629039113794838,
+      "pose_curvature": 0.21427881145703326,
+      "bbox_xyxy": [
+        458.3299560546875,
+        150.8470916748047,
+        634.31689453125,
+        540.7926025390625
+      ]
+    },
+    {
+      "frame": 895,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.18078067977784457,
+      "motion_after": 0.2252472023787169,
+      "pose_novelty": 0.70555673501697,
+      "pose_curvature": 0.1657159255917022,
+      "bbox_xyxy": [
+        447.14825439453125,
+        134.5556640625,
+        629.8538208007812,
+        535.6865844726562
+      ]
+    },
+    {
+      "frame": 900,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2252472023787169,
+      "motion_after": 0.2106364337064115,
+      "pose_novelty": 0.6411378993059365,
+      "pose_curvature": 0.1257717427968056,
+      "bbox_xyxy": [
+        413.152587890625,
+        110.08000946044922,
+        609.3545532226562,
+        535.2345581054688
+      ]
+    },
+    {
+      "frame": 905,
+      "accepted_body_joints": 17,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.2106364337064115,
+      "motion_after": 0.21464701602070743,
+      "pose_novelty": 0.7080083279332845,
+      "pose_curvature": 0.2931536088541774,
+      "bbox_xyxy": [
+        367.8272399902344,
+        83.8978042602539,
+        576.2174682617188,
+        534.5369262695312
+      ]
+    },
+    {
+      "frame": 910,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.21464701602070743,
+      "motion_after": 0.3309743402945611,
+      "pose_novelty": 0.5502183853491258,
+      "pose_curvature": 0.2660012720502118,
+      "bbox_xyxy": [
+        329.0085144042969,
+        41.355674743652344,
+        534.3436279296875,
+        534.9347534179688
+      ]
+    },
+    {
+      "frame": 915,
+      "accepted_body_joints": 16,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3309743402945611,
+      "motion_after": 0.25617270144103654,
+      "pose_novelty": 0.6582735378737508,
+      "pose_curvature": 0.4597402890587863,
+      "bbox_xyxy": [
+        305.345947265625,
+        0.42748260498046875,
+        501.67437744140625,
+        535.2008056640625
+      ]
+    },
+    {
+      "frame": 920,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.25617270144103654,
+      "motion_after": 0.19215885557652762,
+      "pose_novelty": 0.1100071921977692,
+      "pose_curvature": 0.11767422841723006,
+      "bbox_xyxy": [
+        307.8133850097656,
+        0.6195144653320312,
+        491.72442626953125,
+        534.81591796875
+      ]
+    },
+    {
+      "frame": 925,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.19215885557652762,
+      "motion_after": 0.19298390941955165,
+      "pose_novelty": 0.2300155819256023,
+      "pose_curvature": 0.1393769202480663,
+      "bbox_xyxy": [
+        306.6241455078125,
+        0.8813095092773438,
+        500.53594970703125,
+        533.5023193359375
+      ]
+    },
+    {
+      "frame": 930,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.19298390941955165,
+      "motion_after": null,
+      "pose_novelty": 0.22490446706080539,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        290.25115966796875,
+        0.8671417236328125,
+        513.0906982421875,
+        533.6339111328125
+      ]
+    },
+    {
+      "frame": 935,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 1.701230450605955,
+      "pose_novelty": 0.39149877644012315,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        220.1402587890625,
+        0.844482421875,
+        496.8102722167969,
+        532.58740234375
+      ]
+    },
+    {
+      "frame": 940,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 1.701230450605955,
+      "motion_after": null,
+      "pose_novelty": 1.1114290261522992,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        170.24911499023438,
+        1.0771408081054688,
+        437.947265625,
+        534.17236328125
+      ]
+    },
+    {
+      "frame": 945,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.10005795662450892,
+      "pose_novelty": 1.0066651214375064,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        154.51536560058594,
+        2.0217819213867188,
+        533.0716552734375,
+        534.6681518554688
+      ]
+    },
+    {
+      "frame": 950,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.10005795662450892,
+      "motion_after": 0.20555899550045392,
+      "pose_novelty": 1.2057669230323609,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        98.67766571044922,
+        0.8609161376953125,
+        630.6522827148438,
+        533.8976440429688
+      ]
+    },
+    {
+      "frame": 955,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.20555899550045392,
+      "motion_after": null,
+      "pose_novelty": 1.287118817289072,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        126.81360626220703,
+        1.7343292236328125,
+        544.074462890625,
+        534.9431762695312
+      ]
+    },
+    {
+      "frame": 960,
+      "accepted_body_joints": 7,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        175.9541473388672,
+        15.302925109863281,
+        481.1325988769531,
+        533.9286499023438
+      ]
+    },
+    {
+      "frame": 965,
+      "accepted_body_joints": 5,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        134.01158142089844,
+        93.80397033691406,
+        505.6310119628906,
+        534.9989624023438
+      ]
+    },
+    {
+      "frame": 970,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": null,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        136.66732788085938,
+        100.72016143798828,
+        485.1678771972656,
+        534.0293579101562
+      ]
+    },
+    {
+      "frame": 975,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": 0.7969195155503676,
+      "pose_novelty": 1.3553582441379826,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        81.40564727783203,
+        139.42849731445312,
+        625.8388061523438,
+        533.7531127929688
+      ]
+    },
+    {
+      "frame": 980,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.7969195155503676,
+      "motion_after": 0.5692257120453502,
+      "pose_novelty": 1.3997879117035255,
+      "pose_curvature": 0.7849417708485332,
+      "bbox_xyxy": [
+        29.40545654296875,
+        116.45079803466797,
+        608.2587890625,
+        534.9674072265625
+      ]
+    },
+    {
+      "frame": 985,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.5692257120453502,
+      "motion_after": 0.2770664011799525,
+      "pose_novelty": 0.7836773973780007,
+      "pose_curvature": 0.6117227762099885,
+      "bbox_xyxy": [
+        141.15444946289062,
+        98.70318603515625,
+        556.2777709960938,
+        535.723388671875
+      ]
+    },
+    {
+      "frame": 990,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.2770664011799525,
+      "motion_after": 0.10544770242610679,
+      "pose_novelty": 0.795353260616066,
+      "pose_curvature": 0.20375400157383006,
+      "bbox_xyxy": [
+        168.94674682617188,
+        86.7952651977539,
+        450.98858642578125,
+        533.0147705078125
+      ]
+    },
+    {
+      "frame": 995,
+      "accepted_body_joints": 11,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.10544770242610679,
+      "motion_after": 0.031232556799773235,
+      "pose_novelty": 0.5197393738650495,
+      "pose_curvature": 0.13944965450850497,
+      "bbox_xyxy": [
+        176.1444854736328,
+        81.95716094970703,
+        455.12908935546875,
+        535.8336791992188
+      ]
+    },
+    {
+      "frame": 1000,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.031232556799773235,
+      "motion_after": 0.3025768921327697,
+      "pose_novelty": 0.666432945481962,
+      "pose_curvature": 0.27055814762138314,
+      "bbox_xyxy": [
+        230.42623901367188,
+        82.74634552001953,
+        482.1918640136719,
+        535.024658203125
+      ]
+    },
+    {
+      "frame": 1005,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3025768921327697,
+      "motion_after": 0.25526268687225145,
+      "pose_novelty": 1.2464858264422571,
+      "pose_curvature": 0.27034060867680115,
+      "bbox_xyxy": [
+        311.68170166015625,
+        77.6129150390625,
+        604.5910034179688,
+        534.7210083007812
+      ]
+    },
+    {
+      "frame": 1010,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.25526268687225145,
+      "motion_after": 0.41645844621246153,
+      "pose_novelty": 1.2777051294929391,
+      "pose_curvature": 0.5183802431294763,
+      "bbox_xyxy": [
+        301.92755126953125,
+        38.03919982910156,
+        492.7652893066406,
+        533.7211303710938
+      ]
+    },
+    {
+      "frame": 1015,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.41645844621246153,
+      "motion_after": 0.42860114266370936,
+      "pose_novelty": 0.6532657933842114,
+      "pose_curvature": 0.3160364341336712,
+      "bbox_xyxy": [
+        263.7686462402344,
+        49.85884094238281,
+        467.89593505859375,
+        537.0457763671875
+      ]
+    },
+    {
+      "frame": 1020,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.42860114266370936,
+      "motion_after": 0.16152519213339717,
+      "pose_novelty": 0.6374145823966109,
+      "pose_curvature": 0.22406225854601786,
+      "bbox_xyxy": [
+        175.11346435546875,
+        41.841705322265625,
+        393.8764343261719,
+        534.9457397460938
+      ]
+    },
+    {
+      "frame": 1025,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.16152519213339717,
+      "motion_after": 0.17847853635602495,
+      "pose_novelty": 0.40898326920257777,
+      "pose_curvature": 0.06508577581746178,
+      "bbox_xyxy": [
+        141.51223754882812,
+        45.71726989746094,
+        367.65594482421875,
+        537.598876953125
+      ]
+    },
+    {
+      "frame": 1030,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.17847853635602495,
+      "motion_after": 0.16932858132645054,
+      "pose_novelty": 0.3897474081604291,
+      "pose_curvature": 0.06033767095911327,
+      "bbox_xyxy": [
+        111.06908416748047,
+        64.81869506835938,
+        362.7633361816406,
+        534.2964477539062
+      ]
+    },
+    {
+      "frame": 1035,
+      "accepted_body_joints": 14,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.16932858132645054,
+      "motion_after": 0.1711159355466238,
+      "pose_novelty": 0.675116972632723,
+      "pose_curvature": 0.18508271024435818,
+      "bbox_xyxy": [
+        94.36366271972656,
+        72.37557220458984,
+        368.08026123046875,
+        533.9166870117188
+      ]
+    },
+    {
+      "frame": 1040,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.1711159355466238,
+      "motion_after": 0.10272810244065732,
+      "pose_novelty": 0.7432272852915622,
+      "pose_curvature": 0.16135689889454005,
+      "bbox_xyxy": [
+        101.18206787109375,
+        85.73126220703125,
+        387.7633972167969,
+        533.8033447265625
+      ]
+    },
+    {
+      "frame": 1045,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.10272810244065732,
+      "motion_after": 0.3736901595928408,
+      "pose_novelty": 0.7209491778662821,
+      "pose_curvature": 0.34612131555385506,
+      "bbox_xyxy": [
+        156.429931640625,
+        103.43838500976562,
+        424.032470703125,
+        533.390869140625
+      ]
+    },
+    {
+      "frame": 1050,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": true,
+      "motion_before": 0.3736901595928408,
+      "motion_after": 0.4521494455908134,
+      "pose_novelty": 0.4900887651977565,
+      "pose_curvature": 0.39031510827456284,
+      "bbox_xyxy": [
+        146.4444122314453,
+        54.960296630859375,
+        429.6404113769531,
+        533.794189453125
+      ]
+    },
+    {
+      "frame": 1055,
+      "accepted_body_joints": 15,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.4521494455908134,
+      "motion_after": 0.160870683760505,
+      "pose_novelty": 0.4210179779671777,
+      "pose_curvature": 0.29031464950322516,
+      "bbox_xyxy": [
+        172.19735717773438,
+        0.029205322265625,
+        443.9417724609375,
+        534.4047241210938
+      ]
+    },
+    {
+      "frame": 1060,
+      "accepted_body_joints": 12,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.160870683760505,
+      "motion_after": 0.1247853531456059,
+      "pose_novelty": 0.30888509048027557,
+      "pose_curvature": 0.1236707434027897,
+      "bbox_xyxy": [
+        203.62966918945312,
+        1.079864501953125,
+        535.5803833007812,
+        533.321533203125
+      ]
+    },
+    {
+      "frame": 1065,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.1247853531456059,
+      "motion_after": 0.3021598330915083,
+      "pose_novelty": 0.4165175677379331,
+      "pose_curvature": 0.1693200944076914,
+      "bbox_xyxy": [
+        204.2117156982422,
+        0.38665008544921875,
+        585.0402221679688,
+        533.6619873046875
+      ]
+    },
+    {
+      "frame": 1070,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.3021598330915083,
+      "motion_after": 0.11219967480460186,
+      "pose_novelty": 0.5181272102958147,
+      "pose_curvature": 0.2566592079108665,
+      "bbox_xyxy": [
+        145.31365966796875,
+        0.7354888916015625,
+        632.8350830078125,
+        533.1915283203125
+      ]
+    },
+    {
+      "frame": 1075,
+      "accepted_body_joints": 13,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.11219967480460186,
+      "motion_after": 0.10349781211942202,
+      "pose_novelty": 0.4704476403463243,
+      "pose_curvature": 0.14105533985705182,
+      "bbox_xyxy": [
+        63.15380859375,
+        0.5375518798828125,
+        550.4908447265625,
+        532.600830078125
+      ]
+    },
+    {
+      "frame": 1080,
+      "accepted_body_joints": 10,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.10349781211942202,
+      "motion_after": 0.10433456175409998,
+      "pose_novelty": 0.4049477852746034,
+      "pose_curvature": 0.13235962369300508,
+      "bbox_xyxy": [
+        136.2501220703125,
+        0.25106048583984375,
+        546.4275512695312,
+        533.1632690429688
+      ]
+    },
+    {
+      "frame": 1085,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.10433456175409998,
+      "motion_after": 0.0850500437797517,
+      "pose_novelty": 0.3857129731614349,
+      "pose_curvature": 0.14950931722517055,
+      "bbox_xyxy": [
+        222.6484375,
+        0.54638671875,
+        561.6341552734375,
+        535.0938720703125
+      ]
+    },
+    {
+      "frame": 1090,
+      "accepted_body_joints": 10,
+      "reliable_pose_proposal": false,
+      "motion_before": 0.0850500437797517,
+      "motion_after": null,
+      "pose_novelty": 0.4620520077048001,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        147.7847442626953,
+        0.5771942138671875,
+        605.5557861328125,
+        534.0682983398438
+      ]
+    },
+    {
+      "frame": 1091,
+      "accepted_body_joints": 9,
+      "reliable_pose_proposal": false,
+      "motion_before": null,
+      "motion_after": null,
+      "pose_novelty": 0.4765151963124672,
+      "pose_curvature": null,
+      "bbox_xyxy": [
+        120.30537414550781,
+        0.956451416015625,
+        608.4764404296875,
+        534.8941040039062
+      ]
+    }
+  ],
+  "interpretation": "Recall-only bank from archived VLM proposals plus neighbor-supported source pose motion/novelty. No best-frame claim; camera motion and residual detector errors can still confound the proxy."
+}

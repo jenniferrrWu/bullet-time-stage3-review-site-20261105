@@ -1,0 +1,31 @@
+{
+  "effective_inputs": {
+    "input_image": {
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+      "sha256": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15"
+    },
+    "input": {
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/input.mp4",
+      "sha256": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6"
+    },
+    "depth": {
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_depth.mp4",
+      "sha256": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a"
+    },
+    "mask": {
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_mask.mp4",
+      "sha256": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+    }
+  },
+  "mapping": {
+    "input_image": "first-frame fused latent",
+    "input": "concat_video source content",
+    "depth": "warp_video via depth_cond",
+    "mask": "warp_mask via depth_cond"
+  },
+  "cond_metadata_present": true,
+  "cond_consumed": false,
+  "configuration": "vlm_dd_v12_balanced_case15_c/stage3/depthdirector_stage3.yaml",
+  "official_training_route": "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py",
+  "prompt_matches_record": true
+}

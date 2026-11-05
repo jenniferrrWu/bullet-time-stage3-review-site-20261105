@@ -1,0 +1,34 @@
+[
+  {
+    "scene": "A Broadcast Gymnast",
+    "camera": 0,
+    "url": "https://medialab.sjtu.edu.cn/files/Free%20Viewpoint%20RGB-D%20Video%20Dataset/A%20Broadcast%20Gymnast/RGB/0.mp4",
+    "bytes": 973436,
+    "sha256": "6a0d87dca380a5c001c1b415008d482ea98ad2758a9e04aa6b07e6314a2b9d14",
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/a_broadcast_gymnast/rgb_0.mp4"
+  },
+  {
+    "scene": "A Broadcast Gymnast",
+    "camera": 3,
+    "url": "https://medialab.sjtu.edu.cn/files/Free%20Viewpoint%20RGB-D%20Video%20Dataset/A%20Broadcast%20Gymnast/RGB/3.mp4",
+    "bytes": 1186052,
+    "sha256": "50db3a6b325f07577b171ff2d1d7b97fa1a4a0fcd625cdc2211fc7fd79ce0d6f",
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/a_broadcast_gymnast/rgb_3.mp4"
+  },
+  {
+    "scene": "Skipping Rope",
+    "camera": 0,
+    "url": "https://medialab.sjtu.edu.cn/files/Free%20Viewpoint%20RGB-D%20Video%20Dataset/Skipping%20Rope/RGB/0.mp4",
+    "bytes": 1026865,
+    "sha256": "e21bfd1e992dd85b2350d73ba5f8b0597b806917377352e2614ae2776c6e3147",
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/rgb_0.mp4"
+  },
+  {
+    "scene": "Skipping Rope",
+    "camera": 3,
+    "url": "https://medialab.sjtu.edu.cn/files/Free%20Viewpoint%20RGB-D%20Video%20Dataset/Skipping%20Rope/RGB/3.mp4",
+    "bytes": 1298740,
+    "sha256": "693071b5aee43f4a6c57f27ec23b7d02d8816464957a59085f768b057d8c4b54",
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/rgb_3.mp4"
+  }
+]

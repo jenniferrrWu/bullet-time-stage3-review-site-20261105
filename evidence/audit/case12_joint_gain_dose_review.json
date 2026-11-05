@@ -1,0 +1,14 @@
+{
+  "case": "case12_woman_home_dance",
+  "method": "Official DWPose target-view joint heatmap locally scales existing DD camera_encoder features; original DD weights and inputs unchanged",
+  "alpha0_control": "Byte-identical native MP4 SHA to original case12 A Stage3; same initial noise SHA and 50 first-latent pins",
+  "source_head_relative_pelvis_range": 0.636,
+  "comparisons": {
+    "baseline": {"head_range": 0.125, "motion_profile_mae": 0.340, "motion_profile_correlation": -0.161, "f16_motion_error": 0.595, "mean_person_laplacian_variance": 67.3, "mean_accepted_body_joints": 15.88},
+    "alpha_0p25": {"head_range": 0.129, "motion_profile_mae": 0.340, "motion_profile_correlation": -0.169, "f16_motion_error": 0.593, "mean_person_laplacian_variance": 66.2, "mean_accepted_body_joints": 16.8},
+    "alpha_0p75": {"head_range": 0.136, "motion_profile_mae": 0.303, "motion_profile_correlation": 0.555, "f16_motion_error": 0.517, "mean_person_laplacian_variance": 60.9, "mean_accepted_body_joints": 16.44}
+  },
+  "visual_evidence": "/root/bullet_time_research_20261102/audit/case12_joint_gain_dose_compare.jpg",
+  "interpretation": "0.25 gives no meaningful action improvement; 0.75 modestly improves the 2D head trajectory but remains far from source, fails the raised-hand-to-face action and visibly softens/ghosts the person. Neither passes the quality gate. The DWPose metric is a 2D same-person comparison across different views, not full 3D motion fidelity.",
+  "quality_pass": false
+}

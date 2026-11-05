@@ -1,0 +1,14 @@
+{
+  "candidate": "C",
+  "source_window": [961, 977],
+  "native_stage2_frames": 81,
+  "native_stage3_frames": 17,
+  "native_integrity": "passed by dd_feedback.collect, including actual stage2 anchor, fixed stage3 camera, video hashes and exact frame counts",
+  "stage2_visual": "At sampled f0,20,40,60,80, 25-degree parallax and persistent person are visible; close original crop persists.",
+  "stage3_sampled_frames": [0, 4, 8, 12, 16],
+  "stage3_visual": "First frames preserve the cropped dancer and some arm motion. By f12 the person and scene fade into pale wash; f16 is almost blank white with only a faint person outline. Fails continuous action and scene integrity.",
+  "stage3_quality_pass": false,
+  "geometry_proxy_mean_valid_fraction": 0.6585273620279078,
+  "source_camera_rotation_degrees": 26.056643682814173,
+  "interpretation": "High mesh coverage does not guarantee DD quality. Source motion is large and source composition cropped, but this run cannot isolate a sole cause. The result is independently worse than A on late-stage action continuity."
+}

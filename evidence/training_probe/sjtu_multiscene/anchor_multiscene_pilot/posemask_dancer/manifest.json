@@ -1,0 +1,19 @@
+{
+  "source_track": "training_probe/sjtu_dancer/pose_cam3_779_795/tracks.json",
+  "target_video": "training_probe/sjtu_dancer/motion_779_795_native/target.mp4",
+  "latent_shape": [
+    5,
+    44,
+    80
+  ],
+  "mask_mean": 0.06258852034807205,
+  "mask_nonzero_fraction": 0.10096590909090909,
+  "alignment": "original 1920x1080 target pose coordinates *2/3, center crop y-8, latent downsample /16",
+  "sampled_relative_frames": [
+    0,
+    4,
+    8,
+    12,
+    16
+  ]
+}

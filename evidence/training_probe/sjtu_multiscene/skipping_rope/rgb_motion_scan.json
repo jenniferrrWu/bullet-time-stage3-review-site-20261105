@@ -1,0 +1,51 @@
+{
+  "scene": "skipping_rope",
+  "frames": 423,
+  "fps": 25,
+  "lag_frames": 8,
+  "roi_320x180": [
+    40,
+    0,
+    280,
+    170
+  ],
+  "first17": {
+    "start": 0,
+    "end": 16,
+    "motion_mean": 2.152,
+    "motion_peak": 2.716
+  },
+  "top_nonoverlapping_windows": [
+    {
+      "start": 52,
+      "end": 68,
+      "motion_mean": 2.321,
+      "motion_peak": 2.719
+    },
+    {
+      "start": 244,
+      "end": 260,
+      "motion_mean": 2.226,
+      "motion_peak": 2.537
+    },
+    {
+      "start": 94,
+      "end": 110,
+      "motion_mean": 2.164,
+      "motion_peak": 2.573
+    },
+    {
+      "start": 0,
+      "end": 16,
+      "motion_mean": 2.152,
+      "motion_peak": 2.716
+    },
+    {
+      "start": 290,
+      "end": 306,
+      "motion_mean": 2.12,
+      "motion_peak": 2.463
+    }
+  ],
+  "note": "ROI pixel-change proxy; inspect contact and evaluate native depth/geometry before training"
+}

@@ -1,0 +1,85 @@
+{
+  "provisional_selected_id": "C",
+  "provisional_selected_frame": 622,
+  "source_frame_checks": {
+    "280": "Standing leg and toes extend beyond the source image bottom border; not a full-body pose.",
+    "430": "Feet extend below the bottom border; head/hair and right fingertips are inside the image, contrary to the VLM visibility claims.",
+    "622": "Full person visible in the source image, but arms are bent around/behind the head and torso is mostly upright; VLM plan describes bent-over with extended arm, which does not match the shown frame."
+  },
+  "vlm_visibility_reports": {
+    "A": {
+      "full_body_visible": false,
+      "clipped_edges": [
+        "bottom"
+      ],
+      "passes_disagree": false,
+      "evidence": "pass1: The person's toes are cut off at the bottom of the frame.; pass2: The person's toes are cut off at the bottom edge of the frame.",
+      "pose_advisory": {
+        "status": "edge_or_pose_risk",
+        "reason": "Detector box close to border or low keypoint coverage",
+        "accepted_joints": 13,
+        "required_core_joints_accepted": false,
+        "bbox_margin_fraction": {
+          "left": 0.47702913284301757,
+          "right": 0.08467292785644531,
+          "top": 0.08269725375705295,
+          "bottom": 0.010016886393229167
+        },
+        "near_edges": [
+          "bottom"
+        ],
+        "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+      }
+    },
+    "B": {
+      "full_body_visible": false,
+      "clipped_edges": [
+        "right",
+        "top"
+      ],
+      "passes_disagree": false,
+      "evidence": "pass1: Top of head/hair is cut off; right fingertip is outside frame.; pass2: Top of head/hair is cut off; right fingertip is cut off.",
+      "pose_advisory": {
+        "status": "edge_or_pose_risk",
+        "reason": "Detector box close to border or low keypoint coverage",
+        "accepted_joints": 16,
+        "required_core_joints_accepted": false,
+        "bbox_margin_fraction": {
+          "left": 0.34557676315307617,
+          "right": 0.23088560104370118,
+          "top": 0.12953902350531685,
+          "bottom": 0.0022352430555555554
+        },
+        "near_edges": [
+          "bottom"
+        ],
+        "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+      }
+    },
+    "C": {
+      "full_body_visible": null,
+      "clipped_edges": [],
+      "passes_disagree": true,
+      "evidence": "pass1: All visible parts of the person including head, limbs, and toes are fully within the image frame.; pass2: Top of head/hair is cut off by the image border.",
+      "pose_advisory": {
+        "status": "no_border_crop_evidence",
+        "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+        "accepted_joints": 16,
+        "required_core_joints_accepted": true,
+        "bbox_margin_fraction": {
+          "left": 0.39185898303985595,
+          "right": 0.44294166564941406,
+          "top": 0.2691243489583333,
+          "bottom": 0.06840379503038195
+        },
+        "near_edges": [],
+        "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+      },
+      "vlm_reported_clipped_edges": [
+        "top"
+      ]
+    }
+  },
+  "implication": "Model source descriptions and border judgements are not reliable enough to certify frame selection. Actual Stage3 execution and holistic review are required; old f396/397 remains comparative baseline.",
+  "provisional_plan_file": "/root/bullet_time_research_20261102/planner_v12_case13_bank_shortlist/plan.json"
+}

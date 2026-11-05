@@ -1,0 +1,204 @@
+{
+  "experiment": "semantic DWPose joint trajectory gated temporal residual on existing DD camera_encoder output",
+  "beta": 0.0,
+  "confidence_threshold": 0.3,
+  "source_tracks": "/root/bullet_time_research_20261102/pose_trial/balanced_case12_a_target_warp_all/tracks.json",
+  "short_gap_interpolations": [
+    [
+      24,
+      2
+    ],
+    [
+      25,
+      2
+    ],
+    [
+      28,
+      2
+    ],
+    [
+      23,
+      3
+    ],
+    [
+      25,
+      3
+    ],
+    [
+      20,
+      4
+    ],
+    [
+      21,
+      4
+    ],
+    [
+      25,
+      4
+    ],
+    [
+      28,
+      4
+    ],
+    [
+      13,
+      5
+    ],
+    [
+      24,
+      5
+    ],
+    [
+      25,
+      5
+    ],
+    [
+      28,
+      5
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      13,
+      6
+    ],
+    [
+      20,
+      6
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      25,
+      7
+    ],
+    [
+      19,
+      8
+    ],
+    [
+      20,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      17,
+      9
+    ],
+    [
+      18,
+      9
+    ],
+    [
+      20,
+      9
+    ],
+    [
+      21,
+      9
+    ],
+    [
+      25,
+      9
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      17,
+      10
+    ],
+    [
+      19,
+      10
+    ],
+    [
+      20,
+      10
+    ],
+    [
+      21,
+      10
+    ],
+    [
+      25,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      19,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      20,
+      16
+    ],
+    [
+      21,
+      16
+    ]
+  ],
+  "latent_heat_fraction_above_0p1": [
+    0.13491987748579545,
+    0.16959783380681817,
+    0.18930886008522727,
+    0.16829057173295456,
+    0.15306729403409092,
+    0.16808194247159092,
+    0.19756303267045455,
+    0.19891135475852273,
+    0.17905828302556817
+  ],
+  "input_hashes": {
+    "input": "95357e189335c25549972e44a0cd04f9084ab4d0e121e7b836620da4fda6741e",
+    "cond": "5dce667b7b63c5d0904f216d08061e6abb97f53805327e7ef0282fd10a1980ac",
+    "depth": "6208179aa03c732cd8871005498aa4267d695968c78f05a17983755e98ce7d63",
+    "mask": "facbea34c37b275c68e5de7f16d9b05eaf12d8d5fbd671711c8d2e7c640c9054",
+    "input_image": "1156f216fa6ae8dded7be193f6c5b8bbc365192d8ba444c5029f82fcc9eae9f5"
+  },
+  "native_baseline_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "camera_encoder_calls": [
+    {
+      "shape": [
+        1,
+        3072,
+        9,
+        40,
+        22
+      ],
+      "beta": 0.0,
+      "mask_min": 0.0,
+      "mask_max": 0.9765625,
+      "mean_abs_motion_residual": 0.0201416015625,
+      "gated_residual_fraction": 0.1732323318719864
+    }
+  ],
+  "native": "/root/bullet_time_research_20261102/pose_trial/temporal_pose_residual_balanced_case12_a_beta_0p0/result/depthdirector.mp4",
+  "sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422"
+}

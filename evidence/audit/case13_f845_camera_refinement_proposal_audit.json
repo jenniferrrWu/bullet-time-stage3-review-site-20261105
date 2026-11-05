@@ -1,0 +1,40 @@
+{
+  "scope": "VLM proposed two same-source f845..f865 camera refinements based on executed Stage2/Stage3 source and native images; proposals are executable parameters, not quality claims.",
+  "proposal_parameters": {
+    "D": {
+      "orbit_direction": "right",
+      "orbit_degrees": 35,
+      "orbit_seconds": 2.5
+    },
+    "E": {
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 3.5
+    }
+  },
+  "model_preferred_before_execution": "D",
+  "source_frame_and_action_window_held": [
+    845,
+    865
+  ],
+  "known_reason_error": "E reason says 3.5 s Stage2 orbit allows more frame coverage for Stage3. Stage3 source action remains exactly 21 frames by fixed plan schema and execution; Stage2 display duration cannot add Stage3 source frames.",
+  "native_execution": "D and E full native Stage2→Stage3 complete and strict DD feedback.collect integrity passed; see audit/case13_f845_camera_refinement_native_review/summary.json",
+  "selection_policy": "Only actual native Stage2/Stage3 whole-video review and verified feedback can rank these refinements; VLM pre-execution preference D is provisional.",
+  "stage2_native_preliminary": {
+    "D_right35": "Stage2 f0/40/80 shows larger parallax than baseline, dancer remains present; official DWPose endpoint 17/17 joints with 4.7% bottom bbox margin, advisory uncertain.",
+    "E_left45": "Stage2 f0/40/80 shows strong parallax and dancer present; official DWPose endpoint 17/17 joints, 9.5% bottom bbox margin, no border-crop evidence. Right-side rooftop structure appears visually distorted/ghosted at endpoint; Stage3 outcome pending."
+  },
+  "stage2_evidence": [
+    "audit/case13_f845_camera_refinement_stage2_preliminary.jpg",
+    "audit/case13_f845_refine_d_stage2_screen/screen.json",
+    "audit/case13_f845_refine_e_stage2_screen/screen.json"
+  ],
+  "pre_stage3_geometry_advisory": {
+    "BASE_left20_mean_valid_mesh_fraction": 0.6083752388561959,
+    "D_right35_mean_valid_mesh_fraction": 0.4364108263156114,
+    "E_left45_mean_valid_mesh_fraction": 0.3420442919710498,
+    "caveat": "Measured from each actual DD Stage3 dw_mask.mp4; lower coverage is risk evidence, not a quality pass/fail threshold. Prior case13 high-coverage failures show it is not sufficient."
+  },
+  "source_action_sha256": "64cf29377e29fd8630ab8638d2ec6a1b2420cbad88b52ddb0d421e09e1a4d907",
+  "post_generation_visual_summary": "E clearly weaker on background/action. BASE versus D is a tradeoff: BASE cleaner scene and more source-like leg, D stronger camera effect and somewhat better arm; no proof that either is globally or user-preferred best. Await actual VLM native feedback and human continuous playback."
+}

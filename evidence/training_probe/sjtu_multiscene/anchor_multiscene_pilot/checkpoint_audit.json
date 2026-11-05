@@ -1,0 +1,9 @@
+{
+  "official_keys": 608,
+  "new_keys": 608,
+  "common_keys": 608,
+  "missing_keys": 0,
+  "extra_keys": 0,
+  "changed_tensors": 608,
+  "camera_changed": 8
+}

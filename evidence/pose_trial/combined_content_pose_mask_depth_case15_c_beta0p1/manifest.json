@@ -1,0 +1,25 @@
+{
+  "experiment": "Same DD case15 C official Stage3 with source DWPose content-latent residual beta0.1 and VAE-pre depth invalid mask gate. Single branches already tested and beta0/gate0 each reproduce baseline.",
+  "beta": 0.1,
+  "depth_gate": 1,
+  "input_hashes": {
+    "input_image": "40e61e10052f7eb0fb168ce28fabdc4700e20bf13cde8dfe57c843eec5e02b15",
+    "input": "4523255d131a7f6bdf6cb6fb8750363af46f50aa7661cd4f170fbc23163034a6",
+    "cond": "3fb1e0ebc6260eaeeab43119b1fa76683cbad86c1dec1b6744da808b78081ab0",
+    "depth": "67bb9b50dbbd28dc52f7f67a85c53e0624e212e027492d48aaebf779065f634a",
+    "mask": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08"
+  },
+  "native_baseline_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "short_gap_interpolations": [],
+  "official_weights_unchanged": true,
+  "postdecode_replacement": false,
+  "state": "completed",
+  "native": "/root/bullet_time_research_20261102/pose_trial/combined_content_pose_mask_depth_case15_c_beta0p1/result/depthdirector.mp4",
+  "sha256": "77e18011306c2a9c3771fd7d3be86be18b4ad4dc99e88a7bba99c8e47c4529fb",
+  "runtime_trace": {
+    "content": 1,
+    "warp": 1,
+    "depth_frames": 17,
+    "invalid_pixels_zeroed": 6011259
+  }
+}

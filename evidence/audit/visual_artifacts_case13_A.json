@@ -1,0 +1,375 @@
+{
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/action.mp4",
+  "generated_video": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30.0,0,0,0/depthdirector.mp4",
+  "frames": 25,
+  "peak_excess_frame": 0,
+  "peak_pale_bright_excess": -0.22832808061079546,
+  "peak_generated_pale_bright_fraction": 0.2566983309659091,
+  "last": {
+    "frame": 24,
+    "source": {
+      "pale_bright_fraction": 0.5471923828125,
+      "gray_mean": 194.5928622159091,
+      "gray_std": 71.45924945991086
+    },
+    "generated": {
+      "pale_bright_fraction": 0.24890025745738636,
+      "gray_mean": 152.58794500177558,
+      "gray_std": 60.077257079809165
+    },
+    "pale_bright_excess": -0.2982921253551137
+  },
+  "all_frames": [
+    {
+      "frame": 0,
+      "source": {
+        "pale_bright_fraction": 0.48502641157670456,
+        "gray_mean": 183.66640403053978,
+        "gray_std": 75.56536458569168
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2566983309659091,
+        "gray_mean": 149.938134765625,
+        "gray_std": 62.196742163993
+      },
+      "pale_bright_excess": -0.22832808061079546
+    },
+    {
+      "frame": 1,
+      "source": {
+        "pale_bright_fraction": 0.4904019442471591,
+        "gray_mean": 184.26015846946024,
+        "gray_std": 75.45561637267397
+      },
+      "generated": {
+        "pale_bright_fraction": 0.25684037642045454,
+        "gray_mean": 149.7662364612926,
+        "gray_std": 62.13852743634217
+      },
+      "pale_bright_excess": -0.23356156782670456
+    },
+    {
+      "frame": 2,
+      "source": {
+        "pale_bright_fraction": 0.49285444779829546,
+        "gray_mean": 184.62474365234374,
+        "gray_std": 75.43734708099028
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2559137517755682,
+        "gray_mean": 149.64426935369318,
+        "gray_std": 62.1019668288359
+      },
+      "pale_bright_excess": -0.23694069602272727
+    },
+    {
+      "frame": 3,
+      "source": {
+        "pale_bright_fraction": 0.49716131036931815,
+        "gray_mean": 185.28655118075284,
+        "gray_std": 75.19838192978118
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2559326171875,
+        "gray_mean": 149.30184992009944,
+        "gray_std": 62.1775289205674
+      },
+      "pale_bright_excess": -0.24122869318181817
+    },
+    {
+      "frame": 4,
+      "source": {
+        "pale_bright_fraction": 0.49866166548295454,
+        "gray_mean": 185.7198231090199,
+        "gray_std": 75.07974687181793
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2549538352272727,
+        "gray_mean": 149.06539972478694,
+        "gray_std": 62.16825377783619
+      },
+      "pale_bright_excess": -0.24370783025568182
+    },
+    {
+      "frame": 5,
+      "source": {
+        "pale_bright_fraction": 0.5057373046875,
+        "gray_mean": 186.69344482421874,
+        "gray_std": 74.72958169035137
+      },
+      "generated": {
+        "pale_bright_fraction": 0.25240145596590907,
+        "gray_mean": 148.47102494673297,
+        "gray_std": 61.96982891878907
+      },
+      "pale_bright_excess": -0.25333584872159093
+    },
+    {
+      "frame": 6,
+      "source": {
+        "pale_bright_fraction": 0.5101662375710228,
+        "gray_mean": 187.4314208984375,
+        "gray_std": 74.45966196343275
+      },
+      "generated": {
+        "pale_bright_fraction": 0.25106756036931815,
+        "gray_mean": 148.17149658203124,
+        "gray_std": 61.91216588263765
+      },
+      "pale_bright_excess": -0.2590986772017046
+    },
+    {
+      "frame": 7,
+      "source": {
+        "pale_bright_fraction": 0.5141368519176136,
+        "gray_mean": 188.1641190962358,
+        "gray_std": 74.14763452398776
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2504050514914773,
+        "gray_mean": 147.99778164950285,
+        "gray_std": 61.86974618066538
+      },
+      "pale_bright_excess": -0.2637318004261363
+    },
+    {
+      "frame": 8,
+      "source": {
+        "pale_bright_fraction": 0.51513671875,
+        "gray_mean": 188.56952792080966,
+        "gray_std": 74.00565477265349
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24964266690340908,
+        "gray_mean": 147.8337801846591,
+        "gray_std": 61.8541161967939
+      },
+      "pale_bright_excess": -0.2654940518465909
+    },
+    {
+      "frame": 9,
+      "source": {
+        "pale_bright_fraction": 0.5200206409801137,
+        "gray_mean": 189.29533469460227,
+        "gray_std": 73.73153590239953
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24869273792613636,
+        "gray_mean": 147.575439453125,
+        "gray_std": 61.74812518023981
+      },
+      "pale_bright_excess": -0.27132790305397736
+    },
+    {
+      "frame": 10,
+      "source": {
+        "pale_bright_fraction": 0.5230513139204546,
+        "gray_mean": 189.85037730823865,
+        "gray_std": 73.56298001033124
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24627463600852273,
+        "gray_mean": 147.40875355113636,
+        "gray_std": 61.66740912779733
+      },
+      "pale_bright_excess": -0.27677667791193183
+    },
+    {
+      "frame": 11,
+      "source": {
+        "pale_bright_fraction": 0.5261086203835227,
+        "gray_mean": 190.27991943359376,
+        "gray_std": 73.41690804628215
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24228959517045454,
+        "gray_mean": 147.05595925071023,
+        "gray_std": 61.51595464233645
+      },
+      "pale_bright_excess": -0.2838190252130681
+    },
+    {
+      "frame": 12,
+      "source": {
+        "pale_bright_fraction": 0.5264726118607954,
+        "gray_mean": 190.43016246448863,
+        "gray_std": 73.40808436036656
+      },
+      "generated": {
+        "pale_bright_fraction": 0.23890602805397726,
+        "gray_mean": 146.56517333984374,
+        "gray_std": 61.51753421746054
+      },
+      "pale_bright_excess": -0.28756658380681815
+    },
+    {
+      "frame": 13,
+      "source": {
+        "pale_bright_fraction": 0.5311201615767045,
+        "gray_mean": 190.95537664240058,
+        "gray_std": 73.24375681387075
+      },
+      "generated": {
+        "pale_bright_fraction": 0.23784845525568182,
+        "gray_mean": 146.40062255859374,
+        "gray_std": 61.53028938802879
+      },
+      "pale_bright_excess": -0.2932717063210227
+    },
+    {
+      "frame": 14,
+      "source": {
+        "pale_bright_fraction": 0.5328779740767046,
+        "gray_mean": 191.25624778053978,
+        "gray_std": 73.142447351482
+      },
+      "generated": {
+        "pale_bright_fraction": 0.23607177734375,
+        "gray_mean": 146.37232887961648,
+        "gray_std": 61.420915885961755
+      },
+      "pale_bright_excess": -0.29680619673295455
+    },
+    {
+      "frame": 15,
+      "source": {
+        "pale_bright_fraction": 0.5356156782670455,
+        "gray_mean": 191.75253462357955,
+        "gray_std": 72.89360306911797
+      },
+      "generated": {
+        "pale_bright_fraction": 0.23557350852272727,
+        "gray_mean": 146.72586004083806,
+        "gray_std": 61.1821643879577
+      },
+      "pale_bright_excess": -0.3000421697443182
+    },
+    {
+      "frame": 16,
+      "source": {
+        "pale_bright_fraction": 0.5354292436079545,
+        "gray_mean": 191.92863325639203,
+        "gray_std": 72.80363439433785
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2361272638494318,
+        "gray_mean": 147.40246249112215,
+        "gray_std": 60.91317650061682
+      },
+      "pale_bright_excess": -0.2993019797585227
+    },
+    {
+      "frame": 17,
+      "source": {
+        "pale_bright_fraction": 0.5388738458806818,
+        "gray_mean": 192.41435879794034,
+        "gray_std": 72.57209114153197
+      },
+      "generated": {
+        "pale_bright_fraction": 0.23793057528409092,
+        "gray_mean": 148.05521462180397,
+        "gray_std": 60.7115452599083
+      },
+      "pale_bright_excess": -0.3009432705965909
+    },
+    {
+      "frame": 18,
+      "source": {
+        "pale_bright_fraction": 0.5404740767045455,
+        "gray_mean": 192.68455477627842,
+        "gray_std": 72.4715361370495
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2407770330255682,
+        "gray_mean": 148.88294122869317,
+        "gray_std": 60.60942064725975
+      },
+      "pale_bright_excess": -0.2996970436789773
+    },
+    {
+      "frame": 19,
+      "source": {
+        "pale_bright_fraction": 0.5435791015625,
+        "gray_mean": 193.03254172585227,
+        "gray_std": 72.31854599233291
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2431640625,
+        "gray_mean": 149.5329512162642,
+        "gray_std": 60.49148696015486
+      },
+      "pale_bright_excess": -0.3004150390625
+    },
+    {
+      "frame": 20,
+      "source": {
+        "pale_bright_fraction": 0.544735440340909,
+        "gray_mean": 193.28341175426135,
+        "gray_std": 72.24013291192551
+      },
+      "generated": {
+        "pale_bright_fraction": 0.2453824129971591,
+        "gray_mean": 150.0125710227273,
+        "gray_std": 60.47520934268124
+      },
+      "pale_bright_excess": -0.2993530273437499
+    },
+    {
+      "frame": 21,
+      "source": {
+        "pale_bright_fraction": 0.5477228338068182,
+        "gray_mean": 193.68783957741476,
+        "gray_std": 72.0396549734993
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24755859375,
+        "gray_mean": 150.80452769886364,
+        "gray_std": 60.29811703581867
+      },
+      "pale_bright_excess": -0.3001642400568182
+    },
+    {
+      "frame": 22,
+      "source": {
+        "pale_bright_fraction": 0.547543057528409,
+        "gray_mean": 193.86362526633522,
+        "gray_std": 71.9532441030022
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24886474609375,
+        "gray_mean": 151.50023415305398,
+        "gray_std": 60.164511865790665
+      },
+      "pale_bright_excess": -0.29867831143465906
+    },
+    {
+      "frame": 23,
+      "source": {
+        "pale_bright_fraction": 0.5500577059659091,
+        "gray_mean": 194.42464599609374,
+        "gray_std": 71.60561047363394
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24945623224431818,
+        "gray_mean": 152.16955233487215,
+        "gray_std": 60.09664420438346
+      },
+      "pale_bright_excess": -0.3006014737215909
+    },
+    {
+      "frame": 24,
+      "source": {
+        "pale_bright_fraction": 0.5471923828125,
+        "gray_mean": 194.5928622159091,
+        "gray_std": 71.45924945991086
+      },
+      "generated": {
+        "pale_bright_fraction": 0.24890025745738636,
+        "gray_mean": 152.58794500177558,
+        "gray_std": 60.077257079809165
+      },
+      "pale_bright_excess": -0.2982921253551137
+    }
+  ],
+  "interpretation": "Large pale-bright excess and contrast loss indicate a possible whiteout. Scene content can be naturally bright; inspect actual frames. This does not detect all melting."
+}

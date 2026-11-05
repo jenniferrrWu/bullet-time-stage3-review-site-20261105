@@ -1,0 +1,61 @@
+{
+  "native_integrity": "combo control exact original SHA; all four variants same five input hashes and official weights; native outputs distinct",
+  "source_right_wrist_range_body_units": [
+    1.1744867781047055,
+    0.9783915406509107
+  ],
+  "runs": {
+    "baseline": {
+      "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_motion_delta_mae": 0.8409746042306225,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "content_beta0p1": {
+      "sha256": "97abc987b205107cf26cd9f537f35cee2d75dde01b978291bdefaee64b4d2089",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08313196255767862,
+      "limb_motion_delta_mae": 0.4609529222006419,
+      "right_wrist_motion_delta_mae": 0.792081666366667,
+      "right_wrist_range_body_units": [
+        0.23374684520122868,
+        0.24962529946415532
+      ],
+      "gray_std_trend_over_source": 0.6644390876065989
+    },
+    "camera_gain1p5": {
+      "sha256": "c98f2fda2588a19cbc333dfad4b4b4d29faaa7283f5e3736a618a733bcc1a3b5",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.06974620667010015,
+      "limb_motion_delta_mae": 0.4896556145186363,
+      "right_wrist_motion_delta_mae": 0.8109283990597752,
+      "right_wrist_range_body_units": [
+        0.1352736124817181,
+        0.05161762793964709
+      ],
+      "gray_std_trend_over_source": 0.8317699468268719
+    },
+    "combined": {
+      "sha256": "d122e6745c9de47c3ae53f7bf05ef47e0de8a21afd71c0cda8e9bef6a07e796b",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.06913553338636334,
+      "limb_motion_delta_mae": 0.48850551279306004,
+      "right_wrist_motion_delta_mae": 0.8139590004194737,
+      "right_wrist_range_body_units": [
+        0.1371469957662398,
+        0.05158999023793257
+      ],
+      "gray_std_trend_over_source": 0.8336261803235416
+    }
+  },
+  "holistic_visual_review": "Source/baseline/content-only/gain-only/combined native contact at f0/4/8/12/16: gain1.5 and combination keep a clearer person than baseline, but both retain almost the same pose while source right arm crosses body. Combined and gain-only decoded videos differ only 0.344 RGB levels on average (0..255) across all 17 frames, and measured right-wrist ranges are nearly identical [0.137,0.052] vs [0.135,0.052] body units. Source wrist range [1.174,0.978]. Thus the content trajectory perturbation does not survive as meaningful motion improvement under stronger camera control; Stage3 holistic action still fails.",
+  "caveat": "2D cross-view DWPose and body contrast are proxies. Full 17-frame person/scene/action inspection determines quality.",
+  "combined_vs_camera_gain1p5_decoded_rgb_mae_0to255": 0.34366766237745106,
+  "limitation": "Camera gain1.5 increases clarity relative to baseline but does not repair source action fidelity. No user/human acceptance, and all metrics are case15 C only."
+}

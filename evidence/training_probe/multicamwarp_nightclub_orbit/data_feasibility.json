@@ -1,0 +1,75 @@
+{
+  "source": "Fred24/MultiCamWarp official Hugging Face repository",
+  "sample_scene": "video_data/NightClub_NightClubDemo/scene_004_SK_MedievalGirl/orbit",
+  "download_scope": "single small public sample only; no full dataset download",
+  "files": {
+    "input": {
+      "path": "/root/bullet_time_research_20261102/training_probe/multicamwarp_nightclub_orbit/input.mp4",
+      "width": 1280,
+      "height": 720,
+      "frames": 81,
+      "fps": "30/1"
+    },
+    "target": {
+      "path": "/root/bullet_time_research_20261102/training_probe/multicamwarp_nightclub_orbit/target.mp4",
+      "width": 1280,
+      "height": 720,
+      "frames": 81,
+      "fps": "30/1"
+    },
+    "dw_depth": {
+      "path": "/root/bullet_time_research_20261102/training_probe/multicamwarp_nightclub_orbit/dw_depth.mp4",
+      "width": 1280,
+      "height": 720,
+      "frames": 81,
+      "fps": "30/1"
+    },
+    "dw_mask": {
+      "path": "/root/bullet_time_research_20261102/training_probe/multicamwarp_nightclub_orbit/dw_mask.mp4",
+      "width": 1280,
+      "height": 720,
+      "frames": 81,
+      "fps": "30/1"
+    }
+  },
+  "camera_params": {
+    "pose_records": 85,
+    "intrinsics": {
+      "cx": 640.0,
+      "cy": 360.0,
+      "width": 1280,
+      "height": 720,
+      "hfov_deg": 83.97442499163331
+    }
+  },
+  "native_depthdirector_training_mapping": {
+    "input": "input.mp4",
+    "video": "target.mp4",
+    "depth": "dw_depth.mp4",
+    "mask": "dw_mask.mp4",
+    "prompt": "must be supplied in CSV"
+  },
+  "native_VideoDataset_81_frame_load": "passed; all four streams loaded at 1280x704 (width x height) with 81 PIL frames each",
+  "visual_pairing": "contact sheet confirms synchronized person motion, moving target camera and corresponding target-view depth/mask; this is one sample, not dataset-wide validation",
+  "training_performed": false,
+  "hardcase_stage3_quality_improvement_proven": false,
+  "license_metadata": "No cardData returned by dataset API expand=cardData; check terms before redistribution; not an input-format blocker for local probe.",
+  "camera_pair_alignment_probe": {
+    "source_center_pose_records": 85,
+    "target_orbit_pose_records": 85,
+    "source_target_frame0_pose_equal": true,
+    "source_target_frame0_decoded_rgb_mae_0to255": 4.328,
+    "frame20_pose_delta": {
+      "position_units": 36.899,
+      "pitch_degrees": 14.004,
+      "yaw_degrees": 8.155
+    },
+    "frame80_pose_delta": {
+      "position_units": 66.279,
+      "pitch_degrees": 11.383,
+      "yaw_degrees": 25.596
+    },
+    "note": "All four videos have 81 frames while camera JSON has 85 pose records; first 81 indices appear paired, but trailing four camera records are outside the video and must be excluded from any trajectory-supervised training."
+  },
+  "stage3_training_distribution_caveat": "This orbit target camera continues moving across the 81 frames, whereas production Stage3 holds the target camera constant. Paired sample proves DD training I/O and camera-conditioning feasibility, not a matched Stage3 fixed-view training target."
+}

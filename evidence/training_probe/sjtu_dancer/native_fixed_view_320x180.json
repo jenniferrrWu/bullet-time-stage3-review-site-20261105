@@ -1,0 +1,114 @@
+{
+  "source_camera": 0,
+  "target_camera": 3,
+  "resolution": [
+    320,
+    180
+  ],
+  "official_depth_formula": "fB/(p/255*(fB/40-fB/150)+fB/150), fB=32504",
+  "camera_formula": "Xc=R*(Xw-C)",
+  "source_K": [
+    [
+      274.39166259765625,
+      0.0,
+      154.3820037841797
+    ],
+    [
+      0.0,
+      273.7349853515625,
+      90.07266998291016
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_K": [
+    [
+      276.663330078125,
+      0.0,
+      158.2616729736328
+    ],
+    [
+      0.0,
+      277.038330078125,
+      87.61483001708984
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_center": [
+    3.0307064056396484,
+    -32.23707962036133,
+    -55.277774810791016
+  ],
+  "target_center": [
+    1.8637219667434692,
+    -12.846221923828125,
+    -61.26494598388672
+  ],
+  "renderer": "official DD Dynamic3DMesh.render",
+  "limitations": [
+    "Sparse depth only first 17 frames",
+    "DD renderer approximates principal points and fx/fy",
+    "first17 source action near static",
+    "single scene not training evidence"
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "mask_fraction": 0.39714,
+      "warped_to_target_mae_covered": 11.866,
+      "unwarped_same_pixel_mae_covered": 17.87,
+      "unwarped_same_pixel_mae_all": 17.073,
+      "depth_quantiles": [
+        50.45,
+        112.42,
+        150.0,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "depth_renderer_min": 0.1,
+      "depth_renderer_max": 100.0
+    },
+    {
+      "frame": 8,
+      "mask_fraction": 0.39089,
+      "warped_to_target_mae_covered": 11.759,
+      "unwarped_same_pixel_mae_covered": 17.695,
+      "unwarped_same_pixel_mae_all": 16.984,
+      "depth_quantiles": [
+        52.34,
+        104.79,
+        148.4,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "depth_renderer_min": 0.1,
+      "depth_renderer_max": 100.0
+    },
+    {
+      "frame": 16,
+      "mask_fraction": 0.36648,
+      "warped_to_target_mae_covered": 11.839,
+      "unwarped_same_pixel_mae_covered": 18.162,
+      "unwarped_same_pixel_mae_all": 16.866,
+      "depth_quantiles": [
+        51.57,
+        100.26,
+        148.4,
+        150.0,
+        150.0,
+        150.0
+      ],
+      "depth_renderer_min": 0.1,
+      "depth_renderer_max": 100.0
+    }
+  ]
+}

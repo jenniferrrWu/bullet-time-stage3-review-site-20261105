@@ -1,0 +1,20 @@
+{
+  "C": {
+    "source_window": [
+      622,
+      682
+    ],
+    "orbit": [
+      "right",
+      55
+    ],
+    "native_integrity": "passed",
+    "source_camera_rotation_degrees": 40.28917008516279,
+    "stage3_mesh_valid_mean": 0.22221596002934052,
+    "native_detected_frames": 60,
+    "core_2d_motion_error": 0.7399646294367398,
+    "limb_2d_motion_error": 0.7394233754042581,
+    "person_contrast_trend": 1.115925653054951,
+    "holistic_visual_quality": "pending_manual_dense_frame_review"
+  }
+}

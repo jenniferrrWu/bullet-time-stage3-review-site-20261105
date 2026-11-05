@@ -1,0 +1,9 @@
+{
+  "review_scope": "Actually inspected seven samples at f0/1/8/20/40/60/80 for source, target depth, baseline, CFG5 and LoRA0.5; not full continuous playback",
+  "case": "case13_woman_rooftop_dance",
+  "baseline": "Body and scene melt severely through middle frames. Target depth shows large low-detail foreground regions and strong spatial shifts; geometry remains suspect.",
+  "cfg5": "Dense multicolor noise after the first frame; visibly worse, not usable.",
+  "lora05": "Purple haze and body disintegration; not usable.",
+  "conclusion": "Neither single-variable change repairs this case. No evidence yet for general improvement or a uniquely identified cause.",
+  "same_inputs_and_noise_evidence": "nontrajectory_integrity.json"
+}

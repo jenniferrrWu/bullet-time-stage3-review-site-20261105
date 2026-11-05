@@ -1,0 +1,32 @@
+{
+  "execution_root": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_b",
+  "stage2_record": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_b/stage2/records/route_a/depthdirector/stage2/vlm_selected.json",
+  "stage2_native_video": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_b/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,45.0,0,0,0/depthdirector.mp4",
+  "stage2_native_sha256": "906da35080e78648796637cf77a45d3974487803915ddc53a48d70eeb6d747d7",
+  "endpoint_frame": 80,
+  "frame_count": 81,
+  "width": 1280,
+  "height": 704,
+  "visibility_advisory": {
+    "status": "edge_or_pose_risk",
+    "reason": "Detector box close to border or low keypoint coverage",
+    "accepted_joints": 16,
+    "required_core_joints_accepted": true,
+    "bbox_margin_fraction": {
+      "left": 0.27113335132598876,
+      "right": 0.4561908721923828,
+      "top": 0.24351241371848367,
+      "bottom": 0.00864410400390625
+    },
+    "near_edges": [
+      "bottom"
+    ],
+    "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+  },
+  "decision": "advisory_only_do_not_auto_accept_or_reject",
+  "limitations": [
+    "DWPose bbox/keypoints do not certify hair or fingertips",
+    "Changing camera angle affects pose detection",
+    "Stage2 framing cannot prove Stage3 quality"
+  ]
+}

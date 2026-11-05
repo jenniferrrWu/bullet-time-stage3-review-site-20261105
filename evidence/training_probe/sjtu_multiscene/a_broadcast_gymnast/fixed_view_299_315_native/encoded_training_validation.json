@@ -1,0 +1,252 @@
+{
+  "scene": "a_broadcast_gymnast",
+  "source_camera": 0,
+  "target_camera": 3,
+  "target_fixed": true,
+  "stream_files": {
+    "input": {
+      "frames": 17,
+      "fps": 25,
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "695dad8892bc596445080cb354596fd3c4f08fd144fb101cd718dd3e72a8f9b9"
+    },
+    "target": {
+      "frames": 17,
+      "fps": 25,
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "fa99a103ecf58c0ffd62e1bcfcf9305baa3c501804e4dae628f48abd0c82b8dc"
+    },
+    "dw_depth": {
+      "frames": 17,
+      "fps": 25,
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "e4426b5ca9a281eeef3fc830b3f16d6eab33b66854b525348187f70fa4200590"
+    },
+    "dw_mask": {
+      "frames": 17,
+      "fps": 25,
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "4a7ae880d4392167977d9884bce102ba4df747d82e31b89a19a87ef4311e6b49"
+    },
+    "dw_warp": {
+      "frames": 17,
+      "fps": 25,
+      "resolution": [
+        1280,
+        720
+      ],
+      "sha256": "0d990df5e7101167abf98f73ffe73df64e0d72232642168b8de467b277caba55"
+    }
+  },
+  "frame_alignment": {
+    "input": [
+      {
+        "relative_frame": 0,
+        "mae_encoded_vs_original": 1.127
+      },
+      {
+        "relative_frame": 8,
+        "mae_encoded_vs_original": 1.149
+      },
+      {
+        "relative_frame": 16,
+        "mae_encoded_vs_original": 1.195
+      }
+    ],
+    "target": [
+      {
+        "relative_frame": 0,
+        "mae_encoded_vs_original": 1.183
+      },
+      {
+        "relative_frame": 8,
+        "mae_encoded_vs_original": 1.227
+      },
+      {
+        "relative_frame": 16,
+        "mae_encoded_vs_original": 1.295
+      }
+    ]
+  },
+  "rows": [
+    {
+      "absolute_frame": 299,
+      "mask_fraction_encoded": 0.61235,
+      "person_bbox_mask_fraction_encoded": 0.59799,
+      "target_body_joint_centers_covered": 11,
+      "target_body_joint_centers_total": 16,
+      "warp_target_mae_covered_encoded": 13.652,
+      "input_target_mae_same_covered_encoded": 19.856
+    },
+    {
+      "absolute_frame": 300,
+      "mask_fraction_encoded": 0.61036,
+      "person_bbox_mask_fraction_encoded": 0.61103,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 16,
+      "warp_target_mae_covered_encoded": 13.862,
+      "input_target_mae_same_covered_encoded": 20.137
+    },
+    {
+      "absolute_frame": 301,
+      "mask_fraction_encoded": 0.62352,
+      "person_bbox_mask_fraction_encoded": 0.6282,
+      "target_body_joint_centers_covered": 12,
+      "target_body_joint_centers_total": 16,
+      "warp_target_mae_covered_encoded": 13.854,
+      "input_target_mae_same_covered_encoded": 20.171
+    },
+    {
+      "absolute_frame": 302,
+      "mask_fraction_encoded": 0.62286,
+      "person_bbox_mask_fraction_encoded": 0.61166,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.796,
+      "input_target_mae_same_covered_encoded": 19.976
+    },
+    {
+      "absolute_frame": 303,
+      "mask_fraction_encoded": 0.62559,
+      "person_bbox_mask_fraction_encoded": 0.61345,
+      "target_body_joint_centers_covered": 14,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.662,
+      "input_target_mae_same_covered_encoded": 19.836
+    },
+    {
+      "absolute_frame": 304,
+      "mask_fraction_encoded": 0.63013,
+      "person_bbox_mask_fraction_encoded": 0.64891,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 14.031,
+      "input_target_mae_same_covered_encoded": 19.97
+    },
+    {
+      "absolute_frame": 305,
+      "mask_fraction_encoded": 0.62645,
+      "person_bbox_mask_fraction_encoded": 0.5071,
+      "target_body_joint_centers_covered": 15,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.74,
+      "input_target_mae_same_covered_encoded": 19.65
+    },
+    {
+      "absolute_frame": 306,
+      "mask_fraction_encoded": 0.63168,
+      "person_bbox_mask_fraction_encoded": 0.50412,
+      "target_body_joint_centers_covered": 14,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 14.062,
+      "input_target_mae_same_covered_encoded": 19.81
+    },
+    {
+      "absolute_frame": 307,
+      "mask_fraction_encoded": 0.63507,
+      "person_bbox_mask_fraction_encoded": 0.5383,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 14.109,
+      "input_target_mae_same_covered_encoded": 19.828
+    },
+    {
+      "absolute_frame": 308,
+      "mask_fraction_encoded": 0.62475,
+      "person_bbox_mask_fraction_encoded": 0.53897,
+      "target_body_joint_centers_covered": 11,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 14.008,
+      "input_target_mae_same_covered_encoded": 19.804
+    },
+    {
+      "absolute_frame": 309,
+      "mask_fraction_encoded": 0.6314,
+      "person_bbox_mask_fraction_encoded": 0.55775,
+      "target_body_joint_centers_covered": 11,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.819,
+      "input_target_mae_same_covered_encoded": 19.866
+    },
+    {
+      "absolute_frame": 310,
+      "mask_fraction_encoded": 0.61555,
+      "person_bbox_mask_fraction_encoded": 0.55099,
+      "target_body_joint_centers_covered": 12,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.622,
+      "input_target_mae_same_covered_encoded": 19.47
+    },
+    {
+      "absolute_frame": 311,
+      "mask_fraction_encoded": 0.62513,
+      "person_bbox_mask_fraction_encoded": 0.53499,
+      "target_body_joint_centers_covered": 11,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.858,
+      "input_target_mae_same_covered_encoded": 19.103
+    },
+    {
+      "absolute_frame": 312,
+      "mask_fraction_encoded": 0.61671,
+      "person_bbox_mask_fraction_encoded": 0.54947,
+      "target_body_joint_centers_covered": 10,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.91,
+      "input_target_mae_same_covered_encoded": 18.772
+    },
+    {
+      "absolute_frame": 313,
+      "mask_fraction_encoded": 0.62461,
+      "person_bbox_mask_fraction_encoded": 0.54121,
+      "target_body_joint_centers_covered": 11,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.59,
+      "input_target_mae_same_covered_encoded": 18.467
+    },
+    {
+      "absolute_frame": 314,
+      "mask_fraction_encoded": 0.62613,
+      "person_bbox_mask_fraction_encoded": 0.55077,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.591,
+      "input_target_mae_same_covered_encoded": 18.345
+    },
+    {
+      "absolute_frame": 315,
+      "mask_fraction_encoded": 0.62211,
+      "person_bbox_mask_fraction_encoded": 0.5544,
+      "target_body_joint_centers_covered": 13,
+      "target_body_joint_centers_total": 17,
+      "warp_target_mae_covered_encoded": 13.8,
+      "input_target_mae_same_covered_encoded": 18.364
+    }
+  ],
+  "aggregate": {
+    "mask_mean": 0.62379,
+    "mask_min": 0.61036,
+    "person_bbox_mask_mean": 0.56702,
+    "person_bbox_mask_min": 0.50412,
+    "joint_centers_covered_min": 10,
+    "joint_centers_detected_min": 16,
+    "warp_target_mae_mean": 13.822,
+    "input_target_mae_same_mean": 19.496
+  },
+  "limits": [
+    "one scene/window",
+    "mask and MAE do not prove generated-video quality"
+  ]
+}

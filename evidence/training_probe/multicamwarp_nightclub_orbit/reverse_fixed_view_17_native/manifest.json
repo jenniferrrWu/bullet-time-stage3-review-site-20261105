@@ -1,0 +1,128 @@
+{
+  "source": "MultiCamWarp official NightClub scene_004 orbit target.mp4",
+  "fixed_target": "same-scene center video (orbit input.mp4)",
+  "renderer": "DD Dynamic3DMesh/render_nvdiffrast",
+  "metric_source_depth": "published orbit depth.npz, 81x180x320x1, bilinear upsample to 720x1280",
+  "stage3_like": "fixed target camera all 17 frames, source orbit camera dynamic; cameras coincide at frame 0",
+  "depth_color_mapping": "Warper.map_depth with rand_scale=1.0 and first-frame range, like UE_Dynamic_Stream",
+  "fps": 30,
+  "frames": 17,
+  "resolution": [
+    1280,
+    720
+  ],
+  "first_frame_depth_range_m": [
+    1.1153794527053833,
+    369.99639892578125
+  ],
+  "frame_stats": [
+    {
+      "frame": 0,
+      "native_mask_fraction": 1.0,
+      "frame_depth_min_m": 1.1154,
+      "frame_depth_max_m": 369.9964
+    },
+    {
+      "frame": 1,
+      "native_mask_fraction": 0.94945,
+      "frame_depth_min_m": 1.1144,
+      "frame_depth_max_m": 65.9034
+    },
+    {
+      "frame": 2,
+      "native_mask_fraction": 0.93025,
+      "frame_depth_min_m": 1.1156,
+      "frame_depth_max_m": 18.0655
+    },
+    {
+      "frame": 3,
+      "native_mask_fraction": 0.91036,
+      "frame_depth_min_m": 1.1122,
+      "frame_depth_max_m": 52.3208
+    },
+    {
+      "frame": 4,
+      "native_mask_fraction": 0.89556,
+      "frame_depth_min_m": 1.1138,
+      "frame_depth_max_m": 18.0518
+    },
+    {
+      "frame": 5,
+      "native_mask_fraction": 0.87983,
+      "frame_depth_min_m": 1.1118,
+      "frame_depth_max_m": 18.0567
+    },
+    {
+      "frame": 6,
+      "native_mask_fraction": 0.86483,
+      "frame_depth_min_m": 1.1076,
+      "frame_depth_max_m": 18.0533
+    },
+    {
+      "frame": 7,
+      "native_mask_fraction": 0.85057,
+      "frame_depth_min_m": 1.1118,
+      "frame_depth_max_m": 18.0532
+    },
+    {
+      "frame": 8,
+      "native_mask_fraction": 0.83091,
+      "frame_depth_min_m": 1.1093,
+      "frame_depth_max_m": 18.0517
+    },
+    {
+      "frame": 9,
+      "native_mask_fraction": 0.81088,
+      "frame_depth_min_m": 1.1087,
+      "frame_depth_max_m": 18.0543
+    },
+    {
+      "frame": 10,
+      "native_mask_fraction": 0.79191,
+      "frame_depth_min_m": 1.1074,
+      "frame_depth_max_m": 18.0525
+    },
+    {
+      "frame": 11,
+      "native_mask_fraction": 0.77686,
+      "frame_depth_min_m": 1.1071,
+      "frame_depth_max_m": 18.0541
+    },
+    {
+      "frame": 12,
+      "native_mask_fraction": 0.76199,
+      "frame_depth_min_m": 1.1067,
+      "frame_depth_max_m": 18.0504
+    },
+    {
+      "frame": 13,
+      "native_mask_fraction": 0.74785,
+      "frame_depth_min_m": 1.1047,
+      "frame_depth_max_m": 18.0533
+    },
+    {
+      "frame": 14,
+      "native_mask_fraction": 0.73341,
+      "frame_depth_min_m": 1.1039,
+      "frame_depth_max_m": 18.0598
+    },
+    {
+      "frame": 15,
+      "native_mask_fraction": 0.71975,
+      "frame_depth_min_m": 1.1048,
+      "frame_depth_max_m": 18.0508
+    },
+    {
+      "frame": 16,
+      "native_mask_fraction": 0.70557,
+      "frame_depth_min_m": 1.1057,
+      "frame_depth_max_m": 18.0596
+    }
+  ],
+  "limitations": [
+    "one scene/window only",
+    "upsampled published depth can blur boundaries",
+    "fixed target camera is same as source at f0, relative angle grows afterward",
+    "no held-out quality validation"
+  ]
+}

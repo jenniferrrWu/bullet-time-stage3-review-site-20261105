@@ -1,0 +1,38 @@
+{
+  "scope": "A=f101/right30, D=f109/right45, E=f117/left30; local candidates only; no user-labelled best frame",
+  "model_provisional_preferred_id": "D",
+  "model_feedback_input": "planner_v12_case15_f101_local_highlight_refinement/native_feedback_ade/raw.json",
+  "native_review": "audit/case15_f101_local_refinements_native_review/summary.json",
+  "claim_checks": [
+    {
+      "claim": "E source includes a visible curtain",
+      "status": "false",
+      "evidence": "E source-action f0..20 and proposal source-grid f117/129/137 have plain studio background; curtain-like right-side structure appears in native E Stage2 and Stage3 only."
+    },
+    {
+      "claim": "E has severe human melting throughout, e.g. frame 0 and 20",
+      "status": "contradicted_or_overstated",
+      "evidence": "All 21 E native Stage3 frames keep continuous full-body outline and visible limbs. Hands/face soften and late lower-body action is incomplete, but no severe whole-body melt is visible throughout."
+    },
+    {
+      "claim": "D action fidelity 4/5, with better source alignment than A/E",
+      "status": "unsupported",
+      "evidence": "D late native sequence keeps arms mostly overhead while source changes; right-wrist horizontal range source 0.465 vs generated 0.144 body units. Cross-view 2D measurement is advisory, but model did not address this motion suppression or late fading."
+    },
+    {
+      "claim": "D has no severe melting",
+      "status": "partially_supported",
+      "evidence": "D full body remains identifiable, but native f20..24 becomes pale with soft face/arms and background. Absence of catastrophic body loss does not establish whole-video quality."
+    },
+    {
+      "claim": "A scene background is consistent",
+      "status": "supported",
+      "evidence": "Native A plain backdrop remains mostly coherent, though late person detail is soft."
+    }
+  ],
+  "decision": "invalidate model winner as final due to false source-scene observation and overconfident visual ratings; all three native videos fail holistic quality review",
+  "final_selected_id": null,
+  "final_decision_ready": false,
+  "global_optimality_proven": false,
+  "quality_pass": false
+}

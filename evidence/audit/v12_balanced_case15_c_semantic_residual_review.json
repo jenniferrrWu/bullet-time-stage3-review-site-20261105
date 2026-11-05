@@ -1,0 +1,35 @@
+{
+  "experiment": "Case15 VLM candidate C, official DD 17-frame Stage3, same inputs/seed/weights; DWPose target-view heatmap gates camera_encoder temporal residual at beta 0.5.",
+  "controls": {
+    "beta0_exact_native_sha": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "beta0_native_exact": true,
+    "beta0p5_sha": "ea37c1b695360f96df6933127ddedd987ac48648b8376ec7c85c38399d78fd24",
+    "all_five_input_hashes_identical": true,
+    "official_weights_unchanged": true,
+    "target_view_pose_detected_frames": 17,
+    "target_view_pose_mean_accepted_body_joints": 15.352941176470589,
+    "target_view_warning": "DW warp has large black holes around the person; visible right arm joints may sometimes be inferred across missing projection, so semantic condition is imperfect."
+  },
+  "all_frame_pose": {
+    "baseline_native_detected": 17,
+    "enhanced_native_detected": 17,
+    "baseline_mean_accepted_joints": 15.235294117647058,
+    "enhanced_mean_accepted_joints": 16.41176470588235,
+    "core_motion_delta_mae_baseline": 0.08798223448675256,
+    "core_motion_delta_mae_enhanced": 0.06715430960355061,
+    "limb_motion_delta_mae_baseline": 0.4834763753922185,
+    "limb_motion_delta_mae_enhanced": 0.6092885310135521,
+    "right_elbow_mae_baseline": 0.44983099263185666,
+    "right_elbow_mae_enhanced": 0.46668272844556846,
+    "right_wrist_mae_baseline": 0.8409746042306225,
+    "right_wrist_mae_enhanced": 0.7518943335815358
+  },
+  "visual_review": "At source/native/enhanced f0,4,8,12,16, beta0.5 changes the pose slightly, including more arm motion by the end, but the figure still fades progressively into the light background and does not reproduce the source arm sweep. No Stage3 overall-quality pass.",
+  "interpretation": "Core 2D proxy improves 0.088 to 0.067, but aggregate limb proxy worsens 0.483 to 0.609; right wrist alone improves 0.841 to 0.752 while right elbow worsens 0.450 to 0.467. Joint detectability increases but visual failure persists. This does not generalize the previous case12 right-arm improvement.",
+  "artifacts": [
+    "audit/v12_balanced_case15_c_semantic_residual_compare.jpg",
+    "audit/v12_balanced_case15_c_semantic_residual_pose_compare.json",
+    "pose_trial/temporal_pose_residual_v12_case15_c_beta_0p0/manifest.json",
+    "pose_trial/temporal_pose_residual_v12_case15_c_beta_0p5/manifest.json"
+  ]
+}

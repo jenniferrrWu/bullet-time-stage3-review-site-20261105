@@ -1,0 +1,107 @@
+{
+  "case15_f117_E": {
+    "frames": 21,
+    "source_detected_frames": 21,
+    "generated_detected_frames": 21,
+    "orbit_degrees": 30,
+    "wrist_ranges": {
+      "left_wrist": {
+        "source_body_units": 1.0779651063563944,
+        "generated_body_units": 1.1376115789171624,
+        "retained_range_ratio": 1.0553324706050808
+      },
+      "right_wrist": {
+        "source_body_units": 1.141913857670982,
+        "generated_body_units": 1.1507893807149623,
+        "retained_range_ratio": 1.007772497885333
+      }
+    },
+    "diagnostic_applicable": true,
+    "severe_bilateral_wrist_motion_suppression": false,
+    "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+  },
+  "case15_f117_F": {
+    "frames": 21,
+    "source_detected_frames": 21,
+    "generated_detected_frames": 21,
+    "orbit_degrees": 15,
+    "wrist_ranges": {
+      "left_wrist": {
+        "source_body_units": 1.0779651063563944,
+        "generated_body_units": 0.2344616781266888,
+        "retained_range_ratio": 0.21750395884258947
+      },
+      "right_wrist": {
+        "source_body_units": 1.141913857670982,
+        "generated_body_units": 0.2116639735801971,
+        "retained_range_ratio": 0.18535896745477937
+      }
+    },
+    "diagnostic_applicable": true,
+    "severe_bilateral_wrist_motion_suppression": true,
+    "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+  },
+  "case15_f117_G": {
+    "frames": 21,
+    "source_detected_frames": 21,
+    "generated_detected_frames": 21,
+    "orbit_degrees": 10,
+    "wrist_ranges": {
+      "left_wrist": {
+        "source_body_units": 1.0779651063563944,
+        "generated_body_units": 0.21436603177431995,
+        "retained_range_ratio": 0.19886175397540812
+      },
+      "right_wrist": {
+        "source_body_units": 1.141913857670982,
+        "generated_body_units": 0.22623725100297465,
+        "retained_range_ratio": 0.19812111875444116
+      }
+    },
+    "diagnostic_applicable": true,
+    "severe_bilateral_wrist_motion_suppression": true,
+    "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+  },
+  "case15_f101_A": {
+    "frames": 25,
+    "source_detected_frames": 25,
+    "generated_detected_frames": 25,
+    "orbit_degrees": 30,
+    "wrist_ranges": {
+      "left_wrist": {
+        "source_body_units": 0.556648370417008,
+        "generated_body_units": 0.6839276728191348,
+        "retained_range_ratio": 1.228652968671725
+      },
+      "right_wrist": {
+        "source_body_units": 0.7847563960526173,
+        "generated_body_units": 0.8702859526957134,
+        "retained_range_ratio": 1.1089886709726944
+      }
+    },
+    "diagnostic_applicable": true,
+    "severe_bilateral_wrist_motion_suppression": false,
+    "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+  },
+  "case13_f845_BASE": {
+    "frames": 21,
+    "source_detected_frames": 21,
+    "generated_detected_frames": 21,
+    "orbit_degrees": 20,
+    "wrist_ranges": {
+      "left_wrist": {
+        "source_body_units": 1.758016957249672,
+        "generated_body_units": 1.1678162581882234,
+        "retained_range_ratio": 0.6642804287935951
+      },
+      "right_wrist": {
+        "source_body_units": 0.7095946952539833,
+        "generated_body_units": 0.41865751530974105,
+        "retained_range_ratio": 0.5899952721037354
+      }
+    },
+    "diagnostic_applicable": true,
+    "severe_bilateral_wrist_motion_suppression": false,
+    "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "A": {
+    "effective_input_provenance": {
+      "effective_inputs": {
+        "input_image": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+          "sha256": "025ea61cf820ca42b85c6cae6b2c011942db4d1eed5569910928ab1c3e8c3265"
+        },
+        "input": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/input.mp4",
+          "sha256": "ea8dbe2b5485ca9e7ac368b2e144390827af352cf21a1d24da8e26bf438cfd1e"
+        },
+        "depth": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4",
+          "sha256": "d0b243d304dffe56da1687cb87602570a20e611855714e1251d6b041882f7448"
+        },
+        "mask": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4",
+          "sha256": "49bf0894b0de458c431809014b256ffeef5ccd5968c7e9da5b9b84348089209f"
+        }
+      },
+      "mapping": {
+        "input_image": "first-frame fused latent",
+        "input": "concat_video source content",
+        "depth": "warp_video via depth_cond",
+        "mask": "warp_mask via depth_cond"
+      },
+      "cond_metadata_present": true,
+      "cond_consumed": false,
+      "configuration": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/depthdirector_stage3.yaml",
+      "official_training_route": "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py",
+      "prompt_matches_record": true
+    },
+    "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a",
+    "candidate": {
+      "id": "A",
+      "highlight_frame": 101,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 1.0,
+      "reason": "Frame 101 shows a clear jump with both feet off the ground, arms extended upward, and full body visibility against the plain background. Orbiting right at 30 degrees for 4 seconds captures the peak pose from a side angle, emphasizing the height and balance. The following 25-frame action (1.0s) resumes from the frozen frame, maintaining the dynamic pacing of the jump sequence.",
+      "score": 0.955
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.5742070756392046,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 25,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/shared_geometry/pose.npy",
+      "first_median_depth": 19.452659606933594,
+      "endpoint_rotation_degrees": 0.2625372900107764,
+      "maximum_rotation_degrees": 0.2625372900107764,
+      "max_step_rotation_degrees": 0.15507812501105403,
+      "endpoint_translation_depth_units": 0.0826390457392191,
+      "maximum_translation_depth_units": 0.0826390457392191,
+      "endpoint_translation_over_first_median_depth": 0.004248213221690452,
+      "maximum_translation_over_first_median_depth": 0.004248213221690452,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.073647189786236,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 6,
+          "rotation_degrees": 0.10606377357924042,
+          "translation_over_first_median_depth": 0.0015998561730340198
+        },
+        {
+          "frame": 12,
+          "rotation_degrees": 0.13333444642812808,
+          "translation_over_first_median_depth": 0.0015482135339052762
+        },
+        {
+          "frame": 18,
+          "rotation_degrees": 0.1034825473056991,
+          "translation_over_first_median_depth": 0.0010125155163309986
+        },
+        {
+          "frame": 24,
+          "rotation_degrees": 0.2625372900107764,
+          "translation_over_first_median_depth": 0.004248213221690452
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 25,
+      "peak_excess_frame": 0,
+      "peak_pale_bright_excess": 0.0,
+      "peak_generated_pale_bright_fraction": 0.0,
+      "peak_dark_excess_frame": 0,
+      "peak_dark_excess": -0.04261141690340909,
+      "peak_generated_dark_fraction": 3.884055397727273e-05
+    },
+    "integrity": "passed"
+  },
+  "D": {
+    "effective_input_provenance": {
+      "effective_inputs": {
+        "input_image": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+          "sha256": "d46a704c2f28c062820a48f19cc16e64de3d210519d55ad007a5c38f7a6510cd"
+        },
+        "input": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/input.mp4",
+          "sha256": "37651e3e9c7bdef1106a8f1f0bac65456e63fd49be84546f627158079e543ae2"
+        },
+        "depth": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/dw_depth.mp4",
+          "sha256": "cd376318912e1fc54caeaa5f261f875051a0e217a88b7eb7ad224a17f6de5aad"
+        },
+        "mask": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/dw_mask.mp4",
+          "sha256": "0c9abc0051523edaad6edf6a432c280f3ee59a4e2edd2f2b042dacc999cd0c68"
+        }
+      },
+      "mapping": {
+        "input_image": "first-frame fused latent",
+        "input": "concat_video source content",
+        "depth": "warp_video via depth_cond",
+        "mask": "warp_mask via depth_cond"
+      },
+      "cond_metadata_present": true,
+      "cond_consumed": false,
+      "configuration": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage3/depthdirector_stage3.yaml",
+      "official_training_route": "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py",
+      "prompt_matches_record": true
+    },
+    "root": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d",
+    "candidate": {
+      "id": "A",
+      "highlight_frame": 109,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 3.2,
+      "action_num_frames": 25,
+      "action_seconds": 1.0,
+      "reason": "VLM local highlight+camera refinement: f109 shows a clear two-feet-airborne jump with arms raised, providing strong full-body visibility and a stable pose for a pause. Orbiting right at 45 degrees creates a dynamic new view while maintaining continuity with the source motion. The 3.2s orbit duration allows smooth transition to Stage3 action frames (1.0s duration) that match the source's upward motion.",
+      "score": 0.75
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.5307569691051135,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 25,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_d/shared_geometry/pose.npy",
+      "first_median_depth": 18.96924591064453,
+      "endpoint_rotation_degrees": 0.36374827983542973,
+      "maximum_rotation_degrees": 0.36374827983542973,
+      "max_step_rotation_degrees": 0.2018684578936981,
+      "endpoint_translation_depth_units": 0.08712885216251005,
+      "maximum_translation_depth_units": 0.11509170333558817,
+      "endpoint_translation_over_first_median_depth": 0.004593163722634751,
+      "maximum_translation_over_first_median_depth": 0.006067278787872365,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.06168687576484191,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 6,
+          "rotation_degrees": 0.058373591676846526,
+          "translation_over_first_median_depth": 0.0009163656512640026
+        },
+        {
+          "frame": 12,
+          "rotation_degrees": 0.16456702850386676,
+          "translation_over_first_median_depth": 0.0003847882928535026
+        },
+        {
+          "frame": 18,
+          "rotation_degrees": 0.23868374214157967,
+          "translation_over_first_median_depth": 0.00445985822084717
+        },
+        {
+          "frame": 24,
+          "rotation_degrees": 0.36374827983542973,
+          "translation_over_first_median_depth": 0.004593163722634751
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 25,
+      "peak_excess_frame": 0,
+      "peak_pale_bright_excess": 0.0,
+      "peak_generated_pale_bright_fraction": 0.0,
+      "peak_dark_excess_frame": 10,
+      "peak_dark_excess": -0.042596990411931816,
+      "peak_generated_dark_fraction": 1.6645951704545453e-05
+    },
+    "integrity": "passed"
+  },
+  "E": {
+    "effective_input_provenance": {
+      "effective_inputs": {
+        "input_image": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+          "sha256": "6edecf1901c6f1b1c688c628c8e576a0df1b3957fd53b13527b38036d246daaf"
+        },
+        "input": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/input.mp4",
+          "sha256": "18f679190221dc72cf932b29c4d7a3101d20cdcb652178e9a672848990e4be05"
+        },
+        "depth": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/dw_depth.mp4",
+          "sha256": "c62fc198935508b3c45399390d38eefaf230fbc4dd4980f0e842e160663a2346"
+        },
+        "mask": {
+          "path": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/dw_mask.mp4",
+          "sha256": "7821ebf3d4259a3fc32252ea64aebeb610db7f8586f57f225f98fb456aea443f"
+        }
+      },
+      "mapping": {
+        "input_image": "first-frame fused latent",
+        "input": "concat_video source content",
+        "depth": "warp_video via depth_cond",
+        "mask": "warp_mask via depth_cond"
+      },
+      "cond_metadata_present": true,
+      "cond_consumed": false,
+      "configuration": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage3/depthdirector_stage3.yaml",
+      "official_training_route": "/public/wufeier/automatic_bullet_time/models/DepthDirector/diffsynth/trainers/trainer.py",
+      "prompt_matches_record": true
+    },
+    "root": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e",
+    "candidate": {
+      "id": "A",
+      "highlight_frame": 117,
+      "orbit_direction": "left",
+      "orbit_degrees": 30,
+      "orbit_seconds": 2.4,
+      "action_num_frames": 21,
+      "action_seconds": 0.84,
+      "reason": "VLM local highlight+camera refinement: f117 shows a stable two-feet-grounded pose with hands on head, ideal for a pause. Orbiting left at 30 degrees offers a complementary view to D while avoiding the right-side blur seen in existing A. The 2.4s orbit duration aligns with the shorter action window (0.84s), matching the source's slower motion after f117.",
+      "score": 0.65
+    },
+    "stage2_video": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "stage3_video": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,30,0,0,0/depthdirector.mp4",
+    "source_action": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/action.mp4",
+    "stage3_valid_mesh_fraction_mean": 0.5749230058678302,
+    "stage3_valid_mesh_fraction_below_0_20": 0.0,
+    "source_camera_motion": {
+      "frames": 21,
+      "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case15_f101_local_refine_e/shared_geometry/pose.npy",
+      "first_median_depth": 19.206626892089844,
+      "endpoint_rotation_degrees": 0.2156185747154745,
+      "maximum_rotation_degrees": 0.42328321000795954,
+      "max_step_rotation_degrees": 0.21034138863180551,
+      "endpoint_translation_depth_units": 0.11711144225825534,
+      "maximum_translation_depth_units": 0.11711144225825534,
+      "endpoint_translation_over_first_median_depth": 0.006097449745664978,
+      "maximum_translation_over_first_median_depth": 0.006097449745664978,
+      "samples": [
+        {
+          "frame": 0,
+          "rotation_degrees": 0.0374562210573575,
+          "translation_over_first_median_depth": 0.0
+        },
+        {
+          "frame": 5,
+          "rotation_degrees": 0.0,
+          "translation_over_first_median_depth": 0.0006329595714290064
+        },
+        {
+          "frame": 10,
+          "rotation_degrees": 0.2335829146024616,
+          "translation_over_first_median_depth": 0.003254671852431243
+        },
+        {
+          "frame": 15,
+          "rotation_degrees": 0.3305991282818595,
+          "translation_over_first_median_depth": 0.003396009705246291
+        },
+        {
+          "frame": 20,
+          "rotation_degrees": 0.2156185747154745,
+          "translation_over_first_median_depth": 0.006097449745664978
+        }
+      ],
+      "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+    },
+    "visual_artifacts": {
+      "frames": 21,
+      "peak_excess_frame": 0,
+      "peak_pale_bright_excess": 0.0,
+      "peak_generated_pale_bright_fraction": 0.0,
+      "peak_dark_excess_frame": 1,
+      "peak_dark_excess": -0.038304554332386366,
+      "peak_generated_dark_fraction": 0.004311301491477273
+    },
+    "integrity": "passed"
+  }
+}

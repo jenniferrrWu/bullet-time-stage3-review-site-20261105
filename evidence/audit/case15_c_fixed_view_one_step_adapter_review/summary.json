@@ -1,0 +1,61 @@
+{
+  "experiment": "One DD-native optimizer step on a single orbit-source/fixed-center MultiCamWarp pair, then native inference on real case15 C with identical effective inputs, Stage2 endpoint, prompt and initial noise; checkpoint only changed.",
+  "native_integrity": "passed",
+  "checkpoint_sha256": "261681f490f9c5f9f0323868fd7e94ed82cf3e4871f36b8e3202bafa117ad304",
+  "official_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "adapted_sha256": "3c90c8f12db82410b1db0e1ce589e948c8e3f84650e149f4e72eabea9dba9ae5",
+  "decoded_rgb_mae_per_frame": [
+    0.15417258522727273,
+    0.3477135860558712,
+    0.35560894590435604,
+    0.37830884528882575,
+    0.30513583096590907,
+    0.3869392163825758,
+    0.35292709812973483,
+    0.3898074988162879,
+    0.33910873875473485,
+    0.46644324100378787,
+    0.4680601177793561,
+    0.519158750591856,
+    0.49259810014204547,
+    0.51690673828125,
+    0.49528771602746213,
+    0.5302923029119319,
+    0.5102653734611743
+  ],
+  "decoded_rgb_mae_mean": 0.41227851092496653,
+  "pose": {
+    "official": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ]
+    },
+    "fixed_view_one_step_adapter": {
+      "core_motion_error_body_units": 0.08877159733019921,
+      "limb_motion_error_body_units": 0.4756557559644254,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.13400081462066094,
+        0.12349073967089465
+      ]
+    }
+  },
+  "person_gray_contrast_trend_over_source": {
+    "official": 0.6583416868147342,
+    "fixed_view_one_step_adapter": 0.65796296844646
+  },
+  "holistic_visual_review": "Dense source/official/adapted nine-time contact plus all 17 adapted frames: new checkpoint looks nearly identical to official. Both progressively fade and fail to reproduce the source right-arm sweep; generated pose stays close to its starting configuration. The 0.484->0.476 limb-error change is tiny and does not establish perceptual or action improvement.",
+  "quality_pass": false,
+  "caveat": "One fixed-view synthetic scene with 4x upsampled depth and one optimizer step cannot establish training benefit or generalization; inspect all 17 frames and use held-out multi-scene training before judging adapter direction.",
+  "next_data_requirement": "Fixed target alone is insufficient: this pair has zero source-target angle at f0, whereas real Stage3 already starts at a novel target angle. Need synchronized fixed multi-camera dance data with actual novel-view target and reliable source depth, split by dance/subject for held-out tests."
+}

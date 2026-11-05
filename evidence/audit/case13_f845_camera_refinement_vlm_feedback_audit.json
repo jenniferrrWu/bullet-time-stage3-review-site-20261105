@@ -1,0 +1,23 @@
+{
+  "scope": "Case13 same f845..f865 source action, DD-native BASE left20, D right35, E left45; VLM camera refinement and output feedback, no user-labeled best frame.",
+  "input_and_execution": "D/E source action SHA equals BASE; all three dd_feedback.collect native hash, Stage2 endpoint, 21 action frames and fixed Stage3 camera pass. No run-error explanation for observed quality differences.",
+  "vlm_preference": "D",
+  "vlm_supported_part": "D has visibly stronger Stage2 camera parallax than BASE and better late raised-hand placement in some same-target-view comparisons; E scene has a large persistent ghosted tower. D is a defensible provisional relative preference if spatial camera effect is weighted highly.",
+  "vlm_contradictions": [
+    "Feedback calls BASE Stage2 and Stage3 severe body melting. Native BASE Stage2 f0/40/80 and all 21 Stage3 frames show an intact dancer. Soft face/hand and arm mismatch are real; severe melting is false.",
+    "Feedback calls E Stage2 severe body melting. E Stage2 f80 dancer remains intact with official DWPose 17/17 body joints and no border-crop evidence. Its actual defect is a large right-side ghosted rooftop/tower structure, plus weak Stage3 action.",
+    "Feedback says D leg positions match source closely. Source joints reprojected into each exact DD target camera yield f20 leg mean error BASE ~10.6px, D ~30.3px, E ~29.5px; D leg is visibly less extended/shifted than source relative to target camera. This projection is imperfect, but contradicts the unqualified close-match claim.",
+    "Feedback says D scene stable with only minor adjustment; dense native D frames show pale window/patch reconstruction in the central dark building from middle to late frames. This is less severe than E ghost tower but not a clean 4/5 scene guarantee.",
+    "Feedback claims D measurements lower core-motion delta prove accurate pose; 2D cross-view DWPose metrics are not a direct 3D quality score. D target-warp projection alignment median17.45px vs BASE9.12px, limiting precise per-joint interpretation."
+  ],
+  "independent_comparison": "BASE cleaner scene and closer late leg with modest orbit; D stronger orbit and improved late arm, but torso curls and facade patches; E persistent ghost tower and weak action. No candidate established as globally best or final-quality pass.",
+  "quality_acceptance": "pending; do not convert model scores to human ground truth",
+  "evidence": [
+    "planner_v12_case13_f845_camera_refinement_dd_feedback/result.json",
+    "audit/case13_f845_camera_refinement_native_review/summary.json",
+    "audit/case13_f845_camera_refinement_full_contact.jpg",
+    "audit/case13_f845_camera_refinement_person_crops.jpg",
+    "audit/case13_f845_camera_refinement_stage2_preliminary.jpg",
+    "audit/case13_f845_refine_e_stage2_screen/screen.json"
+  ]
+}

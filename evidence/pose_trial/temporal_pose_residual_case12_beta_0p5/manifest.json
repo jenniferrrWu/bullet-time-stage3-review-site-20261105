@@ -1,0 +1,178 @@
+{
+  "experiment": "semantic DWPose joint trajectory gated temporal residual on existing DD camera_encoder output",
+  "beta": 0.5,
+  "confidence_threshold": 0.3,
+  "source_tracks": "/root/bullet_time_research_20261102/pose_trial/case12_a_target_warp_full/tracks.json",
+  "short_gap_interpolations": [
+    [
+      19,
+      0
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      19,
+      1
+    ],
+    [
+      21,
+      1
+    ],
+    [
+      19,
+      2
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      19,
+      3
+    ],
+    [
+      21,
+      3
+    ],
+    [
+      19,
+      4
+    ],
+    [
+      21,
+      4
+    ],
+    [
+      19,
+      5
+    ],
+    [
+      20,
+      5
+    ],
+    [
+      21,
+      5
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      7,
+      10
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      13,
+      10
+    ],
+    [
+      14,
+      10
+    ],
+    [
+      15,
+      10
+    ],
+    [
+      21,
+      11
+    ],
+    [
+      21,
+      12
+    ],
+    [
+      2,
+      16
+    ]
+  ],
+  "latent_heat_fraction_above_0p1": [
+    0.15532337535511365,
+    0.195947265625,
+    0.18766645951704544,
+    0.18463245738636364,
+    0.15841619318181818,
+    0.1418423739346591,
+    0.1502252752130682
+  ],
+  "input_hashes": {
+    "input": "82d99be898b58ed660fc197166aaee86a47a8e9c40e75899253d0fa921019b3a",
+    "cond": "8f478f3e7089a54849b64c24c3b49f5dd14c407fdf8f0931d244dd912fa5e38a",
+    "depth": "b049018095206540bbeb7e3a504e53724d7a46034b3a98caa13abc0d46786ece",
+    "mask": "c281fc1db55d1f867e63a780a9a1efcfda6dcb215aa06d2055c09945193b7114",
+    "input_image": "b01013df0e264231cda08469281c5238b73b98533955edf7bcea17a0c30844e5"
+  },
+  "native_baseline_sha256": "284a90326943ea71a6ba33c6d7c6210cd7d77f8043c0f591ff9f717ef643e39b",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "camera_encoder_calls": [
+    {
+      "shape": [
+        1,
+        3072,
+        7,
+        40,
+        22
+      ],
+      "beta": 0.5,
+      "mask_min": 0.0,
+      "mask_max": 0.95703125,
+      "mean_abs_motion_residual": 0.01904296875,
+      "gated_residual_fraction": 0.16688311100006104
+    }
+  ],
+  "native": "/root/bullet_time_research_20261102/pose_trial/temporal_pose_residual_case12_beta_0p5/result/depthdirector.mp4",
+  "sha256": "314f9a8d28fe2a2863e6981fdd10ce2e6fa897f06cf6f559fae2e48d652a2106"
+}

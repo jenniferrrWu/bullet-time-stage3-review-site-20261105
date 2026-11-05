@@ -1,0 +1,36 @@
+{
+  "image": "/root/bullet_time_research_20261102/audit/face_context_case15_A/face_context_contact.jpg",
+  "image_sha256": "9f4a68cef9ab5a3a2faa0d02fb9ee399223b473d5681e0763778521c4afe71a1",
+  "source_sha256": "86aa9f24cc869ed3232f6bb74448a25614426e1adbb481ff213f63223cf985f0",
+  "generated_sha256": "c8644c41f0c1b26aef37b5ae035ca4d119912d0348bcb82a3f01ad78944c0110",
+  "raw": "{\n  \"rows\": {\n    \"f0\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible in wider generated\"\n    },\n    \"f12\": {\n      \"generated_face_comparable\": \"yes\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"none\",\n      \"reason\": \"all features visible in wider generated\"\n    },\n    \"f20\": {\n      \"generated_face_comparable\": \"no\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"hair\",\n      \"reason\": \"hair covers forehead and eyes partially\"\n    },\n    \"f24\": {\n      \"generated_face_comparable\": \"no\",\n      \"visible_features\": \"eyes, nose, mouth\",\n      \"occlusion_or_turn\": \"hair\",\n      \"reason\": \"hair covers forehead and eyes partially\"\n    }\n  }\n}",
+  "parsed": {
+    "rows": {
+      "f0": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible in wider generated"
+      },
+      "f12": {
+        "generated_face_comparable": "yes",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "none",
+        "reason": "all features visible in wider generated"
+      },
+      "f20": {
+        "generated_face_comparable": "no",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "hair",
+        "reason": "hair covers forehead and eyes partially"
+      },
+      "f24": {
+        "generated_face_comparable": "no",
+        "visible_features": "eyes, nose, mouth",
+        "occlusion_or_turn": "hair",
+        "reason": "hair covers forehead and eyes partially"
+      }
+    }
+  },
+  "prompt": "The image has chronological rows f0, f12, f20, f24. Each row has four tiles from left to right: source close face, generated close face, source wider head/shoulders, generated wider head/shoulders. Your only task is VISIBILITY, not image quality. For each row inspect the WIDER tiles first and report whether eyes, nose, and mouth of the GENERATED person are visibly exposed or hidden by head turn, hair, framing, or other occlusion. Use source wider tile as context. Do not use softness or lack of fine texture as evidence of occlusion. Do not call a face blurry or clear. If you cannot confidently tell which facial features are exposed, set generated_face_comparable to uncertain. Return JSON with keys rows (an object keyed by exact labels ['f0', 'f12', 'f20', 'f24']), each row has generated_face_comparable one of yes/no/uncertain, visible_features string, occlusion_or_turn string, and reason string (at most 12 words). Keep each value brief. No extra keys."
+}

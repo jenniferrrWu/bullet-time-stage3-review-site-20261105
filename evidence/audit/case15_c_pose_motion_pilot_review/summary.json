@@ -1,0 +1,153 @@
+{
+  "domain": "real case15 C, 17-frame native DD Stage3",
+  "native_integrity": "passed",
+  "noise_sha256": {
+    "official": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+    "seeded_baseline": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+    "pose_motion": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e"
+  },
+  "checkpoint_and_video_sha256": {
+    "official": {
+      "checkpoint": null,
+      "native": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada"
+    },
+    "seeded_baseline": {
+      "checkpoint": "c99d9db70c19bdd07efb0d249b34b7f855006d80c36565ab07efb9cc90b58972",
+      "native": "f1b965658b0f91725144d6097cbd2c3e6d032d28a2da8702bac132a152b3fc36"
+    },
+    "pose_motion": {
+      "checkpoint": "141b02a3d8d63fd2abb02a66d51300e7fe698aa4d208c7198b365d8fba5c75f6",
+      "native": "a96e3b0bea787b6ffe5d548de3b3923a6c90f9a079dafca38518b6291acbe8e2"
+    }
+  },
+  "mean_rgb_mae_vs_official": {
+    "seeded_baseline": 0.6779927015304565,
+    "pose_motion": 0.7425225973129272,
+    "between_train_variants": 0.43016016483306885
+  },
+  "variants": {
+    "official": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ],
+      "gray_contrast_trend_over_source": 0.6583416868147342
+    },
+    "seeded_baseline": {
+      "core_motion_error_body_units": 0.08657802183405207,
+      "limb_motion_error_body_units": 0.6607695054906937,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.13785472501793306,
+        0.10751291847302318
+      ],
+      "gray_contrast_trend_over_source": 0.6198568633274755
+    },
+    "pose_motion": {
+      "core_motion_error_body_units": 0.08777803591503129,
+      "limb_motion_error_body_units": 0.4625923352500716,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.10708016012151633,
+        0.07821669637691103
+      ],
+      "gray_contrast_trend_over_source": 0.6142398782682624
+    }
+  },
+  "quality_pass": false,
+  "observed_failure": true,
+  "caveat": "2D pose and contrast metrics are proxies. Inspect all 17 native frames against the source for action, person, scene, and clarity.",
+  "whole_window_visual_review": "All 17 source/official/seeded-baseline/pose-loss native frames reviewed. Source sweeps right arm across the body; both trained variants retain a near-static right arm and fade person/background in later frames. Neither passes holistic action, person, scene and clarity review.",
+  "visual_review_artifact": "/root/bullet_time_research_20261102/audit/case15_c_pose_motion_pilot_all17_small.jpg",
+  "limb_average_warning": "The unpaired limb averages use different detected joints: seeded baseline has right elbow/right wrist, pose-loss also has left elbow in four frames. Their 0.661 versus 0.463 averages cannot support a treatment comparison. Use same-joint common-frame analysis below.",
+  "common_joint_compare": {
+    "right_elbow": {
+      "common_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_xy_range_body_units": [
+        0.7232003132617274,
+        0.8009876311431741
+      ],
+      "baseline": {
+        "motion_delta_mae_body_units": 0.4539283323677642,
+        "generated_xy_range_body_units": [
+          0.25494671496977583,
+          0.10530943884374627
+        ]
+      },
+      "pose_motion": {
+        "motion_delta_mae_body_units": 0.45492962100334483,
+        "generated_xy_range_body_units": [
+          0.18660601554932543,
+          0.15265951992194754
+        ]
+      }
+    },
+    "right_wrist": {
+      "common_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "source_xy_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "baseline": {
+        "motion_delta_mae_body_units": 0.8676106786136231,
+        "generated_xy_range_body_units": [
+          0.13785472501793306,
+          0.10751291847302318
+        ]
+      },
+      "pose_motion": {
+        "motion_delta_mae_body_units": 0.8410881548825478,
+        "generated_xy_range_body_units": [
+          0.10708016012151633,
+          0.07821669637691103
+        ]
+      }
+    }
+  }
+}

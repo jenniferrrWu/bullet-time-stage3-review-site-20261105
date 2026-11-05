@@ -1,0 +1,89 @@
+{
+  "experiment": "Native DD case15 C source concat-video motion ablation; dynamic arm reencodes original decoded frames losslessly, frozen arm repeats exact first frame. Depth, mask, Stage2 endpoint, prompt, official weights, initial noise and 50-step anchor held fixed.",
+  "native_output_sha256": {
+    "baseline": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "dynamic": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "frozen": "f166c6d0157d70191d765a3fe9a991755888f928c5b16ac41711ce72e06cd9fd"
+  },
+  "pixel_difference_mean_by_pair": {
+    "dynamic_vs_baseline": 0.0,
+    "frozen_vs_dynamic": 5.48601008940508,
+    "frozen_vs_baseline": 5.48601008940508
+  },
+  "pixel_difference_per_frame": {
+    "dynamic_vs_baseline": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frozen_vs_dynamic": [
+      0.1710190281723485,
+      0.716800204190341,
+      1.0222456498579546,
+      1.4031819661458333,
+      1.90286865234375,
+      2.5912516276041666,
+      3.4168786251183714,
+      3.786511600378788,
+      4.3479022401751894,
+      5.313608250473485,
+      6.438970022490531,
+      7.4608890417850375,
+      8.630232747395834,
+      9.93644316702178,
+      11.221147017045455,
+      12.103269264914772,
+      12.798952414772728
+    ],
+    "frozen_vs_baseline": [
+      0.1710190281723485,
+      0.716800204190341,
+      1.0222456498579546,
+      1.4031819661458333,
+      1.90286865234375,
+      2.5912516276041666,
+      3.4168786251183714,
+      3.786511600378788,
+      4.3479022401751894,
+      5.313608250473485,
+      6.438970022490531,
+      7.4608890417850375,
+      8.630232747395834,
+      9.93644316702178,
+      11.221147017045455,
+      12.103269264914772,
+      12.798952414772728
+    ]
+  },
+  "pose_limb_error_body_units": {
+    "baseline": 0.48406569206840516,
+    "dynamic": 0.48406569206840516,
+    "frozen": 0.5229946020186657
+  },
+  "pose_core_error_body_units": {
+    "baseline": 0.0881989641660083,
+    "dynamic": 0.0881989641660083,
+    "frozen": 0.08190461949818732
+  },
+  "first_frame_motion_input_pixel_exact": true,
+  "dynamic_source_input_decoded_pixel_exact": true,
+  "native_initial_noise_equal": true,
+  "native_endpoint_equal": true,
+  "holistic_visual_review": "Nine-time source/dynamic/frozen grid: both native outputs preserve rough body silhouette early but fail to follow the source right-arm sweep across the torso; both lose person/background contrast and facial detail through the later frames. Frozen changes head/torso and arm trajectory relative to dynamic but does not restore the missing action. Dynamic control is pixel-identical to original native MP4; temporal source content is consumed yet insufficient for correct Stage3 action.",
+  "quality_pass": false,
+  "interpretation_caveat": "A changed output proves effective input sensitivity, not that source motion is faithfully followed. Cross-view 2D pose metrics are advisory."
+}

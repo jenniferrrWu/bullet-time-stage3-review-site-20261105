@@ -1,0 +1,69 @@
+{
+  "case": "balanced_case13",
+  "candidate_A": {
+    "stage2_observation": "Dancer disappears at 30-degree orbit endpoint",
+    "stage3_visual_frames": [
+      0,
+      6,
+      12,
+      18,
+      24
+    ],
+    "stage3_observation": "No dancer in any inspected Stage3 frame. Background smears and turns pale by late frames.",
+    "quality_pass": false,
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case13_a_stage3.jpg"
+  },
+  "candidate_B": {
+    "stage2_observation": "Dancer initially intact at 45-degree orbit endpoint",
+    "stage3_visual_frames": [
+      0,
+      9,
+      18,
+      27,
+      36
+    ],
+    "stage3_observation": "Person progressively slips out of lower frame, building and body smear by f18/f27; f36 nearly blank. Clear Stage3 quality failure.",
+    "quality_pass": false,
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case13_b_stage3.jpg"
+  },
+  "candidate_C": {
+    "stage2_observation": "Very tight source and target crop",
+    "stage3_visual_frames": [
+      0,
+      12,
+      24,
+      36,
+      48
+    ],
+    "stage3_observation": "By f12 person is a pale ghost; f24 onward source action disappears into gray-white blurry background.",
+    "quality_pass": false,
+    "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case13_c_stage3.jpg"
+  },
+  "native_integrity": {
+    "A": "passed",
+    "B": "passed",
+    "C": "passed"
+  },
+  "dwpose_detection": {
+    "A": {
+      "source": "25/25",
+      "native": "0/25",
+      "source_mean_joints": 8.0,
+      "native_mean_joints": 0.0
+    },
+    "B": {
+      "source": "37/37",
+      "native": "32/37",
+      "source_mean_joints": 13.49,
+      "native_mean_joints": 4.62
+    },
+    "C": {
+      "source": "49/49",
+      "native": "11/49",
+      "source_mean_joints": 10.59,
+      "native_mean_joints": 1.65
+    }
+  },
+  "conclusion": "All three Stage3 failures are real native visual failures after strict plan/input/frame/hash/anchor/camera checks; no candidate meets quality. VLM-selected B is relatively less bad but not acceptable.",
+  "diagnostic_limit": "C pale-white excess proxy is negative despite visual near-empty gray scene; artifact heuristic is not a complete detector."
+}

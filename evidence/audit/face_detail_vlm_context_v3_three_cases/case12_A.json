@@ -1,0 +1,21 @@
+{
+  "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_context_case12_A/face_context_contact.jpg",
+  "face_detail_evidence_sha256": "5d41f40342835a01a34adb12bca263c6dafa8f147a0ec4c07321c5873ef010a0",
+  "source_video_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_video_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "sampled_frames": [
+    0,
+    12,
+    24,
+    32
+  ],
+  "prompt": "This image contains 4 chronological rows labelled f0, f12, f24, f32. Each row has four left-to-right tiles: SOURCE face, GENERATED face, SOURCE wider head/shoulders, GENERATED wider head/shoulders. Use wider tiles only to determine head turn, hair occlusion or crop failure. The face crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Distinguish visible blur or distortion from legitimate head turns, hair occlusion and face leaving the crop due viewpoint. If later facial features are hidden or not comparable, answer uncertain rather than treating invisibility alone as detail loss. Name directly visible features and frame labels, including blur, ghosting or distortions when truly visible. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+  "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f12: generated wider f12 shows significant blur and ghosting on the face compared to source wider f12. f24: generated wider f24 has severe blur and distortion, with the face appearing smeared and lacking detail. f32: generated wider f32 shows extreme blur and motion artifacts, with the face barely recognizable. In all later frames (f12, f24, f32), the generated wider head/shoulders tiles exhibit visible blur and distortion that are not due to legitimate head turns or hair occlusion.\",\n  \"limits\": \"Only wider head/shoulders tiles were used for assessment; face crops were excluded per instructions. Only visible blur/distortion (not legitimate occlusion or viewpoint changes) was considered. Uncertain if detail loss is due to blur vs. occlusion was avoided by requiring visible blur/distortion.\"\n}",
+  "parsed": {
+    "late_face_detail_retained": "no",
+    "frame_evidence": "f12: generated wider f12 shows significant blur and ghosting on the face compared to source wider f12. f24: generated wider f24 has severe blur and distortion, with the face appearing smeared and lacking detail. f32: generated wider f32 shows extreme blur and motion artifacts, with the face barely recognizable. In all later frames (f12, f24, f32), the generated wider head/shoulders tiles exhibit visible blur and distortion that are not due to legitimate head turns or hair occlusion.",
+    "limits": "Only wider head/shoulders tiles were used for assessment; face crops were excluded per instructions. Only visible blur/distortion (not legitimate occlusion or viewpoint changes) was considered. Uncertain if detail loss is due to blur vs. occlusion was avoided by requiring visible blur/distortion."
+  },
+  "scope": "focused face crop only; no whole-video or global-angle quality claim",
+  "prompt_version": "face_context_v3"
+}

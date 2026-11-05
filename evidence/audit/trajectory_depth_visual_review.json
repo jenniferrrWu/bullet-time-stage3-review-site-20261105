@@ -1,0 +1,16 @@
+{
+  "case": "case13_woman_rooftop_dance",
+  "baseline_and_variant_frames_inspected": [
+    0,
+    8,
+    20,
+    40,
+    60,
+    80
+  ],
+  "native_variant_video": "trajectory_depth/native/result/depthdirector.mp4",
+  "decode_frame_count": 81,
+  "observation": "Severe human/body and scene melting persists in middle frames in both baseline and trajectory-depth variant. No visible repair in this case; samples look very similar.",
+  "conclusion": "Track-guided depth temporal regularization as tested does not solve this Stage3 failure. Do not claim an improvement.",
+  "limitations": "Visual review sampled six frames, not full continuous playback; tracker points are not semantic human skeleton."
+}

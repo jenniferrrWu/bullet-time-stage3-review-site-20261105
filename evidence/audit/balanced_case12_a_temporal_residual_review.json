@@ -1,0 +1,62 @@
+{
+  "case": "balanced case12 A, source f171, left35, 33 action frames",
+  "method": "official DWPose target-view 17-joint gated temporal residual on existing DD camera_encoder output",
+  "beta0_exact_native_sha_baseline": true,
+  "same_all_input_hashes": true,
+  "same_initial_noise": true,
+  "both_pin_count": [
+    50,
+    50
+  ],
+  "both_official_weights_unchanged": true,
+  "source_detected_frames": 33,
+  "generated_detected_frames": {
+    "beta0": 33,
+    "beta0p5": 33
+  },
+  "mean_accepted_joints": {
+    "beta0": 16.181818181818183,
+    "beta0p5": 16.060606060606062
+  },
+  "core_2d_motion_mae_body_units": {
+    "beta0": 0.17225999301690367,
+    "beta0p5": 0.1608754901793168
+  },
+  "limb_2d_motion_mae_body_units": {
+    "beta0": 0.3127223162375979,
+    "beta0p5": 0.23033161334042385
+  },
+  "nose_2d_motion_mae_body_units": {
+    "beta0": 0.18963173791534338,
+    "beta0p5": 0.16702252929845895
+  },
+  "person_bbox_laplacian_variance_mean": {
+    "beta0": 41.548271339970015,
+    "beta0p5": 43.042932018785834
+  },
+  "rgb_mae_beta0_vs_beta0p5": {
+    "inside_person_bbox_union": 2.871453465837421,
+    "outside_person_bbox_union": 0.7647030299360101
+  },
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/balanced_case12_a_temporal_residual_compare.jpg",
+  "visual_review": "Person and room remain structurally recognizable at sampled f0/8/16/24/32. Arm motion changes and is closer at some moments; foot edge pressure and mismatch in precise hand pose remain. No broad quality acceptance from sampled frames.",
+  "limitations": [
+    "2D cross-view joint metric is not 3D fidelity",
+    "Laplacian sharpness can increase from artifacts, not only true detail",
+    "Only one candidate/window at this dose; first case12 old A improved negligibly",
+    "Full continuous playback and independent human acceptance pending",
+    "Only right elbow and wrist qualify for f0-anchored arm metric; left arm action cannot be claimed improved."
+  ],
+  "quality_pass": false,
+  "method_promising_for_this_window": true,
+  "matched_frame_refinement": {
+    "file": "/root/bullet_time_research_20261102/audit/balanced_case12_a_temporal_residual_common_frame_compare.json",
+    "visible_limb_joints": [
+      "right_elbow",
+      "right_wrist"
+    ],
+    "baseline_mean_mae_body_units": 0.3067565144084702,
+    "beta0p5_mean_mae_body_units": 0.23033161334042385,
+    "note": "Source left elbow/wrist are not accepted at f0, so earlier limb group covers only right elbow/wrist; right elbow common-frame comparison uses 32 frames for both variants."
+  }
+}

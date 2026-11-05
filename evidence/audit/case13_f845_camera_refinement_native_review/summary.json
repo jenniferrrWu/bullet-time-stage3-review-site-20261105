@@ -1,0 +1,74 @@
+{
+  "scope": "Same source f845..f865, VLM-chosen camera variants BASE left20, D right35, E left45; all original DD weights. Scores are diagnostic, visual whole-video review required.",
+  "source_action_sha256": "64cf29377e29fd8630ab8638d2ec6a1b2420cbad88b52ddb0d421e09e1a4d907",
+  "runs": {
+    "BASE": {
+      "orbit": [
+        "left",
+        20,
+        3.1
+      ],
+      "native_integrity": "passed",
+      "source_camera_rotation_degrees": 5.969732285565063,
+      "valid_mesh_mean": 0.6083752388561959,
+      "warp_reprojection_matched_joints": 249,
+      "warp_reprojection_median_px": 9.115704436899904,
+      "native_target_pose_matched_joints": 349,
+      "native_target_pose_median_px": 13.339739498871591,
+      "native_late_arm_mean_px": 41.6218127643556,
+      "native_detected_frames": 21,
+      "person_contrast_trend": 1.0436873644796136,
+      "stage2_to_stage3_first_rgb_mae": 1.908743193655303,
+      "holistic_visual_quality": "All 21 frames: person and rooftop coherent; small but visible left20 Stage2 parallax, Stage3 leg extends in broadly source-like timing. Late hand remains near head versus source hand forward; face/hand soft. Relative scene continuity strongest of three but orbit modest."
+    },
+    "D": {
+      "orbit": [
+        "right",
+        35,
+        2.5
+      ],
+      "native_integrity": "passed",
+      "source_camera_rotation_degrees": 5.969732285565063,
+      "valid_mesh_mean": 0.4364108263156114,
+      "warp_reprojection_matched_joints": 171,
+      "warp_reprojection_median_px": 17.453266480947292,
+      "native_target_pose_matched_joints": 356,
+      "native_target_pose_median_px": 15.967141130751239,
+      "native_late_arm_mean_px": 27.07399359785411,
+      "native_detected_frames": 21,
+      "person_contrast_trend": 1.0208523162942178,
+      "stage2_to_stage3_first_rgb_mae": 1.7980291193181819,
+      "holistic_visual_quality": "All 21 frames: stronger right35 Stage2 parallax and full person/rooftop retained. Stage3 upper body leans/curls forward through middle; hand moves toward front and late arm pose appears closer to source, but raised leg extension lags or differs from projected source (f20 leg mean ~30px versus BASE ~11px). Dark building shows pale reconstructed window patches from middle to late, modest scene artifact. No holistic pass."
+    },
+    "E": {
+      "orbit": [
+        "left",
+        45,
+        3.5
+      ],
+      "native_integrity": "passed",
+      "source_camera_rotation_degrees": 5.969732285565063,
+      "valid_mesh_mean": 0.3420442919710498,
+      "warp_reprojection_matched_joints": 22,
+      "warp_reprojection_median_px": 8.035451011066971,
+      "native_target_pose_matched_joints": 357,
+      "native_target_pose_median_px": 16.364384339095324,
+      "native_late_arm_mean_px": 33.40691174727515,
+      "native_detected_frames": 21,
+      "person_contrast_trend": 0.9687622364105488,
+      "stage2_to_stage3_first_rgb_mae": 1.8918249881628788,
+      "holistic_visual_quality": "All 21 frames: left45 orbit visibly stronger but Stage2 endpoint already has a large ghosted tower/roof structure on right, persisting in Stage3. Dancer remains visible but small, lifted leg stays more bent while source extends, and action changes weakly. Fails holistic scene/action quality despite all frames decodable and detector finding human."
+    }
+  },
+  "caveat": "Same source but different target views: compare projected source pose to each native result in its own target camera. DWPose/geometry can fail in black holes; low matched count is not success. Mesh/contrast do not certify image quality.",
+  "visual_ranking": "E clearly weaker on background/action. BASE versus D is a tradeoff: BASE cleaner scene and more source-like leg, D stronger camera effect and somewhat better arm; no proof that either is globally or user-preferred best. Await actual VLM native feedback and human continuous playback.",
+  "geometry_validation_caveat": "E source-to-warp projected keypoints match only 22 joints (2/21 frames detected) versus BASE249 and D171; E native target-pose numbers should not be trusted as precise action fidelity. D warp projection median17.45px is weaker alignment than BASE9.12px, so D 27px late arm figure is advisory. Visual evidence controls.",
+  "artifacts": [
+    "audit/case13_f845_camera_refinement_full_contact.jpg",
+    "audit/case13_f845_camera_refinement_person_crops.jpg",
+    "audit/case13_f845_camera_refinement_native_review/BASE_all21.jpg",
+    "audit/case13_f845_camera_refinement_native_review/D_all21.jpg",
+    "audit/case13_f845_camera_refinement_native_review/E_all21.jpg",
+    "audit/case13_f845_camera_refinement_stage2_preliminary.jpg"
+  ]
+}

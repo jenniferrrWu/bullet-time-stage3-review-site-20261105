@@ -1,0 +1,29 @@
+{
+  "experiment": "one optimizer step on official DD with SJTU calibrated fixed novel-view A Dancer f779..795 pair",
+  "training_status": "complete",
+  "loss_last_step": 0.4863423705101013,
+  "official_checkpoint_sha256": "4917061c35476a248c408202b0e5852256a561f25c9a4f497d3ade27e49a74f5",
+  "new_checkpoint_sha256": "c0c5c1608d9168855e32c39a149371e254716fa8d58ea2911acb824f5af4d3a0",
+  "parameter_delta": {
+    "camera": {
+      "tensors": 8,
+      "changed_tensors": 8,
+      "max_abs_delta": 3.814697265625e-06
+    },
+    "lora": {
+      "tensors": 600,
+      "changed_tensors": 600,
+      "max_abs_delta": 3.814697265625e-06
+    }
+  },
+  "training_sample_validation": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/motion_779_795_native/encoded_training_validation.json",
+  "sample_frames": 17,
+  "target_camera_fixed_from_first_frame": true,
+  "quality_improvement_proven": false,
+  "limits": [
+    "single scene/window",
+    "one optimizer step",
+    "source depth filtering and novel-view body holes",
+    "no held-out scene or real hardcase inference yet"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "dancer on rooftop",
+  "selected_id": "B",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 169,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 0.83,
+      "reason": "Peak pose: one arm fully extended upward with body bent forward, creating strong geometric contrast against city backdrop. Side view shows clear body alignment and motion flow. Pacing is dynamic with visible momentum. Background camera pan is minimal, allowing clean orbit. Action starts from frame 161 (source start) through 169, then orbits, then resumes from 169 for 25 frames.",
+      "score": 0.58
+    },
+    {
+      "id": "B",
+      "highlight_frame": 565,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 6.0,
+      "action_num_frames": 37,
+      "action_seconds": 1.23,
+      "reason": "Peak pose: dancer mid-movement with arms raised and body angled, conveying high energy. Side view emphasizes spatial relationships and motion dynamics. Pacing is fluid with clear transition into the pose. Background camera pan is moderate but stable. Action starts from frame 557 (source start) through 565, then orbits, then resumes from 565 for 37 frames.",
+      "score": 0.98
+    },
+    {
+      "id": "C",
+      "highlight_frame": 961,
+      "orbit_direction": "right",
+      "orbit_degrees": 55,
+      "orbit_seconds": 7.5,
+      "action_num_frames": 49,
+      "action_seconds": 1.63,
+      "reason": "Peak pose: powerful extended arm with body twisted, emphasizing form against skyline. Side view shows full body visibility and distinct geometry. Pacing is controlled with strong motion emphasis. Background camera pan is visible but does not obscure the pose. Action starts from frame 953 (source start) through 961, then orbits, then resumes from 961 for 49 frames.",
+      "score": 0.71
+    }
+  ],
+  "risks": [
+    "Frame 169 has slight motion blur but still shows clear pose; orbit must be slow enough to maintain visibility.",
+    "Frame 565 shows partial occlusion of background buildings but pose is clear; orbit direction should avoid blocking key elements.",
+    "Frame 961 has a slight body crop but maintains full pose visibility; orbit degrees must not exceed 60 to avoid distortion.",
+    "Candidate A source crop: ['bottom', 'right', 'top']",
+    "Candidate C source crop: ['bottom', 'left', 'top']"
+  ]
+}

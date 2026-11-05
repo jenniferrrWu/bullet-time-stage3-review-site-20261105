@@ -1,0 +1,21 @@
+{
+  "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_detail_case12_balanced_A_usable/face_contact.jpg",
+  "face_detail_evidence_sha256": "ade37740c8c0644af4a1a45e9049761de19f41c810b9fe7c35e9fd3a99185f9c",
+  "source_video_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_video_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "sampled_frames": [
+    0,
+    12,
+    24,
+    32
+  ],
+  "prompt": "This image contains 4 chronological rows labelled f0, f12, f24, f32. Each row has a SOURCE face crop on the left and a native GENERATED face crop on the right. The crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Distinguish visible blur or distortion from legitimate head turns, hair occlusion and face leaving the crop due viewpoint. If later facial features are hidden or not comparable, answer uncertain rather than treating invisibility alone as detail loss. Name directly visible features and frame labels, including blur, ghosting or distortions when truly visible. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+  "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f12: generated shows significant blur and ghosting on the right side of the face compared to source. f24: generated is heavily blurred and distorted, with no clear facial features visible. f32: generated is extremely blurred and lacks any discernible facial details.\",\n  \"limits\": \"Only facial features within the crop are assessed; head turns/hair occlusion are considered legitimate if they don't cause blur/distortion. f24/f32 faces are too obscured for comparison beyond blur.\"\n}",
+  "parsed": {
+    "late_face_detail_retained": "no",
+    "frame_evidence": "f12: generated shows significant blur and ghosting on the right side of the face compared to source. f24: generated is heavily blurred and distorted, with no clear facial features visible. f32: generated is extremely blurred and lacks any discernible facial details.",
+    "limits": "Only facial features within the crop are assessed; head turns/hair occlusion are considered legitimate if they don't cause blur/distortion. f24/f32 faces are too obscured for comparison beyond blur."
+  },
+  "scope": "focused face crop only; no whole-video or global-angle quality claim",
+  "prompt_version": "face_visibility_aware_v2"
+}

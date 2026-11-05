@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "variant": "raw",
+      "width": 640,
+      "frame": 8,
+      "mask_fraction": 0.3270486111111111,
+      "person_roi_mask_fraction": 0.23809018567639256,
+      "warp_target_mae_covered": 12.355345726013184,
+      "unwarped_target_mae_same_covered": 17.40391731262207
+    },
+    {
+      "variant": "median5",
+      "width": 640,
+      "frame": 8,
+      "mask_fraction": 0.5156510416666666,
+      "person_roi_mask_fraction": 0.3783554376657825,
+      "warp_target_mae_covered": 13.021303176879883,
+      "unwarped_target_mae_same_covered": 18.06170082092285
+    },
+    {
+      "variant": "median9",
+      "width": 640,
+      "frame": 8,
+      "mask_fraction": 0.6311284722222222,
+      "person_roi_mask_fraction": 0.49639257294429706,
+      "warp_target_mae_covered": 12.944025993347168,
+      "unwarped_target_mae_same_covered": 17.854434967041016
+    },
+    {
+      "variant": "halfres_median5_up",
+      "width": 640,
+      "frame": 8,
+      "mask_fraction": 0.66875,
+      "person_roi_mask_fraction": 0.556684350132626,
+      "warp_target_mae_covered": 12.803465843200684,
+      "unwarped_target_mae_same_covered": 17.828187942504883
+    }
+  ]
+}

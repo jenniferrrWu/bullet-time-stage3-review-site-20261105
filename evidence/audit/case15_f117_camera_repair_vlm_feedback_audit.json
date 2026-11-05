@@ -1,0 +1,33 @@
+{
+  "model_preferred_id": "E",
+  "valid_narrow_observation": "E retains considerably more arm movement than F/G on the same source-action window; source wrist range is about 1.08/1.14 body units summed x+y, E retains about 1.14/1.15 while F/G retain about 0.21-0.23.",
+  "unsupported_or_false_claims": [
+    {
+      "claim": "E background is clean and continuous, stage3_scene_integrity=5",
+      "finding": "Source plain right studio region has mean gray std 2.80 and no strong vertical edges; E has std 26.07 and 2.23% strong vertical edges from a generated tall curtain absent in source. Full native Stage2/Stage3 frames show it clearly."
+    },
+    {
+      "claim": "F has severe stretched torso/elongated limbs",
+      "finding": "Full 21 native frames keep a largely intact body; the dominant failure is frozen arms and omitted late leg movement. Model severity claim is not supported by full-frame review."
+    },
+    {
+      "claim": "G DWPose shows moderate motion and action fidelity 3",
+      "finding": "Both wrist motion ranges retain only about 20% of the source; full 21 native frames show hands near the head throughout. This is severe action suppression."
+    },
+    {
+      "claim": "E jumping at frame 20 matches source",
+      "finding": "Source relative frame 20 shows a raised/crossing leg while upper-body arms open; the native E pose and leg lift still diverge. Do not label this an exact match or a verified jump."
+    }
+  ],
+  "background_diagnostic": "audit/case15_f117_background_intrusion.json",
+  "motion_diagnostic": "audit/case15_f117_motion_retention_guard.json",
+  "full_frame_review": "audit/case15_f117_camera_repair_native_review/summary.json",
+  "quality_pass_by_candidate": {
+    "E": false,
+    "F": false,
+    "G": false
+  },
+  "final_selected_id": null,
+  "model_claims_validated": false,
+  "caveat": "Off-person ROI metric is case-specific corroboration of visible curtain, not a general scene consistency measure. DWPose 2D motion is diagnostic, not a complete cross-view action score."
+}

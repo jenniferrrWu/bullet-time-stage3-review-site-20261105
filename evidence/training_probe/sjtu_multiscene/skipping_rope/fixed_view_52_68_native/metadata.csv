@@ -1,0 +1,2 @@
+input,video,depth,mask,prompt
+input.mp4,target.mp4,dw_depth.mp4,dw_mask.mp4,A person jumps rope on an indoor stage while the target camera stays fixed.

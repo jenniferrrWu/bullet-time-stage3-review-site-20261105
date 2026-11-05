@@ -1,0 +1,81 @@
+{
+  "source": "rgb_0.mp4",
+  "frame_count": 1317,
+  "fps": 25,
+  "roi_320x180": [
+    95,
+    0,
+    225,
+    170
+  ],
+  "lag_frames": 8,
+  "first17": {
+    "start": 0,
+    "end": 16,
+    "motion_mean": 1.8059,
+    "motion_peak": 2.3562
+  },
+  "top_nonoverlapping_windows": [
+    {
+      "start": 779,
+      "end": 795,
+      "motion_mean": 6.2168,
+      "motion_peak": 6.803
+    },
+    {
+      "start": 669,
+      "end": 685,
+      "motion_mean": 6.1281,
+      "motion_peak": 6.5606
+    },
+    {
+      "start": 873,
+      "end": 889,
+      "motion_mean": 5.7485,
+      "motion_peak": 6.5319
+    },
+    {
+      "start": 1067,
+      "end": 1083,
+      "motion_mean": 5.5093,
+      "motion_peak": 5.9205
+    },
+    {
+      "start": 82,
+      "end": 98,
+      "motion_mean": 5.1285,
+      "motion_peak": 5.7429
+    },
+    {
+      "start": 992,
+      "end": 1008,
+      "motion_mean": 4.8051,
+      "motion_peak": 5.1601
+    },
+    {
+      "start": 405,
+      "end": 421,
+      "motion_mean": 4.6966,
+      "motion_peak": 5.6175
+    },
+    {
+      "start": 1156,
+      "end": 1172,
+      "motion_mean": 4.5646,
+      "motion_peak": 4.8814
+    },
+    {
+      "start": 609,
+      "end": 625,
+      "motion_mean": 4.3694,
+      "motion_peak": 4.4743
+    },
+    {
+      "start": 1288,
+      "end": 1304,
+      "motion_mean": 4.0921,
+      "motion_peak": 4.4141
+    }
+  ],
+  "note": "ROI pixel-change proxy, not pose ground truth; inspect images before selecting training windows"
+}

@@ -1,0 +1,30 @@
+{
+  "case": "case12_woman_home_dance",
+  "method": "DWPose confidence-gated target-view joint trajectory heatmap multiplies existing DD camera_encoder features by 1+0.75*heat",
+  "alpha0_exact_native_sha_match": true,
+  "same_initial_noise_sha": true,
+  "first_latent_pin_count": 50,
+  "source": {
+    "head_relative_pelvis_range": 0.6361579930792679,
+    "motion_profile_mae_to_source": 0.0,
+    "f16_error_to_source": 0.0,
+    "profile_correlation": 0.9999999999999999
+  },
+  "baseline": {
+    "head_relative_pelvis_range": 0.12510911752987597,
+    "motion_profile_mae_to_source": 0.3399307096199999,
+    "f16_error_to_source": 0.5954278819076225,
+    "profile_correlation": -0.16099715670346834
+  },
+  "gain_0p75": {
+    "head_relative_pelvis_range": 0.13627745249320533,
+    "motion_profile_mae_to_source": 0.3034414673047239,
+    "f16_error_to_source": 0.5172984482145776,
+    "profile_correlation": 0.5552276668050705
+  },
+  "baseline_person_laplacian_variance_mean": 67.30726945309266,
+  "gain_person_laplacian_variance_mean": 60.8527797112401,
+  "visual_review": "Motion in head and far arm increases slightly but f16-24 show additional soft/ghosted person areas. Source arm-to-face action still not reproduced.",
+  "quality_pass": false,
+  "scope": "one human source window; 2D target-view pose proxy and visual sample, not a generalized DD improvement"
+}

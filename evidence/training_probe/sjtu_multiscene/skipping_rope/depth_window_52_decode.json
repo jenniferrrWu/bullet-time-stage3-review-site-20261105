@@ -1,0 +1,17 @@
+{
+  "plan": {
+    "scene": "skipping_rope",
+    "first_frame": 52,
+    "last_frame": 68,
+    "start_packet": 0,
+    "end_packet": 90,
+    "start_byte": 44,
+    "end_byte": 8920476,
+    "key_pts": 0.0,
+    "bytes": 8920433
+  },
+  "decoded_frame_count": 17,
+  "unique_decoded_frames": 17,
+  "extraction": "ffmpeg accurate input seek to target timestamp then PNG sequence",
+  "frame_dir": "training_probe/sjtu_multiscene/skipping_rope/depth_window_52_frames"
+}

@@ -1,0 +1,50 @@
+{
+  "trial_beta": "0p5",
+  "same_source_window": true,
+  "native_baseline_sha_exact": true,
+  "five_input_hashes_identical": true,
+  "official_weights_unchanged": true,
+  "native_sha256": {
+    "beta0": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "trial": "4165ab5cc817e7f56172e09fc2beff1f3c0cb24e89c6bd001ef9c437749e7b0c"
+  },
+  "detected_frames": {
+    "source": 17,
+    "beta0": 17,
+    "trial": 17
+  },
+  "core_motion_delta_mae_body_units": {
+    "beta0": 0.08798223448675256,
+    "trial": 0.0811026720518948
+  },
+  "limb_motion_delta_mae_body_units": {
+    "beta0": 0.4834763753922185,
+    "trial": 0.6201423172632248
+  },
+  "person_gray_std_trend_relative_source": {
+    "beta0": 0.6572024377505468,
+    "trial": 0.6544991613221707
+  },
+  "holistic_visual_review": "All 17 native frames and nine-time contact: beta0.5 moves the wrist horizontally a bit more but source arm swing and vertical travel are still not followed; person still progressively fades and late body/hand detail remains weak. Limb aggregate worsens and no overall Stage3 pass.",
+  "caveat": "Cross-view 2D DWPose and contrast are diagnostic only. Full Stage3 quality requires visual continuity and action assessment; do not infer quality pass from any scalar.",
+  "right_wrist_source_range_body_units": [
+    1.1744867781047055,
+    0.9783915406509107
+  ],
+  "right_wrist_baseline_range_body_units": [
+    0.12361582903758805,
+    0.09999027650167822
+  ],
+  "right_wrist_trial_range_body_units": [
+    0.45076187583694804,
+    0.09870482057616806
+  ],
+  "right_wrist_motion_delta_mae_body_units": {
+    "baseline": 0.8409746042306225,
+    "trial": 0.8009877329790022
+  },
+  "artifacts": [
+    "/root/bullet_time_research_20261102/audit/case15_content_pose_residual_review_0p5/stage3_dense.jpg",
+    "/root/bullet_time_research_20261102/audit/case15_content_pose_residual_review_0p5/beta_0p5_all17.jpg"
+  ]
+}

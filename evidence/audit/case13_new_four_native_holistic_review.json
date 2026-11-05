@@ -1,0 +1,104 @@
+{
+  "scope": "Four newly executed native DD case13 plans; fullbody A/B/C are one fixed-schema VLM plan, bank C is from a separate VLM source shortlist. Relative visual finding is not a global best or user-labelled ground truth.",
+  "execution_integrity": "All four dd_feedback.collect checks passed on native video hash, frame counts, source window, actual Stage2 endpoint binding and fixed Stage3 camera. Official weights unchanged; no post-decode frame replacement.",
+  "runs": {
+    "fullbody_A_f75_left30_33f": {
+      "diagnostics": {
+        "source_window": [
+          75,
+          107
+        ],
+        "orbit": [
+          "left",
+          30
+        ],
+        "native_integrity": "passed",
+        "source_camera_rotation_degrees": 9.947438716944816,
+        "stage3_mesh_valid_mean": 0.507114513386708,
+        "native_detected_frames": 33,
+        "core_2d_motion_error": 0.265651809072828,
+        "limb_2d_motion_error": 0.294889856830312,
+        "person_contrast_trend": 0.9352962370092638,
+        "holistic_visual_quality": "pending_manual_dense_frame_review"
+      },
+      "holistic_review": "Stage2 shows real rooftop parallax and mostly preserved dancer. Stage3 person stays present, but midsection holds a similar arched posture for several frames while source motion develops; late f25..f32 dark building grows/rebuilds into large translucent blocks. Does not pass holistic scene/action quality."
+    },
+    "fullbody_B_f600_right45_45f": {
+      "diagnostics": {
+        "source_window": [
+          600,
+          644
+        ],
+        "orbit": [
+          "right",
+          45
+        ],
+        "native_integrity": "passed",
+        "source_camera_rotation_degrees": 11.427662146330057,
+        "stage3_mesh_valid_mean": 0.2727364711568813,
+        "native_detected_frames": 38,
+        "core_2d_motion_error": 0.579274363381386,
+        "limb_2d_motion_error": 0.22091301627785978,
+        "person_contrast_trend": 1.1909946626808063,
+        "holistic_visual_quality": "pending_manual_dense_frame_review"
+      },
+      "holistic_review": "Stage2 orbit preserves an approximate subject. Stage3 generated f5 starts blurring, f10..f20 body geometry diverges sharply from source, and f29..f44 becomes a pale melting/floating mass with roof/city context largely gone. Clear holistic failure despite some detectable pose joints and high contrast proxy."
+    },
+    "fullbody_C_f845_left20_21f": {
+      "diagnostics": {
+        "source_window": [
+          845,
+          865
+        ],
+        "orbit": [
+          "left",
+          20
+        ],
+        "native_integrity": "passed",
+        "source_camera_rotation_degrees": 5.969732285565063,
+        "stage3_mesh_valid_mean": 0.6083752388561959,
+        "native_detected_frames": 21,
+        "core_2d_motion_error": 0.2466148341529452,
+        "limb_2d_motion_error": 0.23536790352319764,
+        "person_contrast_trend": 1.0436873644796136,
+        "holistic_visual_quality": "pending_manual_dense_frame_review"
+      },
+      "holistic_review": "Stage2 shows modest but visible left orbit and keeps whole dancer/roof. Stage3 all 21 frames retain person and coherent rooftop. Raised knee progresses into forward leg extension; target-camera reprojection confirms late leg joints are relatively close (f20 mean ~10.6px) despite image-side reversal between original/source and output views. Late arm joints drift from projected source (f20 mean ~56.9px), while face/hand detail is soft. Strongest visual candidate in this executed A/B/C set, still awaiting user/human acceptance."
+    },
+    "bank_C_f622_right55_61f": {
+      "diagnostics": {
+        "source_window": [
+          622,
+          682
+        ],
+        "orbit": [
+          "right",
+          55
+        ],
+        "native_integrity": "passed",
+        "source_camera_rotation_degrees": 40.28917008516279,
+        "stage3_mesh_valid_mean": 0.22221596002934052,
+        "native_detected_frames": 60,
+        "core_2d_motion_error": 0.7399646294367398,
+        "limb_2d_motion_error": 0.7394233754042581,
+        "person_contrast_trend": 1.115925653054951,
+        "holistic_visual_quality": "pending_manual_dense_frame_review"
+      },
+      "holistic_review": "Stage2 visibly orbits right with intact subject, but Stage3 differs from source action already by f7..f27, then dancer folds into an airborne compact form while roof and city vanish into pale sky by f33..f60. Severe holistic failure. Source camera rotates about 40.29 degrees during 61-frame window; that is a risk correlate, not proof of cause."
+    }
+  },
+  "ranking": "In this four-run set, fullbody_C is visually strongest overall; fullbody_A is weaker because of background reconstruction and pose hold; fullbody_B and bank_C are clear failures. This is a qualitative candidate-set judgement only. No scheme has been proven global optimum.",
+  "metric_caveat": "B is a severe visual failure although its limb 2D MAE is numerically smaller than A/C, because only a handful of limb joints have matched valid frames after melting. Contrast proxy can also rise on artifacts. Visual Stage3 whole-video evidence controls the conclusion. For new C, direct source/generated 2D left-right leg comparison is invalid across different camera views; use source-to-target reprojection for action-specific claims.",
+  "artifacts": [
+    "audit/case13_fullbody_abc_native_review/summary.json",
+    "audit/case13_fullbody_abc_native_review/A/stage3_dense.jpg",
+    "audit/case13_fullbody_abc_native_review/B/stage3_dense.jpg",
+    "audit/case13_fullbody_abc_native_review/C/stage3_dense.jpg",
+    "audit/case13_fullbody_c_person_crops.jpg",
+    "audit/case13_bank_c_native_review/C/stage3_dense.jpg",
+    "audit/case13_fullbody_abc_stage2_contact.jpg",
+    "audit/case13_bank_c_stage2_contact.jpg",
+    "audit/case13_source_pose_reprojection_validation.json",
+    "audit/case13_fullbody_c_target_view_pose_error.json"
+  ]
+}

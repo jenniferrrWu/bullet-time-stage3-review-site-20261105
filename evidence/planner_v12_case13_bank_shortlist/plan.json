@@ -1,0 +1,49 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "blonde woman in black sports bra and shorts dancing on rooftop",
+  "selected_id": "C",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 280,
+      "orbit_direction": "right",
+      "orbit_degrees": 30,
+      "orbit_seconds": 3.5,
+      "action_num_frames": 29,
+      "action_seconds": 0.97,
+      "reason": "Peak pose: high knee with extended arm; side view shows full body line and urban backdrop; pacing is controlled with clear transition into the next movement. Background camera pan is minimal, allowing focus on the dancer's form.",
+      "score": 0.56
+    },
+    {
+      "id": "B",
+      "highlight_frame": 430,
+      "orbit_direction": "left",
+      "orbit_degrees": 45,
+      "orbit_seconds": 5.2,
+      "action_num_frames": 41,
+      "action_seconds": 1.37,
+      "reason": "Peak pose: wide stance with one arm raised high; side view captures dynamic torso twist and city skyline; pacing is energetic with smooth flow into the next action. Background camera pan is moderate, enhancing the sense of movement.",
+      "score": 0.76
+    },
+    {
+      "id": "C",
+      "highlight_frame": 622,
+      "orbit_direction": "right",
+      "orbit_degrees": 55,
+      "orbit_seconds": 7.8,
+      "action_num_frames": 61,
+      "action_seconds": 2.04,
+      "reason": "Peak pose: bent-over with arm extended; side view emphasizes body curve and architectural backdrop; pacing is fluid with a strong transition into the next movement. Background camera pan is significant, adding depth to the scene.",
+      "score": 0.935
+    }
+  ],
+  "risks": [
+    "Highlight frame 280: slight occlusion of the dancer's face by hair may reduce clarity of facial expression.",
+    "Highlight frame 430: background camera pan could cause minor motion blur during the orbit.",
+    "Highlight frame 622: body crop may limit visibility of full lower body in the orbit frame.",
+    "Candidate A source crop: ['bottom']",
+    "Candidate B source crop: ['right', 'top']",
+    "Candidate C source visibility uncertain: two checks disagree"
+  ]
+}

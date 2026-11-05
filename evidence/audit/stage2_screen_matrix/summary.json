@@ -1,0 +1,113 @@
+{
+  "case_count": 12,
+  "status_counts": {
+    "no_border_crop_evidence": 1,
+    "edge_or_pose_risk": 8,
+    "uncertain": 3
+  },
+  "rows": {
+    "case12_old_a": {
+      "stage2_endpoint_status": "no_border_crop_evidence",
+      "accepted_joints": 17,
+      "near_edges": [],
+      "stage3_observed_outcome": "stage3_action_suppressed",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case12_old_a/screen.json"
+    },
+    "case12_old_b": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 15,
+      "near_edges": [
+        "left"
+      ],
+      "stage3_observed_outcome": "stage3_body_scene_melting",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case12_old_b/screen.json"
+    },
+    "case12_old_c": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 4,
+      "near_edges": [
+        "right"
+      ],
+      "stage3_observed_outcome": "source_and_target_crop_action_freeze",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case12_old_c/screen.json"
+    },
+    "case13_old_a": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 17,
+      "near_edges": [
+        "bottom"
+      ],
+      "stage3_observed_outcome": "relative_best_quality_not_fully_accepted",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_old_a/screen.json"
+    },
+    "case13_old_b": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 16,
+      "near_edges": [
+        "bottom"
+      ],
+      "stage3_observed_outcome": "stage3_body_scene_melting",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_old_b/screen.json"
+    },
+    "case13_old_c": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 10,
+      "near_edges": [
+        "bottom"
+      ],
+      "stage3_observed_outcome": "stage3_whiteout",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_old_c/screen.json"
+    },
+    "case13_v12_a": {
+      "stage2_endpoint_status": "uncertain",
+      "accepted_joints": 16,
+      "near_edges": [],
+      "stage3_observed_outcome": "stage3_action_near_frozen",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_v12_a/screen.json"
+    },
+    "case13_v12_b": {
+      "stage2_endpoint_status": "uncertain",
+      "accepted_joints": 17,
+      "near_edges": [],
+      "stage3_observed_outcome": "stage3_background_distortion",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_v12_b/screen.json"
+    },
+    "case13_v12_c": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 11,
+      "near_edges": [
+        "top",
+        "bottom"
+      ],
+      "stage3_observed_outcome": "stage3_person_disappears",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_v12_c/screen.json"
+    },
+    "case13_balanced_a": {
+      "stage2_endpoint_status": "uncertain",
+      "accepted_joints": 0,
+      "near_edges": null,
+      "stage3_observed_outcome": "stage2_subject_absent_stage3_subject_absent",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_balanced_a/screen.json"
+    },
+    "case13_balanced_b": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 13,
+      "near_edges": [
+        "bottom"
+      ],
+      "stage3_observed_outcome": "stage3_subject_slips_out_and_melts",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_balanced_b/screen.json"
+    },
+    "case13_balanced_c": {
+      "stage2_endpoint_status": "edge_or_pose_risk",
+      "accepted_joints": 9,
+      "near_edges": [
+        "bottom"
+      ],
+      "stage3_observed_outcome": "stage3_subject_disappears_gray_background",
+      "screen_record": "/root/bullet_time_research_20261102/audit/stage2_screen_matrix/case13_balanced_c/screen.json"
+    }
+  },
+  "inference": "Stage2 endpoint screen catches several cropping risks and missing subjects but does not detect action suppression or later background distortion. No calibrated accuracy or quality-pass rate can be estimated because these are selected diagnostic cases, mostly failures.",
+  "do_not_use_as_sole_gate": true
+}

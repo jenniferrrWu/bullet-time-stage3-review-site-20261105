@@ -1,0 +1,31 @@
+{
+  "experiment": "one optimizer step on DD-native orbit-source to fixed-center 17-frame pairing",
+  "training_status": "complete",
+  "loss_last_step": 0.14966173470020294,
+  "native_renderer": "DD Dynamic3DMesh/render_nvdiffrast",
+  "input_frame_count": 17,
+  "fixed_target_camera": true,
+  "four_stream_video_files_exist": true,
+  "official_checkpoint_sha256": "4917061c35476a248c408202b0e5852256a561f25c9a4f497d3ade27e49a74f5",
+  "new_checkpoint_sha256": "261681f490f9c5f9f0323868fd7e94ed82cf3e4871f36b8e3202bafa117ad304",
+  "parameter_delta": {
+    "camera": {
+      "tensors": 8,
+      "changed_tensors": 8,
+      "max_abs_delta": 3.814697265625e-06
+    },
+    "lora": {
+      "tensors": 600,
+      "changed_tensors": 600,
+      "max_abs_delta": 3.814697265625e-06
+    }
+  },
+  "quality_improvement_proven": false,
+  "limits": [
+    "single scene",
+    "one optimizer step",
+    "upsampled 4x source depth",
+    "no held-out validation",
+    "no real hardcase inference yet"
+  ]
+}

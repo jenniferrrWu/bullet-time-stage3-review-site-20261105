@@ -1,0 +1,22 @@
+{
+  "experiment": "one-step 17-frame DD-native camera encoder+DiT LoRA training smoke on one MultiCamWarp paired sample",
+  "status": "complete",
+  "training_loss_last_step": 0.03941935673356056,
+  "trainable_tensors": 608,
+  "official_checkpoint_untouched": true,
+  "output_checkpoint": "training_probe/multicamwarp_nightclub_orbit/one_step_output/step-1.safetensors",
+  "parameter_delta": {
+    "camera": {
+      "tensors": 8,
+      "changed_tensors": 8,
+      "max_abs_delta": 3.814697265625e-06
+    },
+    "lora": {
+      "tensors": 600,
+      "changed_tensors": 600,
+      "max_abs_delta": 3.814697265625e-06
+    }
+  },
+  "quality_improvement_proven": false,
+  "reason": "One synthetic scene and one optimizer step test trainability and checkpoint writing only; no held-out real hardcase evaluation."
+}

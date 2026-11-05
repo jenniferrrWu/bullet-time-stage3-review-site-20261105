@@ -1,0 +1,17 @@
+{
+  "model_preferred_id": "C",
+  "executed_candidate_set": "case13 fullbody A f75/B f600/C f845 native DD, all strict integrity passed",
+  "relative_order_review": "C is visually strongest of these three, matching the model preferred ID; B is severe failure, A has background reconstruction and action-hold problems.",
+  "unsupported_absolute_claims": [
+    "Model scored C 5/5 on all dimensions and called action poses precise, but f20 hand/arm pose differs from source and face/hand detail is soft.",
+    "Model scored A scene integrity 5/5 and called background continuous, but generated late f25..f32 dark building visibly becomes large translucent blocks."
+  ],
+  "conclusion": "Use model preference only as scoped ranking evidence. Reject its perfect scores and quality-pass wording; human Stage3 whole-video acceptance remains pending.",
+  "sources": [
+    "planner_v12_case13_fullbody_dd_feedback/result.json",
+    "audit/case13_new_four_native_holistic_review.json",
+    "audit/case13_fullbody_abc_native_review/A/stage3_dense.jpg",
+    "audit/case13_fullbody_abc_native_review/C/stage3_dense.jpg",
+    "audit/case13_fullbody_c_person_crops.jpg"
+  ]
+}

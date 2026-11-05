@@ -1,0 +1,31 @@
+{
+  "items": [
+    [
+      "candidate_f595",
+      595
+    ],
+    [
+      "candidate_f600",
+      600
+    ],
+    [
+      "candidate_f605",
+      605
+    ],
+    [
+      "candidate_f622",
+      622
+    ],
+    [
+      "candidate_f640",
+      640
+    ]
+  ],
+  "prompt": "Choose ONE candidate source frame from [595, 600, 605, 622, 640]. This is only a source-frame shortlist for later real DepthDirector testing. Judge visible impact, complete person framing, clean limbs, and plausible orbit support. A dramatic but clipped/occluded subject is risky. The following action is not yet shown. Return JSON exactly {\"frame\": integer, \"evidence\": string, \"risk\": string}.",
+  "raw": "{\"frame\": 622, \"evidence\": \"Full body visible, arms raised above head in clear pose, no occlusion, stable framing on rooftop setting\", \"risk\": \"Low - complete subject framing, clean limbs, and clear background support plausible orbit movement\"}",
+  "parsed": {
+    "frame": 622,
+    "evidence": "Full body visible, arms raised above head in clear pose, no occlusion, stable framing on rooftop setting",
+    "risk": "Low - complete subject framing, clean limbs, and clear background support plausible orbit movement"
+  }
+}

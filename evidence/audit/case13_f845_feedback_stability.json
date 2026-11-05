@@ -1,0 +1,24 @@
+{
+  "scope": "Same native DD pair BASE f845 left20 and D f845 right35, same two images/crops per source and same numerical evidence; only candidate presentation order is reversed.",
+  "same_labeled_image_evidence": true,
+  "same_motion_and_target_projection_evidence": true,
+  "same_native_execution_records": true,
+  "forward_order": [
+    "BASE",
+    "D"
+  ],
+  "reverse_order": [
+    "D",
+    "BASE"
+  ],
+  "preferred_ids": {
+    "forward": "BASE",
+    "reverse": "BASE"
+  },
+  "order_consensus": true,
+  "robust_selected_id": "BASE",
+  "status": "consensus_scoped_preference",
+  "global_optimality_proven": false,
+  "holistic_quality_acceptance": "pending",
+  "caveat": "Even order-consensus would not prove absolute film quality; case13 native visual audit remains authoritative. In a conflict, no VLM angle winner should be published."
+}

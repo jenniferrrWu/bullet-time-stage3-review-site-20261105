@@ -1,0 +1,19 @@
+{
+  "source_track": "training_probe/sjtu_multiscene/a_broadcast_gymnast/target_pose_299_315/tracks.json",
+  "target_video": "training_probe/sjtu_multiscene/a_broadcast_gymnast/fixed_view_299_315_native/target.mp4",
+  "latent_shape": [
+    5,
+    44,
+    80
+  ],
+  "mask_mean": 0.08808042854070663,
+  "mask_nonzero_fraction": 0.14448863636363637,
+  "alignment": "original 1920x1080 target pose coordinates *2/3, center crop y-8, latent downsample /16",
+  "sampled_relative_frames": [
+    0,
+    4,
+    8,
+    12,
+    16
+  ]
+}

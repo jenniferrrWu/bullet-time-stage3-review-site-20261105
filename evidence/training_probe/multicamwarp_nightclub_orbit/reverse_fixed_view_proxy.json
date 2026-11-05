@@ -1,0 +1,52 @@
+{
+  "method": "320x180 source-depth nearest point splat; diagnostic only, not DD mesh rendering",
+  "pair": "orbit target.mp4 as source; fixed center input.mp4 as target",
+  "depth_shape": [
+    81,
+    180,
+    320,
+    1
+  ],
+  "frames": {
+    "0": {
+      "source_points_project_inside_target": 57600,
+      "point_coverage_fraction": 1.0,
+      "dilated_3x3_coverage_upper_proxy": 1.0,
+      "target_rgb_mae_on_covered_pixels_0to255": 3.889,
+      "source_target_rgb_mae_same_pixel_0to255": 3.889
+    },
+    "8": {
+      "source_points_project_inside_target": 51315,
+      "point_coverage_fraction": 0.82146,
+      "dilated_3x3_coverage_upper_proxy": 0.87443,
+      "target_rgb_mae_on_covered_pixels_0to255": 8.503,
+      "source_target_rgb_mae_same_pixel_0to255": 37.441
+    },
+    "16": {
+      "source_points_project_inside_target": 45435,
+      "point_coverage_fraction": 0.68233,
+      "dilated_3x3_coverage_upper_proxy": 0.75712,
+      "target_rgb_mae_on_covered_pixels_0to255": 12.397,
+      "source_target_rgb_mae_same_pixel_0to255": 43.311
+    },
+    "32": {
+      "source_points_project_inside_target": 37315,
+      "point_coverage_fraction": 0.48533,
+      "dilated_3x3_coverage_upper_proxy": 0.58571,
+      "target_rgb_mae_on_covered_pixels_0to255": 18.268,
+      "source_target_rgb_mae_same_pixel_0to255": 54.307
+    },
+    "80": {
+      "source_points_project_inside_target": 34567,
+      "point_coverage_fraction": 0.41167,
+      "dilated_3x3_coverage_upper_proxy": 0.54844,
+      "target_rgb_mae_on_covered_pixels_0to255": 19.131,
+      "source_target_rgb_mae_same_pixel_0to255": 51.909
+    }
+  },
+  "limitations": [
+    "Published orbit depth is 4x downsampled in width and height.",
+    "Point splatting omits DD triangle faces and disocclusion handling.",
+    "Coverage and photometric error are proxies; not train-ready dw_depth/dw_mask."
+  ]
+}

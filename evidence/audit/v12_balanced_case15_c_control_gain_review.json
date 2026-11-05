@@ -1,0 +1,33 @@
+{
+  "experiment": "Case15 C native DD camera_encoder control strength ablation; gain 1.0 exact baseline and gain 0.5 treatment, same source/target-view inputs, stage2 endpoint, seed and official weights.",
+  "control": {
+    "gain1_exact_baseline_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "gain1_reproduces_native": true,
+    "gain0p5_sha256": "c40923881474193db1c4aa8435a7e539a07df7fb0aff6b21503782512a392464",
+    "all_five_input_hashes_identical": true,
+    "official_weights_unchanged": true,
+    "first_latent_pin_required_by_native_infer": true
+  },
+  "visual_review": "At f0 both equal the Stage2 endpoint. At f4 the gain0.5 person already fades more than the native baseline; by f12/f16 the person nearly disappears into the pale studio background. Source arm motion is not restored. Clear holistic quality regression.",
+  "person_bbox_contrast": {
+    "baseline_gray_std_trend_over_source": 0.6572024377505468,
+    "gain0p5_gray_std_trend_over_source": 0.2830453628334825,
+    "baseline_laplacian_trend_over_source": 0.5539301598887736,
+    "gain0p5_laplacian_trend_over_source": 0.22464243747937152
+  },
+  "pose_diagnostics": {
+    "baseline_detected": 17,
+    "gain0p5_detected": 16,
+    "baseline_core_2d_mae": 0.08798223448675256,
+    "gain0p5_core_2d_mae": 0.14329371187618167,
+    "baseline_limb_joint_count": 3,
+    "gain0p5_limb_joint_count": 3,
+    "warning": "Limb aggregate is not directly comparable because matched frames per joint change under severe fading; do not infer improved action from a lower limb average."
+  },
+  "conclusion": "Uniformly reducing camera_encoder control to 0.5 worsens the Stage3 fade. This rejects a simple overstrong-control explanation for this case, but not every possible nontrajectory control strategy.",
+  "artifacts": [
+    "audit/v12_balanced_case15_c_control_gain_compare.jpg",
+    "audit/v12_balanced_case15_c_control_gain_0p5_person_contrast.json",
+    "audit/v12_balanced_case15_c_control_gain_0p5_pose_compare_valid.json"
+  ]
+}

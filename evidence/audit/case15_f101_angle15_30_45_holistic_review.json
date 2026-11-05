@@ -1,0 +1,120 @@
+{
+  "scope": "Controlled same-frame case15 f101 rightward angle ablation; manually tested 15 and 45 degrees around VLM-proposed 30 degrees. Not a search over all directions or angles.",
+  "controls": {
+    "stage1_action_anchor_sha256_identical": true,
+    "stage2_frames_each": 81,
+    "stage3_frames_each": 25,
+    "stage2_display_seconds_each": 4.0,
+    "action_display_seconds_each": 1.0,
+    "source_camera_motion_identical": true,
+    "actual_stage2_endpoint_rotation_degrees": {
+      "15": 15.000003003559916,
+      "30": 30.000001781168113,
+      "45": 45.00000098057549
+    },
+    "native_hash_anchor_camera_integrity": "passed for each by dd_feedback.collect"
+  },
+  "angles": {
+    "15": {
+      "stage3_mesh_valid_fraction_mean": 0.7570933061079544,
+      "native_human_detected_frames": 25,
+      "native_mean_accepted_joints": 16.4,
+      "core_2d_motion_mae": 0.12931996049426567,
+      "limb_2d_motion_mae": 0.5357348726917822,
+      "person_gray_contrast_trend_over_source": 0.806820829711339,
+      "person_edge_trend_over_source": 0.9508638639633887,
+      "visual": "Stage2 is mild with little discernible parallax on plain background. Stage3 person/scene remain recognizable and face relatively clear, but by the middle one arm is poorly expressed and late both arms drop while the source keeps hands near the head; action fidelity failure."
+    },
+    "30": {
+      "stage3_mesh_valid_fraction_mean": 0.5742070756392046,
+      "native_human_detected_frames": 25,
+      "native_mean_accepted_joints": 17.0,
+      "core_2d_motion_mae": 0.1250297332179464,
+      "limb_2d_motion_mae": 0.11284245980283485,
+      "person_gray_contrast_trend_over_source": 0.7585062642128529,
+      "person_edge_trend_over_source": 0.9735464787875142,
+      "visual": "Stage2 orbit is somewhat more discernible, though blank background limits depth cue. Stage3 follows arm-to-head and leg progression better than the other two; late face/hands visibly blur. No full quality pass asserted."
+    },
+    "45": {
+      "stage3_mesh_valid_fraction_mean": 0.4494442915482955,
+      "native_human_detected_frames": 25,
+      "native_mean_accepted_joints": 16.92,
+      "core_2d_motion_mae": 0.1482333431781406,
+      "limb_2d_motion_mae": 0.21850611474443624,
+      "person_gray_contrast_trend_over_source": 0.7223878879224837,
+      "person_edge_trend_over_source": 0.9445578927957465,
+      "visual": "Stage2 gives the strongest visible side view; person remains framed but scene/mesh coverage falls. Stage3 retains a person but body/face appear to rotate progressively away and late hands/head/hoodie form drift from source action; more side-view impact trades off against motion/identity fidelity."
+    }
+  },
+  "manual_relative_observation": "Among these three tested rightward angles at f101, 30 degrees preserves the visible arm sequence most faithfully; 45 degrees shows a stronger side view but more pose/orientation drift; 15 degrees preserves face clarity but loses an arm action. This is a comparison of executed options, not proof of global best angle, final quality acceptance, or user preference.",
+  "metric_caveat": "DWPose is a cross-view 2D proxy; person contrast proxy has a known false negative on historical case13 melt; mesh coverage is not a quality threshold. Final judgement uses actual native videos.",
+  "vlm_angle_feedback": {
+    "method": "Two Qwen3-VL-30B native-DD ballots with reversed candidate order, enlarged official-DWPose upper-body crops at middle/end frames, and all-frame 2D motion evidence; exact JSON and frame-reference validation passed.",
+    "ballots": [
+      {
+        "path": "/root/bullet_time_research_20261102/angle_review_case15_f101_crop_motion_order153045_v2/result.json",
+        "preferred_id": "R30",
+        "scores": {
+          "R15": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 2,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 2,
+            "composition": 4
+          },
+          "R30": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 4,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 4,
+            "composition": 4
+          },
+          "R45": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 1,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 1,
+            "composition": 3
+          }
+        }
+      },
+      {
+        "path": "/root/bullet_time_research_20261102/angle_review_case15_f101_crop_motion_order453015/result.json",
+        "preferred_id": "R30",
+        "scores": {
+          "R15": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 3,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 3,
+            "composition": 4
+          },
+          "R30": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 4,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 4,
+            "composition": 4
+          },
+          "R45": {
+            "stage2_quality": 5,
+            "stage3_human_integrity": 2,
+            "stage3_scene_integrity": 5,
+            "action_fidelity": 2,
+            "composition": 4
+          }
+        }
+      }
+    ],
+    "stable_choice": "R30 among rightward 15/30/45 degrees at source f101",
+    "limitations": "The model still exaggerates R15/R45 body melting and understates the visible late blur of R30; in one ballot it also reverses a numeric comparison in prose. Treat the stable choice as a scoped recommendation, not trustworthy per-frame scoring, a global optimum, or final human quality acceptance."
+  },
+  "evidence": [
+    "audit/case15_f101_angle15_30_45_stage2_contact.jpg",
+    "audit/case15_f101_angle15_30_45_stage3_contact.jpg",
+    "audit/case15_f101_right15_dense.jpg",
+    "audit/case15_f101_right30_dense.jpg",
+    "audit/case15_f101_right45_dense.jpg",
+    "audit/case15_f101_angle15_30_45_native_integrity.json"
+  ]
+}

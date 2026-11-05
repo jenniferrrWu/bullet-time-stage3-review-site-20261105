@@ -1,0 +1,33 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/retry/dynamic-rooftop-dance-performance-32138521_retry.mp4",
+  "bank": "/root/bullet_time_research_20261102/planner_candidate_bank/case13_pose_augmented_bank.json",
+  "group_winners": [
+    280,
+    430,
+    622,
+    1075
+  ],
+  "candidate_frames": [
+    280,
+    430,
+    622
+  ],
+  "model_evidence": {
+    "candidate_frames": [
+      280,
+      430,
+      622
+    ],
+    "evidence_by_frame": {
+      "280": "Person in mid-motion with leg extended, dynamic pose; background includes cityscape and building facade. No visible camera movement in this frame.",
+      "430": "Person in wide stance with arms extended, dynamic pose; background shows cityscape and outdoor furniture. No visible camera movement in this frame.",
+      "622": "Person in balanced pose with one leg on a mat, dynamic pose; background includes distinctive building and cityscape. No visible camera movement in this frame."
+    },
+    "risks": [
+      "All frames show similar camera angles and framing, increasing risk of repetitive motion in generated video.",
+      "No visible camera pan/crop in source frames, which may limit dynamic transitions in generated output.",
+      "All selected frames are from the same person in similar attire, increasing risk of visual monotony in generated video."
+    ]
+  },
+  "interpretation": "VLM shortlist from source images only, not user GT or validated best frame. Angle/direction not selected here; real DD Stage3 remains to be tested."
+}

@@ -1,0 +1,28 @@
+{
+  "case": "case12 old A, source f171, right30, 25 frames",
+  "method": "Official DWPose target-view joint trajectories gate DD camera_encoder temporal residual; no training",
+  "beta0_native_sha_matches_original": true,
+  "same_source_inputs": true,
+  "same_initial_noise": true,
+  "beta0": {
+    "detected_frames": 25,
+    "mean_accepted_body_joints": 15.88,
+    "core_motion_mae": 0.22260049015918426,
+    "limb_motion_mae": 0.13405675602401315,
+    "nose_motion_mae": 0.46886036862955693,
+    "nose_y_range": 0.12792256324298945
+  },
+  "beta0p5": {
+    "detected_frames": 25,
+    "mean_accepted_body_joints": 16.8,
+    "core_motion_mae": 0.2199228066612704,
+    "limb_motion_mae": 0.11960135251018815,
+    "nose_motion_mae": 0.4660823588146849,
+    "nose_y_range": 0.13415362977521061
+  },
+  "source_nose_y_range": 0.8292050168844369,
+  "human_visual_review": "Beta0.5 adds some arm movement, but it does not reproduce source hand-to-face movement. Person/room remain recognizable in sampled frames; no quality pass.",
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/case12_temporal_pose_residual_compare.jpg",
+  "metric_caveat": "Pelvis-relative 2D cross-view comparison; changed camera can alter apparent joint positions. Small metric differences are not proof of quality gain.",
+  "quality_pass": false
+}

@@ -1,0 +1,121 @@
+{
+  "scope": "Exact source/native Stage3 video face crops at selected early/middle/late frames",
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/action.mp4",
+  "source_video_sha256": "91d35c24da153dab5c209297bd1f25605f169d1bb72f33d5c8c00c7443cfef02",
+  "generated_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+  "generated_video_sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+  "source_tracks": "/root/bullet_time_research_20261102/pose_trial/balanced_case12_a_source_all/tracks.json",
+  "generated_tracks": "/root/bullet_time_research_20261102/pose_trial/balanced_case12_a_native_all/tracks.json",
+  "frame_count": 33,
+  "sampled_frames": [
+    0,
+    16,
+    26,
+    32
+  ],
+  "crop_contact": "/root/bullet_time_research_20261102/audit/face_detail_case12_balanced_A/face_contact.jpg",
+  "crop_side": 200,
+  "rows": [
+    {
+      "frame": 0,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          278,
+          404,
+          358,
+          484
+        ],
+        "nose_confidence": 0.8463286757469177,
+        "shoulder_width_pixels": 73.95166963338863,
+        "laplacian_variance_after_resize": 4.8844972775
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          371,
+          405,
+          451,
+          485
+        ],
+        "nose_confidence": 0.8728474974632263,
+        "shoulder_width_pixels": 29.17067974805832,
+        "laplacian_variance_after_resize": 3.8785950243750005
+      }
+    },
+    {
+      "frame": 16,
+      "source": {
+        "usable": false,
+        "reason": "nose_or_shoulders_not_reliably_detected"
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          339,
+          540,
+          419,
+          620
+        ],
+        "nose_confidence": 0.7381854057312012,
+        "shoulder_width_pixels": 80.82459102074301,
+        "laplacian_variance_after_resize": 4.2838998775
+      }
+    },
+    {
+      "frame": 26,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          245,
+          453,
+          330,
+          538
+        ],
+        "nose_confidence": 0.7849853038787842,
+        "shoulder_width_pixels": 119.16736632585526,
+        "laplacian_variance_after_resize": 2.35848556
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          326,
+          475,
+          414,
+          563
+        ],
+        "nose_confidence": 0.6218862533569336,
+        "shoulder_width_pixels": 122.73106843233109,
+        "laplacian_variance_after_resize": 3.80834804
+      }
+    },
+    {
+      "frame": 32,
+      "source": {
+        "usable": true,
+        "bbox_xyxy": [
+          230,
+          393,
+          310,
+          473
+        ],
+        "nose_confidence": 0.9017150402069092,
+        "shoulder_width_pixels": 91.98675155639648,
+        "laplacian_variance_after_resize": 2.6840906975
+      },
+      "generated": {
+        "usable": true,
+        "bbox_xyxy": [
+          294,
+          454,
+          388,
+          548
+        ],
+        "nose_confidence": 0.6572470664978027,
+        "shoulder_width_pixels": 131.13033533096313,
+        "laplacian_variance_after_resize": 3.2179918775
+      }
+    }
+  ],
+  "metric_limit": "Laplacian variance depends on pose, view, texture and compression; inspect image and do not infer quality pass from this metric."
+}

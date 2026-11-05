@@ -1,0 +1,66 @@
+{
+  "experiment": "Two-scene six-step SJTU fixed novel-view target-anchor adapter applied to official DD camera encoder+DiT LoRA, native inference on real case15 C 17-frame hardcase. Same effective media, Stage2 endpoint, prompt and initial noise as official baseline; checkpoint only changed.",
+  "native_integrity": "passed",
+  "checkpoint_sha256": "67d288d05736c780a80c5de73d6cbac7179464a086011fbd8bd3b06f179f4032",
+  "official_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+  "adapted_sha256": "cfe622bcfe6fc45c561f6ccb06367b52a489b40f38a8f2c8182bd1f2dc8eb4e8",
+  "decoded_rgb_mae_per_frame": [
+    0.1441162109375,
+    0.35564038825757577,
+    0.3753699100378788,
+    0.4072106563683712,
+    0.3575121330492424,
+    0.44950727982954547,
+    0.4152051521070076,
+    0.45666060014204546,
+    0.41797281901041666,
+    0.5384073893229167,
+    0.5314900716145833,
+    0.5700239701704546,
+    0.524496552438447,
+    0.5225267814867425,
+    0.471877959280303,
+    0.4895984996448864,
+    0.4648001006155303
+  ],
+  "decoded_rgb_mae_mean": 0.44073038084196753,
+  "pose": {
+    "official": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ]
+    },
+    "multiscene_anchor_six_step_adapter": {
+      "core_motion_error_body_units": 0.0913072913739191,
+      "limb_motion_error_body_units": 0.46582938690286363,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.14413470151466878,
+        0.09141114637422201
+      ]
+    }
+  },
+  "person_gray_contrast_trend_over_source": {
+    "official": 0.6572024377505468,
+    "multiscene_anchor_six_step_adapter": 0.6420044130821223
+  },
+  "holistic_visual_review": "Reviewed dense source/official/six-step native frames f0,2,...,16 and every six-step frame f0..16. The source right arm sweeps across the torso and the body changes pose; both generated versions keep the right arm near its initial downward/back position, body motion is compressed, and person plus background fade progressively after the middle. Six-step output has no material visible recovery and may have slightly worse late contrast.",
+  "quality_pass": false,
+  "caveat": "Two fixed-view RGB-D training scenes and six steps; scene-disjoint held-out Skipping Rope already failed to recover limb motion. Inspect all 17 real hardcase frames before judging.",
+  "observed_failure": true,
+  "stage3_improvement_demonstrated": false,
+  "visual_evidence": [
+    "audit/case15_c_multiscene_anchor_six_step_adapter_review/stage3_dense.jpg",
+    "audit/case15_c_multiscene_anchor_six_step_adapter_review/adapter_all_frames.jpg"
+  ]
+}

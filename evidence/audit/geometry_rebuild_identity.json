@@ -1,0 +1,17 @@
+{
+  "dw_depth.mp4": {
+    "new_sha": "f70d895c173340e9ac5a4428de65e58235b22877f5f5519ed7d7845976e3f861",
+    "old_sha": "f70d895c173340e9ac5a4428de65e58235b22877f5f5519ed7d7845976e3f861",
+    "equal": true
+  },
+  "dw_mask.mp4": {
+    "new_sha": "9a064571a057c9e2366fd6d22a031689710bface1a1b1807b5969eb58d0847e4",
+    "old_sha": "9a064571a057c9e2366fd6d22a031689710bface1a1b1807b5969eb58d0847e4",
+    "equal": true
+  },
+  "input.mp4": {
+    "new_sha": "6df472c714d47af4abfa9d08944929d64889203d063ec4e3903b003465fe58f5",
+    "old_sha": "6df472c714d47af4abfa9d08944929d64889203d063ec4e3903b003465fe58f5",
+    "equal": true
+  }
+}

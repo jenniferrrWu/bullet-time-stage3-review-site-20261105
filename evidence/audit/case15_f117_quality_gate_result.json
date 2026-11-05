@@ -1,0 +1,45 @@
+{
+  "model_preferred_id": "E",
+  "model_preference_eligible": false,
+  "candidate_review": {
+    "E": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "observed_stage3_video_quality_failure",
+        "source_absent_background_structure"
+      ],
+      "vlm_claim_conflicts": [
+        "VLM_scene_integrity_score_conflicts_with_visible_structure"
+      ],
+      "missing_evidence": []
+    },
+    "F": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "severe_bilateral_wrist_motion_suppression",
+        "observed_stage3_video_quality_failure",
+        "source_absent_background_structure"
+      ],
+      "vlm_claim_conflicts": [
+        "VLM_scene_integrity_score_conflicts_with_visible_structure"
+      ],
+      "missing_evidence": []
+    },
+    "G": {
+      "state": "rejected_observed_failure",
+      "failure_reasons": [
+        "severe_bilateral_wrist_motion_suppression",
+        "observed_stage3_video_quality_failure"
+      ],
+      "vlm_claim_conflicts": [
+        "VLM_action_fidelity_score_conflicts_with_wrist_motion"
+      ],
+      "missing_evidence": []
+    }
+  },
+  "eligible_candidate_ids": [],
+  "provisional_quality_screen_id": null,
+  "final_selected_id": null,
+  "final_decision_ready": false,
+  "scope": "Observed-failure veto plus evidence completeness; no automatic whole-video quality pass or global optimum."
+}

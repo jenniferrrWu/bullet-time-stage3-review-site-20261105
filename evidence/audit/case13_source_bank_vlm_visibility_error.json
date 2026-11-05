@@ -1,0 +1,22 @@
+{
+  "candidate_frame": 1075,
+  "model_group_4_choice": {
+    "frame": 1075,
+    "evidence": "Full-body framing with clear limbs, stable posture, and no occlusion. Background shows consistent rooftop setting with visible cityscape and furniture. Subject's face and torso are fully visible with no motion blur.",
+    "risk": "Low risk: Complete person framing, clean limbs, and stable posture. No visible occlusion or motion blur. Background elements support plausible orbit context."
+  },
+  "source_pose_proxy_bbox_xyxy": [
+    63.15380859375,
+    0.5375518798828125,
+    550.4908447265625,
+    532.600830078125
+  ],
+  "source_pose_proxy_size": [
+    960,
+    540
+  ],
+  "accepted_body_joints": 13,
+  "visual_check": "The displayed f1075 image shows a close-up with lower body outside the image border. VLM asserted full-body framing and clear limbs; this is contradicted by visible pixels and bbox touching the top/bottom of the image.",
+  "implication": "The group-4 shortlist decision is invalid as a visibility judgement. Final source shortlist excludes f1075, but it did not fairly compare other group-4 candidates; do not treat [280,430,622] as exhaustive or best. Old f396 also remains a real-output benchmark.",
+  "next_guard": "Require deterministic border/visible-limb precheck and review model claims against evidence before source shortlist can influence final plan."
+}

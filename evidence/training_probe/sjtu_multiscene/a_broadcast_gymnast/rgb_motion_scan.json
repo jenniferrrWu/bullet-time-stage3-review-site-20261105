@@ -1,0 +1,51 @@
+{
+  "scene": "a_broadcast_gymnast",
+  "frames": 366,
+  "fps": 25,
+  "lag_frames": 8,
+  "roi_320x180": [
+    40,
+    0,
+    280,
+    170
+  ],
+  "first17": {
+    "start": 0,
+    "end": 16,
+    "motion_mean": 0.798,
+    "motion_peak": 1.123
+  },
+  "top_nonoverlapping_windows": [
+    {
+      "start": 201,
+      "end": 217,
+      "motion_mean": 3.683,
+      "motion_peak": 4.205
+    },
+    {
+      "start": 37,
+      "end": 53,
+      "motion_mean": 3.329,
+      "motion_peak": 3.825
+    },
+    {
+      "start": 299,
+      "end": 315,
+      "motion_mean": 3.314,
+      "motion_peak": 3.891
+    },
+    {
+      "start": 160,
+      "end": 176,
+      "motion_mean": 3.18,
+      "motion_peak": 3.784
+    },
+    {
+      "start": 257,
+      "end": 273,
+      "motion_mean": 2.439,
+      "motion_peak": 2.582
+    }
+  ],
+  "note": "ROI pixel-change proxy; inspect contact and evaluate native depth/geometry before training"
+}

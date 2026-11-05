@@ -1,0 +1,45 @@
+{
+  "source_case": "case13_woman_rooftop_dance",
+  "comparison_type": "Two complete VLM-proposed candidate plans under the same DD weights and execution pipeline; manually selected B for comparison, original model selected A. Different freeze moments, angles, durations and action windows, so this does not isolate any one cause.",
+  "A": {
+    "highlight_frame": 396,
+    "orbit": "right 30deg 4s",
+    "action": "25 frames 0.834s",
+    "native_stage3_frames": 25,
+    "visual": "Stage2 orbit and Stage3 action stay recognizable in sampled frames; slight upper-edge artifact; body crop at bottom remains."
+  },
+  "B": {
+    "highlight_frame": 622,
+    "orbit": "left 45deg 5.5s",
+    "action": "33 frames 1.101s",
+    "native_stage3_frames": 33,
+    "visual": "Stage2 81-frame orbit keeps full-body person and parallax; Stage3 source action is clear but generated body/rooftop/background melt severely by around native frame12 and later."
+  },
+  "shared_integrity": {
+    "both_stage2_and_stage3_native": true,
+    "stage3_anchor_is_own_stage2_native_last": true,
+    "stage3_camera_fixed_at_own_stage2_numeric_endpoint": true,
+    "native_first_latent_pins_each": 50,
+    "all_native_frames_decoded": true,
+    "no_training_or_postdecode_replacement": true
+  },
+  "conclusion": "Original A is visibly better than B on Stage3 output despite worse source crop. Full-body visibility cannot be a hard selection gate. Need DD-aware proxy/native feedback and additional candidate-angle tests before claiming global optimality. B failure is not explained by misrun, but this comparison cannot identify whether 45-degree angle, source motion, or geometry caused it.",
+  "sampled_stage3_frames": {
+    "A": [
+      0,
+      4,
+      8,
+      12,
+      20,
+      24
+    ],
+    "B": [
+      0,
+      6,
+      12,
+      18,
+      25,
+      32
+    ]
+  }
+}

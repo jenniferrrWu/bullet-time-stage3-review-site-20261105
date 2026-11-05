@@ -1,0 +1,16 @@
+{
+  "videos": {
+    "target_warp": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+    "baseline": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p0/result/depthdirector.mp4",
+    "beta0p5": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4"
+  },
+  "baseline_sha256": "784963289e9486772803af3c149fcfe6f68fec8c29fe413fc1522c7f787a627e",
+  "beta0p5_sha256": "f25e1dfefe35eaf7ad57dff02f8d2c8b7737f5eaac95f6ca60ee8c1abb5e0887",
+  "identical_five_input_hashes": true,
+  "source_window": [
+    845,
+    865
+  ],
+  "orbit": "left 20 degrees",
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_case13_fullbody_c/action.mp4"
+}

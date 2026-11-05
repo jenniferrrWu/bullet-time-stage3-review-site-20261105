@@ -1,0 +1,115 @@
+{
+  "experiment": "Native DD case15 C global content temporal gain0.5 + CFG2 versus baseline and each single factor; source/target effective inputs, Stage2 endpoint, initial noise and official weights fixed.",
+  "native_sha256": {
+    "baseline": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "gain0p5": "d193ac0cc6169661eb87bc48470f89ffcc26bb4f9b0cead44a2c5e597ef5b76b",
+    "cfg2": "dc5515ca504a0f635330640dc3123b7cdb573609d36a08b3ef7f8b3b8fdebd7c",
+    "combo": "93723ad4d6ffde680aeda25eff2202825a306247dbba1afad6b38132644e48ef"
+  },
+  "rgb_mae_per_frame": {
+    "combo_vs_baseline": [
+      0.1775945490056818,
+      2.1381965406013257,
+      5.275180886008522,
+      8.999270167495265,
+      14.28083866003788,
+      21.216382945667615,
+      26.735420365767045,
+      136.79471620501894,
+      136.91576778527462,
+      136.50471043442235,
+      130.17052815755207,
+      104.6274462150805,
+      46.726028349905306,
+      8.185908277107007,
+      4.032465894294508,
+      5.739246715198863,
+      6.198912464488636
+    ],
+    "combo_vs_gain0p5": [
+      0.1692852598248106,
+      1.8877944483901514,
+      4.811139470880682,
+      8.306631747159091,
+      13.399605675899622,
+      20.140969016335227,
+      25.66770204486269,
+      135.7467451615767,
+      136.13079649029356,
+      136.3672625917377,
+      131.21925825639204,
+      107.3480927438447,
+      52.231735691879734,
+      14.786761659564394,
+      7.825745368726325,
+      4.94481386126894,
+      4.890537701231061
+    ],
+    "combo_vs_cfg2": [
+      0.1766179865056818,
+      2.057523230350379,
+      5.0607843572443185,
+      8.460854640151515,
+      13.214216752485795,
+      19.347006318063446,
+      23.998622824928976,
+      133.4207859848485,
+      132.98219475023674,
+      131.51489923650567,
+      124.00254239169034,
+      97.3506377249053,
+      38.46313698508523,
+      5.1896081173058715,
+      12.73621826171875,
+      17.722516424005683,
+      18.76876553622159
+    ]
+  },
+  "rgb_mae_mean": {
+    "combo_vs_baseline": 46.74815380076036,
+    "combo_vs_gain0p5": 47.404404540580444,
+    "combo_vs_cfg2": 46.1451136189561
+  },
+  "pose_and_contrast": {
+    "baseline": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ],
+      "person_gray_contrast_trend_over_source": 0.6583416868147342
+    },
+    "gain0p5": {
+      "core_motion_error_body_units": 0.08418830533405981,
+      "limb_motion_error_body_units": 0.4624615836411811,
+      "right_wrist_range_body_units": [
+        0.5193165828380704,
+        0.24058279443322184
+      ],
+      "person_gray_contrast_trend_over_source": 0.5490406560125848
+    },
+    "cfg2": {
+      "core_motion_error_body_units": 0.07003224974343793,
+      "limb_motion_error_body_units": 0.4705027974073673,
+      "right_wrist_range_body_units": [
+        0.2732140714790401,
+        0.19915602352047287
+      ],
+      "person_gray_contrast_trend_over_source": 0.9225098335174119
+    },
+    "combo": {
+      "core_motion_error_body_units": 0.04183712507131478,
+      "limb_motion_error_body_units": 0.24614570291784,
+      "right_wrist_range_body_units": [
+        0.09918731680962034,
+        0.1804494862084126
+      ],
+      "person_gray_contrast_trend_over_source": 0.2298921286231022
+    }
+  },
+  "native_integrity": "passed",
+  "holistic_visual_review": "Full 17-frame source/baseline/gain0.5/CFG2/combo sheet inspected: combo turns nearly black at frames 7-10, then flashes to pale/washed-out frames 11-16. The source arm sweep is not reproduced; the lower 2D limb-error proxy is misleading because the video is visibly broken. Neither single factor has this black-frame failure. Overall Stage3 fails.",
+  "quality_pass": false,
+  "metric_caveat": "Cross-view 2D pose and person contrast are advisory; inspect entire native video."
+}

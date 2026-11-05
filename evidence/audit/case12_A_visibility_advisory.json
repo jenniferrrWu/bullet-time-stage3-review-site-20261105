@@ -1,0 +1,357 @@
+{
+  "video": "/root/bullet_time_research_20261102/vlm_dd_case12_selected_a/action.mp4",
+  "width": 704,
+  "height": 1280,
+  "frames": {
+    "0": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.21421618895097214,
+        "right": 0.22926434603604404,
+        "top": 0.2659676790237427,
+        "bottom": 0.11125202178955078
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "1": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 16,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.21587972207502884,
+        "right": 0.22682389346036044,
+        "top": 0.2669917106628418,
+        "bottom": 0.11166505813598633
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "2": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.21732909029180353,
+        "right": 0.2247995896772905,
+        "top": 0.26619389057159426,
+        "bottom": 0.11162633895874023
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "3": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.22046288576993076,
+        "right": 0.22320730035955255,
+        "top": 0.26525657176971434,
+        "bottom": 0.11233367919921874
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "4": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.22283062067898837,
+        "right": 0.22153160788796164,
+        "top": 0.26493425369262696,
+        "bottom": 0.11270389556884766
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "5": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.22511330517855557,
+        "right": 0.21912384033203125,
+        "top": 0.2670736789703369,
+        "bottom": 0.1140298843383789
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "6": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.22705349055203525,
+        "right": 0.2178581411188299,
+        "top": 0.26969988346099855,
+        "bottom": 0.11534137725830078
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "7": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.229977932843295,
+        "right": 0.2164683775468306,
+        "top": 0.27884104251861574,
+        "bottom": 0.11619377136230469
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "8": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23531148650429465,
+        "right": 0.216788725419478,
+        "top": 0.28975179195404055,
+        "bottom": 0.12402915954589844
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "9": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23555753447792746,
+        "right": 0.2148873589255593,
+        "top": 0.30020034313201904,
+        "bottom": 0.1285984992980957
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "10": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23233472217213025,
+        "right": 0.21162674643776633,
+        "top": 0.31214041709899903,
+        "bottom": 0.13357105255126953
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "11": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23190396482294257,
+        "right": 0.21287293867631393,
+        "top": 0.3076410055160522,
+        "bottom": 0.13729305267333985
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "12": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.22971623594110663,
+        "right": 0.21461668881503018,
+        "top": 0.3282818078994751,
+        "bottom": 0.13994197845458983
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "13": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.231679612940008,
+        "right": 0.21552467346191406,
+        "top": 0.33490424156188964,
+        "bottom": 0.14012699127197265
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "14": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 16,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.2329369458285245,
+        "right": 0.2155845815485174,
+        "top": 0.3368048906326294,
+        "bottom": 0.13723211288452147
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "15": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23401906273581766,
+        "right": 0.21507644653320312,
+        "top": 0.3390046119689941,
+        "bottom": 0.13543787002563476
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "16": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23460945216092197,
+        "right": 0.2148300517689098,
+        "top": 0.34104740619659424,
+        "bottom": 0.13350248336791992
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "17": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23587233370000665,
+        "right": 0.21376332369717685,
+        "top": 0.3416211366653442,
+        "bottom": 0.13011503219604492
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "18": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23630783774636008,
+        "right": 0.21297792954878372,
+        "top": 0.3412917613983154,
+        "bottom": 0.12924766540527344
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "19": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.2372077378359708,
+        "right": 0.21209664778275925,
+        "top": 0.34026494026184084,
+        "bottom": 0.12909278869628907
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "20": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.2367543957450173,
+        "right": 0.2124045111916282,
+        "top": 0.3386358737945557,
+        "bottom": 0.1294179916381836
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "21": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23745710199529474,
+        "right": 0.21185536818070846,
+        "top": 0.33369171619415283,
+        "bottom": 0.12998409271240235
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "22": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.2352983518080278,
+        "right": 0.21115060286088425,
+        "top": 0.32812204360961916,
+        "bottom": 0.13178396224975586
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "23": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.23436793414029208,
+        "right": 0.20848569003018466,
+        "top": 0.32245311737060545,
+        "bottom": 0.13271722793579102
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "24": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 17,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.2344082702289928,
+        "right": 0.20490004799582742,
+        "top": 0.31777276992797854,
+        "bottom": 0.13415441513061524
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    }
+  }
+}

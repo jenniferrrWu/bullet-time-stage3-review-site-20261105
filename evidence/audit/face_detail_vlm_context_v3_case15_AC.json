@@ -1,0 +1,44 @@
+{
+  "A": {
+    "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_context_case15_A/face_context_contact.jpg",
+    "face_detail_evidence_sha256": "9f4a68cef9ab5a3a2faa0d02fb9ee399223b473d5681e0763778521c4afe71a1",
+    "source_video_sha256": "86aa9f24cc869ed3232f6bb74448a25614426e1adbb481ff213f63223cf985f0",
+    "generated_video_sha256": "c8644c41f0c1b26aef37b5ae035ca4d119912d0348bcb82a3f01ad78944c0110",
+    "sampled_frames": [
+      0,
+      12,
+      20,
+      24
+    ],
+    "prompt": "This image contains 4 chronological rows labelled f0, f12, f20, f24. Each row has four left-to-right tiles: SOURCE face, GENERATED face, SOURCE wider head/shoulders, GENERATED wider head/shoulders. Use wider tiles only to determine head turn, hair occlusion or crop failure. The face crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Distinguish visible blur or distortion from legitimate head turns, hair occlusion and face leaving the crop due viewpoint. If later facial features are hidden or not comparable, answer uncertain rather than treating invisibility alone as detail loss. Name directly visible features and frame labels, including blur, ghosting or distortions when truly visible. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+    "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f12: generated f12 shows significant blur and ghosting compared to source f12. f20: generated f20 has heavy blur and distortion, especially around the eyes and forehead. f24: generated f24 is extremely blurry with visible ghosting and loss of facial features. All later frames (f12, f20, f24) show progressive degradation in facial detail compared to their source counterparts and the first frame (f0).\",\n  \"limits\": \"Only face crops are assessed; wider tiles were used to confirm head turn/hair occlusion but not for detail retention judgment. Blur/distortion in generated faces is visible and not due to legitimate occlusion or crop failure.\"\n}",
+    "parsed": {
+      "late_face_detail_retained": "no",
+      "frame_evidence": "f12: generated f12 shows significant blur and ghosting compared to source f12. f20: generated f20 has heavy blur and distortion, especially around the eyes and forehead. f24: generated f24 is extremely blurry with visible ghosting and loss of facial features. All later frames (f12, f20, f24) show progressive degradation in facial detail compared to their source counterparts and the first frame (f0).",
+      "limits": "Only face crops are assessed; wider tiles were used to confirm head turn/hair occlusion but not for detail retention judgment. Blur/distortion in generated faces is visible and not due to legitimate occlusion or crop failure."
+    },
+    "scope": "focused face crop only; no whole-video or global-angle quality claim",
+    "prompt_version": "face_context_v3"
+  },
+  "C": {
+    "face_detail_evidence": "/root/bullet_time_research_20261102/audit/face_context_case15_C/face_context_contact.jpg",
+    "face_detail_evidence_sha256": "a7463b14de1899f5931a98066921615057a9dc47762d68e039dc772e6c371f49",
+    "source_video_sha256": "bd8328f75321c8464e981656473cd7d43e9ac3e117a9ac0685d411c89c2f05ae",
+    "generated_video_sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "sampled_frames": [
+      0,
+      8,
+      13,
+      16
+    ],
+    "prompt": "This image contains 4 chronological rows labelled f0, f8, f13, f16. Each row has four left-to-right tiles: SOURCE face, GENERATED face, SOURCE wider head/shoulders, GENERATED wider head/shoulders. Use wider tiles only to determine head turn, hair occlusion or crop failure. The face crops use the same nose/shoulder geometry and are resized to equal display size. Judge only whether the generated face remains clear relative to the source and its own first frame at later sampled times. Distinguish visible blur or distortion from legitimate head turns, hair occlusion and face leaving the crop due viewpoint. If later facial features are hidden or not comparable, answer uncertain rather than treating invisibility alone as detail loss. Name directly visible features and frame labels, including blur, ghosting or distortions when truly visible. Do not assess full-body action, background or camera angle. Return JSON {\"late_face_detail_retained\":\"yes|no|uncertain\",\"frame_evidence\":\"string\",\"limits\":\"string\"}.",
+    "raw": "{\n  \"late_face_detail_retained\": \"no\",\n  \"frame_evidence\": \"f8: generated f8 shows significant blur and ghosting compared to source f8. f13: generated f13 is heavily blurred and lacks detail. f16: generated f16 is also blurred and distorted. All later generated faces (f8, f13, f16) show visible blur/distortion relative to their source frames and the clear f0 generated face.\",\n  \"limits\": \"Only face crops are assessed; full-body action, background, and camera angle are excluded. Head turn/hair occlusion in wider tiles were considered but not decisive; the primary issue is consistent blur/distortion in generated faces across later frames.\"\n}",
+    "parsed": {
+      "late_face_detail_retained": "no",
+      "frame_evidence": "f8: generated f8 shows significant blur and ghosting compared to source f8. f13: generated f13 is heavily blurred and lacks detail. f16: generated f16 is also blurred and distorted. All later generated faces (f8, f13, f16) show visible blur/distortion relative to their source frames and the clear f0 generated face.",
+      "limits": "Only face crops are assessed; full-body action, background, and camera angle are excluded. Head turn/hair occlusion in wider tiles were considered but not decisive; the primary issue is consistent blur/distortion in generated faces across later frames."
+    },
+    "scope": "focused face crop only; no whole-video or global-angle quality claim",
+    "prompt_version": "face_context_v3"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "frames": 17,
+  "source_pose": "/root/bullet_time_research_20261102/vlm_dd_case13_candidate_c/shared_geometry/pose.npy",
+  "first_median_depth": 32.21854019165039,
+  "endpoint_rotation_degrees": 26.056643682814173,
+  "maximum_rotation_degrees": 26.056643682814173,
+  "max_step_rotation_degrees": 1.8140250070835378,
+  "endpoint_translation_depth_units": 3.7700998820291556,
+  "maximum_translation_depth_units": 3.7700998820291556,
+  "endpoint_translation_over_first_median_depth": 0.11701647124925285,
+  "maximum_translation_over_first_median_depth": 0.11701647124925285,
+  "samples": [
+    {
+      "frame": 0,
+      "rotation_degrees": 0.06409274272139967,
+      "translation_over_first_median_depth": 0.0
+    },
+    {
+      "frame": 4,
+      "rotation_degrees": 6.16912015050273,
+      "translation_over_first_median_depth": 0.02690149651412636
+    },
+    {
+      "frame": 8,
+      "rotation_degrees": 13.15484472830992,
+      "translation_over_first_median_depth": 0.05943862859058147
+    },
+    {
+      "frame": 12,
+      "rotation_degrees": 19.72558448885855,
+      "translation_over_first_median_depth": 0.09011401142774864
+    },
+    {
+      "frame": 16,
+      "rotation_degrees": 26.056643682814173,
+      "translation_over_first_median_depth": 0.11701647124925285
+    }
+  ],
+  "interpretation": "Estimated source-camera motion relative to the first action frame. A fixed Stage3 target may lose geometry support as this grows. No pass/fail threshold is asserted."
+}

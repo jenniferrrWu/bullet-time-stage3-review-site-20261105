@@ -1,0 +1,11 @@
+{
+  "plan": "/root/bullet_time_research_20261102/planner_v12_balanced_case15/plan.json",
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/case15_v12_balanced_source_abc.jpg",
+  "native_dd_quality": "pending",
+  "observations": {
+    "A": "Frame 101 has one leg raised and the other foot on the floor; arms are not both extended upward. The VLM reason calling this a jump with both feet off the ground is not supported by the source image. Following 25 frames show arms move toward/behind head.",
+    "B": "Frame 271 shows hands behind head and one knee bent. 33-frame window includes turn and arm swing; full body visible.",
+    "C": "Frame 577 has side lean and leg extension; 17-frame window contains upper-body/arm movement; full body visible."
+  },
+  "interpretation": "Source pose hallucination in A weakens the impact rationale, but cannot establish native DD ranking. All three need real Stage2/Stage3 output review."
+}

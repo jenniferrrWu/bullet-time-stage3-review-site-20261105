@@ -1,0 +1,59 @@
+{
+  "experiment": "Case15 C fixed first-source-camera 17-frame native DD control versus original right20 target; same source content and initial noise, different first-frame anchor and target depth/mask by design.",
+  "native_integrity": "passed",
+  "source_camera_motion_degrees": 1.2005253401831997,
+  "mask_valid_fraction": {
+    "right20": {
+      "mean": 0.6075955804019051,
+      "min": 0.5878107244318181,
+      "p10": 0.5895936168323864,
+      "median": 0.6010209517045455,
+      "p90": 0.6363833895596591,
+      "max": 0.6438543146306818,
+      "fraction_frames_below_0_20": 0.0
+    },
+    "zero_view": {
+      "mean": 0.9506945604946523,
+      "min": 0.9300559303977273,
+      "p10": 0.9353593306107955,
+      "median": 0.9508045543323863,
+      "p90": 0.9608653675426136,
+      "max": 1.0,
+      "fraction_frames_below_0_20": 0.0
+    }
+  },
+  "pose": {
+    "right20": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ]
+    },
+    "zero_view": {
+      "core_motion_error_body_units": 0.13236241401464913,
+      "limb_motion_error_body_units": 0.2812985944164268,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        1.2577935253513626,
+        0.30631283682656524
+      ]
+    }
+  },
+  "person_gray_contrast_trend_over_source": {
+    "right20": 0.6572024377505468,
+    "zero_view": 0.8424696568070016
+  },
+  "holistic_visual_review": "All 17 zero-view frames inspected against source and right20 native output. Zero view keeps person and plain studio visible longer and moves the right arm horizontally more than right20, but the person gradually yaws to a different pose, the source arm sweep/downward component is not faithfully reproduced, face/limbs soften, and the final frames fade. The full source action still fails despite 93-100% valid target-view mask coverage.",
+  "quality_pass": false,
+  "causal_caveat": "Zero added target angle still fixes the camera at first-frame source pose while the original source camera moves slightly; anchor and depth/mask differ from right20. It isolates the difficulty of added parallax in a high-coverage source-like view, not a single-variable generator comparison.",
+  "interpretation": "Added 20-degree parallax and its coverage loss aggravate C, but the source-like fixed-camera, high-coverage run still misses action and fades. Thus reprojection holes alone are not a sufficient explanation; first-frame anchoring, content-motion conditioning, depth encoding, or their interaction remain plausible. This run is not a strict one-variable comparison because first-frame anchor and depth/mask also change."
+}

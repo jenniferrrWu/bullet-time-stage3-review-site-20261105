@@ -1,0 +1,56 @@
+{
+  "A": {
+    "source_window": [
+      75,
+      107
+    ],
+    "orbit": [
+      "left",
+      30
+    ],
+    "native_integrity": "passed",
+    "source_camera_rotation_degrees": 9.947438716944816,
+    "stage3_mesh_valid_mean": 0.507114513386708,
+    "native_detected_frames": 33,
+    "core_2d_motion_error": 0.265651809072828,
+    "limb_2d_motion_error": 0.294889856830312,
+    "person_contrast_trend": 0.9352962370092638,
+    "holistic_visual_quality": "pending_manual_dense_frame_review"
+  },
+  "B": {
+    "source_window": [
+      600,
+      644
+    ],
+    "orbit": [
+      "right",
+      45
+    ],
+    "native_integrity": "passed",
+    "source_camera_rotation_degrees": 11.427662146330057,
+    "stage3_mesh_valid_mean": 0.2727364711568813,
+    "native_detected_frames": 38,
+    "core_2d_motion_error": 0.579274363381386,
+    "limb_2d_motion_error": 0.22091301627785978,
+    "person_contrast_trend": 1.1909946626808063,
+    "holistic_visual_quality": "pending_manual_dense_frame_review"
+  },
+  "C": {
+    "source_window": [
+      845,
+      865
+    ],
+    "orbit": [
+      "left",
+      20
+    ],
+    "native_integrity": "passed",
+    "source_camera_rotation_degrees": 5.969732285565063,
+    "stage3_mesh_valid_mean": 0.6083752388561959,
+    "native_detected_frames": 21,
+    "core_2d_motion_error": 0.2466148341529452,
+    "limb_2d_motion_error": 0.23536790352319764,
+    "person_contrast_trend": 1.0436873644796136,
+    "holistic_visual_quality": "pending_manual_dense_frame_review"
+  }
+}

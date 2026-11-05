@@ -1,0 +1,7 @@
+{
+  "input_image_source": "decoded target.mp4 frame 0",
+  "target_anchor_exact_rgb_match": true,
+  "source_target_first_frame_mae": 17.7491,
+  "metadata": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/motion_779_795_native/metadata_stage3_anchor.csv",
+  "required_data_file_keys": "input,video,depth,mask,input_image"
+}

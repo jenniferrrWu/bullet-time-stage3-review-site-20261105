@@ -1,0 +1,44 @@
+{
+  "experiment": "Case15 C native DD camera_encoder spatial gain: soft DWPose person rectangle 0.75, surrounding background 1.5, fixed VLM target view.",
+  "native_integrity": {
+    "state": "completed",
+    "all_input_hashes_equal_to_uniform_gain": true,
+    "official_weights_unchanged": true,
+    "postdecode_frame_replacement": false,
+    "native_sha256": "4bec0ad0dca2ba27971fe6642288a8c5022a9b75b8d78328387fb4ad4b5d4ce1",
+    "control_latent_shape": [
+      1,
+      3072,
+      5,
+      40,
+      22
+    ]
+  },
+  "visual_review": "At f0/f4/f8/f12/f16 the person remains more visible than the unmodified baseline, though less consistently crisp than uniform gain 1.5. The source arm changes substantially but generated arm and wrist remain close to the initial pose. The target view appears approximately stationary in the sampled frames. Holistic Stage3 action continuation is still a failure.",
+  "advisory": {
+    "gray_std_trend_over_source": 0.8271250033111046,
+    "edge_trend_over_source": 0.8648916182882916,
+    "core_motion_mae_body_units": 0.17607595072654192,
+    "limb_motion_mae_body_units": 0.4453971711295767,
+    "right_wrist_source_xy_range": [
+      1.1744867781047055,
+      0.9783915406509107
+    ],
+    "right_wrist_generated_xy_range": [
+      0.11862420673010099,
+      0.22756825003882777
+    ]
+  },
+  "conclusion": "Spatially weakening person camera control while strengthening background control trades some pose stability for limb variation and person clarity, but does not solve action freezing. Camera control alone remains insufficient on this case.",
+  "artifacts": [
+    "audit/case15_c_spatial_control_early.jpg",
+    "audit/case15_c_spatial_control_late.jpg",
+    "audit/v12_balanced_case15_c_spatial_control_pose_compare.json",
+    "audit/v12_balanced_case15_c_spatial_control_person_contrast.json"
+  ],
+  "native_integrity_extra": {
+    "same_initial_noise_all_four": true,
+    "all_endpoint_pin_count_50": true,
+    "all_final_first_latent_exactly_pinned": true
+  }
+}

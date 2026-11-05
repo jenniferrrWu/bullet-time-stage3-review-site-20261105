@@ -1,0 +1,89 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/woman-dancing-7570258.mp4",
+  "source_metadata": {
+    "width": 1440,
+    "height": 2732,
+    "frames": 662,
+    "fps": 25.0,
+    "fps_rational": "25/1"
+  },
+  "plan": "/root/bullet_time_research_20261102/planner_v12_balanced_case15/plan.json",
+  "plan_sha256": "b2d98a1537aa941c9d36b4e0bb742f223d8e10462444f28c4b891dabe14ae6c7",
+  "executed_candidates": {
+    "A": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a",
+      "stage3_valid_mesh_fraction_mean": 0.5742070756392046,
+      "source_camera_endpoint_rotation_degrees": 0.2625372900107764,
+      "peak_pale_bright_excess": 0.0
+    },
+    "B": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_b",
+      "stage3_valid_mesh_fraction_mean": 0.5752652254971591,
+      "source_camera_endpoint_rotation_degrees": 1.7610872075095898,
+      "peak_pale_bright_excess": 5.548650568181818e-06
+    },
+    "C": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c",
+      "stage3_valid_mesh_fraction_mean": 0.6075955804019051,
+      "source_camera_endpoint_rotation_degrees": 1.2005253401831997,
+      "peak_pale_bright_excess": 0.0
+    }
+  },
+  "feedback": "/root/bullet_time_research_20261102/planner_v12_balanced_case15_dd_feedback/result.json",
+  "selected_id": null,
+  "selected_complete_video": null,
+  "provisional_complete_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_a/complete.mp4",
+  "selection_scope": "single-ballot VLM relative preference among three executed native DD proposals",
+  "provisional_selected_id": "A",
+  "final_selected_id": null,
+  "final_decision_ready": false,
+  "decision_status": "quality evidence rejects or leaves unverified every executed candidate; no screened choice",
+  "global_optimality_proven": false,
+  "human_quality_acceptance": "not assessed by this pipeline",
+  "quality_evidence": "/root/bullet_time_research_20261102/audit/case15_abc_quality_evidence.json",
+  "quality_gate": {
+    "model_preferred_id": "A",
+    "model_preference_eligible": false,
+    "candidate_review": {
+      "A": {
+        "state": "unverified",
+        "failure_reasons": [],
+        "vlm_claim_conflicts": [],
+        "missing_evidence": [
+          "accepted_whole_video_review",
+          "confirmed_scene_review"
+        ]
+      },
+      "B": {
+        "state": "rejected_observed_failure",
+        "failure_reasons": [
+          "observed_stage3_video_quality_failure"
+        ],
+        "vlm_claim_conflicts": [],
+        "missing_evidence": [
+          "applicable_motion_diagnostic",
+          "confirmed_scene_review"
+        ]
+      },
+      "C": {
+        "state": "rejected_observed_failure",
+        "failure_reasons": [
+          "observed_stage3_video_quality_failure"
+        ],
+        "vlm_claim_conflicts": [],
+        "missing_evidence": [
+          "applicable_motion_diagnostic",
+          "confirmed_scene_review"
+        ]
+      }
+    },
+    "eligible_candidate_ids": [],
+    "provisional_quality_screen_id": null,
+    "final_selected_id": null,
+    "final_decision_ready": false,
+    "scope": "Observed-failure veto plus evidence completeness; no automatic whole-video quality pass or global optimum."
+  },
+  "quality_screen_selected_id": null,
+  "planner_implementation": "supplied_plan",
+  "balanced_coarse": null
+}

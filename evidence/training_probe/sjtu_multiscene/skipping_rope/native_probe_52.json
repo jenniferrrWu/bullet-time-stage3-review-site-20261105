@@ -1,0 +1,72 @@
+{
+  "scene": "skipping_rope",
+  "source_camera": 0,
+  "target_camera": 3,
+  "target_fixed": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "renderer": "DD Dynamic3DMesh.render",
+  "rows": [
+    {
+      "frame": 52,
+      "variant": "raw",
+      "mask_fraction": 0.21539,
+      "warp_target_mae_covered": 11.213,
+      "unwarped_target_mae_same_covered": 16.906,
+      "depth_min": 60.379,
+      "depth_max": 168.608
+    },
+    {
+      "frame": 52,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.66768,
+      "warp_target_mae_covered": 12.628,
+      "unwarped_target_mae_same_covered": 18.072,
+      "depth_min": 66.506,
+      "depth_max": 168.373
+    },
+    {
+      "frame": 60,
+      "variant": "raw",
+      "mask_fraction": 0.18848,
+      "warp_target_mae_covered": 11.535,
+      "unwarped_target_mae_same_covered": 16.466,
+      "depth_min": 60.688,
+      "depth_max": 168.575
+    },
+    {
+      "frame": 60,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.66316,
+      "warp_target_mae_covered": 12.704,
+      "unwarped_target_mae_same_covered": 18.102,
+      "depth_min": 67.389,
+      "depth_max": 168.525
+    },
+    {
+      "frame": 68,
+      "variant": "raw",
+      "mask_fraction": 0.20267,
+      "warp_target_mae_covered": 10.719,
+      "unwarped_target_mae_same_covered": 16.759,
+      "depth_min": 50.789,
+      "depth_max": 168.57
+    },
+    {
+      "frame": 68,
+      "variant": "quarterres_median5_up",
+      "mask_fraction": 0.66285,
+      "warp_target_mae_covered": 12.637,
+      "unwarped_target_mae_same_covered": 17.662,
+      "depth_min": 66.672,
+      "depth_max": 168.335
+    }
+  ],
+  "limits": [
+    "three sampled frames only",
+    "no subject mask yet",
+    "no training quality claim"
+  ]
+}

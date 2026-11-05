@@ -1,0 +1,38 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/a-woman-dancing-alone-at-home-5743004.mp4",
+  "source_metadata": {
+    "width": 1440,
+    "height": 2732,
+    "frames": 560,
+    "fps": 25.0,
+    "fps_rational": "25/1"
+  },
+  "plan": "/root/bullet_time_research_20261102/planner_balanced_case12_selection_replay/plan.json",
+  "plan_sha256": "22ce8d333d978af3fec3e02d4485ac4907c7f71aae0b063b181711241e42d080",
+  "executed_candidates": {
+    "A": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a",
+      "stage3_valid_mesh_fraction_mean": 0.36252750785554416,
+      "source_camera_endpoint_rotation_degrees": 2.0381036913195847,
+      "peak_pale_bright_excess": 0.06002197265624998
+    },
+    "B": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_b",
+      "stage3_valid_mesh_fraction_mean": 0.17566248181125277,
+      "source_camera_endpoint_rotation_degrees": 6.568317590985389,
+      "peak_pale_bright_excess": -0.17576238458806817
+    },
+    "C": {
+      "root": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_c",
+      "stage3_valid_mesh_fraction_mean": 0.3405461507550837,
+      "source_camera_endpoint_rotation_degrees": 29.85912654511831,
+      "peak_pale_bright_excess": -0.02608087713068182
+    }
+  },
+  "feedback": "/root/bullet_time_research_20261102/planner_balanced_case12_dd_feedback/result.json",
+  "selected_id": "A",
+  "selected_complete_video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/complete.mp4",
+  "selection_scope": "best of three VLM-proposed, executed native DD candidates",
+  "global_optimality_proven": false,
+  "human_quality_acceptance": "pending"
+}

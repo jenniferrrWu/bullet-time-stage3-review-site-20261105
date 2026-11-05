@@ -1,0 +1,21 @@
+{
+  "case": "case12_woman_home_dance",
+  "plan": "/root/bullet_time_research_20261102/planner_case12_30b/plan.json",
+  "native_complete": "/root/bullet_time_research_20261102/vlm_dd_case12_selected_a/complete.mp4",
+  "decoded_complete_frames": 278,
+  "complete_duration_seconds": 11.88,
+  "source_motion_window_frames": 25,
+  "stage3_visual_sample": [0,4,8,12,16,20,24],
+  "stage3_visual_observation": "Person and room remain structurally coherent, but generated dancer remains close to the starting pose while the source bends progressively forward and raises a hand toward her face. No severe melting in this 25-frame window; action fidelity fails.",
+  "head_motion_measure": {
+    "method": "Official DWPose nose y minus midpoint-of-hips y, divided by each video's first-frame shoulder-to-pelvis distance; all nose and hip detections accepted at >=0.3 confidence",
+    "source_range": 0.636,
+    "generated_range": 0.125,
+    "generated_over_source_range": 0.197,
+    "limitation": "2D measurements come from source and 30-degree generated views; useful to detect near-frozen bending, not a complete 3D action metric."
+  },
+  "source_camera_motion": {"rotation_degrees_end": 1.387, "translation_over_first_median_depth_end": 0.00963},
+  "condition_visual": "DD target-view dw_warp and dw_depth retain a visibly lowering head/body shape through f16/f24, so this example is not explained solely by lost geometric action conditioning.",
+  "timing_repair": "Original assembler used -r 30 for all final VFR files; with 25fps last segment MP4 duration was 11.874 instead of 11.88. Re-encoded final concat with -r 25 (last stage display rate), kept all 278 unique PTS, verified 11.88; old artifact preserved as complete_rate30_duration_error.mp4. dd_execution.py fixed for future runs.",
+  "quality_pass": false
+}

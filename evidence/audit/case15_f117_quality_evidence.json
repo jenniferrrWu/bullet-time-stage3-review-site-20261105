@@ -1,0 +1,128 @@
+{
+  "E": {
+    "native_integrity": "passed",
+    "motion": {
+      "frames": 21,
+      "source_detected_frames": 21,
+      "generated_detected_frames": 21,
+      "orbit_degrees": 30,
+      "wrist_ranges": {
+        "left_wrist": {
+          "source_body_units": 1.0779651063563944,
+          "generated_body_units": 1.1376115789171624,
+          "retained_range_ratio": 1.0553324706050808
+        },
+        "right_wrist": {
+          "source_body_units": 1.141913857670982,
+          "generated_body_units": 1.1507893807149623,
+          "retained_range_ratio": 1.007772497885333
+        }
+      },
+      "diagnostic_applicable": true,
+      "severe_bilateral_wrist_motion_suppression": false,
+      "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+    },
+    "scene": {
+      "source_absent_structure": true,
+      "confirmed_in_full_video": true,
+      "scene_crop_model": {
+        "source_absent_vertical_structure": true,
+        "stage2_visible": true,
+        "stage3_visible": true,
+        "evidence": "curtain, floor"
+      },
+      "independent_pixel_diagnostic": "audit/case15_f117_background_intrusion.json",
+      "full_video_review": "audit/case15_f117_camera_repair_native_review/summary.json"
+    },
+    "holistic_review": {
+      "reviewed_full_window": true,
+      "quality_pass": false,
+      "source": "audit/case15_f117_camera_repair_native_review/summary.json",
+      "observed_failure": true
+    }
+  },
+  "F": {
+    "native_integrity": "passed",
+    "motion": {
+      "frames": 21,
+      "source_detected_frames": 21,
+      "generated_detected_frames": 21,
+      "orbit_degrees": 15,
+      "wrist_ranges": {
+        "left_wrist": {
+          "source_body_units": 1.0779651063563944,
+          "generated_body_units": 0.2344616781266888,
+          "retained_range_ratio": 0.21750395884258947
+        },
+        "right_wrist": {
+          "source_body_units": 1.141913857670982,
+          "generated_body_units": 0.2116639735801971,
+          "retained_range_ratio": 0.18535896745477937
+        }
+      },
+      "diagnostic_applicable": true,
+      "severe_bilateral_wrist_motion_suppression": true,
+      "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+    },
+    "scene": {
+      "source_absent_structure": true,
+      "confirmed_in_full_video": true,
+      "scene_crop_model": {
+        "source_absent_vertical_structure": true,
+        "stage2_visible": true,
+        "stage3_visible": true,
+        "evidence": "curtain"
+      },
+      "independent_pixel_diagnostic": "audit/case15_f117_background_intrusion.json",
+      "full_video_review": "audit/case15_f117_camera_repair_native_review/summary.json"
+    },
+    "holistic_review": {
+      "reviewed_full_window": true,
+      "quality_pass": false,
+      "source": "audit/case15_f117_camera_repair_native_review/summary.json",
+      "observed_failure": true
+    }
+  },
+  "G": {
+    "native_integrity": "passed",
+    "motion": {
+      "frames": 21,
+      "source_detected_frames": 21,
+      "generated_detected_frames": 21,
+      "orbit_degrees": 10,
+      "wrist_ranges": {
+        "left_wrist": {
+          "source_body_units": 1.0779651063563944,
+          "generated_body_units": 0.21436603177431995,
+          "retained_range_ratio": 0.19886175397540812
+        },
+        "right_wrist": {
+          "source_body_units": 1.141913857670982,
+          "generated_body_units": 0.22623725100297465,
+          "retained_range_ratio": 0.19812111875444116
+        }
+      },
+      "diagnostic_applicable": true,
+      "severe_bilateral_wrist_motion_suppression": true,
+      "scope": "Both wrists have substantial source 2D motion, high pose detection, and <=30-degree target orbit. A true flag is evidence of nearly frozen arms, not a holistic quality verdict; projected 2D motion changes with view."
+    },
+    "scene": {
+      "source_absent_structure": false,
+      "confirmed_in_full_video": true,
+      "scene_crop_model": {
+        "source_absent_vertical_structure": false,
+        "stage2_visible": false,
+        "stage3_visible": false,
+        "evidence": ""
+      },
+      "independent_pixel_diagnostic": "audit/case15_f117_background_intrusion.json",
+      "full_video_review": "audit/case15_f117_camera_repair_native_review/summary.json"
+    },
+    "holistic_review": {
+      "reviewed_full_window": true,
+      "quality_pass": false,
+      "source": "audit/case15_f117_camera_repair_native_review/summary.json",
+      "observed_failure": true
+    }
+  }
+}

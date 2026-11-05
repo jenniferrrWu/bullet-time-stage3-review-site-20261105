@@ -1,0 +1,36 @@
+{
+  "case12_A": {
+    "v3_face_detail_verdict": "no",
+    "v4_late_comparable": [],
+    "v4_late_occluded": [
+      "f12",
+      "f24",
+      "f32"
+    ],
+    "v4_internal_contradiction": [],
+    "interpretation": "v3 loss claim visibility-confounded"
+  },
+  "case15_A": {
+    "v3_face_detail_verdict": "no",
+    "v4_late_comparable": [
+      "f12"
+    ],
+    "v4_late_occluded": [],
+    "v4_internal_contradiction": [
+      "f20",
+      "f24"
+    ],
+    "interpretation": "v4 visibility self-contradictory; no gate conclusion"
+  },
+  "case15_C": {
+    "v3_face_detail_verdict": "no",
+    "v4_late_comparable": [
+      "f8",
+      "f13",
+      "f16"
+    ],
+    "v4_late_occluded": [],
+    "v4_internal_contradiction": [],
+    "interpretation": "face appears exposed in sampled later rows; detail loss remains an alert, not proof"
+  }
+}

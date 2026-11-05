@@ -1,0 +1,72 @@
+{
+  "experiment": "case15 C Stage3 native DD camera_encoder gain 0.5/1.0/1.5 at one fixed VLM target view",
+  "control": {
+    "gain1_exact_baseline": true,
+    "all_input_hashes_equal": true,
+    "official_weights_unchanged": true,
+    "native_video_sha256_by_gain": {
+      "0p5": "c40923881474193db1c4aa8435a7e539a07df7fb0aff6b21503782512a392464",
+      "1p0": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "1p5": "c98f2fda2588a19cbc333dfad4b4b4d29faaa7283f5e3736a618a733bcc1a3b5"
+    }
+  },
+  "quantitative_advisory_by_gain": {
+    "0p5": {
+      "person_gray_std_trend_over_source": 0.2830453628334825,
+      "person_edge_trend_over_source": 0.22464243747937152,
+      "core_motion_mae_body_units": 0.14329371187618167,
+      "limb_motion_mae_body_units": 0.40545119897179166,
+      "right_wrist_source_xy_range": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_xy_range": [
+        0.8764309544358062,
+        0.27073475256418417
+      ]
+    },
+    "1p0": {
+      "person_gray_std_trend_over_source": 0.6572024377505468,
+      "person_edge_trend_over_source": 0.5539301598887736,
+      "core_motion_mae_body_units": 0.08798223448675256,
+      "limb_motion_mae_body_units": 0.4834763753922185,
+      "right_wrist_source_xy_range": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_xy_range": [
+        0.12361582903758805,
+        0.09999027650167822
+      ]
+    },
+    "1p5": {
+      "person_gray_std_trend_over_source": 0.8317699468268719,
+      "person_edge_trend_over_source": 0.9791895941868839,
+      "core_motion_mae_body_units": 0.06974620667010015,
+      "limb_motion_mae_body_units": 0.4896556145186363,
+      "right_wrist_source_xy_range": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_xy_range": [
+        0.1352736124817181,
+        0.05161762793964709
+      ]
+    }
+  },
+  "visual_review": "All three native 17-frame videos inspected at f0/f4/f8/f12/f16 against source. Gain 0.5 rapidly fades to near invisibility; gain 1.0 fades late; gain 1.5 keeps the dancer clearer and more stable. Yet at gain 1.5 the right arm/wrist and overall action remain nearly fixed while source changes substantially. The persistent pose mismatch means the stronger control is a visual-clarity improvement, not a holistic Stage3 pass.",
+  "caveat": "Joint MAE depends on matched detectable frames; contrast is an uncalibrated image proxy and can miss structural failure. No universal quality threshold or best-angle claim.",
+  "conclusion": "The camera-encoder gain controls the fade/clarity tradeoff in this case. Uniform gain alone does not restore action continuation; next Stage3 work must preserve motion while retaining target-view detail.",
+  "artifacts": [
+    "audit/case15_c_control_gain_1p5_early.jpg",
+    "audit/case15_c_control_gain_1p5_late.jpg",
+    "pose_trial/case15_c_control_gain_1p5_native_all/tracks.json",
+    "audit/v12_balanced_case15_c_control_gain_1p5_pose_compare.json",
+    "audit/v12_balanced_case15_c_control_gain_1p5_person_contrast.json"
+  ],
+  "native_integrity_extra": {
+    "same_initial_noise_all_four": true,
+    "all_endpoint_pin_count_50": true,
+    "all_final_first_latent_exactly_pinned": true
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "matched_joints": 171,
+  "median_px": 17.453266480947292,
+  "late_arm_mean_px": 105.84364271707695,
+  "per_frame": [
+    {
+      "frame": 0,
+      "matched_joints": 12,
+      "all_mean_px": 30.05967399101586,
+      "core_mean_px": 38.45411948860767,
+      "arms_mean_px": null,
+      "legs_mean_px": 53.37372676566192
+    },
+    {
+      "frame": 1,
+      "matched_joints": 0,
+      "all_mean_px": null,
+      "core_mean_px": null,
+      "arms_mean_px": null,
+      "legs_mean_px": null
+    },
+    {
+      "frame": 2,
+      "matched_joints": 12,
+      "all_mean_px": 17.5880932488345,
+      "core_mean_px": 20.17192777209847,
+      "arms_mean_px": null,
+      "legs_mean_px": 21.13766727874404
+    },
+    {
+      "frame": 3,
+      "matched_joints": 13,
+      "all_mean_px": 16.448411860937192,
+      "core_mean_px": 18.18837366403799,
+      "arms_mean_px": null,
+      "legs_mean_px": 16.02191914543387
+    },
+    {
+      "frame": 4,
+      "matched_joints": 9,
+      "all_mean_px": 25.65352135974875,
+      "core_mean_px": 25.846913567094,
+      "arms_mean_px": null,
+      "legs_mean_px": 30.50486165601807
+    },
+    {
+      "frame": 5,
+      "matched_joints": 13,
+      "all_mean_px": 25.183113018817984,
+      "core_mean_px": 21.195787851884123,
+      "arms_mean_px": null,
+      "legs_mean_px": 13.88327249707891
+    },
+    {
+      "frame": 6,
+      "matched_joints": 15,
+      "all_mean_px": 46.28898090457302,
+      "core_mean_px": 55.73316010235157,
+      "arms_mean_px": 47.332434068764265,
+      "legs_mean_px": 100.34284351825283
+    },
+    {
+      "frame": 7,
+      "matched_joints": 0,
+      "all_mean_px": null,
+      "core_mean_px": null,
+      "arms_mean_px": null,
+      "legs_mean_px": null
+    },
+    {
+      "frame": 8,
+      "matched_joints": 14,
+      "all_mean_px": 16.583915848743178,
+      "core_mean_px": 12.329474802339117,
+      "arms_mean_px": 46.19481716579792,
+      "legs_mean_px": 15.124695264782083
+    },
+    {
+      "frame": 9,
+      "matched_joints": 3,
+      "all_mean_px": 335.6221070216964,
+      "core_mean_px": 359.21789081322015,
+      "arms_mean_px": 288.4305394386491,
+      "legs_mean_px": 359.21789081322015
+    },
+    {
+      "frame": 10,
+      "matched_joints": 4,
+      "all_mean_px": 306.85810467111673,
+      "core_mean_px": 364.6919486792409,
+      "arms_mean_px": 249.02426066299256,
+      "legs_mean_px": 364.6919486792409
+    },
+    {
+      "frame": 11,
+      "matched_joints": 12,
+      "all_mean_px": 21.76376343311337,
+      "core_mean_px": 16.794795445088667,
+      "arms_mean_px": null,
+      "legs_mean_px": 13.257370501873472
+    },
+    {
+      "frame": 12,
+      "matched_joints": 12,
+      "all_mean_px": 23.056490486709205,
+      "core_mean_px": 20.13650628277835,
+      "arms_mean_px": null,
+      "legs_mean_px": 12.525924891172172
+    },
+    {
+      "frame": 13,
+      "matched_joints": 0,
+      "all_mean_px": null,
+      "core_mean_px": null,
+      "arms_mean_px": null,
+      "legs_mean_px": null
+    },
+    {
+      "frame": 14,
+      "matched_joints": 4,
+      "all_mean_px": 316.85732202800136,
+      "core_mean_px": 364.24434547684575,
+      "arms_mean_px": 269.470298579157,
+      "legs_mean_px": 364.24434547684575
+    },
+    {
+      "frame": 15,
+      "matched_joints": 17,
+      "all_mean_px": 16.597994917982493,
+      "core_mean_px": 10.51101547566407,
+      "arms_mean_px": 34.77560631828314,
+      "legs_mean_px": 7.519065739963677
+    },
+    {
+      "frame": 16,
+      "matched_joints": 16,
+      "all_mean_px": 50.014032144845416,
+      "core_mean_px": 79.167242425754,
+      "arms_mean_px": 13.285023253790735,
+      "legs_mean_px": 161.00009254078023
+    },
+    {
+      "frame": 17,
+      "matched_joints": 0,
+      "all_mean_px": null,
+      "core_mean_px": null,
+      "arms_mean_px": null,
+      "legs_mean_px": null
+    },
+    {
+      "frame": 18,
+      "matched_joints": 13,
+      "all_mean_px": 15.11503761376878,
+      "core_mean_px": 12.317040002667753,
+      "arms_mean_px": null,
+      "legs_mean_px": 6.06053229318084
+    },
+    {
+      "frame": 19,
+      "matched_joints": 0,
+      "all_mean_px": null,
+      "core_mean_px": null,
+      "arms_mean_px": null,
+      "legs_mean_px": null
+    },
+    {
+      "frame": 20,
+      "matched_joints": 2,
+      "all_mean_px": 356.8175125138046,
+      "core_mean_px": 356.8175125138046,
+      "arms_mean_px": null,
+      "legs_mean_px": 356.8175125138046
+    }
+  ]
+}

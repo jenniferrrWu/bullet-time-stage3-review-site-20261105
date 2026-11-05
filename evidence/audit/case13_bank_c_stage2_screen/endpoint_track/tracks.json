@@ -1,0 +1,148 @@
+{
+  "source_video": "/root/bullet_time_research_20261102/vlm_dd_case13_bank_c/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/preprocess/Rotate,0,55,0,0,0/depthdirector.mp4",
+  "source_frames": 81,
+  "joint_schema": "COCO-WholeBody first 17 body joints, original official DWPose output order",
+  "joint_names": [
+    "nose",
+    "left_eye",
+    "right_eye",
+    "left_ear",
+    "right_ear",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle"
+  ],
+  "confidence_threshold": 0.3,
+  "frames": [
+    {
+      "frame": 80,
+      "detected": true,
+      "bbox_xyxy": [
+        514.2084350585938,
+        178.55148315429688,
+        869.1522827148438,
+        694.8017578125
+      ],
+      "keypoints_xy": [
+        [
+          555.5596809983253,
+          281.23016733924544
+        ],
+        [
+          553.8791788021723,
+          262.7446431815624
+        ],
+        [
+          546.3169189194838,
+          272.82765635848045
+        ],
+        [
+          585.8087205290794,
+          241.7383657296499
+        ],
+        [
+          567.3231963713964,
+          263.584894279639
+        ],
+        [
+          630.3420287271341,
+          271.9874052604039
+        ],
+        [
+          611.0162534713745,
+          298.875440398852
+        ],
+        [
+          626.981024334828,
+          232.49560365080833
+        ],
+        [
+          710.1658830444018,
+          303.07669588923454
+        ],
+        [
+          587.4892227252324,
+          214.85033059120178
+        ],
+        [
+          702.6036231617132,
+          329.1244799296061
+        ],
+        [
+          682.4375968078773,
+          406.42758095264435
+        ],
+        [
+          668.9935792386532,
+          417.35084522763884
+        ],
+        [
+          728.6514072020848,
+          537.5067522525787
+        ],
+        [
+          718.5683940251669,
+          530.7847434679668
+        ],
+        [
+          850.4878164231777,
+          650.10039939483
+        ],
+        [
+          798.3922483424346,
+          622.3721131583054
+        ]
+      ],
+      "confidence": [
+        0.6272008419036865,
+        0.6170166730880737,
+        0.5800164341926575,
+        0.6216658353805542,
+        0.3217625617980957,
+        0.49983131885528564,
+        0.4468759298324585,
+        0.2311512529850006,
+        0.24452203512191772,
+        0.3749360144138336,
+        0.11706667393445969,
+        0.436074435710907,
+        0.44819164276123047,
+        0.6896092891693115,
+        0.3600727915763855,
+        0.7659848928451538,
+        0.5717061161994934
+      ],
+      "accepted": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "accepted_body_joints": 14
+    }
+  ],
+  "mean_accepted_body_joints": 14.0,
+  "note": "This is an observation track, not a DD improvement or validated action constraint."
+}

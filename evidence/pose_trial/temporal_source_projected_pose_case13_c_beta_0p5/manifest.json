@@ -1,0 +1,45 @@
+{
+  "experiment": "source DWPose joints reprojected by exact DD geometry gate temporal residual on existing DD camera_encoder output",
+  "beta": 0.5,
+  "confidence_threshold": 0.3,
+  "source_tracks": "/root/bullet_time_research_20261102/audit/case13_source_pose_reprojection_validation.json",
+  "geometry_reprojection_median_error_px": 9.115704436899904,
+  "short_gap_interpolations": [],
+  "latent_heat_fraction_above_0p1": [
+    0.07520530007102273,
+    0.07422318892045454,
+    0.06870561079545455,
+    0.0684814453125,
+    0.0731778231534091,
+    0.07617076526988636
+  ],
+  "input_hashes": {
+    "input": "a033fffa3f4efbde1f224843edf09741ff947f536c9f8769a3fa6ba8aae242cc",
+    "cond": "1e99e48653c71be09f4c291f0877539b3a414f93d145e94559f1ff83d050b0d2",
+    "depth": "85f3753c9a0701b30013f62d78264e37ffe0082b05773c3eaa79471d875f58a3",
+    "mask": "7da1575c0299825ac98ba02a5904c836a96ccddbd242a0868bd509c03144fefc",
+    "input_image": "600e2030c47f11701ded5350da9540a26412fc237b35cbe9075a8f802d8a22a9"
+  },
+  "native_baseline_sha256": "784963289e9486772803af3c149fcfe6f68fec8c29fe413fc1522c7f787a627e",
+  "official_weights_unchanged": true,
+  "postdecode_frame_replacement": false,
+  "state": "completed",
+  "camera_encoder_calls": [
+    {
+      "shape": [
+        1,
+        3072,
+        6,
+        22,
+        40
+      ],
+      "beta": 0.5,
+      "mask_min": 0.0,
+      "mask_max": 0.98828125,
+      "mean_abs_motion_residual": 0.0179443359375,
+      "gated_residual_fraction": 0.07405302673578262
+    }
+  ],
+  "native": "/root/bullet_time_research_20261102/pose_trial/temporal_source_projected_pose_case13_c_beta_0p5/result/depthdirector.mp4",
+  "sha256": "f25e1dfefe35eaf7ad57dff02f8d2c8b7737f5eaac95f6ca60ee8c1abb5e0887"
+}

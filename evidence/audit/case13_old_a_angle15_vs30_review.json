@@ -1,0 +1,33 @@
+{
+  "case": "case13 original VLM A, highlight frame396, right orbit, 25 action frames",
+  "controlled_change": "Orbit angle 30 to 15 degrees; same source frames, direction, orbit duration, Stage3 duration and official DD weights",
+  "interruption": "First Stage3 inference was externally interrupted at 39/50 steps and archived; second Stage3 inference completed and is the only evaluated output",
+  "new15_native_integrity": "passed",
+  "stage3_visual_contact_sheet": "/root/bullet_time_research_20261102/audit/case13_old_a_angle15_vs30_stage3.jpg",
+  "stage2_visual_contact_sheet": "/root/bullet_time_research_20261102/audit/case13_old_a_angle15_vs30_stage2.jpg",
+  "geometry_valid_fraction_mean": {
+    "right30": 0.26089106889204544,
+    "right15": 0.5525959694602273
+  },
+  "geometry_fraction_below_20pct": {
+    "right30": 0.28,
+    "right15": 0.0
+  },
+  "pose_2d": {
+    "right30": {
+      "detected": 25,
+      "mean_joints": 16.84,
+      "core_mae": 0.6656096538665575,
+      "limb_mae": 0.529849761236981
+    },
+    "right15": {
+      "detected": 25,
+      "mean_joints": 16.32,
+      "core_mae": 0.8230786700961887,
+      "limb_mae": 0.9066666310357833
+    }
+  },
+  "human_visual_review": "15 degrees brings Stage2 person somewhat inward and doubles valid target mesh coverage. Stage3 retains person and action sequence but floating white/blue blob at left in late frames; f24 arm direction diverges more from source than 30-degree result. No clear output quality improvement, and 2D motion proxy worsens.",
+  "metric_caveat": "2D joint error across different viewpoints is not a direct quality ranking; qualitative visual judgment still required.",
+  "improved_quality_proven": false
+}

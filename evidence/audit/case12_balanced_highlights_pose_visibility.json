@@ -1,0 +1,54 @@
+{
+  "video": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/a-woman-dancing-alone-at-home-5743004.mp4",
+  "width": 1440,
+  "height": 2732,
+  "frames": {
+    "171": {
+      "status": "no_border_crop_evidence",
+      "reason": "Detector box has margin on all sides and nose, hips, knees, ankles are accepted",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.20202855004204645,
+        "right": 0.21717775132921008,
+        "top": 0.2658787918649341,
+        "bottom": 0.11240977877928257
+      },
+      "near_edges": [],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "285": {
+      "status": "edge_or_pose_risk",
+      "reason": "Detector box close to border or low keypoint coverage",
+      "accepted_joints": 15,
+      "required_core_joints_accepted": true,
+      "bbox_margin_fraction": {
+        "left": 0.25499708387586806,
+        "right": 0.07474450005425347,
+        "top": 0.0019148825551894538,
+        "bottom": 0.009439359472227305
+      },
+      "near_edges": [
+        "top",
+        "bottom"
+      ],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    },
+    "457": {
+      "status": "edge_or_pose_risk",
+      "reason": "Detector box close to border or low keypoint coverage",
+      "accepted_joints": 7,
+      "required_core_joints_accepted": false,
+      "bbox_margin_fraction": {
+        "left": 0.0010542978015210893,
+        "right": 0.031795840793185766,
+        "top": 0.10381502567587275,
+        "bottom": 0.05292203799871889
+      },
+      "near_edges": [
+        "left"
+      ],
+      "caveat": "Detector boxes and keypoints cannot certify fingertip/hair visibility."
+    }
+  }
+}

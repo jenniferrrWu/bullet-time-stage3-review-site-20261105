@@ -1,0 +1,15 @@
+{
+  "candidate": "C",
+  "plan": "v1.2 case13 f1075 left20 17f",
+  "native_visual_frames": [
+    0,
+    4,
+    8,
+    12,
+    16
+  ],
+  "source_relative_contact_sheet": "/root/bullet_time_research_20261102/audit/v12_case13_c_stage3.jpg",
+  "observation": "Source highlight is a cropped near shot. Native Stage3 begins with cropped torso; by f8 upper body is fragmentary, by f12 person has disappeared into pale scenery, and f16 remains mostly empty/hazy. Clear native quality failure, not inferred from geometry alone.",
+  "quality_pass": false,
+  "source_pose_tracking": "17/17 detected but only 10.06/17 accepted joints on average due crop; pose metrics unreliable"
+}

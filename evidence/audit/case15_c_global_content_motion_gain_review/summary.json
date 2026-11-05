@@ -1,0 +1,61 @@
+{
+  "experiment": "Native DD source-content latent temporal residual gain case15 C; gain0 exact baseline SHA control, gain0.5 same effective inputs, initial noise, official weights and first-frame anchor.",
+  "native_sha256": {
+    "baseline": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "gain0": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+    "gain0p5": "d193ac0cc6169661eb87bc48470f89ffcc26bb4f9b0cead44a2c5e597ef5b76b"
+  },
+  "per_frame_rgb_mae_gain0p5_vs_baseline": [
+    0.16318914240056817,
+    0.5939079515861743,
+    0.8068200313683712,
+    1.045830743963068,
+    1.2295025449810606,
+    1.46856689453125,
+    1.4807443329782197,
+    1.4554032759232955,
+    1.3008367365056819,
+    1.2639874082623106,
+    1.642080595999053,
+    2.9456583658854165,
+    5.62705263080019,
+    7.536527506510416,
+    9.012853633996212,
+    9.64986239346591,
+    10.107763671875
+  ],
+  "mean_rgb_mae_gain0p5_vs_baseline": 3.372387521237188,
+  "pose_and_contrast": {
+    "baseline": {
+      "core_motion_error_body_units": 0.0881989641660083,
+      "limb_motion_error_body_units": 0.48406569206840516,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.12968750041926935,
+        0.09999031271282892
+      ],
+      "person_gray_contrast_trend_over_source": 0.6583416868147342
+    },
+    "gain0p5": {
+      "core_motion_error_body_units": 0.08418830533405981,
+      "limb_motion_error_body_units": 0.4624615836411811,
+      "right_wrist_source_range_body_units": [
+        1.1744867781047055,
+        0.9783915406509107
+      ],
+      "right_wrist_generated_range_body_units": [
+        0.5193165828380704,
+        0.24058279443322184
+      ],
+      "person_gray_contrast_trend_over_source": 0.5490406560125848
+    }
+  },
+  "integrity": "passed",
+  "holistic_visual_review": "All 17 source/baseline/gain0.5 frames inspected. Gain0.5 changes the generated right-hand/arm path and raises detected horizontal wrist range from 0.130 to 0.519 body units (source 1.174), but the source cross-body sweep remains incomplete; late person, face and plain background become more washed out than baseline. Person contrast trend over source drops 0.658 to 0.549. No complete Stage3 improvement.",
+  "quality_pass": false,
+  "metric_caveat": "Cross-view 2D pose and contrast do not establish whole-video quality.",
+  "conclusion": "Temporal source-content motion can be strengthened within DD, but simple global gain trades partial motion increase for worse late appearance and still fails full action. Do not use limb proxy improvement alone as quality pass."
+}

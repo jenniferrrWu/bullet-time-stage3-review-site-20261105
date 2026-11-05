@@ -1,0 +1,35 @@
+{
+  "mask": "/root/bullet_time_research_20261102/vlm_dd_v12_case13_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_mask.mp4",
+  "sha256": "19fcf9d89d7f620958dfded5ce0b4bae45ad57d691d50984881e2f19aac867f4",
+  "meaning": "Fraction of target pixels with a rendered dynamic mesh face; white=valid per tools/recam/geometry/dynamic_mesh.py, black=uncovered",
+  "frame_count": 17,
+  "valid_fraction": {
+    "mean": 0.20593672971674462,
+    "min": 0.10165904651988636,
+    "p10": 0.10436900745738636,
+    "median": 0.14996448863636364,
+    "p90": 0.36859264026988636,
+    "max": 0.4329068270596591,
+    "fraction_frames_below_0_20": 0.5882352941176471
+  },
+  "per_frame_valid_fraction": [
+    0.4329068270596591,
+    0.3919389204545455,
+    0.35302845348011364,
+    0.33280362215909093,
+    0.2907936789772727,
+    0.24589399857954544,
+    0.21185746626420454,
+    0.17401344992897727,
+    0.14996448863636364,
+    0.1354159268465909,
+    0.12419322620738636,
+    0.12118363813920455,
+    0.11762029474431818,
+    0.10919078480113636,
+    0.10492387251420454,
+    0.10353670987215909,
+    0.10165904651988636
+  ],
+  "qualification": "Descriptive DD geometry proxy only; coverage alone is not a validated quality predictor and cannot prove the best plan."
+}

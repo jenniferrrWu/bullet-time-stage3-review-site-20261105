@@ -1,0 +1,58 @@
+{
+  "scope": "Third dance source, VLM planner v1.2 balanced candidates A/B/C, each executed with native DepthDirector Stage2 and Stage3; comparison is within these three, not a user-labelled or global optimum.",
+  "source": "/public/wufeier/automatic_bullet_time/inputs/formal15/new_dance/woman-dancing-7570258.mp4",
+  "integrity": "All three passed dd_feedback.collect native video hash, action frame count, Stage2 endpoint anchor, and fixed Stage3 camera checks; see v12_balanced_case15_abc_native_integrity.json.",
+  "review_method": "Manual source-vs-generated image comparison at 10 evenly distributed moments per Stage3 action window, plus all-frame official DWPose observations and strict native integrity checks. The visual judgement covers the whole Stage3 window, and DWPose is only auxiliary 2D evidence; continuous human playback and user preference remain unverified.",
+  "candidates": {
+    "A": {
+      "vlm_plan": "source highlight f101, right 30 degrees, Stage2 4 s, Stage3 25 frames/1.00 s",
+      "stage2": "Human remains fully visible and the plain studio stays structurally intact; parallax/camera movement is hard to perceive against the nearly featureless background.",
+      "stage3_human_scene": "Human remains recognizable throughout all sampled moments, with scene intact. Face, hands, and garment become visibly softer/blurred late in the segment.",
+      "stage3_action": "Arms move toward/behind the head and legs progress broadly in the source sequence; pose details and the second half are imperfect, including some lower-body mismatch.",
+      "stage3_temporal": "No sampled catastrophic disappearance or background melting; blur increases toward the end.",
+      "all_frame_dwpose": "25/25 source and 25/25 generated human detection, 17.0/17 mean accepted body joints in both; pelvis-relative 2D core motion-delta MAE 0.125, limb 0.113 body units. These values do not establish 3D or perceptual equivalence.",
+      "holistic_result": "Provisional strongest of the three executed plans, with visible late blur and limited demonstrable bullet-time orbit effect. Not certified as best frame, best angle, or final-quality pass."
+    },
+    "B": {
+      "vlm_plan": "source highlight f271, left 45 degrees, Stage2 6 s, Stage3 33 frames/1.32 s",
+      "stage2": "Human remains mostly visible, but a strong dark wall/pillar appears at the right edge during the orbit, changing composition.",
+      "stage3_human_scene": "Person remains recognizable early, becomes pale/soft or ghosted from the middle, then partly regains definition; the side wall persists.",
+      "stage3_action": "Generated arms largely remain near/behind the head while source arms swing substantially in the latter half; pose/action timing diverges.",
+      "stage3_temporal": "Visible person sharpness/opacity instability through the middle and end.",
+      "all_frame_dwpose": "33/33 source and generated human detection, but mean accepted joints decrease from 16.88 to 15.58; core motion-delta MAE 0.189, limb 0.619 body units. Cross-view 2D metric is auxiliary.",
+      "holistic_result": "Stage3 quality failure on action fidelity and temporal appearance stability."
+    },
+    "C": {
+      "vlm_plan": "source highlight f577, right 20 degrees, Stage2 2.5 s, Stage3 17 frames/0.68 s",
+      "stage2": "Human and plain studio remain framed; orbit cue is weak against blank background.",
+      "stage3_human_scene": "Person progressively fades into the pale background, becoming a low-contrast ghost by the end, despite stable scene geometry.",
+      "stage3_action": "The source hand/arm swings across the body; generated arm and body are almost static after the first frames.",
+      "stage3_temporal": "Continuous loss of contrast and detail over the 17-frame window.",
+      "all_frame_dwpose": "17/17 source and generated human detection, but mean accepted joints decrease from 16.88 to 15.24; core motion-delta MAE 0.088, limb 0.483 body units. The relatively small core error misses the obvious visual fading and arm-action failure.",
+      "holistic_result": "Clear Stage3 quality failure despite short duration and high valid-mesh coverage."
+    }
+  },
+  "relative_judgement": "A is visually stronger than B and C among these executed plans, but the comparison confounds selected time, angle, orbit duration, and action length. There is no user-labelled best frame and no evidence of global optimality. Final angle should be decided by VLM with real output feedback, subject to accurate visual reasoning and human review.",
+  "planner_reason_correction": "The VLM description of A f101 as both feet airborne with arms up is false: the source image shows one foot grounded, one knee lifted, and arms below an overhead position. This invalidates that stated reason, not necessarily candidate A itself.",
+  "evidence": [
+    "v12_balanced_case15_a_dense.jpg",
+    "v12_balanced_case15_b_dense.jpg",
+    "v12_balanced_case15_c_dense.jpg",
+    "v12_balanced_case15_{a,b,c}_pose_compare.json",
+    "v12_balanced_case15_abc_native_integrity.json"
+  ],
+  "vlm_native_feedback": {
+    "result": "/root/bullet_time_research_20261102/planner_v12_balanced_case15_dd_feedback/result.json",
+    "preferred_id": "A",
+    "agreement": "Relative preference A agrees with manual dense-sample review.",
+    "disagreement": "Feedback awards A 5/5 on every dimension and says all Stage3 frames match source precisely, although it inspected only selected frames and late face/hand blur plus pose differences are visible. Its B/C quality failures are directionally consistent, but precise claims of melting or anatomy should be checked against images.",
+    "status": "Auxiliary model judgement, not human ground truth or final-quality certification."
+  },
+  "vlm_dense_feedback": {
+    "result": "/root/bullet_time_research_20261102/planner_v12_balanced_case15_dd_feedback_dense448/result.json",
+    "sampled_stage3_frames_per_candidate": 5,
+    "preferred_id": "A",
+    "invalid_evidence": "Candidate C has only 17 Stage3 frames (f0..f16), yet feedback references frame 24. It also gives A 5/5 for every dimension and denies visible late blur.",
+    "conclusion": "More sampled frames did not make this VLM feedback reliable enough for final quality acceptance or angle optimality."
+  }
+}

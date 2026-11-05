@@ -1,0 +1,223 @@
+{
+  "candidate": "C",
+  "frame_count": 17,
+  "image_max_side": 256,
+  "sources": [
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 0,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 0,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 1,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 1,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 2,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 2,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 3,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 3,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 4,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 4,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 5,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 5,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 6,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 6,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 7,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 7,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 8,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 8,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 9,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 9,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 10,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 10,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 11,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 11,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 12,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 12,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 13,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 13,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 14,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 14,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 15,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 15,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "source",
+      "frame": 16,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/action.mp4"
+    },
+    {
+      "candidate": "C",
+      "kind": "generated",
+      "frame": 16,
+      "path": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4"
+    }
+  ],
+  "prompt": "You are viewing all 17 source and generated frames of one candidate in exact chronological pairs. Assess Stage3 video quality only. The generated camera may differ from source and must stay fixed, so compare temporal changes in limbs, torso, head, scene, and detail rather than exact 2D pixel poses. A pass requires the entire generated window to preserve motion, person, scene and visible detail. If the reduced image size prevents a detail judgment, mark uncertain. Name specific relative frame numbers and observable changes; do not infer causes. Return one JSON object exactly matching {\"visible_person_continuity\":\"pass|fail|uncertain\",\"action_following\":\"pass|fail|uncertain\",\"scene_continuity\":\"pass|fail|uncertain\",\"clear_details\":\"pass|fail|uncertain\",\"whole_video_quality\":\"pass|fail|uncertain\",\"first_half_evidence\":string,\"second_half_evidence\":string,\"limitations\":string}.",
+  "raw": "{\n  \"visible_person_continuity\": \"fail\",\n  \"action_following\": \"fail\",\n  \"scene_continuity\": \"pass\",\n  \"clear_details\": \"fail\",\n  \"whole_video_quality\": \"fail\",\n  \"first_half_evidence\": \"Frame 0-8: Generated frames show significant blurring and loss of limb detail compared to source. Limb positions are inconsistent with source motion (e.g., frame 2 generated has arm position differing from source).\",\n  \"second_half_evidence\": \"Frame 9-16: Generated frames become increasingly blurry and lack visible detail. Limb and torso motion does not follow source action (e.g., frame 15 generated shows distorted torso and arm positions).\",\n  \"limitations\": \"Reduced image size in generated frames prevents detailed assessment of fine features, but gross motion and continuity are clearly compromised.\"\n}",
+  "parsed": {
+    "visible_person_continuity": "fail",
+    "action_following": "fail",
+    "scene_continuity": "pass",
+    "clear_details": "fail",
+    "whole_video_quality": "fail",
+    "first_half_evidence": "Frame 0-8: Generated frames show significant blurring and loss of limb detail compared to source. Limb positions are inconsistent with source motion (e.g., frame 2 generated has arm position differing from source).",
+    "second_half_evidence": "Frame 9-16: Generated frames become increasingly blurry and lack visible detail. Limb and torso motion does not follow source action (e.g., frame 15 generated shows distorted torso and arm positions).",
+    "limitations": "Reduced image size in generated frames prevents detailed assessment of fine features, but gross motion and continuity are clearly compromised."
+  }
+}

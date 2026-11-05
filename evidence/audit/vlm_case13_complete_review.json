@@ -1,0 +1,24 @@
+{
+  "video": "/root/bullet_time_research_20261102/vlm_dd_case13_v11/complete.mp4",
+  "frames": 503,
+  "target_duration_seconds": 18.080566666666666,
+  "container_duration_seconds": 18.081,
+  "unique_frame_timestamps": 503,
+  "seam_frames_inspected": {
+    "stage1_to_stage2": [
+      395,
+      396,
+      397,
+      398
+    ],
+    "stage2_to_stage3": [
+      476,
+      477,
+      478,
+      479
+    ]
+  },
+  "observation": "Both sampled seams have coherent framing and subject pose; no obvious scene or identity jump. Stage1/2 anchor and Stage2/3 generated endpoint are visibly close. Stage3 starts moving after the frozen orbit. The planner-selected frame keeps dancer cropped at the bottom.",
+  "limitations": "Seam review covers four frames around each boundary; full continuous viewing and candidate comparison remain. The selected Stage3 window is 25 frames rather than all remaining source frames.",
+  "quality": "technically_valid_end_to_end_demo_not_proven_best_plan"
+}

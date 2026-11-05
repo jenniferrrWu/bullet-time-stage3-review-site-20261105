@@ -1,0 +1,12 @@
+{
+  "case": "case13_woman_rooftop_dance",
+  "control": "Historical 30-degree Stage3, 81-frame window vs first 25-frame window",
+  "output": "/root/bullet_time_research_20261102/nontrajectory/short_window_case13_exact25_v2/result/depthdirector.mp4",
+  "input_integrity": "input/cond/depth/mask first 25 decoded frames each pixel-identical to historical run; same historical Stage2 endpoint PNG, prompt, official DD weights, and seed argument",
+  "native_integrity": "25 frames 1280x704, first latent pinned 50 steps and final difference 0; no postdecode frame replacement",
+  "sampled_frames": [0,4,8,12,16,20,24],
+  "contact_sheet": "/root/bullet_time_research_20261102/audit/case13_short_window_exact25_compare.jpg",
+  "observation": "25-frame run keeps much more person detail at f4 than the 81-frame run, but its action appears nearly frozen in f0-f4. By f8 scene and body smear; by f12 body is largely lost, and f20-f24 are pale near blank. This does not fix the hard case or preserve the intended motion.",
+  "quality_pass": false,
+  "causal_limit": "Changing runtime length also changes initial latent/noise tensor temporal shape (7 vs 21) and model temporal context; only decoded source and conditions plus anchor/prompt/weights were held exact. It isolates the duration intervention, not an identical latent trajectory."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "dancer",
+  "selected_id": "B",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 622,
+      "orbit_direction": "left",
+      "orbit_degrees": 30,
+      "orbit_seconds": 4.0,
+      "action_num_frames": 25,
+      "action_seconds": 0.83,
+      "reason": "Peak pose: dancer in mid-motion with arms raised above head, body fully visible, and clear cityscape background. Side angle shows dynamic geometry of the pose. Pacing is fluid with visible motion blur in hair, indicating continuous movement. Background camera pan is minimal, keeping focus on the dancer.",
+      "score": 0.86
+    },
+    {
+      "id": "B",
+      "highlight_frame": 848,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 6.0,
+      "action_num_frames": 33,
+      "action_seconds": 1.1,
+      "reason": "Peak pose: high kick with one leg extended upward, full body visible, and balanced posture. Side angle emphasizes the height and control of the kick. Pacing is controlled with a clear transition from previous frames. Background camera pan is minimal, maintaining focus on the dancer's form.",
+      "score": 0.9
+    },
+    {
+      "id": "C",
+      "highlight_frame": 1075,
+      "orbit_direction": "left",
+      "orbit_degrees": 20,
+      "orbit_seconds": 2.5,
+      "action_num_frames": 17,
+      "action_seconds": 0.57,
+      "reason": "Peak pose: dancer with arms raised behind the head, clear body visibility, and stable pose. Side angle highlights the controlled motion and posture. Pacing is steady with minimal motion blur, indicating a deliberate movement. Background camera pan is minimal, keeping the cityscape backdrop consistent.",
+      "score": 0.46
+    }
+  ],
+  "risks": [
+    "highlight_frame 622: slight motion blur in hair may affect clarity of the peak pose for the orbit stage.",
+    "highlight_frame 848: background camera pan is minimal but may not fully capture the full extent of the high kick's geometry.",
+    "highlight_frame 1075: body crop is tight, potentially limiting the visibility of the full pose during the orbit stage.",
+    "Candidate C source crop: ['bottom', 'left']"
+  ]
+}

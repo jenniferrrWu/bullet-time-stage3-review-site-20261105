@@ -1,0 +1,49 @@
+{
+  "schema_version": "dd-bullet-plan/1.1",
+  "suitable": true,
+  "subject": "dancer in beige leotard performing dynamic movements in a bright room with wooden floors and a piano",
+  "selected_id": "B",
+  "candidates": [
+    {
+      "id": "A",
+      "highlight_frame": 171,
+      "orbit_direction": "left",
+      "orbit_degrees": 35,
+      "orbit_seconds": 4.2,
+      "action_num_frames": 33,
+      "action_seconds": 1.32,
+      "reason": "Peak pose shows dancer mid-movement with arms extended and body angled, capturing dynamic motion blur in hair and limbs. Side view emphasizes body tension and spatial positioning. Pacing is controlled with clear transition from prior frame (169) to this peak moment.",
+      "score": 0.68
+    },
+    {
+      "id": "B",
+      "highlight_frame": 285,
+      "orbit_direction": "right",
+      "orbit_degrees": 45,
+      "orbit_seconds": 5.8,
+      "action_num_frames": 41,
+      "action_seconds": 1.64,
+      "reason": "Extreme arching pose with one arm raised high and torso bent backward, showcasing dramatic flexibility peak. Side view highlights body curvature and motion blur in hair. Pacing is fluid with clear progression from prior frame (283) to this high-energy moment.",
+      "score": 0.82
+    },
+    {
+      "id": "C",
+      "highlight_frame": 457,
+      "orbit_direction": "left",
+      "orbit_degrees": 55,
+      "orbit_seconds": 7.3,
+      "action_num_frames": 57,
+      "action_seconds": 2.28,
+      "reason": "Full-body contortion with hands on floor and head inverted, capturing high-energy movement with visible limb positioning and hair motion blur. Side view emphasizes body tension and spatial dynamics. Pacing is dynamic with clear transition from prior frame (455) to this contortion peak.",
+      "score": 0.74
+    }
+  ],
+  "risks": [
+    "Highlight frame 171: Body is fully visible but background piano may cause slight occlusion during orbit; action duration is short but sufficient for smooth transition.",
+    "Highlight frame 285: Extreme pose may cause partial body crop during orbit; action duration is moderate but requires precise timing to maintain motion continuity.",
+    "Highlight frame 457: Full-body contortion may lead to hair occlusion during orbit; action duration is longest but necessary for capturing the complex movement sequence.",
+    "Candidate A source visibility uncertain: two checks disagree",
+    "Candidate B source crop: ['top']",
+    "Candidate C source crop: ['left', 'right', 'top']"
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "domain": "held-out SJTU Skipping Rope; fixed target camera 3; exact target f0 anchor",
+  "frames": 17,
+  "source_and_target_have_different_cameras": true,
+  "videos": {
+    "source": {
+      "path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/fixed_view_52_68_native/input.mp4",
+      "sha256": "e38da3836833c29d11db518524d1a96a2f040c854809110828da1462823662b2"
+    },
+    "target": {
+      "path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/skipping_rope/fixed_view_52_68_native/target.mp4",
+      "sha256": "5078c58b3bea625961e81c7c6c18466ef515dc6f77463dca77cb818afe69fdc0"
+    },
+    "baseline": {
+      "path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/anchor_multiscene_pilot/holdout_seeded_baseline/depthdirector.mp4",
+      "sha256": "2c081497994225c74fe7ddba3c3d53c5edcc1a86224fa2184400f2a8e3e67b6a"
+    },
+    "pose_motion": {
+      "path": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/anchor_multiscene_pilot/holdout_pose_motion/depthdirector.mp4",
+      "sha256": "e2f52ce5ea007a9e1df4592da361e80fe2b00fb965ba6350d8b58c0357f9d0d5"
+    }
+  },
+  "initial_noise_sha256": {
+    "seeded_baseline": "60012b9d76186f71ee97d04301048634a7a7ab76783f0528f9040a1ac9e0d204",
+    "pose_motion": "60012b9d76186f71ee97d04301048634a7a7ab76783f0528f9040a1ac9e0d204"
+  },
+  "metrics": {
+    "baseline": {
+      "whole_frame_target_mae": 4.715949268902049,
+      "target_person_bbox_mae": 12.51794603992911,
+      "limb_motion_delta_mae_body_units": 0.28586071624043574,
+      "core_motion_delta_mae_body_units": 0.05350470054655291,
+      "left_wrist_y_range_body_units": 0.11582805594125267,
+      "right_wrist_y_range_body_units": 0.1760002155978192
+    },
+    "pose_motion": {
+      "whole_frame_target_mae": 5.103033472509945,
+      "target_person_bbox_mae": 12.62090314837063,
+      "limb_motion_delta_mae_body_units": 0.2880226814085884,
+      "core_motion_delta_mae_body_units": 0.052434523355309605,
+      "left_wrist_y_range_body_units": 0.13308009224234985,
+      "right_wrist_y_range_body_units": 0.17380932182740283
+    }
+  },
+  "target_wrist_y_range_body_units": {
+    "left": 0.6941815016298922,
+    "right": 0.8643775062231259
+  },
+  "rows": [
+    {
+      "frame": 0,
+      "target_bbox_xyxy": [
+        436,
+        144,
+        721,
+        543
+      ],
+      "baseline_target_mae": 1.7985329627990723,
+      "baseline_person_target_mae": 1.9460991621017456,
+      "pose_motion_target_mae": 1.799225091934204,
+      "pose_motion_person_target_mae": 1.9528793096542358,
+      "base_pose_frame_mae": 0.4110547602176666
+    },
+    {
+      "frame": 1,
+      "target_bbox_xyxy": [
+        433,
+        143,
+        735,
+        543
+      ],
+      "baseline_target_mae": 2.2771494388580322,
+      "baseline_person_target_mae": 4.7653889656066895,
+      "pose_motion_target_mae": 2.313149929046631,
+      "pose_motion_person_target_mae": 4.742006301879883,
+      "base_pose_frame_mae": 0.6681478023529053
+    },
+    {
+      "frame": 2,
+      "target_bbox_xyxy": [
+        434,
+        143,
+        746,
+        543
+      ],
+      "baseline_target_mae": 2.7033557891845703,
+      "baseline_person_target_mae": 6.576052188873291,
+      "pose_motion_target_mae": 2.767721176147461,
+      "pose_motion_person_target_mae": 6.5575852394104,
+      "base_pose_frame_mae": 0.7020748257637024
+    },
+    {
+      "frame": 3,
+      "target_bbox_xyxy": [
+        438,
+        143,
+        754,
+        542
+      ],
+      "baseline_target_mae": 3.157404899597168,
+      "baseline_person_target_mae": 7.880486965179443,
+      "pose_motion_target_mae": 3.2590203285217285,
+      "pose_motion_person_target_mae": 7.8686747550964355,
+      "base_pose_frame_mae": 0.7907444834709167
+    },
+    {
+      "frame": 4,
+      "target_bbox_xyxy": [
+        443,
+        143,
+        759,
+        543
+      ],
+      "baseline_target_mae": 3.5435991287231445,
+      "baseline_person_target_mae": 8.691811561584473,
+      "pose_motion_target_mae": 3.709390640258789,
+      "pose_motion_person_target_mae": 8.671791076660156,
+      "base_pose_frame_mae": 0.7722678184509277
+    },
+    {
+      "frame": 5,
+      "target_bbox_xyxy": [
+        451,
+        143,
+        764,
+        542
+      ],
+      "baseline_target_mae": 3.7309939861297607,
+      "baseline_person_target_mae": 8.582484245300293,
+      "pose_motion_target_mae": 3.9423484802246094,
+      "pose_motion_person_target_mae": 8.593245506286621,
+      "base_pose_frame_mae": 0.8555401563644409
+    },
+    {
+      "frame": 6,
+      "target_bbox_xyxy": [
+        456,
+        145,
+        765,
+        543
+      ],
+      "baseline_target_mae": 3.9719769954681396,
+      "baseline_person_target_mae": 9.054978370666504,
+      "pose_motion_target_mae": 4.2335524559021,
+      "pose_motion_person_target_mae": 9.104598045349121,
+      "base_pose_frame_mae": 0.8934178352355957
+    },
+    {
+      "frame": 7,
+      "target_bbox_xyxy": [
+        460,
+        151,
+        767,
+        543
+      ],
+      "baseline_target_mae": 4.433372497558594,
+      "baseline_person_target_mae": 10.547325134277344,
+      "pose_motion_target_mae": 4.78127908706665,
+      "pose_motion_person_target_mae": 10.623845100402832,
+      "base_pose_frame_mae": 0.9648659229278564
+    },
+    {
+      "frame": 8,
+      "target_bbox_xyxy": [
+        469,
+        156,
+        763,
+        545
+      ],
+      "baseline_target_mae": 4.779759883880615,
+      "baseline_person_target_mae": 12.498209953308105,
+      "pose_motion_target_mae": 5.161465167999268,
+      "pose_motion_person_target_mae": 12.534193992614746,
+      "base_pose_frame_mae": 0.9689552783966064
+    },
+    {
+      "frame": 9,
+      "target_bbox_xyxy": [
+        476,
+        160,
+        761,
+        545
+      ],
+      "baseline_target_mae": 5.15902853012085,
+      "baseline_person_target_mae": 13.68875503540039,
+      "pose_motion_target_mae": 5.583746910095215,
+      "pose_motion_person_target_mae": 13.74272632598877,
+      "base_pose_frame_mae": 1.0384832620620728
+    },
+    {
+      "frame": 10,
+      "target_bbox_xyxy": [
+        482,
+        155,
+        754,
+        545
+      ],
+      "baseline_target_mae": 5.470880508422852,
+      "baseline_person_target_mae": 14.718262672424316,
+      "pose_motion_target_mae": 5.956295967102051,
+      "pose_motion_person_target_mae": 14.843514442443848,
+      "base_pose_frame_mae": 1.089688777923584
+    },
+    {
+      "frame": 11,
+      "target_bbox_xyxy": [
+        488,
+        143,
+        744,
+        545
+      ],
+      "baseline_target_mae": 5.56498908996582,
+      "baseline_person_target_mae": 14.691768646240234,
+      "pose_motion_target_mae": 6.1298909187316895,
+      "pose_motion_person_target_mae": 14.872360229492188,
+      "base_pose_frame_mae": 1.1448696851730347
+    },
+    {
+      "frame": 12,
+      "target_bbox_xyxy": [
+        497,
+        131,
+        726,
+        544
+      ],
+      "baseline_target_mae": 6.062645435333252,
+      "baseline_person_target_mae": 17.000469207763672,
+      "pose_motion_target_mae": 6.682672500610352,
+      "pose_motion_person_target_mae": 17.2242431640625,
+      "base_pose_frame_mae": 1.1566849946975708
+    },
+    {
+      "frame": 13,
+      "target_bbox_xyxy": [
+        506,
+        120,
+        714,
+        540
+      ],
+      "baseline_target_mae": 6.5190324783325195,
+      "baseline_person_target_mae": 19.141632080078125,
+      "pose_motion_target_mae": 7.173137187957764,
+      "pose_motion_person_target_mae": 19.367250442504883,
+      "base_pose_frame_mae": 1.2258719205856323
+    },
+    {
+      "frame": 14,
+      "target_bbox_xyxy": [
+        512,
+        113,
+        703,
+        528
+      ],
+      "baseline_target_mae": 6.809386730194092,
+      "baseline_person_target_mae": 20.81342315673828,
+      "pose_motion_target_mae": 7.50606632232666,
+      "pose_motion_person_target_mae": 21.05217170715332,
+      "base_pose_frame_mae": 1.268187403678894
+    },
+    {
+      "frame": 15,
+      "target_bbox_xyxy": [
+        511,
+        109,
+        695,
+        517
+      ],
+      "baseline_target_mae": 6.920956134796143,
+      "baseline_person_target_mae": 21.29442024230957,
+      "pose_motion_target_mae": 7.675326824188232,
+      "pose_motion_person_target_mae": 21.561447143554688,
+      "base_pose_frame_mae": 1.3253703117370605
+    },
+    {
+      "frame": 16,
+      "target_bbox_xyxy": [
+        505,
+        107,
+        692,
+        520
+      ],
+      "baseline_target_mae": 7.268073081970215,
+      "baseline_person_target_mae": 20.913515090942383,
+      "pose_motion_target_mae": 8.077280044555664,
+      "pose_motion_person_target_mae": 21.242820739746094,
+      "base_pose_frame_mae": 1.3596993684768677
+    }
+  ],
+  "quality_pass": false,
+  "interpretation": "Numerical proxies are not whole-video acceptance; inspect all 17 frames for real rope-swing/jump movement and scene/person quality.",
+  "observed_failure": true,
+  "whole_window_visual_review": "All 17 target/baseline/pose-loss frames reviewed: target raises and lowers both arms, swings rope, and jumps; both generated videos remain close to their initial arms-out pose with little jump. The pose-loss variant does not restore the target action.",
+  "visual_review_artifact": "/root/bullet_time_research_20261102/training_probe/sjtu_multiscene/anchor_multiscene_pilot/pose_motion_pilot_threeway_all_frames_small.jpg"
+}

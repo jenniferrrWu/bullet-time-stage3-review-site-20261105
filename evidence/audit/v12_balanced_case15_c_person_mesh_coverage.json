@@ -1,0 +1,149 @@
+{
+  "mask_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_mask.mp4",
+  "mask_sha256": "9523b46053dac22ab2c31aff19bbabe17af3d4b79fff33405e918d303e5f4e08",
+  "target_tracks": "/root/bullet_time_research_20261102/pose_trial/v12_balanced_case15_c_target_warp_all/tracks.json",
+  "frames": 17,
+  "detected_frames": 17,
+  "whole_valid_mean": 0.6075955804019051,
+  "person_bbox_valid_mean": 0.5980568051007182,
+  "person_bbox_valid_min": 0.5437377182778315,
+  "all_frames": [
+    {
+      "frame": 0,
+      "whole_valid_fraction": 0.5927501331676136,
+      "target_pose_detected": true,
+      "accepted_body_joints": 15,
+      "person_bbox_valid_fraction": 0.5437377182778315,
+      "person_bbox_area_fraction": 0.33770640980113636
+    },
+    {
+      "frame": 1,
+      "whole_valid_fraction": 0.5879250266335228,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5695334104633444,
+      "person_bbox_area_fraction": 0.31461292613636366
+    },
+    {
+      "frame": 2,
+      "whole_valid_fraction": 0.5878107244318181,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5695389266817839,
+      "person_bbox_area_fraction": 0.31418900923295456
+    },
+    {
+      "frame": 3,
+      "whole_valid_fraction": 0.5907060102982955,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5715796473009968,
+      "person_bbox_area_fraction": 0.31375843394886366
+    },
+    {
+      "frame": 4,
+      "whole_valid_fraction": 0.5914240056818182,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5761426752331786,
+      "person_bbox_area_fraction": 0.30589377663352274
+    },
+    {
+      "frame": 5,
+      "whole_valid_fraction": 0.59556884765625,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5769633357709238,
+      "person_bbox_area_fraction": 0.30957475142045454
+    },
+    {
+      "frame": 6,
+      "whole_valid_fraction": 0.5956698330965909,
+      "target_pose_detected": true,
+      "accepted_body_joints": 17,
+      "person_bbox_valid_fraction": 0.5747118491137178,
+      "person_bbox_area_fraction": 0.30501598011363634
+    },
+    {
+      "frame": 7,
+      "whole_valid_fraction": 0.5964888139204545,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.5671411157321096,
+      "person_bbox_area_fraction": 0.30952592329545453
+    },
+    {
+      "frame": 8,
+      "whole_valid_fraction": 0.6010209517045455,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.584546414670714,
+      "person_bbox_area_fraction": 0.3005126953125
+    },
+    {
+      "frame": 9,
+      "whole_valid_fraction": 0.6056474165482955,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.6333695652173913,
+      "person_bbox_area_fraction": 0.2756569602272727
+    },
+    {
+      "frame": 10,
+      "whole_valid_fraction": 0.6080943714488637,
+      "target_pose_detected": true,
+      "accepted_body_joints": 16,
+      "person_bbox_valid_fraction": 0.6141342456675682,
+      "person_bbox_area_fraction": 0.2880348899147727
+    },
+    {
+      "frame": 11,
+      "whole_valid_fraction": 0.6120960582386363,
+      "target_pose_detected": true,
+      "accepted_body_joints": 14,
+      "person_bbox_valid_fraction": 0.6322437515265,
+      "person_bbox_area_fraction": 0.2726162997159091
+    },
+    {
+      "frame": 12,
+      "whole_valid_fraction": 0.6189564098011363,
+      "target_pose_detected": true,
+      "accepted_body_joints": 17,
+      "person_bbox_valid_fraction": 0.6064402544298046,
+      "person_bbox_area_fraction": 0.29310191761363635
+    },
+    {
+      "frame": 13,
+      "whole_valid_fraction": 0.6273370916193182,
+      "target_pose_detected": true,
+      "accepted_body_joints": 14,
+      "person_bbox_valid_fraction": 0.6350370961682945,
+      "person_bbox_area_fraction": 0.28359375
+    },
+    {
+      "frame": 14,
+      "whole_valid_fraction": 0.6343672318892045,
+      "target_pose_detected": true,
+      "accepted_body_joints": 12,
+      "person_bbox_valid_fraction": 0.6486430395913154,
+      "person_bbox_area_fraction": 0.2780539772727273
+    },
+    {
+      "frame": 15,
+      "whole_valid_fraction": 0.639407626065341,
+      "target_pose_detected": true,
+      "accepted_body_joints": 14,
+      "person_bbox_valid_fraction": 0.6218962047476191,
+      "person_bbox_area_fraction": 0.29666859019886366
+    },
+    {
+      "frame": 16,
+      "whole_valid_fraction": 0.6438543146306818,
+      "target_pose_detected": true,
+      "accepted_body_joints": 14,
+      "person_bbox_valid_fraction": 0.6413064361191162,
+      "person_bbox_area_fraction": 0.28880726207386365
+    }
+  ],
+  "caveat": "Bounding-box coverage includes background and depends on DWPose detections in the warped target view; no quality threshold is asserted."
+}

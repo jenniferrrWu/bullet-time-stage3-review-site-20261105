@@ -1,0 +1,21 @@
+{
+  "scope": "Pairwise BASE,D versus threeway BASE,D,E; BASE/D original images/crops, numerical evidence and native DD records identical. Prompt candidate count and E evidence differ.",
+  "common_candidate_evidence_checks": {
+    "BASE": {
+      "labeled_images_same": true,
+      "motion_evidence_same": true,
+      "native_execution_record_same": true
+    },
+    "D": {
+      "labeled_images_same": true,
+      "motion_evidence_same": true,
+      "native_execution_record_same": true
+    }
+  },
+  "pairwise_winner": "BASE",
+  "threeway_winner": "D",
+  "candidate_set_effect_observed": true,
+  "claim_limit": "A changed winner can be attributed only to adding E plus changed comparison context/prompt length; no general model stability conclusion. Both feedback ballots may contain visual factual errors. No holistic Stage3 pass is implied.",
+  "global_optimality_proven": false,
+  "holistic_quality_acceptance": false
+}

@@ -1,0 +1,52 @@
+{
+  "scope": "DD WarpControl.process runtime wrapper: gate0 exact native no-op, gate1 zeros only invalid decoded depth pixels according to existing mask before original VAE/camera_encoder. Same DD media files, first frame, prompt, seed, weights.",
+  "integrity": {
+    "gate0_exact_original_mp4_sha256": true,
+    "same_media_hashes": true,
+    "same_initial_noise": true,
+    "same_stage2_endpoint_pixels": true,
+    "pin_count_each": 50,
+    "gate1_valid_depth_unchanged": true,
+    "gate1_invalid_pixels_zeroed": 6011259
+  },
+  "runs": {
+    "baseline": {
+      "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.08798223448675256,
+      "limb_motion_delta_mae": 0.4834763753922185,
+      "right_wrist_range_body_units": [
+        0.12361582903758805,
+        0.09999027650167822
+      ],
+      "gray_std_trend_over_source": 0.6572024377505468
+    },
+    "gated": {
+      "sha256": "13d40ae99a5e442b83ff080f883f63a071e97af833052196e84ddb9e01575704",
+      "detected_frames": 17,
+      "core_motion_delta_mae": 0.07118415923017588,
+      "limb_motion_delta_mae": 0.47962516895588075,
+      "right_wrist_range_body_units": [
+        0.16394212424547228,
+        0.07134689536608019
+      ],
+      "gray_std_trend_over_source": 0.8886597005631705
+    }
+  },
+  "holistic_visual_review": "Full native 17-frame source/baseline/gated review with nine evenly spaced contact frames: gating invalid encoded depth before VAE delays pale fade and retains a clearer dancer/scene late. It still keeps the right arm and torso close to their initial pose while source right arm crosses the torso and lower body changes stance. Core 2D error improves slightly but limb error is essentially unchanged (0.483→0.480 body units); generated right-wrist horizontal/vertical range remains tiny. Stage3 whole-action quality fails.",
+  "caveat": "No trained weights changed. DWPose and contrast are auxiliary; the full native video determines quality.",
+  "luminance_evidence": {
+    "baseline_mean_gray_f0_f8_f16": [
+      167.24,
+      174.55,
+      188.055
+    ],
+    "gated_mean_gray_f0_f8_f16": [
+      167.239,
+      172.537,
+      180.994
+    ],
+    "file": "audit/case15_c_mask_depth_before_vae_review/frame_luminance.json"
+  },
+  "quality_pass": false
+}

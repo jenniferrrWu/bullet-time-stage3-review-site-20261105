@@ -1,0 +1,14 @@
+[
+  {
+    "camera": 0,
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/rgb_0.mp4",
+    "bytes": 3121057,
+    "sha256": "a1bcc2bff12c2236c0d6e5f88ca563822aa0dfe4574e04259be890ce35d81882"
+  },
+  {
+    "camera": 3,
+    "file": "/root/bullet_time_research_20261102/training_probe/sjtu_dancer/rgb_3.mp4",
+    "bytes": 4187514,
+    "sha256": "33dc54e27ac16a8168066192f0de58b14e6ec3dbbf669b0d56e76fc8e781d0b9"
+  }
+]

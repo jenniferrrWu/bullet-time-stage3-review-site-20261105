@@ -1,0 +1,34 @@
+{
+  "source": "/public/wufeier/automatic_bullet_time/results/depth_full_expansion15_20261023/raw/route_a/depthdirector/stage3/case13_woman_rooftop_dance/native_v1/preprocess/Rotate,0,30,0,0,0/input.mp4",
+  "frames": 81,
+  "size": [
+    1024,
+    576
+  ],
+  "detected_frames": 81,
+  "mean_accepted_body_joints": 15.061728395061728,
+  "min_accepted_body_joints": 12,
+  "per_joint_coverage": {
+    "nose": 1.0,
+    "left_eye": 1.0,
+    "right_eye": 1.0,
+    "left_ear": 1.0,
+    "right_ear": 1.0,
+    "left_shoulder": 1.0,
+    "right_shoulder": 1.0,
+    "left_elbow": 0.963,
+    "right_elbow": 0.889,
+    "left_wrist": 0.852,
+    "right_wrist": 0.877,
+    "left_hip": 1.0,
+    "right_hip": 1.0,
+    "left_knee": 0.84,
+    "right_knee": 0.691,
+    "left_ankle": 0.506,
+    "right_ankle": 0.444
+  },
+  "consecutive_accepted_step_norm_image_diag_median": 0.01131854975900945,
+  "consecutive_accepted_step_norm_image_diag_p95": 0.04249788431442722,
+  "frames_below_12_joints": [],
+  "mean_confidence_accepted": 0.7660413676842315
+}
