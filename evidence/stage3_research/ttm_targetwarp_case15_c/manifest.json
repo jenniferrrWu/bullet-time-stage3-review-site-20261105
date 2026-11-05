@@ -1,0 +1,215 @@
+{
+  "method": "TTM motion reference from actual DD target-view warped video; black invalid pixels filled with per-frame nonbody median background; visible body mask from existing affine silhouette intersected with valid warped pixels",
+  "not_ground_truth_target_video": true,
+  "warp_video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/dw_warp.mp4",
+  "warp_sha256": "3fb1e0ebc6260eaeeab43119b1fa76683cbad86c1dec1b6744da808b78081ab0",
+  "silhouette_sha256": "57e1435083ca34c9a61fa0d4d51dd0c1000cc17d903b134c0deec380a0869128",
+  "reference_sha256": "f9397ffe2bfd91f9a40310e400797fd95bc0d01d5ae96aeb14424e04e1410e04",
+  "mask_sha256": "bc92aefdc137e3725c0a1ac9397a7f1a9dc4bdac552b50493ce75e152acb3469",
+  "rows": [
+    {
+      "frame": 0,
+      "visible_pixels": 524881,
+      "body_pixels": 123797,
+      "force_pixels": 108586,
+      "hole_pixels_filled": 376239,
+      "fill_bgr": [
+        159,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 1,
+      "visible_pixels": 520846,
+      "body_pixels": 115811,
+      "force_pixels": 97524,
+      "hole_pixels_filled": 380274,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 2,
+      "visible_pixels": 520126,
+      "body_pixels": 115945,
+      "force_pixels": 98507,
+      "hole_pixels_filled": 380994,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 3,
+      "visible_pixels": 521670,
+      "body_pixels": 110864,
+      "force_pixels": 97018,
+      "hole_pixels_filled": 379450,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 4,
+      "visible_pixels": 520890,
+      "body_pixels": 101795,
+      "force_pixels": 89740,
+      "hole_pixels_filled": 380230,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 5,
+      "visible_pixels": 524542,
+      "body_pixels": 99525,
+      "force_pixels": 88705,
+      "hole_pixels_filled": 376578,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 6,
+      "visible_pixels": 524318,
+      "body_pixels": 153773,
+      "force_pixels": 112425,
+      "hole_pixels_filled": 376802,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 7,
+      "visible_pixels": 525105,
+      "body_pixels": 154558,
+      "force_pixels": 114391,
+      "hole_pixels_filled": 376015,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 8,
+      "visible_pixels": 528746,
+      "body_pixels": 101518,
+      "force_pixels": 88494,
+      "hole_pixels_filled": 372374,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 9,
+      "visible_pixels": 532718,
+      "body_pixels": 94705,
+      "force_pixels": 77083,
+      "hole_pixels_filled": 368402,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 10,
+      "visible_pixels": 534611,
+      "body_pixels": 100842,
+      "force_pixels": 83539,
+      "hole_pixels_filled": 366509,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 11,
+      "visible_pixels": 537999,
+      "body_pixels": 103172,
+      "force_pixels": 77215,
+      "hole_pixels_filled": 363121,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 12,
+      "visible_pixels": 544306,
+      "body_pixels": 156475,
+      "force_pixels": 115550,
+      "hole_pixels_filled": 356814,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 13,
+      "visible_pixels": 551816,
+      "body_pixels": 108069,
+      "force_pixels": 90987,
+      "hole_pixels_filled": 349304,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 14,
+      "visible_pixels": 558221,
+      "body_pixels": 99980,
+      "force_pixels": 87873,
+      "hole_pixels_filled": 342899,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 15,
+      "visible_pixels": 562952,
+      "body_pixels": 109486,
+      "force_pixels": 98760,
+      "hole_pixels_filled": 338168,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    },
+    {
+      "frame": 16,
+      "visible_pixels": 566972,
+      "body_pixels": 111256,
+      "force_pixels": 103603,
+      "hole_pixels_filled": 334148,
+      "fill_bgr": [
+        158,
+        175,
+        179
+      ]
+    }
+  ]
+}

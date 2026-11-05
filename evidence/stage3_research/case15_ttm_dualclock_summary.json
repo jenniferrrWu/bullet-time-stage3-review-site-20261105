@@ -1,0 +1,38 @@
+{
+  "method": "Official TTM dual-clock denoising transferred into DD Wan2.2 TI2V 5B; actual official mask conversion and video loader executed",
+  "official_source": "https://github.com/time-to-move/TTM",
+  "official_commit": "0e1c62fc4a38af148ca53b5535241e10e85cfc01",
+  "not_official_14b_end_to_end": true,
+  "reference_not_target_truth": true,
+  "case": "case15 C",
+  "frames": 17,
+  "source_right_wrist_x_range_body_units": 1.1744867781047055,
+  "dd_zero_right_wrist_x_range_body_units": 0.09985488393645214,
+  "rows": {
+    "7": {
+      "run": "stage3_research/ttm_targetwarp_case15_c_strong_7",
+      "native_sha256": "6877bb703c526a4273c73ddeb327ad0920771958f4d60dd09e75459004d01501",
+      "forced_steps": 7,
+      "same_initial_noise": true,
+      "initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "limb_error_body_units": 0.4746564260617893,
+      "right_wrist_x_range_body_units": 0.3807618081552805,
+      "contrast_trend_over_source": 0.8055050426882111,
+      "visual_verdict": "Visible body motion modestly better than baseline but late fading persists; full film fails"
+    },
+    "15": {
+      "run": "stage3_research/ttm_targetwarp_case15_c_strong_15",
+      "native_sha256": "611a900ae7e7d6e9e834700f2ea48c8888915016cc2234b93d872b396d2fc9db",
+      "forced_steps": 15,
+      "same_initial_noise": true,
+      "initial_noise_sha256": "cd9b2038bc770dd3d2c94c9c532aef40ac0d364bed2404f3e8805c413246361e",
+      "stage2_endpoint_pixel_sha256": "0bcbfd1935a32298f80ea4383d3c4677a13e10bb98bc441863b0f027d47d7223",
+      "limb_error_body_units": 0.43402444353731545,
+      "right_wrist_x_range_body_units": 0.1991021106931864,
+      "contrast_trend_over_source": 1.1572543953317564,
+      "visual_verdict": "Dark body doubling/ghosting and pose drift; contrast proxy falsely appears better; full film fails"
+    }
+  },
+  "holistic_verdict": "Both complete films fail; strong 7 modestly revives pose but late fades, strong 15 creates dark double-image. TTM is not clearly better than repaired FlashMotion overall."
+}
