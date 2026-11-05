@@ -1,0 +1,11 @@
+{
+  "endpoint": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+  "bbox_xyxy": [
+    371,
+    173,
+    710,
+    702
+  ],
+  "mask_fraction": 0.09928866299715909,
+  "method": "Official DWPose bbox on actual Stage2 endpoint, OpenCV GrabCut then close/dilate; observed foreground mask for official LaMa inpainting. Local mask construction, no target-view ground truth."
+}

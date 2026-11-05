@@ -1,0 +1,31 @@
+{
+  "case": "case13 B",
+  "frames": 37,
+  "baseline_limb_motion_error": 0.09283949334788093,
+  "raw_tile_0p5_limb_motion_error": 0.7322687635101452,
+  "raw_tile_0p2_limb_motion_error": 0.4740196472008769,
+  "rows": {
+    "endpointfill_0p5": {
+      "native_video_sha256": "1f5a5c602c2f0c14200ecdc75b6330c9a6101f2a8d50c52a962dab96f06fb0d6",
+      "same_stage2_endpoint_and_noise": true,
+      "limb_motion_error": 1.1209107582673374,
+      "person_contrast_trend_over_source": 0.9530123459933248,
+      "detected_frames": 37
+    },
+    "lamafill_0p5": {
+      "native_video_sha256": "3a81066ec8abbc8f5bac3ca36e29dc4166f8dc72e40fde236fefacb1f43623d3",
+      "same_stage2_endpoint_and_noise": true,
+      "limb_motion_error": 0.4164599387256237,
+      "person_contrast_trend_over_source": 0.9167266295919148,
+      "detected_frames": 37
+    },
+    "lamafill_0p2": {
+      "native_video_sha256": "f73737873bdf0e4f25fc6d2c4f75d60fffe12d8e39aeacb39d92f7e586205934",
+      "same_stage2_endpoint_and_noise": true,
+      "limb_motion_error": 0.37863143978005165,
+      "person_contrast_trend_over_source": 0.9132862725005785,
+      "detected_frames": 37
+    }
+  },
+  "caveat": "DWPose cross-view 2D and contrast are diagnostics; whole-film person, scene and action inspection determines acceptance. LaMa background is estimated from actual Stage2 endpoint, not target-view truth."
+}

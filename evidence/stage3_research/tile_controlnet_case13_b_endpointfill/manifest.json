@@ -1,0 +1,13 @@
+{
+  "method": "DD target-view warp invalid pixels filled from actual Stage2 endpoint at identical VLM target camera, then official Tile downscale 4/Gaussian 5x5 sigma 2/upscale; local preprocessing, not official Tile method",
+  "source_warp": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/warp.mp4",
+  "source_sha256": "ac22b5fcd16ed88377911431aa800e45900a13bb7e0ab2395de9460a17857ebc",
+  "actual_stage2_endpoint": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage2/raw/route_a/depthdirector/stage2/vlm_selected/vlm_v11/native_last.png",
+  "endpoint_sha256": "3d98eb2ae22d53b1bd2b9045aab60e98b4d9641e7c990f87fd0236c28b7edfab",
+  "control_video": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case13_b_endpointfill/control.mp4",
+  "control_sha256": "51b5a8dfa6844f65b72895f4c6ba1c75a9d3a75cc2359c807d7cdb5bf4022434",
+  "frames": 37,
+  "mean_warp_valid_fraction": 0.30367932518811425,
+  "endpoint_f0_person_can_ghost_at_later_frames": true,
+  "not_target_view_ground_truth": true
+}

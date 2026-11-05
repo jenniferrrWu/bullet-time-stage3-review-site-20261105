@@ -1,0 +1,13 @@
+{
+  "method": "Official LaMa TorchScript release through cloned simple-lama-inpainting SimpleLama wrapper; local DWPose+GrabCut observed-person mask; preserve unmasked pixels from actual Stage2 endpoint",
+  "wrapper_source": "https://github.com/enesmsahin/simple-lama-inpainting",
+  "wrapper_commit": "0790c455160991a6a1417723a68d3d48e3c859e5",
+  "upstream_lama_source": "https://github.com/advimman/lama",
+  "model_release": "https://github.com/enesmsahin/simple-lama-inpainting/releases/tag/v0.1.0",
+  "model_sha256": "7ba7aa7ac37a4d41fdbbeba3a2af7ead18058552997e3a3cd1a3b2210c9e6b4c",
+  "input_endpoint_sha256": "57d7f79b5b9bb24a3d529e0dc9a377253422601a353a2098877a16d775596659",
+  "mask_sha256": "233dd52265f573187ee468d351c624aa36f69d89b3ed07fc4e8dc03a09782706",
+  "background_sha256": "e444fadd1792b291daf2043da0565e700860bf121fcccdce5b31d9ba25f0c7b8",
+  "mask_fraction": 0.09928866299715909,
+  "not_target_view_ground_truth": true
+}

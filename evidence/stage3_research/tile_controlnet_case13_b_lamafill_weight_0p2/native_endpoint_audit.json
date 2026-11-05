@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "pin_count": 50,
+  "mode": "official native fused I2V first-time-latent constraint",
+  "endpoint_file_sha256": "3d98eb2ae22d53b1bd2b9045aab60e98b4d9641e7c990f87fd0236c28b7edfab",
+  "official_weights_unchanged": true,
+  "official_repo_edited": false,
+  "postdecode_frame_replacement": false,
+  "initial_noise": {
+    "sha256": "201d6f31cd52e325ae345f1305de95e552b95a66b5bdda0c90b85cd2e0decb2a",
+    "shape": [
+      1,
+      48,
+      10,
+      44,
+      80
+    ],
+    "dtype": "torch.bfloat16",
+    "seed_argument": null,
+    "rng_behavior_changed": false
+  },
+  "endpoint_pixel_sha256": "11ede1f3156b9e5afbd681acb32d8a029cd825a2904d39bd2ce1a40be2e82486",
+  "endpoint_latent_shape": [
+    1,
+    48,
+    1,
+    44,
+    80
+  ],
+  "effective_endpoint_png": "/root/bullet_time_research_20261102/stage3_research/tile_controlnet_case13_b_lamafill_weight_0p2/effective_endpoint.png",
+  "final_latent_max_abs_delta": 0.0,
+  "final_sigma": 0.0
+}

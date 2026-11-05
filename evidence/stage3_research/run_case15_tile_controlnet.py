@@ -47,11 +47,12 @@ def main():
     parser.add_argument('--control-kind', choices=('tile_warp',), default='tile_warp')
     parser.add_argument('--baseline-root', default='vlm_dd_v12_balanced_case15_c')
     parser.add_argument('--label', default='case15_c')
-    parser.add_argument('--control-version',choices=('warp','clean'),default='warp')
+    parser.add_argument('--control-version',choices=('warp','clean','endpointfill','lamafill'),default='warp')
     args = parser.parse_args()
     assert 0 < args.weight <= 1
     assert CHECKPOINT.stat().st_size == 691979056 and sha(CHECKPOINT) == WEIGHT_SHA
-    out = HERE / ('tile_controlnet_' + args.label + ('_clean' if args.control_version=='clean' else '') + '_weight_' + str(args.weight).replace('.', 'p'))
+    suffix = {'warp':'', 'clean':'_clean', 'endpointfill':'_endpointfill', 'lamafill':'_lamafill'}[args.control_version]
+    out = HERE / ('tile_controlnet_' + args.label + suffix + '_weight_' + str(args.weight).replace('.', 'p'))
     os.environ.update(CUDA_VISIBLE_DEVICES=args.gpu, ABT_EXPERIMENT_ROOT=str(out), ABT_OBSERVE_NATIVE_NOISE='1', OMP_NUM_THREADS='4', HF_HUB_OFFLINE='1', TRANSFORMERS_OFFLINE='1', IMAGEIO_FFMPEG_EXE='/usr/bin/ffmpeg')
     if os.environ.get('TILE_CONTROLNET_BOOT') != '1':
         os.environ.update(TILE_CONTROLNET_BOOT='1', LD_PRELOAD='/usr/lib/x86_64-linux-gnu/libstdc++.so.6', LD_LIBRARY_PATH=str(ROOT / 'runtime_libs/usr/lib/x86_64-linux-gnu') + ':' + os.environ.get('LD_LIBRARY_PATH', ''))
@@ -92,7 +93,7 @@ def main():
         row[key] = str((old_metadata.parent / row[key]).resolve())
         assert Path(row[key]).is_file()
     assert row['prompt'] == record['prompt']
-    control_source = HERE / ('tile_controlnet_' + args.label + ('_clean' if args.control_version=='clean' else '')) / 'control.mp4'
+    control_source = HERE / ('tile_controlnet_' + args.label + suffix) / 'control.mp4'
     assert control_source.is_file()
     frame_count = int(record['native_frames'])
     capture_probe = cv2.VideoCapture(str(control_source))
