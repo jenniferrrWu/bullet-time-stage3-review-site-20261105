@@ -1,0 +1,680 @@
+{
+  "encoding": "H.264, max 480px, CRF34, 200k maxrate, audio removed, original frame rate/count preserved",
+  "videos": [
+    {
+      "source": "media/nontrajectory/case13_f622_exact21_of61/stage3-review.mp4",
+      "mini": "./media/inline-mini/22539537ddcf95c4-480.mp4",
+      "poster": "./media/inline-mini/22539537ddcf95c4.jpg",
+      "source_bytes": 32531,
+      "mini_bytes": 7712,
+      "poster_bytes": 5514
+    },
+    {
+      "source": "media/nontrajectory/case15_c_cfg2_native/stage3-review.mp4",
+      "mini": "./media/inline-mini/e1f21d0bac4f430d-480.mp4",
+      "poster": "./media/inline-mini/e1f21d0bac4f430d.jpg",
+      "source_bytes": 24272,
+      "mini_bytes": 4452,
+      "poster_bytes": 2330
+    },
+    {
+      "source": "media/nontrajectory/case15_c_cfg5_native/stage3-review.mp4",
+      "mini": "./media/inline-mini/65171d67c3cc0d03-480.mp4",
+      "poster": "./media/inline-mini/65171d67c3cc0d03.jpg",
+      "source_bytes": 54838,
+      "mini_bytes": 9195,
+      "poster_bytes": 2323
+    },
+    {
+      "source": "media/nontrajectory/case15_c_control_gain_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/c7b4ab04aa3f4770-480.mp4",
+      "poster": "./media/inline-mini/c7b4ab04aa3f4770.jpg",
+      "source_bytes": 36736,
+      "mini_bytes": 6529,
+      "poster_bytes": 2336
+    },
+    {
+      "source": "media/nontrajectory/case15_c_control_gain_1p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/88ae7e4418673df0-480.mp4",
+      "poster": "./media/inline-mini/88ae7e4418673df0.jpg",
+      "source_bytes": 17112,
+      "mini_bytes": 4052,
+      "poster_bytes": 2323
+    },
+    {
+      "source": "media/nontrajectory/case15_c_depth_background_fill/stage3-review.mp4",
+      "mini": "./media/inline-mini/a466902def1f27fa-480.mp4",
+      "poster": "./media/inline-mini/a466902def1f27fa.jpg",
+      "source_bytes": 25856,
+      "mini_bytes": 4699,
+      "poster_bytes": 2322
+    },
+    {
+      "source": "media/nontrajectory/case15_c_global_content_motion_gain_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/f1eb5053eb5fbede-480.mp4",
+      "poster": "./media/inline-mini/f1eb5053eb5fbede.jpg",
+      "source_bytes": 29916,
+      "mini_bytes": 5027,
+      "poster_bytes": 2332
+    },
+    {
+      "source": "media/nontrajectory/case15_c_mask_depth_before_vae_gate1/stage3-review.mp4",
+      "mini": "./media/inline-mini/33687a347de8ed3e-480.mp4",
+      "poster": "./media/inline-mini/33687a347de8ed3e.jpg",
+      "source_bytes": 22395,
+      "mini_bytes": 4393,
+      "poster_bytes": 2325
+    },
+    {
+      "source": "media/nontrajectory/case15_c_multiscene_anchor_six_step_adapter_eval/stage3-review.mp4",
+      "mini": "./media/inline-mini/6aee520a1178ff7c-480.mp4",
+      "poster": "./media/inline-mini/6aee520a1178ff7c.jpg",
+      "source_bytes": 27352,
+      "mini_bytes": 4730,
+      "poster_bytes": 2322
+    },
+    {
+      "source": "media/nontrajectory/case15_c_pose_motion_six_step_eval/stage3-review.mp4",
+      "mini": "./media/inline-mini/41413dc15676196e-480.mp4",
+      "poster": "./media/inline-mini/41413dc15676196e.jpg",
+      "source_bytes": 27758,
+      "mini_bytes": 4762,
+      "poster_bytes": 2333
+    },
+    {
+      "source": "media/nontrajectory/case15_c_spatial_control_fg0p75_bg1p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/53219b6b47c29f5c-480.mp4",
+      "poster": "./media/inline-mini/53219b6b47c29f5c.jpg",
+      "source_bytes": 23882,
+      "mini_bytes": 4762,
+      "poster_bytes": 2319
+    },
+    {
+      "source": "media/trajectory/combined_content_pose_mask_depth_case15_c_beta0p1/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/0c7a931b2f940508-480.mp4",
+      "poster": "./media/inline-mini/0c7a931b2f940508.jpg",
+      "source_bytes": 22678,
+      "mini_bytes": 4385,
+      "poster_bytes": 2336
+    },
+    {
+      "source": "media/trajectory/feature_gain_case12_alpha_0p25/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/cbf235076e0c6b51-480.mp4",
+      "poster": "./media/inline-mini/cbf235076e0c6b51.jpg",
+      "source_bytes": 57847,
+      "mini_bytes": 8956,
+      "poster_bytes": 5428
+    },
+    {
+      "source": "media/trajectory/feature_gain_case12_alpha_0p75/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/1e775ecb42257c9c-480.mp4",
+      "poster": "./media/inline-mini/1e775ecb42257c9c.jpg",
+      "source_bytes": 57976,
+      "mini_bytes": 9063,
+      "poster_bytes": 5413
+    },
+    {
+      "source": "media/trajectory/temporal_content_camera_combo_case15_c_beta_0p1_gain_1p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/9877243a23bb130c-480.mp4",
+      "poster": "./media/inline-mini/9877243a23bb130c.jpg",
+      "source_bytes": 17260,
+      "mini_bytes": 4098,
+      "poster_bytes": 2323
+    },
+    {
+      "source": "media/trajectory/temporal_content_residual_v12_case15_c_beta_0p1/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/0e098dbbbfacb043-480.mp4",
+      "poster": "./media/inline-mini/0e098dbbbfacb043.jpg",
+      "source_bytes": 27070,
+      "mini_bytes": 4778,
+      "poster_bytes": 2327
+    },
+    {
+      "source": "media/trajectory/temporal_content_residual_v12_case15_c_beta_0p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/6b223765083728cd-480.mp4",
+      "poster": "./media/inline-mini/6b223765083728cd.jpg",
+      "source_bytes": 27518,
+      "mini_bytes": 4833,
+      "poster_bytes": 2321
+    },
+    {
+      "source": "media/trajectory/temporal_pose_residual_balanced_case12_a_beta_0p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/cc567ddefbc47a50-480.mp4",
+      "poster": "./media/inline-mini/cc567ddefbc47a50.jpg",
+      "source_bytes": 100973,
+      "mini_bytes": 12517,
+      "poster_bytes": 5734
+    },
+    {
+      "source": "media/trajectory/temporal_pose_residual_case12_beta_0p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/1b5b525fe9e6c1f2-480.mp4",
+      "poster": "./media/inline-mini/1b5b525fe9e6c1f2.jpg",
+      "source_bytes": 63728,
+      "mini_bytes": 10048,
+      "poster_bytes": 5412
+    },
+    {
+      "source": "media/trajectory/temporal_pose_residual_v12_case15_c_beta_0p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/9cbea516c10af368-480.mp4",
+      "poster": "./media/inline-mini/9cbea516c10af368.jpg",
+      "source_bytes": 27638,
+      "mini_bytes": 5043,
+      "poster_bytes": 2318
+    },
+    {
+      "source": "media/trajectory/temporal_source_projected_pose_case13_c_beta_0p5/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/f685e6cfbc986fdc-480.mp4",
+      "poster": "./media/inline-mini/f685e6cfbc986fdc.jpg",
+      "source_bytes": 45947,
+      "mini_bytes": 9363,
+      "poster_bytes": 6852
+    },
+    {
+      "source": "media/trajectory/temporal_source_projected_pose_case13_c_beta_1p0/result/stage3-review.mp4",
+      "mini": "./media/inline-mini/0af2878ca0e2a54a-480.mp4",
+      "poster": "./media/inline-mini/0af2878ca0e2a54a.jpg",
+      "source_bytes": 45148,
+      "mini_bytes": 9313,
+      "poster_bytes": 6862
+    },
+    {
+      "source": "media/upstream_modules/anyview_case13_b/reverse45-fast.mp4",
+      "mini": "./media/inline-mini/a12a249f9fd20fc8-480.mp4",
+      "poster": "./media/inline-mini/a12a249f9fd20fc8.jpg",
+      "source_bytes": 15209,
+      "mini_bytes": 21488,
+      "poster_bytes": 7554
+    },
+    {
+      "source": "media/upstream_modules/anyview_case13_b/sameview-fast.mp4",
+      "mini": "./media/inline-mini/f32b997952bf9e94-480.mp4",
+      "poster": "./media/inline-mini/f32b997952bf9e94.jpg",
+      "source_bytes": 15223,
+      "mini_bytes": 21798,
+      "poster_bytes": 6342
+    },
+    {
+      "source": "media/upstream_modules/anyview_case13_b/target_view-fast.mp4",
+      "mini": "./media/inline-mini/1a5e04abf9b246bf-480.mp4",
+      "poster": "./media/inline-mini/1a5e04abf9b246bf.jpg",
+      "source_bytes": 33219,
+      "mini_bytes": 16115,
+      "poster_bytes": 7910
+    },
+    {
+      "source": "media/upstream_modules/canny_case13_b_pose/stage3-fast.mp4",
+      "mini": "./media/inline-mini/96a69571fab35fb3-480.mp4",
+      "poster": "./media/inline-mini/96a69571fab35fb3.jpg",
+      "source_bytes": 26866,
+      "mini_bytes": 24545,
+      "poster_bytes": 6823
+    },
+    {
+      "source": "media/upstream_modules/canny_controlnet_case12_a_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/9fadcc98b874b021-480.mp4",
+      "poster": "./media/inline-mini/9fadcc98b874b021.jpg",
+      "source_bytes": 64632,
+      "mini_bytes": 14139,
+      "poster_bytes": 5708
+    },
+    {
+      "source": "media/upstream_modules/canny_controlnet_case13_b_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/4cb5718f5f17f2c3-480.mp4",
+      "poster": "./media/inline-mini/4cb5718f5f17f2c3.jpg",
+      "source_bytes": 199654,
+      "mini_bytes": 33276,
+      "poster_bytes": 7436
+    },
+    {
+      "source": "media/upstream_modules/canny_controlnet_case15_c_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/0869b0daa3ecc5c9-480.mp4",
+      "poster": "./media/inline-mini/0869b0daa3ecc5c9.jpg",
+      "source_bytes": 19215,
+      "mini_bytes": 4701,
+      "poster_bytes": 2307
+    },
+    {
+      "source": "media/upstream_modules/depth_controlnet_case12_a_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/f19396729c27e897-480.mp4",
+      "poster": "./media/inline-mini/f19396729c27e897.jpg",
+      "source_bytes": 67603,
+      "mini_bytes": 14166,
+      "poster_bytes": 5691
+    },
+    {
+      "source": "media/upstream_modules/depth_controlnet_case13_b_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/a44bb02e4c55b271-480.mp4",
+      "poster": "./media/inline-mini/a44bb02e4c55b271.jpg",
+      "source_bytes": 160957,
+      "mini_bytes": 27899,
+      "poster_bytes": 7434
+    },
+    {
+      "source": "media/upstream_modules/depth_controlnet_color_0p8/stage3-review.mp4",
+      "mini": "./media/inline-mini/7a0e8386bbd29fa9-480.mp4",
+      "poster": "./media/inline-mini/7a0e8386bbd29fa9.jpg",
+      "source_bytes": 18526,
+      "mini_bytes": 4903,
+      "poster_bytes": 2316
+    },
+    {
+      "source": "media/upstream_modules/depth_controlnet_midasstyle_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/397c278890ad3da4-480.mp4",
+      "poster": "./media/inline-mini/397c278890ad3da4.jpg",
+      "source_bytes": 19440,
+      "mini_bytes": 4883,
+      "poster_bytes": 2315
+    },
+    {
+      "source": "media/upstream_modules/depth_controlnet_midasstyle_0p8/stage3-review.mp4",
+      "mini": "./media/inline-mini/fcec93403c9e11fc-480.mp4",
+      "poster": "./media/inline-mini/fcec93403c9e11fc.jpg",
+      "source_bytes": 19870,
+      "mini_bytes": 5254,
+      "poster_bytes": 2302
+    },
+    {
+      "source": "media/upstream_modules/depth_flash_combo_case15_c/stage3-review.mp4",
+      "mini": "./media/inline-mini/259d9aaa989b9e16-480.mp4",
+      "poster": "./media/inline-mini/259d9aaa989b9e16.jpg",
+      "source_bytes": 19307,
+      "mini_bytes": 5090,
+      "poster_bytes": 2311
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_affine_1p0/stage3-review.mp4",
+      "mini": "./media/inline-mini/4fc4861c49faecb2-480.mp4",
+      "poster": "./media/inline-mini/4fc4861c49faecb2.jpg",
+      "source_bytes": 30515,
+      "mini_bytes": 5629,
+      "poster_bytes": 2321
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_case13_b_stable_0p3/stage3-review.mp4",
+      "mini": "./media/inline-mini/7059bf2ff330189b-480.mp4",
+      "poster": "./media/inline-mini/7059bf2ff330189b.jpg",
+      "source_bytes": 181559,
+      "mini_bytes": 32045,
+      "poster_bytes": 7397
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_projected_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/d987bc45762dfef0-480.mp4",
+      "poster": "./media/inline-mini/d987bc45762dfef0.jpg",
+      "source_bytes": 27035,
+      "mini_bytes": 4857,
+      "poster_bytes": 2324
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_projected_1p0/stage3-review.mp4",
+      "mini": "./media/inline-mini/3c0749f365968cfb-480.mp4",
+      "poster": "./media/inline-mini/3c0749f365968cfb.jpg",
+      "source_bytes": 29941,
+      "mini_bytes": 5219,
+      "poster_bytes": 2308
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_repaired_0p7/stage3-review.mp4",
+      "mini": "./media/inline-mini/4571a74d9f25128c-480.mp4",
+      "poster": "./media/inline-mini/4571a74d9f25128c.jpg",
+      "source_bytes": 34661,
+      "mini_bytes": 4999,
+      "poster_bytes": 2330
+    },
+    {
+      "source": "media/upstream_modules/flashmotion_repaired_1p0/stage3-review.mp4",
+      "mini": "./media/inline-mini/c8de2d65d2ab1a2c-480.mp4",
+      "poster": "./media/inline-mini/c8de2d65d2ab1a2c.jpg",
+      "source_bytes": 27987,
+      "mini_bytes": 5113,
+      "poster_bytes": 2323
+    },
+    {
+      "source": "media/upstream_modules/hed_case12_a/stage3-fast.mp4",
+      "mini": "./media/inline-mini/8f08fba45ff3263e-480.mp4",
+      "poster": "./media/inline-mini/8f08fba45ff3263e.jpg",
+      "source_bytes": 12597,
+      "mini_bytes": 11738,
+      "poster_bytes": 5295
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b/stage3-fast.mp4",
+      "mini": "./media/inline-mini/0bbd0629ee337056-480.mp4",
+      "poster": "./media/inline-mini/0bbd0629ee337056.jpg",
+      "source_bytes": 23428,
+      "mini_bytes": 22697,
+      "poster_bytes": 6625
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b_affine/stage3-fast.mp4",
+      "mini": "./media/inline-mini/0714695e3c93542b-480.mp4",
+      "poster": "./media/inline-mini/0714695e3c93542b.jpg",
+      "source_bytes": 24527,
+      "mini_bytes": 23226,
+      "poster_bytes": 6794
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b_affine_w0p2/stage3-fast.mp4",
+      "mini": "./media/inline-mini/ee9cf270404d722f-480.mp4",
+      "poster": "./media/inline-mini/ee9cf270404d722f.jpg",
+      "source_bytes": 24761,
+      "mini_bytes": 22778,
+      "poster_bytes": 6797
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b_lama/stage3-fast.mp4",
+      "mini": "./media/inline-mini/da0d200cfdb364a7-480.mp4",
+      "poster": "./media/inline-mini/da0d200cfdb364a7.jpg",
+      "source_bytes": 24300,
+      "mini_bytes": 23425,
+      "poster_bytes": 6762
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b_lama_w0p2/stage3-fast.mp4",
+      "mini": "./media/inline-mini/c03da31935ecd7a6-480.mp4",
+      "poster": "./media/inline-mini/c03da31935ecd7a6.jpg",
+      "source_bytes": 24106,
+      "mini_bytes": 22467,
+      "poster_bytes": 6837
+    },
+    {
+      "source": "media/upstream_modules/hed_case13_b_pose/stage3-fast.mp4",
+      "mini": "./media/inline-mini/818b51913349b59d-480.mp4",
+      "poster": "./media/inline-mini/818b51913349b59d.jpg",
+      "source_bytes": 25444,
+      "mini_bytes": 23767,
+      "poster_bytes": 6803
+    },
+    {
+      "source": "media/upstream_modules/hed_case15_c/stage3-fast.mp4",
+      "mini": "./media/inline-mini/bc32755f5b5a64aa-480.mp4",
+      "poster": "./media/inline-mini/bc32755f5b5a64aa.jpg",
+      "source_bytes": 4692,
+      "mini_bytes": 4718,
+      "poster_bytes": 2200
+    },
+    {
+      "source": "media/upstream_modules/motion_i2v_forwardwarp_person_035/stage3-review.mp4",
+      "mini": "./media/inline-mini/bba5301914f0652c-480.mp4",
+      "poster": "./media/inline-mini/bba5301914f0652c.jpg",
+      "source_bytes": 29744,
+      "mini_bytes": 4560,
+      "poster_bytes": 2332
+    },
+    {
+      "source": "media/upstream_modules/movies_case13_b/source_reconstruction-review.mp4",
+      "mini": "./media/inline-mini/dc5bd45b7050f6bc-480.mp4",
+      "poster": "./media/inline-mini/dc5bd45b7050f6bc.jpg",
+      "source_bytes": 64705,
+      "mini_bytes": 21880,
+      "poster_bytes": 6036
+    },
+    {
+      "source": "media/upstream_modules/movies_case13_b/target_view-review.mp4",
+      "mini": "./media/inline-mini/2158a4e0c81e91d9-480.mp4",
+      "poster": "./media/inline-mini/2158a4e0c81e91d9.jpg",
+      "source_bytes": 64521,
+      "mini_bytes": 22670,
+      "poster_bytes": 5649
+    },
+    {
+      "source": "media/upstream_modules/nlf3d_flash_case13_b_0p3/stage3-review.mp4",
+      "mini": "./media/inline-mini/cddeaf4b193363ba-480.mp4",
+      "poster": "./media/inline-mini/cddeaf4b193363ba.jpg",
+      "source_bytes": 173958,
+      "mini_bytes": 31272,
+      "poster_bytes": 7422
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case12_a_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/56a359a680e06f27-480.mp4",
+      "poster": "./media/inline-mini/56a359a680e06f27.jpg",
+      "source_bytes": 74230,
+      "mini_bytes": 16654,
+      "poster_bytes": 5682
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case13_b_0p2/stage3-review.mp4",
+      "mini": "./media/inline-mini/525d6133fe9f9b01-480.mp4",
+      "poster": "./media/inline-mini/525d6133fe9f9b01.jpg",
+      "source_bytes": 191592,
+      "mini_bytes": 30251,
+      "poster_bytes": 7411
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case13_b_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/7dba056185e42747-480.mp4",
+      "poster": "./media/inline-mini/7dba056185e42747.jpg",
+      "source_bytes": 118323,
+      "mini_bytes": 25580,
+      "poster_bytes": 7406
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case13_b_endpointfill_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/3c04584b752b4cca-480.mp4",
+      "poster": "./media/inline-mini/3c04584b752b4cca.jpg",
+      "source_bytes": 111968,
+      "mini_bytes": 22361,
+      "poster_bytes": 7415
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case13_b_lamafill_0p2/stage3-review.mp4",
+      "mini": "./media/inline-mini/1731d249096f9d83-480.mp4",
+      "poster": "./media/inline-mini/1731d249096f9d83.jpg",
+      "source_bytes": 124368,
+      "mini_bytes": 20777,
+      "poster_bytes": 7495
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case13_b_lamafill_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/5cc35e7ab3061b42-480.mp4",
+      "poster": "./media/inline-mini/5cc35e7ab3061b42.jpg",
+      "source_bytes": 119436,
+      "mini_bytes": 23179,
+      "poster_bytes": 7414
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case15_c_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/872c6f11380b65a3-480.mp4",
+      "poster": "./media/inline-mini/872c6f11380b65a3.jpg",
+      "source_bytes": 24108,
+      "mini_bytes": 6380,
+      "poster_bytes": 2306
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case15_c_clean_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/cb4b50add112f1c7-480.mp4",
+      "poster": "./media/inline-mini/cb4b50add112f1c7.jpg",
+      "source_bytes": 22354,
+      "mini_bytes": 5586,
+      "poster_bytes": 2298
+    },
+    {
+      "source": "media/upstream_modules/tile_controlnet_case15_c_warp_person_0p5/stage3-review.mp4",
+      "mini": "./media/inline-mini/747b395b00908dac-480.mp4",
+      "poster": "./media/inline-mini/747b395b00908dac.jpg",
+      "source_bytes": 21111,
+      "mini_bytes": 5432,
+      "poster_bytes": 2301
+    },
+    {
+      "source": "media/upstream_modules/tile_depth_dual_case15_c/stage3-review.mp4",
+      "mini": "./media/inline-mini/98b955181234744c-480.mp4",
+      "poster": "./media/inline-mini/98b955181234744c.jpg",
+      "source_bytes": 22234,
+      "mini_bytes": 5551,
+      "poster_bytes": 2308
+    },
+    {
+      "source": "media/upstream_modules/tile_lama_flash_case13_b_0p2_0p1/stage3-review.mp4",
+      "mini": "./media/inline-mini/49e837cef14e4ff9-480.mp4",
+      "poster": "./media/inline-mini/49e837cef14e4ff9.jpg",
+      "source_bytes": 124414,
+      "mini_bytes": 21786,
+      "poster_bytes": 7504
+    },
+    {
+      "source": "media/upstream_modules/ttm_strong_15/stage3-review.mp4",
+      "mini": "./media/inline-mini/15d720d8e9ca093a-480.mp4",
+      "poster": "./media/inline-mini/15d720d8e9ca093a.jpg",
+      "source_bytes": 40659,
+      "mini_bytes": 5652,
+      "poster_bytes": 2337
+    },
+    {
+      "source": "media/upstream_modules/ttm_strong_7/stage3-review.mp4",
+      "mini": "./media/inline-mini/5b8ad16ebee3f587-480.mp4",
+      "poster": "./media/inline-mini/5b8ad16ebee3f587.jpg",
+      "source_bytes": 32872,
+      "mini_bytes": 4727,
+      "poster_bytes": 2329
+    },
+    {
+      "source": "media/upstream_modules/wanmove_all_035/stage3-review.mp4",
+      "mini": "./media/inline-mini/ab0400e98c113ab0-480.mp4",
+      "poster": "./media/inline-mini/ab0400e98c113ab0.jpg",
+      "source_bytes": 28724,
+      "mini_bytes": 4734,
+      "poster_bytes": 2328
+    },
+    {
+      "source": "media/upstream_modules/wanmove_person_035/stage3-review.mp4",
+      "mini": "./media/inline-mini/c3db9c1a236cb835-480.mp4",
+      "poster": "./media/inline-mini/c3db9c1a236cb835.jpg",
+      "source_bytes": 28955,
+      "mini_bytes": 4640,
+      "poster_bytes": 2324
+    },
+    {
+      "source": "media/upstream_modules/wanmove_person_070/stage3-review.mp4",
+      "mini": "./media/inline-mini/387b6ff2bc010e5c-480.mp4",
+      "poster": "./media/inline-mini/387b6ff2bc010e5c.jpg",
+      "source_bytes": 28912,
+      "mini_bytes": 4557,
+      "poster_bytes": 2325
+    },
+    {
+      "source": "media/upstream_modules/wanmove_target_all_035/stage3-review.mp4",
+      "mini": "./media/inline-mini/ca734e474376f5f5-480.mp4",
+      "poster": "./media/inline-mini/ca734e474376f5f5.jpg",
+      "source_bytes": 23824,
+      "mini_bytes": 4490,
+      "poster_bytes": 2325
+    },
+    {
+      "source": "media/upstream_modules/wanmove_target_person_035/stage3-review.mp4",
+      "mini": "./media/inline-mini/4285f1cca50c1b20-480.mp4",
+      "poster": "./media/inline-mini/4285f1cca50c1b20.jpg",
+      "source_bytes": 23377,
+      "mini_bytes": 4484,
+      "poster_bytes": 2334
+    },
+    {
+      "source": "media/upstream_modules/zero_control/stage3-review.mp4",
+      "mini": "./media/inline-mini/7b63f11640bdd8b1-480.mp4",
+      "poster": "./media/inline-mini/7b63f11640bdd8b1.jpg",
+      "source_bytes": 29251,
+      "mini_bytes": 4761,
+      "poster_bytes": 2335
+    },
+    {
+      "source": "media/vlm_dd_balanced_case12_a/source-review.mp4",
+      "mini": "./media/inline-mini/9924cc0ee7c487a3-480.mp4",
+      "poster": "./media/inline-mini/9924cc0ee7c487a3.jpg",
+      "source_bytes": 86634,
+      "mini_bytes": 11802,
+      "poster_bytes": 6359
+    },
+    {
+      "source": "media/vlm_dd_balanced_case12_a/stage3-review.mp4",
+      "mini": "./media/inline-mini/fac9d3b503bc235a-480.mp4",
+      "poster": "./media/inline-mini/fac9d3b503bc235a.jpg",
+      "source_bytes": 101393,
+      "mini_bytes": 12344,
+      "poster_bytes": 5735
+    },
+    {
+      "source": "media/vlm_dd_balanced_case13_b/source-review.mp4",
+      "mini": "./media/inline-mini/fe2b377f8b507e44-480.mp4",
+      "poster": "./media/inline-mini/fe2b377f8b507e44.jpg",
+      "source_bytes": 96203,
+      "mini_bytes": 15879,
+      "poster_bytes": 7025
+    },
+    {
+      "source": "media/vlm_dd_balanced_case13_b/stage3-review.mp4",
+      "mini": "./media/inline-mini/e3a4384f7b4778b5-480.mp4",
+      "poster": "./media/inline-mini/e3a4384f7b4778b5.jpg",
+      "source_bytes": 176604,
+      "mini_bytes": 31626,
+      "poster_bytes": 7294
+    },
+    {
+      "source": "media/vlm_dd_case12_selected_a/source-review.mp4",
+      "mini": "./media/inline-mini/4868e153611ce8dd-480.mp4",
+      "poster": "./media/inline-mini/4868e153611ce8dd.jpg",
+      "source_bytes": 56993,
+      "mini_bytes": 9455,
+      "poster_bytes": 6359
+    },
+    {
+      "source": "media/vlm_dd_case12_selected_a/stage3-review.mp4",
+      "mini": "./media/inline-mini/8e9785352489f5f7-480.mp4",
+      "poster": "./media/inline-mini/8e9785352489f5f7.jpg",
+      "source_bytes": 59287,
+      "mini_bytes": 8949,
+      "poster_bytes": 5416
+    },
+    {
+      "source": "media/vlm_dd_case13_bank_c/source-review.mp4",
+      "mini": "./media/inline-mini/e394dfb022a25266-480.mp4",
+      "poster": "./media/inline-mini/e394dfb022a25266.jpg",
+      "source_bytes": 180383,
+      "mini_bytes": 33106,
+      "poster_bytes": 6891
+    },
+    {
+      "source": "media/vlm_dd_case13_bank_c/stage3-review.mp4",
+      "mini": "./media/inline-mini/4d1d14775e879371-480.mp4",
+      "poster": "./media/inline-mini/4d1d14775e879371.jpg",
+      "source_bytes": 125773,
+      "mini_bytes": 25273,
+      "poster_bytes": 5425
+    },
+    {
+      "source": "media/vlm_dd_case13_fullbody_c/source-review.mp4",
+      "mini": "./media/inline-mini/5a0a0202721c99bf-480.mp4",
+      "poster": "./media/inline-mini/5a0a0202721c99bf.jpg",
+      "source_bytes": 53130,
+      "mini_bytes": 10981,
+      "poster_bytes": 7479
+    },
+    {
+      "source": "media/vlm_dd_case13_fullbody_c/stage3-review.mp4",
+      "mini": "./media/inline-mini/9337fd02f505a52c-480.mp4",
+      "poster": "./media/inline-mini/9337fd02f505a52c.jpg",
+      "source_bytes": 49238,
+      "mini_bytes": 9779,
+      "poster_bytes": 6855
+    },
+    {
+      "source": "media/vlm_dd_v12_balanced_case15_c/source-review.mp4",
+      "mini": "./media/inline-mini/901065b2011d3782-480.mp4",
+      "poster": "./media/inline-mini/901065b2011d3782.jpg",
+      "source_bytes": 21406,
+      "mini_bytes": 4316,
+      "poster_bytes": 3358
+    },
+    {
+      "source": "media/vlm_dd_v12_balanced_case15_c/stage3-review.mp4",
+      "mini": "./media/inline-mini/4f487ef3023a25d1-480.mp4",
+      "poster": "./media/inline-mini/4f487ef3023a25d1.jpg",
+      "source_bytes": 27164,
+      "mini_bytes": 4650,
+      "poster_bytes": 2328
+    }
+  ],
+  "total_source_bytes": 4549553,
+  "total_mini_bytes": 1033769,
+  "total_poster_bytes": 379810
+}
