@@ -1,0 +1,137 @@
+{
+  "rows": {
+    "case12_a": {
+      "frames": 33,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case12_a/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,35,0,0,0/depthdirector.mp4",
+          "sha256": "588093154ff30729a22c1911c42cab90707184e17fd434ad252399ce5a2a2422",
+          "limb_motion_error": 0.3127223162375979,
+          "core_motion_error": 0.17225999301690367,
+          "person_contrast_trend_over_source": 0.94497405173457,
+          "detected_frames": 33
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case12_a_weight_0p5/result/depthdirector.mp4",
+          "sha256": "d7e9fbeec31cf4f8b6445dad85664f83b2613824b2e665ce72398fe0eef755b5",
+          "limb_motion_error": 0.17506999029196796,
+          "core_motion_error": 0.1569457714840008,
+          "person_contrast_trend_over_source": 0.9705467846214467,
+          "detected_frames": 33
+        }
+      }
+    },
+    "case13_b": {
+      "frames": 37,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+          "sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+          "limb_motion_error": 0.09283949334788093,
+          "core_motion_error": 0.37002260481421306,
+          "person_contrast_trend_over_source": 0.9033836191154787,
+          "detected_frames": 32
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case13_b_weight_0p5/result/depthdirector.mp4",
+          "sha256": "2eb4e5f790dcbd1e87430967121f89bbd6fff26c476e963954c370aa3ac55f7d",
+          "limb_motion_error": 0.6261462551940322,
+          "core_motion_error": 0.7345734487265829,
+          "person_contrast_trend_over_source": 0.9227978921789561,
+          "detected_frames": 25
+        }
+      }
+    },
+    "case13_b_pose": {
+      "frames": 37,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+          "sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+          "limb_motion_error": 0.09283949334788093,
+          "core_motion_error": 0.37002260481421306,
+          "person_contrast_trend_over_source": 0.9033836191154787,
+          "detected_frames": 32
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case13_b_pose_weight_0p5/result/depthdirector.mp4",
+          "sha256": "3db88f0ee99725dcbf74b625b16c66f1faccc86b7d10a451cd74319cde0b3060",
+          "limb_motion_error": null,
+          "core_motion_error": 0.3463414142205208,
+          "person_contrast_trend_over_source": 0.8489984156334464,
+          "detected_frames": 22
+        }
+      }
+    },
+    "case13_b_lama": {
+      "frames": 37,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+          "sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+          "limb_motion_error": 0.09283949334788093,
+          "core_motion_error": 0.37002260481421306,
+          "person_contrast_trend_over_source": 0.9033836191154787,
+          "detected_frames": 32
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case13_b_lama_weight_0p5/result/depthdirector.mp4",
+          "sha256": "a8ef58b9a564cf16a317d6391af1809df8c5093cee05a4229eb672356306825b",
+          "limb_motion_error": 0.43776427682516467,
+          "core_motion_error": 0.44230413252432615,
+          "person_contrast_trend_over_source": 0.8293285766711935,
+          "detected_frames": 28
+        }
+      }
+    },
+    "case13_b_affine": {
+      "frames": 37,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,45,0,0,0/depthdirector.mp4",
+          "sha256": "4b2bf3327794552c164f46b2eca40ad6c145278fbc2f9098ea6aa919a797e4b9",
+          "limb_motion_error": 0.09283949334788093,
+          "core_motion_error": 0.37002260481421306,
+          "person_contrast_trend_over_source": 0.9033836191154787,
+          "detected_frames": 32
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case13_b_affine_weight_0p5/result/depthdirector.mp4",
+          "sha256": "f62c1673ecc3348695f965eccda6f0d9cffbde30ae085a2db9c6a3cf79774fc3",
+          "limb_motion_error": 0.27307266308895173,
+          "core_motion_error": 0.4695389443034785,
+          "person_contrast_trend_over_source": 0.8138276222977432,
+          "detected_frames": 28
+        }
+      }
+    },
+    "case15_c": {
+      "frames": 17,
+      "same_stage2_endpoint_and_noise": true,
+      "comparisons": {
+        "baseline": {
+          "video": "/root/bullet_time_research_20261102/vlm_dd_v12_balanced_case15_c/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/Rotate,0,20,0,0,0/depthdirector.mp4",
+          "sha256": "324c48fcaed951b217315707b7a40d1e1e6520d06e4a3c51841aeb1bdf584ada",
+          "limb_motion_error": 0.4834763753922185,
+          "core_motion_error": 0.08798223448675256,
+          "person_contrast_trend_over_source": 0.6572024377505468,
+          "detected_frames": 17
+        },
+        "hed": {
+          "video": "/root/bullet_time_research_20261102/stage3_research/hed_controlnet_case15_c_weight_0p5/result/depthdirector.mp4",
+          "sha256": "858caa5e1568d0de573049b9dd5ba271abca1fe0fc6bc1d3cec388e8bf24ade7",
+          "limb_motion_error": 0.1314971110151915,
+          "core_motion_error": 0.07580578249789167,
+          "person_contrast_trend_over_source": 0.9755923694502983,
+          "detected_frames": 17
+        }
+      }
+    }
+  },
+  "note": "DWPose cross-view 2D and contrast are diagnostic proxies; whole-film fidelity and movement decide quality."
+}

@@ -1,0 +1,10 @@
+{
+  "frames": 37,
+  "control_sha256": "a409b8e7f8be408cecb824468a608ce0daa13d98a32e379d0646f71b0e7682ee",
+  "source_warp_sha256": "ac22b5fcd16ed88377911431aa800e45900a13bb7e0ab2395de9460a17857ebc",
+  "nlf_silhouette_sha256": "ac5ccd72620a52b680c80320115ba29d23d2a462b03420472a58c2c67ce32728",
+  "lama_background_sha256": "e444fadd1792b291daf2043da0565e700860bf121fcccdce5b31d9ba25f0c7b8",
+  "official_module": "controlnet_aux.CannyDetector from installed official source",
+  "local_adaptation": "DD target warp holes filled by LaMa background; NLF estimated target person darkened before Canny",
+  "not_target_view_ground_truth": true
+}
