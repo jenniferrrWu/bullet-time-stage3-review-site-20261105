@@ -8,3 +8,5 @@
 .shared-start-row { background:#17314a; } .shared-start-row th,.shared-start-row td { border-top:3px solid #2493c7; } .common-start-image { display:block; max-width:100%; width:640px; height:auto; border-radius:8px; } .not-comparable { opacity:.88; background:#3a2b25; }
 
 .paper-source{display:block;margin-top:8px;font-size:.79rem;line-height:1.4;overflow-wrap:anywhere;color:#c9d8e4}.paper-source a,.shared-start-row a{color:#8fd5ff;text-decoration:underline}.input-line{margin:0 0 7px;line-height:1.5}.input-line b{color:#9edafa}.shared-start-row .condition{margin-top:7px}
+
+.video-trio{grid-template-columns:repeat(2,minmax(0,1fr));max-width:780px}.film video{height:220px}@media(max-width:740px){.film video{height:150px}}
