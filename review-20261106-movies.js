@@ -74,6 +74,11 @@ fetch('./review_data-20261106-movies.json').then(function(r){if(!r.ok)throw Erro
   id('frameSlider').value=frame;id('frameCounter').textContent=frame+' / '+max;
   if(frame>=max)pause();
  };
- renderGroup('case15-upstream');
+ var query=new URLSearchParams(window.location.search);
+ var requestedGroup=query.get('group');
+ var requestedVariant=query.get('variant');
+ var selectedGroup=data.comparison_groups.find(function(g){return g.id===requestedGroup});
+ renderGroup(selectedGroup?selectedGroup.id:'case15-upstream');
+ if(selectedGroup&&requestedVariant&&selectedGroup.variants.some(function(v){return v.id===requestedVariant}))renderVariant(requestedVariant);
 }).catch(function(e){id('pipelineIntro').textContent='视频审查数据加载失败：'+e.message});
 })();
