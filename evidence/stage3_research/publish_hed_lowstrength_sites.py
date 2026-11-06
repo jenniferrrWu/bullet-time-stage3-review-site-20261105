@@ -9,16 +9,16 @@ HERE = Path(__file__).resolve().parent
 DESTS = [Path('/root/bullet_time_progress_sites_20261106/dist'), Path('/root/bullet_time_review_safe_publish')]
 TRIALS = [
     ('lama', 'hed_case13_b_lama_w0p2', 'HED＋LaMa 背景 · 强度 0.2',
-     '37/37 帧检出人物，末段不再白屏；中段倒立动作缺失、人物局部变形，未通过。'),
+     '37/37 帧检出人物，末段不再白屏；中段深后弯幅度与动作相位偏差、人物局部变形，未通过。'),
     ('affine', 'hed_case13_b_affine_w0p2', 'HED＋LaMa＋二维剪影 · 强度 0.2',
-     '37/37 帧检出人物，背景和人物连续性优于原版；倒立动作缺失、躯干/手臂变形，未通过。'),
+     '37/37 帧检出人物，背景和人物连续性优于原版；深后弯动作幅度不足、躯干/手臂变形，未通过。'),
 ]
 summary = {
     'method': 'TheDenk official pretrained HED WanControlnet with local DD residual adapter; 0.2 strength for first 40 of 50 denoising steps; no retraining',
     'controls': 'Same VLM target camera, true Stage2 endpoint, source clip, effective DD inputs, initial noise and 37-frame native sampling as baseline',
     'baseline_limb_error': 0.093,
     'baseline_person_contrast_trend': 0.903,
-    'whole_film_note': 'Both 0.2 runs keep person and background visible but miss the source inversion/mid-film action; neither passes overall Stage3 acceptance. Cross-view 2D pose/contrast scores are diagnostic proxies, not ground truth.',
+    'whole_film_note': 'Both 0.2 runs keep person and background visible but miss the source deep backbend and mid-film action; neither passes overall Stage3 acceptance. Cross-view 2D pose/contrast scores are diagnostic proxies, not ground truth.',
     'trials': {},
 }
 for name, ident, _, _ in TRIALS:
@@ -90,7 +90,7 @@ for dst in DESTS:
         'id': 'hed_case13_strength_0p2_full_film', 'group': 'Stage3／官方带权重模块迁移', 'case': 'case13 B',
         'title': 'HED 强度 0.2：LaMa 背景与二维剪影',
         'method': '官方 HED ControlNet 预训练权重，强度从 0.5 降至 0.2；同相机、Stage2 末帧、源动作、噪声、50 步，整段 37 帧。无重训。',
-        'result': '两版均 37/37 帧检出人物，末段连续性改善；中段倒立动作缺失、人物仍变形，整片未通过。',
+        'result': '两版均 37/37 帧检出人物，末段连续性改善；中段深后弯幅度与相位偏差、人物仍变形，整片未通过。',
         'status': '两条原生整片完成／连续性改善但动作失败',
         'evidence': ['stage3_research/hed_lowstrength_case13_summary.json', 'stage3_research/case13_b_hed_lowstrength_contact.jpg'],
     })
@@ -98,7 +98,7 @@ for dst in DESTS:
     catalog['counts']['upstream_module_trials'] += len(TRIALS)
     catalog['counts']['experiments'] = len(catalog['experiments'])
     catalog['counts']['evidence_files'] = len(catalog['assets'])
-    data['summary'] = 'HED 0.2 的 case13 两条整片保持人物和背景连续，但漏掉倒立动作；HED 0.5 对 case12/15 有局部动作收益。所有方案仍未跨三段通过 Stage3 整片验收。'
+    data['summary'] = 'HED 0.2 的 case13 两条整片保持人物和背景连续，但深后弯幅度与相位仍偏；HED 0.5 对 case12/15 有局部动作收益。所有方案仍未跨三段通过 Stage3 整片验收。'
     data_path.write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n')
     catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, separators=(',', ':')) + '\n')
     hp = dst / 'review-movies-20261106.html'
@@ -109,7 +109,7 @@ for dst in DESTS:
     links = ' · <a href="./review-movies-20261106.html?group=case13-depthcn&amp;variant=hed_case13_b_lama_w0p2#compare">LaMa 0.2 ↗</a> · <a href="./review-movies-20261106.html?group=case13-depthcn&amp;variant=hed_case13_b_affine_w0p2#compare">二维剪影 0.2 ↗</a> · <a href="./evidence/stage3_research/hed_lowstrength_case13_summary.json">强度对照 ↗</a>'
     assert anchor in html
     html = html.replace(anchor, links + anchor, 1)
-    html = html.replace('case13 四种输入均失败。', 'case13 的 0.2 强度连续性改善，但倒立动作缺失；整体仍失败。')
+    html = html.replace('case13 四种输入均失败。', 'case13 的 0.2 强度连续性改善，但深后弯动作未准确复现；整体仍失败。')
     hp.write_text(html)
     (dst / 'index.html').write_text(html)
     css = dst / 'style.css'
