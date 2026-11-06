@@ -1,0 +1,43 @@
+{
+  "method": "Official MoVieS SplatRecon/backbone/gs_renderer and released checkpoint, local static-video camera adapter",
+  "official_source": "https://github.com/chenguolin/MoVieS",
+  "weight_sha256": "e0b0f448f7474e0beb7ca86be8e2f22d35398459a6c41cd5297ee26617536df0",
+  "input_npz_sha256": "8084e1681c160bdef99cb69bc2c5692da8a57ca0260692514892c73ebacc77a2",
+  "source_frames": 13,
+  "generated_frames": 37,
+  "resolution": [
+    518,
+    294
+  ],
+  "subject_depth_median_model_units": 0.1533549726009369,
+  "target_camera_c2w": [
+    [
+      0.70703125,
+      0.0,
+      0.70703125,
+      -0.1083984375
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.70703125,
+      0.0,
+      0.70703125,
+      0.044921875
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_view_sha256": "35743dbdb4d3dbce23ce2165ddea6c64b43da537306fb58ed7789f7d1b57b965",
+  "source_reconstruction_sha256": "b56a26a9a96797e818cc2de5a681284a79fefd305f2b53f859e5923564d0637d",
+  "not_stage2_endpoint_conditioned": true,
+  "target_view_not_ground_truth": true
+}

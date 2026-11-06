@@ -1,0 +1,66 @@
+{
+  "official_source": "https://github.com/chenguolin/MoVieS",
+  "only_first_frame": true,
+  "result": [
+    {
+      "yaw_degrees": -45,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.4463267932655688,
+      "mean_rgb": 79.49308565124892
+    },
+    {
+      "yaw_degrees": -15,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.7466446037874609,
+      "mean_rgb": 148.43168387045938
+    },
+    {
+      "yaw_degrees": 0,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.9989034223728102,
+      "mean_rgb": 181.63136605993748
+    },
+    {
+      "yaw_degrees": 5,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.9143553174165419,
+      "mean_rgb": 165.91763191763192
+    },
+    {
+      "yaw_degrees": 15,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.7458566438158275,
+      "mean_rgb": 135.076515290801
+    },
+    {
+      "yaw_degrees": 30,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.5671013579176845,
+      "mean_rgb": 98.71218667647238
+    },
+    {
+      "yaw_degrees": 45,
+      "pivot_depth_factor": 1,
+      "alpha_coverage_gt_0p5": 0.4414808394400231,
+      "mean_rgb": 65.78148118964445
+    },
+    {
+      "yaw_degrees": 45,
+      "pivot_depth_factor": 0.5,
+      "alpha_coverage_gt_0p5": 0.25776797205368635,
+      "mean_rgb": 36.965342893914325
+    },
+    {
+      "yaw_degrees": 45,
+      "pivot_depth_factor": 2,
+      "alpha_coverage_gt_0p5": 0.4831113912746566,
+      "mean_rgb": 80.87279261769058
+    },
+    {
+      "yaw_degrees": 45,
+      "pivot_depth_factor": 4,
+      "alpha_coverage_gt_0p5": 0.594056155280645,
+      "mean_rgb": 101.26939913674607
+    }
+  ]
+}

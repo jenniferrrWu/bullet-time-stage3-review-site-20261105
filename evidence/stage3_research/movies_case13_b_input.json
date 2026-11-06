@@ -1,0 +1,64 @@
+{
+  "source": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/action.mp4",
+  "source_sha256": "59b4a1c3adb2c5c19f92a15b18e825a4bab4cd33cc3ede2a1aed7b031d8d5081",
+  "camera": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/actual_camera.json",
+  "camera_sha256": "fae9a9882950f0944b38b44479cd375c8c30d9b1bffa111146d039478b3f22f3",
+  "input_indices": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36
+  ],
+  "input_shape": [
+    13,
+    3,
+    294,
+    518
+  ],
+  "intrinsics_normalized": [
+    0.9914746880531311,
+    1.746347427368164,
+    0.49919354915618896,
+    0.4985795319080353
+  ],
+  "source_C2W": "identity, static observed camera",
+  "target_C2W_relative_to_source": [
+    [
+      0.7071067690849304,
+      0.0,
+      0.7071068286895752,
+      -6.1383490562438965
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.7071068286895752,
+      0.0,
+      0.7071067690849304,
+      2.5425872802734375
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "npz": "/root/bullet_time_research_20261102/paper_sources/MoVieS/resources/DAVIS/case13_b_static.npz",
+  "npz_sha256": "8084e1681c160bdef99cb69bc2c5692da8a57ca0260692514892c73ebacc77a2",
+  "not_official_DAVIS_preprocessing": true,
+  "not_target_view_ground_truth": true
+}
