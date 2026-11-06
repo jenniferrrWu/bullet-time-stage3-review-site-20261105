@@ -1152,6 +1152,32 @@
           },
           "full_url": "./media/full-case13-f845/movies_case13_f845_nvs_21.mp4",
           "native_sha256": "e183efe263449d333457a3158235a3925ff1f8186dd7704a3131deb3488865f9"
+        },
+        {
+          "id": "native_cfg_case13_f845_1p5",
+          "label": "原生 DD CFG 1.5",
+          "verdict": "整片待审核。",
+          "url": "./media/full-case13-f845/native_cfg_case13_f845_1p5.mp4",
+          "kind": "native_or_upstream_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/native_cfg_case13_f845_1p5.mp4",
+          "native_sha256": "dff78c781469d1abf2a35364a30008eb5db855f84f7575cd7017f275f1175631"
+        },
+        {
+          "id": "wanmove_dense_case13_f845_person_0p35",
+          "label": "Wan-Move 官方轨迹函数 α0.35",
+          "verdict": "整片待审核。",
+          "url": "./media/full-case13-f845/wanmove_dense_case13_f845_person_0p35.mp4",
+          "kind": "native_or_upstream_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/wanmove_dense_case13_f845_person_0p35.mp4",
+          "native_sha256": "ec9812a12cb6a63887e8520a1ac5eed5e7a053ad474c728ea1a66db418409756"
         }
       ],
       "full_timeline": {
