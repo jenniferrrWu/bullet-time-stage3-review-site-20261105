@@ -981,7 +981,8 @@
           "timing": {
             "fps": 15.0,
             "frames": 21
-          }
+          },
+          "full_url": "./media/full-case13-f845/temporal_source_projected_pose_case13_c_beta_0p5.mp4"
         },
         {
           "id": "temporal_source_projected_pose_case13_c_beta_1p0",
@@ -993,7 +994,8 @@
           "timing": {
             "fps": 15.0,
             "frames": 21
-          }
+          },
+          "full_url": "./media/full-case13-f845/temporal_source_projected_pose_case13_c_beta_1p0.mp4"
         },
         {
           "id": "depth_controlnet_case13_f845_weight_0p5",
@@ -1005,7 +1007,8 @@
             "fps": 15,
             "frames": 21
           },
-          "native_sha256": "03d91266bf6905aac05c396e3cb8040caebb267da5404154b24765d83088ba6e"
+          "native_sha256": "03d91266bf6905aac05c396e3cb8040caebb267da5404154b24765d83088ba6e",
+          "full_url": "./media/full-case13-f845/depth_controlnet_case13_f845_weight_0p5.mp4"
         },
         {
           "id": "tile_controlnet_case13_f845_weight_0p2",
@@ -1017,7 +1020,8 @@
             "fps": 15,
             "frames": 21
           },
-          "native_sha256": "4315bfd3d393e09a55debcd5b2a35c106430d67c18db914dadb38a27c71671f1"
+          "native_sha256": "4315bfd3d393e09a55debcd5b2a35c106430d67c18db914dadb38a27c71671f1",
+          "full_url": "./media/full-case13-f845/tile_controlnet_case13_f845_weight_0p2.mp4"
         },
         {
           "id": "canny_controlnet_case13_f845_weight_0p5",
@@ -1029,7 +1033,8 @@
             "fps": 15,
             "frames": 21
           },
-          "native_sha256": "6347da1aa9da3a9a22dc7247a3a372679b72ad3ed034e961990869895fb9a6fa"
+          "native_sha256": "6347da1aa9da3a9a22dc7247a3a372679b72ad3ed034e961990869895fb9a6fa",
+          "full_url": "./media/full-case13-f845/canny_controlnet_case13_f845_weight_0p5.mp4"
         },
         {
           "id": "hed_controlnet_case13_f845_weight_0p5",
@@ -1041,9 +1046,19 @@
             "fps": 15,
             "frames": 21
           },
-          "native_sha256": "57934c40b84ed3fab8797788ff0dd6a69e8eec2606cecdff27fb8e932f422cd5"
+          "native_sha256": "57934c40b84ed3fab8797788ff0dd6a69e8eec2606cecdff27fb8e932f422cd5",
+          "full_url": "./media/full-case13-f845/hed_controlnet_case13_f845_weight_0p5.mp4"
         }
-      ]
+      ],
+      "full_timeline": {
+        "fps": 30,
+        "frames": 1186,
+        "seconds": 39.533333,
+        "stage3_start_seconds": 31.3,
+        "stage3_end_seconds": 32.0,
+        "source_reference_stage2_hold": true,
+        "source_tail_included": true
+      }
     },
     {
       "id": "case13-f622",

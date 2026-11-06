@@ -1,7 +1,7 @@
 const videos = [...document.querySelectorAll('video[data-src]')];
 const button = document.querySelector('#global-play');
 const active = new Set();
-const globalFps = 15;
+const globalFps = 30;
 let playing = false;
 let elapsedBeforePause = 0;
 let startedAt = 0;

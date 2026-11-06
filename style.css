@@ -2,3 +2,5 @@
 .global-controls{position:sticky;top:0;z-index:5;background:#101720ee;padding:8px 0;margin:0 0 8px;border-bottom:1px solid #344357}#global-play{background:#2b5970;color:#eafaff;border:1px solid #5a9ec1;border-radius:6px;padding:7px 14px;font:inherit;font-size:.94rem;cursor:pointer}#global-play:hover{background:#37738e}#global-play:focus-visible{outline:2px solid #8bd4ff;outline-offset:2px}
 
 .pending .effect{color:#d4c391}.pending .condition{color:#a4becb}
+
+.pending-video{height:182px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;border:1px dashed #64788b;border-radius:4px;color:#d4c391;background:#101a25;font-size:.85rem}@media(max-width:740px){.pending-video{height:150px}}
