@@ -1048,6 +1048,45 @@
           },
           "native_sha256": "57934c40b84ed3fab8797788ff0dd6a69e8eec2606cecdff27fb8e932f422cd5",
           "full_url": "./media/full-case13-f845/hed_controlnet_case13_f845_weight_0p5.mp4"
+        },
+        {
+          "id": "tile_depth_dual_case13_f845_warp_tile0p2_depth0p5",
+          "label": "Depth＋Tile 双模块 0.5／0.2",
+          "verdict": "推理已完成，整片效果待审核。",
+          "url": "./media/full-case13-f845/tile_depth_dual_case13_f845_warp_tile0p2_depth0p5.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "native_sha256": "399252b6aa258ff818be59898d62c8a57e31cc53a786711a346fe5abc3421de6",
+          "full_url": "./media/full-case13-f845/tile_depth_dual_case13_f845_warp_tile0p2_depth0p5.mp4"
+        },
+        {
+          "id": "tile_controlnet_case13_f845_lamafill_weight_0p2",
+          "label": "LaMa 背景修补＋Tile 0.2",
+          "verdict": "推理已完成，整片效果待审核。",
+          "url": "./media/full-case13-f845/tile_controlnet_case13_f845_lamafill_weight_0p2.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "native_sha256": "44cf93e844678b792cc87f805aa06d76510ef630c1e07c466ac04a38e38e66da",
+          "full_url": "./media/full-case13-f845/tile_controlnet_case13_f845_lamafill_weight_0p2.mp4"
+        },
+        {
+          "id": "flashmotion_resnet_case13_f845_affine_alpha_0p3",
+          "label": "FlashMotion SlowAdapter α0.3",
+          "verdict": "整片效果待人工审核。",
+          "url": "./media/full-case13-f845/flashmotion_resnet_case13_f845_affine_alpha_0p3.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/flashmotion_resnet_case13_f845_affine_alpha_0p3.mp4",
+          "native_sha256": "4c34b164cb5dbe2c46f70386e9b9139f09c76b680be0f738373016dc42f09ce4"
         }
       ],
       "full_timeline": {
