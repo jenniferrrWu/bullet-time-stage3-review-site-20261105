@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "case13_b_vlm45",
+    "storage": "videos"
+  },
+  "cameras": [
+    "cam0",
+    "cam1"
+  ],
+  "num_frames": 37,
+  "framerate": 29.97002997002997,
+  "resolution": [
+    704,
+    1280
+  ],
+  "rgb": {
+    "extension": "mp4"
+  },
+  "extrinsics": {
+    "transform": "cam2world"
+  },
+  "specific": {
+    "roles": {
+      "input": "cam1",
+      "target": "cam0"
+    },
+    "scale_factor": 0.125,
+    "source": {
+      "dataset": "custom_static_dance"
+    }
+  }
+}

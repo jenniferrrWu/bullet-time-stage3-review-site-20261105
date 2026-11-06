@@ -1,0 +1,29 @@
+{
+  "official_method": "https://github.com/TRI-ML/AnyView-DVS",
+  "input_source": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/action.mp4",
+  "input_sha256": "59b4a1c3adb2c5c19f92a15b18e825a4bab4cd33cc3ede2a1aed7b031d8d5081",
+  "camera": "/root/bullet_time_research_20261102/vlm_dd_balanced_case13_b/stage3/raw/route_a/depthdirector/stage3/vlm_selected/vlm_v11/preprocess/actual_camera.json",
+  "camera_sha256": "fae9a9882950f0944b38b44479cd375c8c30d9b1bffa111146d039478b3f22f3",
+  "intrinsics_source": "official NLF estimate on same case13 source, rescaled 2x",
+  "intrinsics": [
+    [
+      1229.4285888671875,
+      0.0,
+      639.0
+    ],
+    [
+      0.0,
+      1229.4285888671875,
+      351.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "scale_factor": 0.125,
+  "target_camera_is_actual_VLM_DD_45_degree": true,
+  "stage2_endpoint_not_model_condition": true,
+  "no_target_view_ground_truth": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "promising_temporal_quality_but_stage2_discontinuity",
+  "verdict": "37 帧人物和背景连续性明显好于 case13 B 原版 DD，动作随源片变化；但首帧构图与真实 Stage2 终点明显不同，不能直接接作 Stage3。",
+  "full_film_review": "全段抽帧可见人物持续存在、屋顶背景连续，原版 DD 后段人物与建筑融化；AnyView 目标视角新增悬挑结构且与 DD Stage2 终点构图差异明显。缺少真实目标视角真值，不能确认新视角几何正确，不能仅凭时间连续性判定整体方案通过。",
+  "stage2_seam": "首帧与真实 Stage2 终点平均像素差 70.84/255，原版 DD 约 1.28/255；这是三阶段接缝度量，不是目标视角画质评分。",
+  "not_native_dd_stage3": true,
+  "not_stage2_endpoint_conditioned": true,
+  "no_target_view_ground_truth": true,
+  "next_step": "检验 AnyView 相机约定及目标方向，探索以真实 Stage2 终点为首帧的衔接或生成条件；在此之前仅作为独立 NVS 候选。"
+}

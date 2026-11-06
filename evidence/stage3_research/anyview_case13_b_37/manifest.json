@@ -1,0 +1,23 @@
+{
+  "official_repository": "https://github.com/TRI-ML/AnyView-DVS",
+  "official_commit": "11b7189e81087017265a72777a409896ea9f4098",
+  "official_checkpoint_sha256": "b2b8a4b3c400eafc14663436c9530d43611da0111db0c745363c94fa3b93bf9d",
+  "official_tokenizer_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+  "input_scene": "/root/bullet_time_research_20261102/paper_sources/AnyView-DVS/data/case13_b_vlm45",
+  "input_provenance_sha256": "fc77e806b124d239da993f566c7b571e9488dab3e7fee3f965baf318316c1361",
+  "output_video": "/root/bullet_time_research_20261102/paper_sources/AnyView-DVS/outputs/case13_b_vlm45_torch211/pred.mp4",
+  "output_video_sha256": "ad1d44ed6dd323aae1603a1d5bfacbd3badefcee7997ead3d0f6866b8f51ad45",
+  "output_frames": 37,
+  "resolution": [
+    304,
+    576
+  ],
+  "fps": 15,
+  "num_steps": 35,
+  "seed": 0,
+  "runtime_torch": "2.11.0+cu128",
+  "official_requirement": "torch>=2.7,<2.8",
+  "not_native_dd_stage3": true,
+  "not_stage2_endpoint_conditioned": true,
+  "no_target_view_ground_truth": true
+}
