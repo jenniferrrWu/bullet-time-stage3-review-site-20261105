@@ -1087,6 +1087,71 @@
           },
           "full_url": "./media/full-case13-f845/flashmotion_resnet_case13_f845_affine_alpha_0p3.mp4",
           "native_sha256": "4c34b164cb5dbe2c46f70386e9b9139f09c76b680be0f738373016dc42f09ce4"
+        },
+        {
+          "id": "ttm_targetwarp_case13_f845_strong_7",
+          "label": "TTM 双时钟 · 强约束 7 步",
+          "verdict": "整片效果待人工审核。",
+          "url": "./media/full-case13-f845/ttm_targetwarp_case13_f845_strong_7.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/ttm_targetwarp_case13_f845_strong_7.mp4",
+          "native_sha256": "d16f6c5170276a5d214ebf1593b47b56a3063644014198dc6205561de2f88b36"
+        },
+        {
+          "id": "flashmotion_resnet_case13_f845_nlf_alpha_0p3",
+          "label": "NLF 三维人体＋FlashMotion α0.3",
+          "verdict": "整片效果待人工审核。",
+          "url": "./media/full-case13-f845/flashmotion_resnet_case13_f845_nlf_alpha_0p3.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/flashmotion_resnet_case13_f845_nlf_alpha_0p3.mp4",
+          "native_sha256": "9c4ebc888ac86867d4a34a2a4f72337b11bf7fc60f70540f4c83c1e4339a7ad5"
+        },
+        {
+          "id": "motion_i2v_forwardwarp_case13_f845_person_0p35",
+          "label": "Motion-I2V ForwardWarp α0.35",
+          "verdict": "整片效果待人工审核。",
+          "url": "./media/full-case13-f845/motion_i2v_forwardwarp_case13_f845_person_0p35.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/motion_i2v_forwardwarp_case13_f845_person_0p35.mp4",
+          "native_sha256": "9809e8a42be5f380e50e4586db2d4ba1fa4eb3ff338f4793a24e514c7c6fe5c0"
+        },
+        {
+          "id": "anyview_case13_f845_21",
+          "label": "AnyView 官方 2B · 21 帧",
+          "verdict": "整片效果待人工审核。",
+          "url": "./media/full-case13-f845/anyview_case13_f845_21.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/anyview_case13_f845_21.mp4",
+          "native_sha256": "badc9be86163000e460aabe81c7896b56b1ec1ed87c50e993fee2f7d5a6e0ea0"
+        },
+        {
+          "id": "movies_case13_f845_nvs_21",
+          "label": "MoVieS 官方 3DGS · 21 帧",
+          "verdict": "独立 NVS 接缝和整片效果待审核。",
+          "url": "./media/full-case13-f845/movies_case13_f845_nvs_21.mp4",
+          "kind": "official_pretrained_module",
+          "timing": {
+            "fps": 15,
+            "frames": 21
+          },
+          "full_url": "./media/full-case13-f845/movies_case13_f845_nvs_21.mp4",
+          "native_sha256": "e183efe263449d333457a3158235a3925ff1f8186dd7704a3131deb3488865f9"
         }
       ],
       "full_timeline": {
