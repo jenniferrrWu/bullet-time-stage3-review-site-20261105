@@ -998,7 +998,7 @@
         {
           "id": "depth_controlnet_case13_f845_weight_0p5",
           "label": "Depth ControlNet · DD 目标深度 0.5",
-          "verdict": "已完成 21 帧原生生成；整体效果待审查。",
+          "verdict": "抽帧仍未恢复源片后段高踢，动作与第一版接近；待整片审核。",
           "url": "./media/inline-mini/14bb26256bc77c41-480.mp4",
           "kind": "official_pretrained_module",
           "timing": {
@@ -1010,7 +1010,7 @@
         {
           "id": "tile_controlnet_case13_f845_weight_0p2",
           "label": "Tile ControlNet · warp 0.2",
-          "verdict": "已完成 21 帧原生生成；整体效果待审查。",
+          "verdict": "人物与背景大致保留，但后段高踢仍弱于源片；待整片审核。",
           "url": "./media/inline-mini/a96c3e93f75b9e1a-480.mp4",
           "kind": "official_pretrained_module",
           "timing": {
@@ -1022,7 +1022,7 @@
         {
           "id": "canny_controlnet_case13_f845_weight_0p5",
           "label": "Canny ControlNet · warp 0.5",
-          "verdict": "已完成 21 帧原生生成；整体效果待审查。",
+          "verdict": "人物轮廓可见，后段高踢仍未跟上源片；待整片审核。",
           "url": "./media/inline-mini/4bdd83498ad2195d-480.mp4",
           "kind": "official_pretrained_module",
           "timing": {
@@ -1034,7 +1034,7 @@
         {
           "id": "hed_controlnet_case13_f845_weight_0p5",
           "label": "HED ControlNet · warp 0.5",
-          "verdict": "已完成 21 帧原生生成；整体效果待审查。",
+          "verdict": "后段高踢幅度仍小于源片，未见明确动作恢复；待整片审核。",
           "url": "./media/inline-mini/a25a15b60966c70e-480.mp4",
           "kind": "official_pretrained_module",
           "timing": {
