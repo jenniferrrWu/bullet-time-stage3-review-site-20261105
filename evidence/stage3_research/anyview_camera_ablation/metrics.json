@@ -1,0 +1,28 @@
+{
+  "frames": 37,
+  "resolution": [
+    304,
+    576
+  ],
+  "no_true_target_view": true,
+  "comparisons": {
+    "sameview": {
+      "source_view_mae_mean": 57.44347721821553,
+      "source_view_psnr_mean": 10.55316100117934,
+      "first_frame_mae_vs_real_stage2_endpoint": 61.50685501098633,
+      "interframe_mae_mean": 9.921009434594048
+    },
+    "plus45": {
+      "source_view_mae_mean": 74.57891309583509,
+      "source_view_psnr_mean": 8.31793718826607,
+      "first_frame_mae_vs_real_stage2_endpoint": 70.84168243408203,
+      "interframe_mae_mean": 5.150552468167411
+    },
+    "reverse45": {
+      "source_view_mae_mean": 91.82014403472076,
+      "source_view_psnr_mean": 7.055948127093885,
+      "first_frame_mae_vs_real_stage2_endpoint": 77.98719024658203,
+      "interframe_mae_mean": 5.659228225549062
+    }
+  }
+}
