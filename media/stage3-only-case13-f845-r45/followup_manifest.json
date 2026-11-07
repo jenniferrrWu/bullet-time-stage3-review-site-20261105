@@ -1,0 +1,31 @@
+{
+  "case": "case13 f845-f865 +45 degree",
+  "common_stage2_endpoint_sha256": "5dd314f61edea5605a57a75a12440f9b974b922d680d3c1b65e7ba25cbd7ccab",
+  "videox_fun_control_manifest": "/root/bullet_time_research_20261102/stage3_research/videox_fun_case13_f845_r45_pose_input/manifest.json",
+  "outputs": {
+    "2p0": {
+      "source": "/root/bullet_time_research_20261102/stage3_research/native_cfg_case13_f845_r45_20261107_2p0/result/depthdirector.mp4",
+      "source_sha256": "7336ed0c69fcaec48f3ba23df2ce659b308a3d5be26263f312415734152825eb",
+      "compressed": "/root/bullet_time_review_safe_publish/media/stage3-only-case13-f845-r45/native_cfg_case13_f845_2p0.mp4",
+      "compressed_sha256": "67d74ce11db1dbea4a4cf836d1cf1078bc19b14e1491a541bd3d12e87ca7e53c",
+      "compressed_bytes": 19109,
+      "frames": 21
+    },
+    "2p5": {
+      "source": "/root/bullet_time_research_20261102/stage3_research/native_cfg_case13_f845_r45_20261107_2p5/result/depthdirector.mp4",
+      "source_sha256": "ef6b9d40ff725496297d8b1a39dc22568da364456cdf64dbadde36cc11ff376e",
+      "compressed": "/root/bullet_time_review_safe_publish/media/stage3-only-case13-f845-r45/native_cfg_case13_f845_2p5.mp4",
+      "compressed_sha256": "d41d6f9aff7c2b18e59a4926338de4fda118924f6f1ac61866cdc43542434b17",
+      "compressed_bytes": 20100,
+      "frames": 21
+    },
+    "videox_fun": {
+      "source": "/root/bullet_time_research_20261102/stage3_research/videox_fun_case13_f845_r45_21/00000002.mp4",
+      "source_sha256": "ed87c2fc75d3eac035c24d3e170c564a569eb5bad9af88aea8f18e6af9ca98de",
+      "compressed": "/root/bullet_time_review_safe_publish/media/stage3-only-case13-f845-r45/videox_fun_case13_f845_r45_21.mp4",
+      "compressed_sha256": "2d5467c322a5d7df8a9783b69185783a24610ece81198fa2bcb260dace085e1b",
+      "compressed_bytes": 28177,
+      "frames": 21
+    }
+  }
+}
